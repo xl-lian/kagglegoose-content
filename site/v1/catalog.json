@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "updated": "2026-11-23T11:03:30Z",
+  "competitions": [
+    {
+      "id": "birdclef-2024",
+      "title": "BirdCLEF 2024",
+      "summary": "从连续录音中识别西高止山脉的鸟类。",
+      "categories": [
+        "音频"
+      ],
+      "metric": "Birdclef ROC AUC",
+      "start": "2024-04-03T18:00:10.537Z",
+      "deadline": "2024-06-10T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/birdclef-2024"
+    },
+    {
+      "id": "optiver-realized-volatility-prediction",
+      "title": "Optiver Realized Volatility Prediction",
+      "summary": "根据订单簿和成交记录预测短期波动率。",
+      "categories": [
+        "表格",
+        "时间序列"
+      ],
+      "metric": "Root Mean Square Percentage Error",
+      "start": "2021-06-28T15:12:56.933Z",
+      "deadline": "2022-01-10T18:36:00Z",
+      "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction"
+    },
+    {
+      "id": "feedback-prize-english-language-learning",
+      "title": "Feedback Prize - English Language Learning",
+      "summary": "给英语学习者的作文预测六项写作能力分数。",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Mean Weighted Columnwise Root Mean Squared Error",
+      "start": "2022-08-30T17:23:07.433Z",
+      "deadline": "2022-11-29T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning"
+    },
+    {
+      "id": "image-matching-challenge-2023",
+      "title": "Image Matching Challenge 2023",
+      "summary": "从一组不同视角的照片恢复相机位姿。",
+      "categories": [
+        "视觉"
+      ],
+      "metric": "imc2023",
+      "start": "2023-04-11T20:20:46.877Z",
+      "deadline": "2023-06-12T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023"
+    },
+    {
+      "id": "nfl-big-data-bowl-2020",
+      "title": "NFL Big Data Bowl",
+      "summary": "从球员位置和运动信息预测一次冲球推进距离的概率分布。",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Continuous Rank Probability Score",
+      "start": "2019-10-09T21:30:25.623Z",
+      "deadline": "2020-01-06T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020"
+    },
+    {
+      "id": "santander-customer-transaction-prediction",
+      "title": "Santander Customer Transaction Prediction",
+      "summary": "在匿名表格特征上预测客户是否会进行交易。",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Area Under Receiver Operating Characteristic Curve",
+      "start": "2019-02-13T23:00:00Z",
+      "deadline": "2019-04-10T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "w-11537",
+      "competitionID": "birdclef-2024",
+      "title": "从无标签声景里学鸟鸣",
+      "author": "Team Kefir",
+      "summary": "比赛给了带鸟种标签的短录音，也给了没有标签的野外声景。冠军把两者放进同一套训练流程，让模型接触接近测试环境的背景声。",
+      "takeaway": "先固定一个验证折，比较只用标注录音和加入声景伪标签后的变化。",
+      "tags": [
+        "伪标签",
+        "频谱图"
+      ],
+      "published": "2024-06-13T21:27:24.363Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "不同折的信号强度分布不同。团队比较标准差、能量等统计量，检查为什么某一折表现特别好。",
+          "reference": "Data/labels preprocessing.",
+          "source": 0
+        },
+        {
+          "title": "输入与训练",
+          "body": "将 10 秒音频转成 128 个 Mel 频带的频谱图，配合预训练的 EfficientNet-B0 等卷积网络识别鸟种。",
+          "reference": "Model input",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "作者提供了多种融合及耗时对照。先跑公开推理 Notebook 的单模型，再复现均值融合，分别记录耗时和榜分。",
+          "reference": "Main steps to success",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/birdclef-2024/writeups/team-kefir-1st-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/birdclef-2024/leaderboard"
+        },
+        {
+          "title": "冠军推理 Notebook",
+          "url": "https://www.kaggle.com/code/chemrovkirill/birdclef-2024-1st-place-inference"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 974,
+        "score": "0.690391",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee"
+    },
+    {
+      "id": "w-10441",
+      "competitionID": "optiver-realized-volatility-prediction",
+      "title": "借相似股票预测波动率",
+      "author": "nyanp",
+      "summary": "单只股票的一段历史太短。冠军为股票和时段寻找相似样本，再把邻居的统计特征提供给模型。",
+      "takeaway": "在时间切分固定的条件下，为一个基础特征加上邻居均值，比较各折误差。",
+      "tags": [
+        "近邻聚合",
+        "时间验证"
+      ],
+      "published": "2022-01-11T12:54:29.477Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "作者先重建匿名时段的先后顺序，再使用 4 折时间验证，每折留出约 10% 的数据做验证。",
+          "reference": "Reverse engineering of time-id order",
+          "source": 0
+        },
+        {
+          "title": "特征工程",
+          "body": "从已有统计量构造距离，找到相似股票或相似时段，再聚合邻居特征。这让模型同时看到局部和跨样本的信息。",
+          "reference": "Feature engineering",
+          "source": 0
+        },
+        {
+          "title": "迁移与复现",
+          "body": "原文讨论了竞赛与实际预测的时间信息差异。复现时在每个验证切点限制可访问的邻居，避免提前看到未来。",
+          "reference": "Feature processing",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/writeups/nyanp-1st-place-solution-nearest-neighbors"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/leaderboard"
+        },
+        {
+          "title": "作者 Notebook",
+          "url": "https://www.kaggle.com/code/nyanpn/1st-place-public-2nd-place-solution"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 3809,
+        "score": "0.19548",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "cd63ea359263bef857824fd591ff85408ef72cbcbfc6f7da1ce10e05bf5fb2c1"
+    },
+    {
+      "id": "w-11697",
+      "competitionID": "feedback-prize-english-language-learning",
+      "title": "让六个写作维度各自选模型",
+      "author": "AutoX & Rohit & Yevhenii",
+      "summary": "冠军先训练多种文本编码器并保留折外预测，再为六个评分维度分别学习融合权重。",
+      "takeaway": "保留每个模型的折外预测，比较统一权重和每个目标单独调权的误差。",
+      "tags": [
+        "DeBERTa",
+        "多目标融合"
+      ],
+      "published": "2022-11-30T07:50:38.453Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "作者报告融合后的本地验证与榜单变化方向接近；调权使用折外预测，能减轻在训练样本上选权重的偏差。",
+          "reference": "Cross validation",
+          "source": 0
+        },
+        {
+          "title": "模型与训练",
+          "body": "团队改变文本池化、输入长度和编码器，利用伪标签增加训练样本。这些改变提供不同的模型误差。",
+          "reference": "Modeling",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "先按单个维度看误差，随后用 Optuna 为各维度调权。可从公开训练代码和最佳提交版本对照复现。",
+          "reference": "Weight Tuning",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning/writeups/autox-rohit-yevhenii-1st-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning/leaderboard"
+        },
+        {
+          "title": "作者训练代码",
+          "url": "https://github.com/rohitsingh02/kaggle-feedback-english-language-learning-1st-place-solution"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 2654,
+        "score": "0.433356",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "4750e4b2e9d2c441094720189c9d35b628ec77f1236a7a2f8e77ec780bef21bc"
+    },
+    {
+      "id": "w-12828",
+      "competitionID": "image-matching-challenge-2023",
+      "title": "用多视角一致性修正图像匹配",
+      "author": "ZJU3DV",
+      "summary": "一对照片中可信的匹配点，放到多个视角里可能互相矛盾。冠军融合稀疏与稠密匹配，先建粗模型，再迭代细化几何关系。",
+      "takeaway": "先在一个小场景跑通粗重建，再单独打开迭代细化，对比恢复的相机和位姿误差。",
+      "tags": [
+        "特征匹配",
+        "SfM"
+      ],
+      "published": "2023-06-15T15:20:12.053Z",
+      "steps": [
+        {
+          "title": "数据构造",
+          "body": "先挑选有重叠的图像对，检测旋转与重叠区域，减少明显无意义的匹配。",
+          "reference": "Image Pair Construction",
+          "source": 0
+        },
+        {
+          "title": "匹配与重建",
+          "body": "稀疏与稠密方法产生互补候选。团队在粗 SfM 前按置信度合并候选，处理同一点在多张图中的不一致。",
+          "reference": "Confidence-guided Merge",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "以粗相机和已匹配点为起点迭代细化。逐步记录各场景的重建结果，区分匹配不足和几何优化错误。",
+          "reference": "Iterative Refinement",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023/writeups/zju3dv-1st-place-solution-sparse-dense-matching-co"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard"
+        },
+        {
+          "title": "作者重建代码",
+          "url": "https://github.com/zju3dv/DetectorFreeSfM"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 494,
+        "score": "0.570",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "5d23441237996fddd0ae829d74d82cbfa96753c22bc2e6464a6ecc7c36628be7"
+    },
+    {
+      "id": "w-9958",
+      "competitionID": "nfl-big-data-bowl-2020",
+      "title": "用场地对称性预测推进距离",
+      "author": "The Zoo",
+      "summary": "向球场左侧或右侧跑动可以有相同的推进距离。冠军同时翻转横向坐标及相对特征，并在推理时融合镜像输入的预测。",
+      "takeaway": "先把同一场比赛放进同一折，再测试镜像增强，避免相邻回合泄漏到验证集。",
+      "tags": [
+        "分组验证",
+        "镜像增强"
+      ],
+      "published": "2020-01-10T10:17:56.387Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "按 GameId 做 5 折 GroupKFold，验证时仅评估 2018 赛季样本。作者报告该设置与公开榜相关性较好。",
+          "reference": "CV",
+          "source": 0
+        },
+        {
+          "title": "数据处理",
+          "body": "同一次跑动包含攻守双方的多名球员。构造相对位置时保持跑动方向一致，让表示可在回合之间比较。",
+          "reference": "Data processing",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "对横坐标方向以外的横场 Y 轴做镜像，并同步变换派生特征。分别预测原始与镜像阵形再融合。",
+          "reference": "Augmentation & TTA",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/writeups/the-zoo-1st-place-solution-the-zoo"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 1817,
+        "score": "0.011658",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a"
+    },
+    {
+      "id": "w-9716",
+      "competitionID": "santander-customer-transaction-prediction",
+      "title": "从匿名数值的出现次数提取信号",
+      "author": "Wizardry",
+      "summary": "字段没有业务名称，但数值是否重复仍携带信号。冠军围绕每列取值出现的次数构造特征，再融合树模型和专门设计的神经网络。",
+      "takeaway": "对一列做频次编码，在验证集上与原始数值对照，检验规律能否迁移到你的数据。",
+      "tags": [
+        "频次编码",
+        "模型融合"
+      ],
+      "published": "2019-04-11T07:24:34.470Z",
+      "steps": [
+        {
+          "title": "数据观察",
+          "body": "团队逐列分析只出现一次与重复出现的取值，发现不同样本群体的频次结构不同。",
+          "reference": "Feature engineering",
+          "source": 0
+        },
+        {
+          "title": "模型与训练",
+          "body": "原始特征与衍生特征分别进入 LightGBM 和定制网络。原文列出两种模型的单模成绩。",
+          "reference": "TLDR",
+          "source": 0
+        },
+        {
+          "title": "复现边界",
+          "body": "部分构造利用该比赛特有的数据生成规律。复现时先列清推理时可见的样本范围，再比较两类模型融合后的误差。",
+          "reference": "Technical part",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction/writeups/wizardry-1-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 8751,
+        "score": "0.92573",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "de85ff3ec1b63ba5e806121eb2b3eba07e7b2134f47c2582fbd6b9200d19c84c"
+    }
+  ]
+}
