@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23T11:04:43Z",
+  "updated": "2026-11-23T11:13:53Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -473,11 +473,13 @@
       ],
       "steps": [],
       "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-115529441",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "Predicting the prices",
       "author": "Senapati Rajesh",
       "published": "2023-01-05T04:03:14.847Z",
       "evidence": {
@@ -485,7 +487,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -498,18 +500,19 @@
         }
       ],
       "title": "Predicting the prices",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f"
     },
     {
       "id": "k-118036481",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "Spaceship Titanic with Headjack.ai",
       "author": "Gautam Shah",
       "published": "2023-02-02T14:51:07.413Z",
       "evidence": {
@@ -517,7 +520,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -530,18 +533,33 @@
         }
       ],
       "title": "Spaceship Titanic with Headjack.ai",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 OrdinalEncoder、CatBoostClassifier 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OrdinalEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 17",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 CatBoostClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 31",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65",
-      "awaitingExplanation": true
+      "tags": [
+        "OrdinalEncoder",
+        "CatBoostClassifier"
+      ],
+      "readingMode": "code",
+      "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65"
     },
     {
       "id": "k-121392019",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "High Score By Data-Matching",
       "author": "Zhecheng Li",
       "published": "2023-03-08T01:49:39.557Z",
       "evidence": {
@@ -549,7 +567,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -562,18 +580,19 @@
         }
       ],
       "title": "High Score By Data-Matching",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39"
     },
     {
       "id": "k-126285507",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "for best score use this notebook - up vote",
       "author": "PARISA PRABSIANG",
       "published": "2023-04-18T14:16:04.713Z",
       "evidence": {
@@ -581,7 +600,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -594,14 +613,14 @@
         }
       ],
       "title": "for best score use this notebook - up vote",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa"
     },
     {
       "id": "k-131364720",
@@ -633,11 +652,13 @@
       ],
       "steps": [],
       "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-137447062",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "notebook47ff03911b",
       "author": "Tamaki ishikawa",
       "published": "2023-07-21T08:08:13.443Z",
       "evidence": {
@@ -645,7 +666,7 @@
         "rank": 114,
         "teams": 2115,
         "score": "0.81622",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -658,18 +679,40 @@
         }
       ],
       "title": "notebook47ff03911b",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 15",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 34",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 15",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231",
-      "awaitingExplanation": true
+      "tags": [
+        "StratifiedKFold",
+        "XGBClassifier",
+        "OneHotEncoder"
+      ],
+      "readingMode": "code",
+      "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231"
     },
     {
       "id": "k-137447625",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "notebook3ee6724898",
       "author": "YUUKI MORI",
       "published": "2023-07-21T08:13:50.863Z",
       "evidence": {
@@ -677,7 +720,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -690,18 +733,40 @@
         }
       ],
       "title": "notebook3ee6724898",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 31",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 63",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 31",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8",
-      "awaitingExplanation": true
+      "tags": [
+        "StratifiedKFold",
+        "XGBClassifier",
+        "OneHotEncoder"
+      ],
+      "readingMode": "code",
+      "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8"
     },
     {
       "id": "k-137448304",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "notebook24e6c4c34d",
       "author": "玉置浩貴",
       "published": "2023-07-21T08:21:17.393Z",
       "evidence": {
@@ -709,7 +774,7 @@
         "rank": 113,
         "teams": 2115,
         "score": "0.81646",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -722,14 +787,35 @@
         }
       ],
       "title": "notebook24e6c4c34d",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 14",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 33",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 14",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14",
-      "awaitingExplanation": true
+      "tags": [
+        "StratifiedKFold",
+        "XGBClassifier",
+        "OneHotEncoder"
+      ],
+      "readingMode": "code",
+      "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14"
     },
     {
       "id": "k-16413783",
@@ -761,11 +847,13 @@
       ],
       "steps": [],
       "fingerprint": "5c97b87046d7eb8504010e3f31cfbecb5e042299c63eecc3b58ef62cb883f985",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-168861359",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "🛸 Space Titanic: EDA|Advanced Feature Engineering",
       "author": "Javin Lim",
       "published": "2024-03-26T14:46:44.880Z",
       "evidence": {
@@ -773,7 +861,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -786,18 +874,47 @@
         }
       ],
       "title": "🛸 Space Titanic: EDA|Advanced Feature Engineering",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 KFold、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 79",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 85",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 79",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 79",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2",
-      "awaitingExplanation": true
+      "tags": [
+        "KFold",
+        "LogisticRegression",
+        "predict_proba",
+        "TfidfVectorizer"
+      ],
+      "readingMode": "code",
+      "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2"
     },
     {
       "id": "k-182967677",
       "competitionID": "spaceship-titanic",
+      "originalTitle": "SpaceshipTitanic|Models|V2",
       "author": "YuntechIM_B11123055",
       "published": "2024-06-12T06:46:18.243Z",
       "evidence": {
@@ -805,7 +922,7 @@
         "rank": 102,
         "teams": 2115,
         "score": "0.81903",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -818,18 +935,33 @@
         }
       ],
       "title": "SpaceshipTitanic|Models|V2",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 KFold、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 19",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 19",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4",
-      "awaitingExplanation": true
+      "tags": [
+        "KFold",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4"
     },
     {
       "id": "k-212168075",
       "competitionID": "tpu-getting-started",
+      "originalTitle": "predict_models_DenseNet201",
       "author": "Maryam Almarri",
       "published": "2024-12-09T20:22:43.500Z",
       "evidence": {
@@ -837,7 +969,7 @@
         "rank": 6,
         "teams": 67,
         "score": "0.97956",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -850,14 +982,14 @@
         }
       ],
       "title": "predict_models_DenseNet201",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440"
     },
     {
       "id": "k-21631624",
@@ -889,7 +1021,8 @@
       ],
       "steps": [],
       "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-25668838",
@@ -921,11 +1054,13 @@
       ],
       "steps": [],
       "fingerprint": "24b5dd826ecc60503c68a93bb023837a8284f6d765ba3de604577ff48105c261",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-26881574",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "A Real Disaster - Leaked Label",
       "author": "Buddhadeb Mondal",
       "published": "2020-01-14T10:39:15.510Z",
       "evidence": {
@@ -933,7 +1068,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -946,18 +1081,19 @@
         }
       ],
       "title": "A Real Disaster - Leaked Label",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e"
     },
     {
       "id": "k-273566828",
       "competitionID": "tpu-getting-started",
+      "originalTitle": "tpu automated ensemble",
       "author": "Cristian2208",
       "published": "2025-11-05T02:10:16.310Z",
       "evidence": {
@@ -965,7 +1101,7 @@
         "rank": 5,
         "teams": 67,
         "score": "0.98084",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -978,18 +1114,19 @@
         }
       ],
       "title": "tpu automated ensemble",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719"
     },
     {
       "id": "k-277086012",
       "competitionID": "tpu-getting-started",
+      "originalTitle": "Petals to the Metal - Flower Classification",
       "author": "Jayasimha V",
       "published": "2025-11-13T06:58:22.070Z",
       "evidence": {
@@ -997,7 +1134,7 @@
         "rank": 2,
         "teams": 67,
         "score": "0.98222",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1010,14 +1147,14 @@
         }
       ],
       "title": "Petals to the Metal - Flower Classification",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20"
     },
     {
       "id": "k-286026928",
@@ -1049,7 +1186,8 @@
       ],
       "steps": [],
       "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-286033336",
@@ -1081,7 +1219,8 @@
       ],
       "steps": [],
       "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-291558654",
@@ -1113,11 +1252,13 @@
       ],
       "steps": [],
       "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-29911658",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "Basic NLP on Disaster Tweets",
       "author": "Zara Khan",
       "published": "2020-03-09T19:32:04.573Z",
       "evidence": {
@@ -1125,7 +1266,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1138,14 +1279,35 @@
         }
       ],
       "title": "Basic NLP on Disaster Tweets",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 CountVectorizer、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 CountVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 46",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 53",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 73",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477",
-      "awaitingExplanation": true
+      "tags": [
+        "CountVectorizer",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477"
     },
     {
       "id": "k-300684238",
@@ -1177,11 +1339,13 @@
       ],
       "steps": [],
       "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-302838836",
       "competitionID": "store-sales-time-series-forecasting",
+      "originalTitle": "Store Sales - Time Series Forecasting | h-blend",
       "author": "Thanh Nhan Nguyen",
       "published": "2026-03-11T10:09:24.323Z",
       "evidence": {
@@ -1189,7 +1353,7 @@
         "rank": 69,
         "teams": 725,
         "score": "0.37947",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1202,18 +1366,19 @@
         }
       ],
       "title": "Store Sales - Time Series Forecasting | h-blend",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "615831a7cf3a3eb2c8eb59e2e8afb45cb6e4444137637096e6ffbcd2f9dc2098",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "615831a7cf3a3eb2c8eb59e2e8afb45cb6e4444137637096e6ffbcd2f9dc2098"
     },
     {
       "id": "k-30685379",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "NLP with Disaster Tweets - EDA, Cleaning and BERT",
       "author": "Anusha Nidamanuri",
       "published": "2020-03-23T13:23:56.407Z",
       "evidence": {
@@ -1221,7 +1386,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1234,14 +1399,14 @@
         }
       ],
       "title": "NLP with Disaster Tweets - EDA, Cleaning and BERT",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4"
     },
     {
       "id": "k-313917882",
@@ -1273,11 +1438,13 @@
       ],
       "steps": [],
       "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-358224038",
       "competitionID": "gemma-4-developer-agent",
+      "originalTitle": "Gemma 4 SuperAgent Reproduction",
       "author": "sont",
       "published": "2026-10-14T05:33:06.430Z",
       "evidence": {
@@ -1285,7 +1452,7 @@
         "rank": 152,
         "teams": 6538,
         "score": "0.2",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1298,18 +1465,19 @@
         }
       ],
       "title": "Gemma 4 SuperAgent Reproduction",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8"
     },
     {
       "id": "k-361064349",
       "competitionID": "gemma-4-developer-agent",
+      "originalTitle": "Gemma 4 Agent Budget-Fit 31B Mainline",
       "author": "xiuchi sun",
       "published": "2026-10-22T08:09:30.777Z",
       "evidence": {
@@ -1317,7 +1485,7 @@
         "rank": 152,
         "teams": 6538,
         "score": "0.2",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1330,18 +1498,19 @@
         }
       ],
       "title": "Gemma 4 Agent Budget-Fit 31B Mainline",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef"
     },
     {
       "id": "k-364443572",
       "competitionID": "gemma-4-developer-agent",
+      "originalTitle": "Gemma Davis v19 Temp04",
       "author": "shimauchu",
       "published": "2026-11-01T05:44:06.667Z",
       "evidence": {
@@ -1349,7 +1518,7 @@
         "rank": 152,
         "teams": 6538,
         "score": "0.2",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1362,18 +1531,19 @@
         }
       ],
       "title": "Gemma Davis v19 Temp04",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "596fae2c032b824e891eeb69a4675e332a2c0b4d567268e3db3a9836ba9f9696",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "596fae2c032b824e891eeb69a4675e332a2c0b4d567268e3db3a9836ba9f9696"
     },
     {
       "id": "k-365669427",
       "competitionID": "llm-classification-finetuning",
+      "originalTitle": "fork gemma 2 llama 3 preference ensemble on 2xt4",
       "author": "Siyuan Chen",
       "published": "2026-11-04T15:25:38.653Z",
       "evidence": {
@@ -1381,7 +1551,7 @@
         "rank": 22,
         "teams": 323,
         "score": "0.82756",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1394,18 +1564,33 @@
         }
       ],
       "title": "fork gemma 2 llama 3 preference ensemble on 2xt4",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 5",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6",
-      "awaitingExplanation": true
+      "tags": [
+        "softmax",
+        "Sequential"
+      ],
+      "readingMode": "code",
+      "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6"
     },
     {
       "id": "k-366027967",
       "competitionID": "llm-classification-finetuning",
+      "originalTitle": "llmclf headtail r6",
       "author": "Siyuan Chen",
       "published": "2026-11-05T16:58:12.900Z",
       "evidence": {
@@ -1413,7 +1598,7 @@
         "rank": 19,
         "teams": 323,
         "score": "0.82728",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1426,18 +1611,33 @@
         }
       ],
       "title": "llmclf headtail r6",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 5",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f",
-      "awaitingExplanation": true
+      "tags": [
+        "softmax",
+        "Sequential"
+      ],
+      "readingMode": "code",
+      "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f"
     },
     {
       "id": "k-368205932",
       "competitionID": "llm-classification-finetuning",
+      "originalTitle": "llmclf ander r7",
       "author": "Siyuan Chen",
       "published": "2026-11-10T21:45:58.797Z",
       "evidence": {
@@ -1445,7 +1645,7 @@
         "rank": 18,
         "teams": 323,
         "score": "0.82685",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1458,26 +1658,41 @@
         }
       ],
       "title": "llmclf ander r7",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 13",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 7",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27",
-      "awaitingExplanation": true
+      "tags": [
+        "softmax",
+        "Sequential"
+      ],
+      "readingMode": "code",
+      "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27"
     },
     {
       "id": "k-372174163",
       "competitionID": "name-that-llm",
+      "originalTitle": "GLM User Prefix - 0716 Reference Run",
       "author": "奶龙",
       "published": "2026-11-21T11:30:46.467Z",
       "evidence": {
         "kind": "public",
-        "rank": 492,
-        "teams": 6822,
+        "rank": 494,
+        "teams": 6823,
         "score": "0.717",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1490,26 +1705,48 @@
         }
       ],
       "title": "GLM User Prefix - 0716 Reference Run",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464"
     },
     {
       "id": "k-372225976",
       "competitionID": "playground-series-s6e11",
+      "originalTitle": "S6E11 Which Signals Rank Fraud V3 reproduction",
       "author": "奶龙",
       "published": "2026-11-21T14:08:23.313Z",
       "evidence": {
         "kind": "public",
         "rank": 160,
-        "teams": 2813,
+        "teams": 2814,
         "score": "0.95547",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1522,14 +1759,28 @@
         }
       ],
       "title": "S6E11 Which Signals Rank Fraud V3 reproduction",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 train_test_split、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 train_test_split。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 4",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 4",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27",
-      "awaitingExplanation": true
+      "tags": [
+        "train_test_split",
+        "roc_auc_score"
+      ],
+      "readingMode": "code",
+      "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27"
     },
     {
       "id": "k-372228341",
@@ -1539,9 +1790,9 @@
       "evidence": {
         "kind": "public",
         "rank": 160,
-        "teams": 2813,
+        "teams": 2814,
         "score": "0.95547",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1581,19 +1832,22 @@
           "source": 0
         }
       ],
-      "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2"
+      "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2",
+      "originalTitle": "S6E11 CatBoost within fraud risk bands",
+      "stale": false
     },
     {
       "id": "k-372338058",
       "competitionID": "name-that-llm",
+      "originalTitle": "NTL H195 v6 keep glm to fable",
       "author": "Kuan-Chieh Huang",
       "published": "2026-11-21T20:05:47.130Z",
       "evidence": {
         "kind": "public",
-        "rank": 492,
-        "teams": 6822,
+        "rank": 494,
+        "teams": 6823,
         "score": "0.717",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1606,26 +1860,48 @@
         }
       ],
       "title": "NTL H195 v6 keep glm to fable",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480"
     },
     {
       "id": "k-372418637",
       "competitionID": "name-that-llm",
+      "originalTitle": "ntl-0719-glm-prefix-fable-gate",
       "author": "hc luo",
       "published": "2026-11-22T02:02:03.027Z",
       "evidence": {
         "kind": "public",
         "rank": 118,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.719",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1638,26 +1914,48 @@
         }
       ],
       "title": "ntl-0719-glm-prefix-fable-gate",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
     },
     {
       "id": "k-372427597",
       "competitionID": "name-that-llm",
+      "originalTitle": "Test User Prefix - Guarded Fable Return",
       "author": "m-toshi desu",
       "published": "2026-11-22T02:41:07.597Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1670,26 +1968,48 @@
         }
       ],
       "title": "Test User Prefix - Guarded Fable Return",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
     },
     {
       "id": "k-372487335",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi-e064-follow-0500",
       "author": "Mr.Liang",
       "published": "2026-11-22T06:31:12.867Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1702,26 +2022,27 @@
         }
       ],
       "title": "casmi-e064-follow-0500",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce"
     },
     {
       "id": "k-372532133",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "CASMI26-0495-D1-NNET10-500-1122",
       "author": "Vedrin Jeliazkov",
       "published": "2026-11-22T09:03:57.373Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1734,26 +2055,27 @@
         }
       ],
       "title": "CASMI26-0495-D1-NNET10-500-1122",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "5c21409605a16b7d4cd8b866e66b00fe6892c560ae3cb58feb3cab4649338424",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "5c21409605a16b7d4cd8b866e66b00fe6892c560ae3cb58feb3cab4649338424"
     },
     {
       "id": "k-372548786",
       "competitionID": "name-that-llm",
+      "originalTitle": "ntl arb719true",
       "author": "navigator63",
       "published": "2026-11-22T09:57:30.750Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1766,26 +2088,48 @@
         }
       ],
       "title": "ntl arb719true",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698"
     },
     {
       "id": "k-372551883",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "CASMI26 E278 ARS500 nistclean",
       "author": "Kuan-Chieh Huang",
       "published": "2026-11-22T10:07:42.403Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1798,26 +2142,27 @@
         }
       ],
       "title": "CASMI26 E278 ARS500 nistclean",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "ec4cfa829cb059cc6f7010d33bfc675900a61d0681f74737f7f1ed00b9ecd532",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "ec4cfa829cb059cc6f7010d33bfc675900a61d0681f74737f7f1ed00b9ecd532"
     },
     {
       "id": "k-372574240",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26 exp328 sovereign 0500 aprior uniq",
       "author": "ADITYA RAJ",
       "published": "2026-11-22T11:16:59.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1830,26 +2175,27 @@
         }
       ],
       "title": "casmi26 exp328 sovereign 0500 aprior uniq",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "3c9b9acfc96d437d187300106cb85539e81afb0ed85c6b5f17082872a29158a5",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "3c9b9acfc96d437d187300106cb85539e81afb0ed85c6b5f17082872a29158a5"
     },
     {
       "id": "k-372576889",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-with-180x",
       "author": "Koushik Rudra",
       "published": "2026-11-22T11:25:30.063Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 5838,
+        "rank": 269,
+        "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1862,26 +2208,27 @@
         }
       ],
       "title": "casmi26-with-180x",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "587ba8fdcca71fb4ff5d04fd2fa874bbf5d47e8b3dce36a68e6c7491053b6dbd",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "587ba8fdcca71fb4ff5d04fd2fa874bbf5d47e8b3dce36a68e6c7491053b6dbd"
     },
     {
       "id": "k-372587781",
       "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0719 Dennis Fable Return 20261122",
       "author": "uninhibited-scholar",
       "published": "2026-11-22T12:00:14.857Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1894,26 +2241,48 @@
         }
       ],
       "title": "NTL 0719 Dennis Fable Return 20261122",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
     },
     {
       "id": "k-372588062",
       "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0718 user prefix fable repro",
       "author": "feiyu26",
       "published": "2026-11-22T12:01:07.143Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1926,26 +2295,48 @@
         }
       ],
       "title": "NTL 0718 user prefix fable repro",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 12",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 12",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 12",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5"
     },
     {
       "id": "k-372609786",
       "competitionID": "name-that-llm",
+      "originalTitle": "ntl d719 fork",
       "author": "Soren",
       "published": "2026-11-22T13:08:24.803Z",
       "evidence": {
         "kind": "public",
-        "rank": 492,
-        "teams": 6822,
+        "rank": 494,
+        "teams": 6823,
         "score": "0.717",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1958,26 +2349,48 @@
         }
       ],
       "title": "ntl d719 fork",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 12",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 12",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 12",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f"
     },
     {
       "id": "k-372627682",
       "competitionID": "name-that-llm",
+      "originalTitle": "ntl-0718a-glm-cover20",
       "author": "hc luo",
       "published": "2026-11-22T14:03:00.287Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -1990,26 +2403,48 @@
         }
       ],
       "title": "ntl-0718a-glm-cover20",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 11",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 11",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea",
-      "awaitingExplanation": true
+      "tags": [
+        "StandardScaler",
+        "LogisticRegression",
+        "predict_proba"
+      ],
+      "readingMode": "code",
+      "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea"
     },
     {
       "id": "k-372632412",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "CASMI26 0.500 | APRIOR Stack + FR after P5 Tail",
       "author": "Rishabh Bafna",
       "published": "2026-11-22T14:16:56.583Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2022,26 +2457,27 @@
         }
       ],
       "title": "CASMI26 0.500 | APRIOR Stack + FR after P5 Tail",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce"
     },
     {
       "id": "k-372642965",
       "competitionID": "name-that-llm",
+      "originalTitle": "Name That LLM 0717 Fork",
       "author": "chen yibo",
       "published": "2026-11-22T14:46:02.957Z",
       "evidence": {
         "kind": "public",
         "rank": 259,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.718",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2054,26 +2490,55 @@
         }
       ],
       "title": "Name That LLM 0717 Fork",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 GroupKFold、TfidfVectorizer、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 GroupKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 3",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 3",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 95",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 3",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419",
-      "awaitingExplanation": true
+      "tags": [
+        "GroupKFold",
+        "TfidfVectorizer",
+        "roc_auc_score",
+        "LogisticRegression"
+      ],
+      "readingMode": "code",
+      "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419"
     },
     {
       "id": "k-372671398",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "CASMI26 E281 UNIQ sink off",
       "author": "Kuan-Chieh Huang",
       "published": "2026-11-22T16:05:55.763Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2086,26 +2551,27 @@
         }
       ],
       "title": "CASMI26 E281 UNIQ sink off",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "77d82adbb81e8242f991b8aa08d7c3e447c50f91214c0570936a0ef72fa91acd",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "77d82adbb81e8242f991b8aa08d7c3e447c50f91214c0570936a0ef72fa91acd"
     },
     {
       "id": "k-372717326",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-arm-w",
       "author": "Subham Sharma",
       "published": "2026-11-22T18:22:26.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 387,
-        "teams": 5838,
+        "rank": 391,
+        "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2118,26 +2584,27 @@
         }
       ],
       "title": "casmi26-arm-w",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "1755156d48fcba251289f6539d62ba24913071017f640e4b7afe1fd519bb844b",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "1755156d48fcba251289f6539d62ba24913071017f640e4b7afe1fd519bb844b"
     },
     {
       "id": "k-372750961",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-v111",
       "author": "jiyuhao1213",
       "published": "2026-11-22T20:16:11.403Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 5838,
+        "rank": 269,
+        "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2150,26 +2617,27 @@
         }
       ],
       "title": "casmi26-v111",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "b2c1a84e5c220db7b6c3c41d74cf1b316d07ee1f349d34158d70dd32da8390ef",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "b2c1a84e5c220db7b6c3c41d74cf1b316d07ee1f349d34158d70dd32da8390ef"
     },
     {
       "id": "k-372772868",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi-e068-keep1f-e180x",
       "author": "Mr.Liang",
       "published": "2026-11-22T21:31:56.460Z",
       "evidence": {
         "kind": "public",
         "rank": 70,
-        "teams": 5838,
+        "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2182,14 +2650,14 @@
         }
       ],
       "title": "casmi-e068-keep1f-e180x",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "4df08201b419af110617d42a6ee0f86f8f1c8075d7f19a16821ace84a8c2787c",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "4df08201b419af110617d42a6ee0f86f8f1c8075d7f19a16821ace84a8c2787c"
     },
     {
       "id": "k-372780350",
@@ -2199,9 +2667,9 @@
       "evidence": {
         "kind": "public",
         "rank": 99,
-        "teams": 6822,
+        "teams": 6823,
         "score": "0.72",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2240,19 +2708,22 @@
           "source": 0
         }
       ],
-      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
+      "originalTitle": "Name That LLM | Sibling Odds",
+      "stale": false
     },
     {
       "id": "k-372780693",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-v112",
       "author": "jiyuhao1213",
       "published": "2026-11-22T22:02:52.303Z",
       "evidence": {
         "kind": "public",
         "rank": 70,
-        "teams": 5838,
+        "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2265,26 +2736,27 @@
         }
       ],
       "title": "casmi26-v112",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be"
     },
     {
       "id": "k-372795758",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-v113",
       "author": "jiyuhao1213",
       "published": "2026-11-22T23:04:09.610Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 5838,
+        "rank": 269,
+        "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2297,26 +2769,27 @@
         }
       ],
       "title": "casmi26-v113",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "55a65738efa000b4c08db92e4e390b8f63a7fbf80eeef47499f640f3b876ad00",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "55a65738efa000b4c08db92e4e390b8f63a7fbf80eeef47499f640f3b876ad00"
     },
     {
       "id": "k-372842377",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "v108-ozr500",
       "author": "StarsMoon",
       "published": "2026-11-23T02:15:00.190Z",
       "evidence": {
         "kind": "public",
         "rank": 70,
-        "teams": 5838,
+        "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2329,26 +2802,41 @@
         }
       ],
       "title": "v108-ozr500",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 LGBMClassifier、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LGBMClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 36",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 36",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088",
-      "awaitingExplanation": true
+      "tags": [
+        "LGBMClassifier",
+        "roc_auc_score"
+      ],
+      "readingMode": "code",
+      "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088"
     },
     {
       "id": "k-372852491",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "enveda p2s 501fork",
       "author": "Leo",
       "published": "2026-11-23T02:54:18.270Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 5838,
+        "rank": 269,
+        "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2361,14 +2849,14 @@
         }
       ],
       "title": "enveda p2s 501fork",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "e9a641efac4878abd07d9ec77a69ee804de87655b247e3299d12258c2a5c8661",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "e9a641efac4878abd07d9ec77a69ee804de87655b247e3299d12258c2a5c8661"
     },
     {
       "id": "k-372880859",
@@ -2378,9 +2866,9 @@
       "evidence": {
         "kind": "public",
         "rank": 66,
-        "teams": 3623,
+        "teams": 3624,
         "score": "33.17067",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2419,19 +2907,22 @@
           "source": 0
         }
       ],
-      "fingerprint": "c23ffe8d16cf9b71d8d4e4715fb87dec69fd102f2dd921428cdc4fbbac4a728a"
+      "fingerprint": "c23ffe8d16cf9b71d8d4e4715fb87dec69fd102f2dd921428cdc4fbbac4a728a",
+      "originalTitle": "QCC | DQI Zero-Test Cuts (verbatim 33.17067)",
+      "stale": false
     },
     {
       "id": "k-372896479",
       "competitionID": "google-verifiable-quantum-circuit-compilation",
+      "originalTitle": "QCC | 3357 loaders + stock DQI",
       "author": "liuzewen123",
       "published": "2026-11-23T05:25:53.707Z",
       "evidence": {
         "kind": "public",
-        "rank": 330,
-        "teams": 3623,
+        "rank": 332,
+        "teams": 3624,
         "score": "33.17029",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2444,14 +2935,14 @@
         }
       ],
       "title": "QCC | 3357 loaders + stock DQI",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "d798e56e02c6ad749891e0ff7a912568b531fe830df35f03d86783fd62b77ad2",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "d798e56e02c6ad749891e0ff7a912568b531fe830df35f03d86783fd62b77ad2"
     },
     {
       "id": "k-39482869",
@@ -2483,7 +2974,8 @@
       ],
       "steps": [],
       "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-40384661",
@@ -2515,7 +3007,8 @@
       ],
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-41059570",
@@ -2547,11 +3040,13 @@
       ],
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-41388930",
       "competitionID": "tpu-getting-started",
+      "originalTitle": "FC Ensemble External Data 2",
       "author": "AhmedMazenAhmedMurad",
       "published": "2020-08-25T21:51:18.190Z",
       "evidence": {
@@ -2559,7 +3054,7 @@
         "rank": 5,
         "teams": 67,
         "score": "0.98035",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2572,18 +3067,19 @@
         }
       ],
       "title": "FC Ensemble External Data 2",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30"
     },
     {
       "id": "k-41797632",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "NLP_Disaster_Tweets with ELECTRA Base",
       "author": "AhmedMazenAhmedMurad",
       "published": "2020-09-01T19:43:26.663Z",
       "evidence": {
@@ -2591,7 +3087,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2604,14 +3100,14 @@
         }
       ],
       "title": "NLP_Disaster_Tweets with ELECTRA Base",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "ebf1060dedc32b1b53eef605497b9e99e4da452cec680b3ba844fec00bf34afc",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "ebf1060dedc32b1b53eef605497b9e99e4da452cec680b3ba844fec00bf34afc"
     },
     {
       "id": "k-42642100",
@@ -2643,7 +3139,8 @@
       ],
       "steps": [],
       "fingerprint": "7425b1d48908f9794771b87e3ec865a128c8a1d7d372c7057a5139db256d12a0",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-42893184",
@@ -2675,11 +3172,13 @@
       ],
       "steps": [],
       "fingerprint": "eb3ebe785487825be65dba8da98f5e6d7a88bc526db3b0220578e2f90d8dabb5",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-45864806",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House_Price",
       "author": "Fahad vp",
       "published": "2020-10-31T05:48:20Z",
       "evidence": {
@@ -2687,7 +3186,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2700,14 +3199,14 @@
         }
       ],
       "title": "House_Price",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "90a411141a1f4e0360410e65e907ab5e197c14ca068ce8092808ffd3db3abb1d",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "90a411141a1f4e0360410e65e907ab5e197c14ca068ce8092808ffd3db3abb1d"
     },
     {
       "id": "k-55235987",
@@ -2739,11 +3238,13 @@
       ],
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-55240773",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House-Prices Best Score",
       "author": "Karen Smiths",
       "published": "2021-02-25T22:49:23.013Z",
       "evidence": {
@@ -2751,7 +3252,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2764,14 +3265,14 @@
         }
       ],
       "title": "House-Prices Best Score",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "13e79cebfbfa997b30999a4c5b4e303889ff5ba8c86377d42d181564cd9df4f0",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "13e79cebfbfa997b30999a4c5b4e303889ff5ba8c86377d42d181564cd9df4f0"
     },
     {
       "id": "k-55314995",
@@ -2803,11 +3304,13 @@
       ],
       "steps": [],
       "fingerprint": "0c582b5e78c5c4bca6f825e42575fdb24bbfc05d99774a47ba419a490d2b736f",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-61255797",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "Disaster-and-NonDisaster-tweets",
       "author": "Yossawadee Promwong",
       "published": "2021-04-28T20:42:23.807Z",
       "evidence": {
@@ -2815,7 +3318,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2828,18 +3331,19 @@
         }
       ],
       "title": "Disaster-and-NonDisaster-tweets",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084"
     },
     {
       "id": "k-62414083",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House Price",
       "author": "Jennifer MH Chiang",
       "published": "2021-05-10T03:45:17.967Z",
       "evidence": {
@@ -2847,7 +3351,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2860,14 +3364,14 @@
         }
       ],
       "title": "House Price",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "6f7d7ec5ce53ce2645f48bb2bb800a57480cda93664cafc9528da5f9b6634e2e",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "6f7d7ec5ce53ce2645f48bb2bb800a57480cda93664cafc9528da5f9b6634e2e"
     },
     {
       "id": "k-65447629",
@@ -2899,11 +3403,13 @@
       ],
       "steps": [],
       "fingerprint": "bbea7ff390bfbeb83906fa97d9a3e6e7b21519a70fcdd111138c5f82e80ec79f",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-74600426",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House-Price Competition Advanced Reg Improved ",
       "author": "Kumud Singh",
       "published": "2021-09-12T18:41:03.377Z",
       "evidence": {
@@ -2911,7 +3417,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2924,18 +3430,19 @@
         }
       ],
       "title": "House-Price Competition Advanced Reg Improved ",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b"
     },
     {
       "id": "k-74905963",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House Price Prediction ",
       "author": "Enes Şimşek",
       "published": "2021-09-16T12:43:10.550Z",
       "evidence": {
@@ -2943,7 +3450,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -2956,14 +3463,14 @@
         }
       ],
       "title": "House Price Prediction ",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3"
     },
     {
       "id": "k-75032326",
@@ -2995,11 +3502,13 @@
       ],
       "steps": [],
       "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-75043606",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "house prices prediction",
       "author": "Erwin",
       "published": "2021-09-18T08:12:32.910Z",
       "evidence": {
@@ -3007,7 +3516,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -3020,14 +3529,14 @@
         }
       ],
       "title": "house prices prediction",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f"
     },
     {
       "id": "k-75815589",
@@ -3059,7 +3568,8 @@
       ],
       "steps": [],
       "fingerprint": "e781b1deadc901cd72b31543192cec0a56d27c15031ee0eb4aec49180a473aa2",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-76090159",
@@ -3091,7 +3601,8 @@
       ],
       "steps": [],
       "fingerprint": "f3e31b9e3c0e72fe5b4926ca94d937ebe70a08086751e014f3100c8ef7ec51b4",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-76368250",
@@ -3123,7 +3634,8 @@
       ],
       "steps": [],
       "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-78027906",
@@ -3155,11 +3667,13 @@
       ],
       "steps": [],
       "fingerprint": "ae0ace7ca26543c71822718f42952191deab8626de508f97c6fd8f0b00f631dc",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-78027942",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House Prices1",
       "author": "Prof-Ahmad Hussein",
       "published": "2021-10-26T06:00:00.540Z",
       "evidence": {
@@ -3167,7 +3681,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -3180,18 +3694,19 @@
         }
       ],
       "title": "House Prices1",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8"
     },
     {
       "id": "k-78373354",
       "competitionID": "nlp-getting-started",
+      "originalTitle": "NLP with Disaster Tweets_new_b",
       "author": "Antonina Bugayova",
       "published": "2021-10-30T07:47:42.507Z",
       "evidence": {
@@ -3199,7 +3714,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -3212,14 +3727,14 @@
         }
       ],
       "title": "NLP with Disaster Tweets_new_b",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "e379f00dc23a6b347b3efe5f4416a4249a1c3ddd561d8c71d15c9e1bc91f51aa",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "fingerprint": "e379f00dc23a6b347b3efe5f4416a4249a1c3ddd561d8c71d15c9e1bc91f51aa"
     },
     {
       "id": "k-80681540",
@@ -3251,7 +3766,8 @@
       ],
       "steps": [],
       "fingerprint": "2eb42b4cd7611ebf85bf157a1bb69eb3c1cc82738501d3f1293c8a45bf01f4f6",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-81567898",
@@ -3283,7 +3799,8 @@
       ],
       "steps": [],
       "fingerprint": "47cc6be3145212da2166a6cb0425fcc8b790ceac0a35101a090ae23dde5ce461",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-85386378",
@@ -3315,7 +3832,8 @@
       ],
       "steps": [],
       "fingerprint": "5c9a408e09c309b8ad9dcc75220ed789a10a0ae61ca00071326708b3b46e6ad8",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-86298162",
@@ -3347,11 +3865,13 @@
       ],
       "steps": [],
       "fingerprint": "161b17174a8c75cb1bad7b5bc2e871bd342cd2e9c38a2005c7e87b78391b7e5a",
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": true
     },
     {
       "id": "k-96887702",
       "competitionID": "house-prices-advanced-regression-techniques",
+      "originalTitle": "House Prices Prediction Part 2 with FE",
       "author": "Adarsh Malviya",
       "published": "2022-05-29T07:03:03.487Z",
       "evidence": {
@@ -3359,7 +3879,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:13:53Z"
       },
       "sources": [
         {
@@ -3372,14 +3892,35 @@
         }
       ],
       "title": "House Prices Prediction Part 2 with FE",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 get_dummies、train_test_split、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 train_test_split。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 24",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 get_dummies。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 19",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 29",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567",
-      "awaitingExplanation": true
+      "tags": [
+        "get_dummies",
+        "train_test_split",
+        "XGBRegressor"
+      ],
+      "readingMode": "code",
+      "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567"
     },
     {
       "id": "w-10441",
