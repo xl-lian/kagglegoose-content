@@ -486,6 +486,7 @@ def main():
         updated=now,
         competitions=sorted(comps.values(), key=lambda c: c["id"]),
         lessons=sorted(lessons.values(), key=lambda v: v["id"]),
+        comparisons=old.get("comparisons", []),
     )
     with tempfile.NamedTemporaryFile(mode="w", dir=CATALOG.parent, delete=False) as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2, allow_nan=False)

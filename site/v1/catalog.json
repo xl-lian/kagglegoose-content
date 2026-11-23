@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23T11:17:44Z",
+  "updated": "2026-11-23T11:33:50Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -51,6 +51,30 @@
       "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development"
     },
     {
+      "id": "birdclef-2022",
+      "title": "BirdCLEF 2022",
+      "summary": "识别夏威夷声景录音中的鸟鸣。",
+      "categories": [
+        "音频"
+      ],
+      "metric": "Weighted Categorization Accuracy",
+      "start": "2022-02-15T19:01:01.083Z",
+      "deadline": "2022-05-24T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/birdclef-2022"
+    },
+    {
+      "id": "birdclef-2023",
+      "title": "BirdCLEF 2023",
+      "summary": "识别肯尼亚野外录音中的鸟种。",
+      "categories": [
+        "音频"
+      ],
+      "metric": "buffered_cmAP",
+      "start": "2023-03-07T17:37:05.333Z",
+      "deadline": "2023-05-24T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/birdclef-2023"
+    },
+    {
       "id": "birdclef-2024",
       "title": "BirdCLEF 2024",
       "summary": "从连续录音中识别西高止山脉的鸟类。",
@@ -61,6 +85,31 @@
       "start": "2024-04-03T18:00:10.537Z",
       "deadline": "2024-06-10T23:59:00Z",
       "url": "https://www.kaggle.com/competitions/birdclef-2024"
+    },
+    {
+      "id": "bms-molecular-translation",
+      "title": "Bristol-Myers Squibb – Molecular Translation",
+      "summary": "从分子结构图预测对应的 InChI 字符串。",
+      "categories": [
+        "视觉",
+        "科学计算"
+      ],
+      "metric": "Levenshtein Mean",
+      "start": "2021-03-02T18:57:15.073Z",
+      "deadline": "2021-06-03T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/bms-molecular-translation"
+    },
+    {
+      "id": "champs-scalar-coupling",
+      "title": "Predicting Molecular Properties",
+      "summary": "利用分子结构预测原子对之间的标量耦合常数。",
+      "categories": [
+        "科学计算"
+      ],
+      "metric": "Group Mean Log MAE",
+      "start": "2019-05-29T20:12:00.193Z",
+      "deadline": "2019-08-28T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/champs-scalar-coupling"
     },
     {
       "id": "connectx",
@@ -221,6 +270,18 @@
       "url": "https://www.kaggle.com/competitions/llm-classification-finetuning"
     },
     {
+      "id": "lux-ai-season-3",
+      "title": "NeurIPS 2024 - Lux AI Season 3",
+      "summary": "在部分可观测的网格游戏中训练对战智能体。",
+      "categories": [
+        "智能体"
+      ],
+      "metric": "Lux AI Season 3",
+      "start": "2024-12-09T19:47:51.783Z",
+      "deadline": "2025-03-24T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/lux-ai-season-3"
+    },
+    {
       "id": "name-that-llm",
       "title": "Name That LLM",
       "summary": "阅读一段生成文本，识别写下它的语言模型。",
@@ -343,6 +404,18 @@
       "start": "2026-08-05T15:51:31.833Z",
       "deadline": "2026-10-22T23:59:00Z",
       "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection"
+    },
+    {
+      "id": "santa-2025",
+      "title": "Santa 2025 - Christmas Tree Packing Challenge",
+      "summary": "把给定数量的树形图块放入尽可能小的正方形。",
+      "categories": [
+        "优化"
+      ],
+      "metric": "Santa 2025 Metric",
+      "start": "2025-11-17T18:25:29.117Z",
+      "deadline": "2026-01-30T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/santa-2025"
     },
     {
       "id": "santa-2026",
@@ -4242,6 +4315,57 @@
       "fingerprint": "cd63ea359263bef857824fd591ff85408ef72cbcbfc6f7da1ce10e05bf5fb2c1"
     },
     {
+      "id": "w-10754",
+      "competitionID": "birdclef-2023",
+      "title": "先清理重复录音，再比较鸟声模型",
+      "summary": "作者检查训练录音是否重复，并从历届数据中筛选当年的目标鸟种。模型对照建立在经过清理的数据上。",
+      "takeaway": "先统计各鸟种的样本数，并检查重复录音是否落入不同折。",
+      "tags": [
+        "分层验证",
+        "声音事件检测"
+      ],
+      "author": "Volodymyr",
+      "published": "2023-06-05T17:50:11.153Z",
+      "steps": [
+        {
+          "title": "数据处理",
+          "body": "作者结合时长、上传者与主要鸟种标签筛查重复录音，并手动移除部分重复项。",
+          "reference": "Training Data",
+          "source": 0
+        },
+        {
+          "title": "验证设计",
+          "body": "作者用五折分层交叉验证评估模型，并围绕比赛采用的 cmAP 指标比较实验。",
+          "reference": "Validation: Be soft like cmAP",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "body": "把注意力声音事件检测的预测与各时刻的最大预测组合。原文将该调整的增益描述为较小。",
+          "reference": "Small inference tricks",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/birdclef-2023/writeups/volodymyr-1st-place-solution-correct-data-is-all-y"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/birdclef-2023/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 1189,
+        "score": "0.76392",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "495f11b6229d2130e5aa1c5426fc0d94d4b7f1a1e8a8dd6555285abdc4f2d8fe"
+    },
+    {
       "id": "w-11537",
       "competitionID": "birdclef-2024",
       "title": "从无标签声景里学鸟鸣",
@@ -4781,6 +4905,57 @@
       "fingerprint": "055e82ae42dd7635facd5a45ea7ea33a54b076395b38f439a5142da7a9ff8651"
     },
     {
+      "id": "w-12604",
+      "competitionID": "lux-ai-season-3",
+      "title": "用历史观测和自博弈比较策略版本",
+      "summary": "冠军用历史观测维护地图状态，再用多智能体强化学习训练决策策略。通过与旧版本对战检查新策略是否进步。",
+      "takeaway": "留下一组固定对手和游戏种子，再比较新旧策略的胜率。",
+      "tags": [
+        "自博弈",
+        "IMPALA"
+      ],
+      "author": "Flat Neurons",
+      "published": "2025-04-08T13:40:55.327Z",
+      "steps": [
+        {
+          "title": "数据与特征",
+          "body": "地图特征包含距离上次观测某格子经过的步数，用于表示部分可观测环境中的历史信息。",
+          "reference": "Observation Space and Features",
+          "source": 0
+        },
+        {
+          "title": "模型训练",
+          "body": "队伍以 IMPALA 和 V-trace 训练多智能体策略，并调整奖励尺度和熵。",
+          "reference": "Core Algorithm: IMPALA + V-trace",
+          "source": 0
+        },
+        {
+          "title": "验证设计",
+          "body": "通过大量自博弈及对旧版本、教师版本的胜率比较，评估策略迭代。",
+          "reference": "Comparing Agents: Real-Time Win Rates",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/lux-ai-season-3/writeups/flat-neurons-1st-place-approach-by-flat-neurons"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/lux-ai-season-3/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 701,
+        "score": "2831.4",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "4039872f53a511e9b5ce9c4b365397f42faa4f004acc2c69476f7ba43e37ab7a"
+    },
+    {
       "id": "w-12828",
       "competitionID": "image-matching-challenge-2023",
       "title": "用多视角一致性修正图像匹配",
@@ -4836,6 +5011,167 @@
       "fingerprint": "5d23441237996fddd0ae829d74d82cbfa96753c22bc2e6464a6ecc7c36628be7"
     },
     {
+      "id": "w-66144",
+      "competitionID": "santa-2025",
+      "title": "在几何排布中兼顾可行性与种群多样性",
+      "summary": "冠军方案以遗传算法探索布局，用局部优化减少图块重叠与越界。选择阶段同时考虑代价和布局差异。",
+      "takeaway": "对小规模布局固定边界和随机种子，分别记录可行率、重叠代价与最终边长。",
+      "tags": [
+        "遗传算法",
+        "几何约束"
+      ],
+      "author": "Jeroen Cottaar",
+      "published": "2026-02-08T12:39:55.833Z",
+      "steps": [
+        {
+          "title": "模型与优化",
+          "body": "通过单个布局的变异及两个布局的交叉产生候选；变异可改变图块的位置和旋转角度。",
+          "reference": "Offspring generation",
+          "source": 0
+        },
+        {
+          "title": "评估设计",
+          "body": "用图块重叠及超出正方形边界的程度构造代价，GPU 局部优化尝试把候选修正为可行解。",
+          "reference": "GPU relaxation",
+          "source": 0
+        },
+        {
+          "title": "候选筛选与复现",
+          "body": "在每个子种群中保留代价低的部分布局，再结合差异性挑选其余候选。",
+          "reference": "Selection",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/santa-2025/writeups/1st-place-genetic-algorithm-and-gpu-relaxation"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/santa-2025/leaderboard"
+        },
+        {
+          "title": "作者代码仓库",
+          "url": "https://github.com/jcottaar/packing"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 3357,
+        "score": "68.781235119300",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "00f106fd7a144cb190382dba501bd1d24c08b91d693d9f5bf1cb447c0628ecd5"
+    },
+    {
+      "id": "w-8172",
+      "competitionID": "champs-scalar-coupling",
+      "title": "用整分子上下文预测原子对性质",
+      "summary": "冠军团队将完整分子送入图模型，同时为其中多个原子对预测耦合常数。分层表示将不同粒度的原子和原子对信息组合在一起。",
+      "takeaway": "保留相同数据划分，比较仅使用原子对特征与加入整分子上下文后的误差。",
+      "tags": [
+        "图模型",
+        "分层嵌入"
+      ],
+      "author": "hybrid",
+      "published": "2019-09-13T15:58:50.817Z",
+      "steps": [
+        {
+          "title": "特征表示",
+          "body": "作者为原子及原子对构建不同细粒度的嵌入，例如在原子类型之外加入连接关系信息。",
+          "reference": "Input features and embeddings",
+          "source": 0
+        },
+        {
+          "title": "模型训练",
+          "body": "图 Transformer 风格的模型一次处理整个分子，同时输出多个耦合值。",
+          "reference": "Overall architecture",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "body": "队伍训练了多个模型进行融合，公开仓库保留了架构变体，便于追溯最终预测。",
+          "reference": "Ensembling",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/champs-scalar-coupling/writeups/hybrid-1-solution-hybrid"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/champs-scalar-coupling/leaderboard"
+        },
+        {
+          "title": "作者代码仓库",
+          "url": "https://github.com/boschresearch/BCAI_kaggle_CHAMPS"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 2737,
+        "score": "-3.23968",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "2c31d8fb905fcb457943dcf2d9a7eaec18cc03256c3eaf22a05d5ec46c5800e0"
+    },
+    {
+      "id": "w-9008",
+      "competitionID": "bms-molecular-translation",
+      "title": "把分子结构识别拆成候选生成与重排",
+      "summary": "第三名方案先生成多个可能的结构字符串，再检验它们是否有效，并用多个模型重新评分。可分别检查错误发生在候选生成还是排序环节。",
+      "takeaway": "先统计正确结果是否进入候选集，再评价重排能否把正确候选提到首位。",
+      "tags": [
+        "候选重排",
+        "束搜索"
+      ],
+      "author": "kyamaro",
+      "published": "2021-06-06T07:32:55.810Z",
+      "steps": [
+        {
+          "title": "数据处理",
+          "body": "团队观察到测试图中椒盐噪声更多，随后在训练图像中加入相应噪声增强。",
+          "reference": "Phase1: Image captioning training",
+          "source": 0
+        },
+        {
+          "title": "模型训练",
+          "body": "用多种图像编码器和文本解码器生成 InChI 候选，通过束搜索扩大候选范围。",
+          "reference": "Phase2: InChI candidates generation",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "body": "先检查候选结构是否合法，再用多个模型对图像与候选的匹配损失评分，据此重排。",
+          "reference": "Phase3: InChI candidates reranking",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/bms-molecular-translation/writeups/kyamaro-3rd-place-solution-brief-summary"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/bms-molecular-translation/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 3,
+        "teams": 874,
+        "score": "0.53934",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "bfd9d66872436ee207e95c2a5a7b10b6f66550785204242f9a2ace1549c3f03d"
+    },
+    {
       "id": "w-9716",
       "competitionID": "santander-customer-transaction-prediction",
       "title": "从匿名数值的出现次数提取信号",
@@ -4887,6 +5223,57 @@
       "fingerprint": "de85ff3ec1b63ba5e806121eb2b3eba07e7b2134f47c2582fbd6b9200d19c84c"
     },
     {
+      "id": "w-9832",
+      "competitionID": "birdclef-2022",
+      "title": "让声音事件检测器保留更多时频细节",
+      "summary": "这份冠军队员的复盘讲解了融合系统中的一个分支：减小卷积网络首层步幅，保留更细的时间和频率分辨率，再对长录音片段进行多标签训练。",
+      "takeaway": "在相同输入和训练预算下，对照首层步幅与背景噪声增强的效果。",
+      "tags": [
+        "声音事件检测",
+        "背景噪声增强"
+      ],
+      "author": "KDL",
+      "published": "2022-06-05T14:50:15.620Z",
+      "steps": [
+        {
+          "title": "特征表示",
+          "body": "将卷积编码器的首层步幅从 2×2 改为 1×1，使后续特征图保留更多时频位置。",
+          "reference": "Model Architecture",
+          "source": 0
+        },
+        {
+          "title": "模型训练",
+          "body": "在 15 秒片段上结合次要标签训练，用背景录音和其他噪声进行增强，并根据主要鸟种调整采样与损失权重。",
+          "reference": "Model Training",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "body": "作者保留三个检查点并对模型权重取平均。队伍的最终融合还包括 BirdNET 和其他成员的模型。",
+          "reference": "Model Training",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "获奖方案原文",
+          "url": "https://www.kaggle.com/competitions/birdclef-2022/writeups/kdl-1st-place-solution-models-it-s-not-all-birdnet"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/birdclef-2022/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 801,
+        "score": "0.8527",
+        "checked": "2026-11-23T11:33:50Z"
+      },
+      "fingerprint": "4c3a5e00b7e5cf8d208e46b78bcdfb187f013cd639da6b60d310da5c001f7660"
+    },
+    {
       "id": "w-9958",
       "competitionID": "nfl-big-data-bowl-2020",
       "title": "用场地对称性预测推进距离",
@@ -4936,6 +5323,56 @@
         "checked": "2026-11-23T11:03:30Z"
       },
       "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a"
+    }
+  ],
+  "comparisons": [
+    {
+      "topic": "数据与特征",
+      "lessonIDs": [
+        "w-10754",
+        "w-9832"
+      ],
+      "text": "BirdCLEF 2023 先按时长、上传者和鸟种找出重复录音。2022 冠军队的一个模型则缩小首层步幅，保留更细的时频变化。复现鸟声基线时，可以先清理重复样本，再单独测试频谱分辨率的影响。"
+    },
+    {
+      "topic": "推理与融合",
+      "lessonIDs": [
+        "w-10754",
+        "w-9832"
+      ],
+      "text": "两届 BirdCLEF 方案在不同阶段合并信息。2023 将注意力预测与时间维度上的最大预测组合，2022 的一个分支先平均三个检查点的权重，再参加队伍融合。可以分别记录两种操作带来的分数变化。"
+    },
+    {
+      "topic": "验证设计",
+      "lessonIDs": [
+        "w-10754",
+        "w-11537"
+      ],
+      "text": "BirdCLEF 2023 用五折分层验证比较模型，2024 则发现某一折特别容易，并用信号强度检查差异。验证鸟声模型时，可以同时记录各折的类别分布、录音能量和单折成绩。"
+    },
+    {
+      "topic": "模型与训练",
+      "lessonIDs": [
+        "w-9832",
+        "w-11537"
+      ],
+      "text": "两届 BirdCLEF 都训练卷积网络识别鸟声。2022 的一个分支用 15 秒片段和次要鸟种标签训练，2024 把 10 秒片段转成 128 个 Mel 频带。比较窗口长度时，可以固定频谱配置与验证划分。"
+    },
+    {
+      "topic": "模型与训练",
+      "lessonIDs": [
+        "w-9008",
+        "w-8172"
+      ],
+      "text": "BMS 从分子图像生成多个结构字符串，CHAMPS 则把已知分子的原子和连接关系作为输入，同时预测多个原子对的性质。迁移方法前，先确定结构是要预测的目标，还是可以提供给模型的输入。"
+    },
+    {
+      "topic": "推理与融合",
+      "lessonIDs": [
+        "w-9008",
+        "w-8172"
+      ],
+      "text": "BMS 先排除无效分子结构，再用多个模型给候选排序。CHAMPS 直接融合多个模型预测的连续数值。两者的输出形式不同，可以分别检验候选排序和数值融合的收益。"
     }
   ]
 }

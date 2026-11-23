@@ -51,6 +51,14 @@ class EvidenceTests(unittest.TestCase):
             for step in lesson["steps"]:
                 self.assertIn(step["source"], range(len(lesson["sources"])))
 
+    def test_comparisons_reference_different_competitions_with_sources(self):
+        catalog = json.loads(CATALOG.read_text())
+        lessons = {lesson["id"]: lesson for lesson in catalog["lessons"]}
+        for comparison in catalog["comparisons"]:
+            cited = [lessons[key] for key in comparison["lessonIDs"]]
+            self.assertGreaterEqual(len({l["competitionID"] for l in cited}), 2)
+            self.assertTrue(all(l["steps"] and l["sources"] for l in cited))
+
 
 class ReadingTests(unittest.TestCase):
     def test_source_notes_reference_real_cells(self):
