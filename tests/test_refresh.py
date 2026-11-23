@@ -51,6 +51,23 @@ class EvidenceTests(unittest.TestCase):
             for step in lesson["steps"]:
                 self.assertIn(step["source"], range(len(lesson["sources"])))
 
+    def test_bilingual_reading_material_stays_paired(self):
+        catalog = json.loads(CATALOG.read_text())
+        for competition in catalog["competitions"]:
+            if "guide" in competition:
+                self.assertTrue(
+                    all(competition["guide"][lang] for lang in ("zh", "en"))
+                )
+                self.assertTrue(competition["summaryEN"])
+        for lesson in catalog["lessons"]:
+            if not lesson["steps"]:
+                continue
+            self.assertTrue(lesson["summaryEN"] and lesson["takeawayEN"])
+            self.assertTrue(all(step["bodyEN"] for step in lesson["steps"]))
+            if lesson.get("readingMode") != "code":
+                self.assertTrue(lesson["titleEN"])
+                self.assertTrue(all(lesson["exercise"][lang] for lang in ("zh", "en")))
+
     def test_comparisons_reference_different_competitions_with_sources(self):
         catalog = json.loads(CATALOG.read_text())
         lessons = {lesson["id"]: lesson for lesson in catalog["lessons"]}
@@ -68,6 +85,9 @@ class ReadingTests(unittest.TestCase):
         notes = guide(text)
         assert notes is not None
         self.assertEqual({p["reference"] for p in notes["steps"]}, {"Cell 1", "Cell 2"})
+        validation = next(p for p in notes["steps"] if p["title"] == "验证设计")
+        self.assertIn("minority examples", validation["bodyEN"])
+        self.assertIn("少数类样本数", validation["body"])
         self.assertIsNone(
             guide("Cell 1:\n# This notebook mentions CatBoostClassifier and KFold")
         )

@@ -1,54 +1,74 @@
 {
   "version": 1,
-  "updated": "2026-11-23T11:33:50Z",
+  "updated": "2026-11-23T11:54:16Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
       "title": "ARC Prize 2026 - ARC-AGI-2",
-      "summary": "Create an AI capable of novel reasoning",
+      "summary": "从示例网格推断变换规则，再解出新的网格。",
       "categories": [
         "NLP/LLM"
       ],
       "metric": "Abstraction and Reasoning Challenge",
       "start": "2026-03-25T17:38:19.547Z",
       "deadline": "2026-11-02T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2"
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2",
+      "summaryEN": "Infer a transformation from example grids and apply it to a new grid.",
+      "guide": {
+        "zh": "先把一题中的输入与输出并排看，分清哪些颜色、物体和空间关系保持不变。给候选规则换一个训练示例，检查它能否解释全部变化。记录整道题是否完全解对，逐像素平均容易掩盖规则错误。",
+        "en": "Place the input and output grids side by side and mark which objects, colors and spatial relations survive the transformation. Test a candidate rule against every demonstration before applying it to the unseen grid. Track whole puzzles solved as well as pixel errors."
+      }
     },
     {
       "id": "arc-prize-2026-arc-agi-3",
       "title": "ARC Prize 2026 - ARC-AGI-3",
-      "summary": "Create an AI capable of fluid intelligence",
+      "summary": "通过交互探索陌生环境，推断动作与目标之间的关系。",
       "categories": [
         "NLP/LLM"
       ],
       "metric": "ARC-AGI-3 Metric",
       "start": "2026-03-25T17:38:23.913Z",
       "deadline": "2026-11-02T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3"
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3",
+      "summaryEN": "Explore unfamiliar interactive environments and infer how actions advance the goal.",
+      "guide": {
+        "zh": "与静态网格推理相比，这里还要决定下一步观察什么。挑一个环境，逐步记下动作、画面变化以及当前假设，区分偶然变化和可重复的规律，再用另一条路径验证假设。",
+        "en": "Here the solver also chooses what to observe. For one environment, record each action, the screen change and your current hypothesis. Replay a different sequence to separate a repeatable interaction from a coincidence."
+      }
     },
     {
       "id": "arc-prize-2026-paper-track",
       "title": "ARC Prize 2026 - Paper Track",
-      "summary": "Document your conceptual approach for the ARC Prize 2026",
+      "summary": "用研究论文解释 ARC 推理方法及其证据。",
       "categories": [
         "NLP/LLM"
       ],
       "metric": "见竞赛规则",
       "start": "2026-03-25T17:38:13.097Z",
       "deadline": "2026-11-09T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track"
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track",
+      "summaryEN": "Document and evaluate a reasoning approach for the ARC Prize research track.",
+      "guide": {
+        "zh": "读论文时先写下作者想解释的推理能力，再检查实验能否把它与记忆样例区分开来。把方法、对照、失败题型分开记录，最后查看官方征稿说明中的评审标准。",
+        "en": "Start with the reasoning capability the paper claims to measure. Read the controls and failure cases to see whether the experiment separates generalization from memorizing examples. Use the official paper-track criteria to interpret the evidence."
+      }
     },
     {
       "id": "biohub-cell-tracking-during-development",
       "title": "Biohub - Cell Tracking During Development",
-      "summary": "Detect and track zebrafish cells through 3D space and time",
+      "summary": "在随时间采集的三维图像中定位并跟踪细胞。",
       "categories": [
         "视觉"
       ],
       "metric": "CZI Biohub Zebrafish 133605",
       "start": "2026-06-29T19:01:13.613Z",
       "deadline": "2026-09-29T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development"
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+      "summaryEN": "Locate and track cells across a sequence of three-dimensional images.",
+      "guide": {
+        "zh": "这里既要在单帧找到目标，也要把相邻时刻的检测连成轨迹。挑一段短序列，分别标记漏检、重复检测和轨迹身份交换。这样可以判断改进应集中在定位还是跨帧关联。",
+        "en": "Separate two tasks while reading a solution: locating each object in one volume and linking detections over time. Inspect a short sequence and label missed detections, duplicates and identity switches to find which stage accounts for an error."
+      }
     },
     {
       "id": "birdclef-2022",
@@ -60,7 +80,12 @@
       "metric": "Weighted Categorization Accuracy",
       "start": "2022-02-15T19:01:01.083Z",
       "deadline": "2022-05-24T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/birdclef-2022"
+      "url": "https://www.kaggle.com/competitions/birdclef-2022",
+      "summaryEN": "Identify bird calls in Hawaiian soundscapes.",
+      "guide": {
+        "zh": "背景声可能比目标鸟鸣更响，一段录音里也可能有多个鸟种。先听同一鸟种在不同背景下的片段，再查看时频图上短促叫声出现的位置。比较不同模型时，保留相同的切片边界与评估录音。",
+        "en": "A recording can contain several species, and the background may dominate a quiet call. Listen to the same species in different settings and locate the short calls on a spectrogram. Keep segment boundaries and evaluation recordings fixed when comparing detectors."
+      }
     },
     {
       "id": "birdclef-2023",
@@ -72,7 +97,12 @@
       "metric": "buffered_cmAP",
       "start": "2023-03-07T17:37:05.333Z",
       "deadline": "2023-05-24T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/birdclef-2023"
+      "url": "https://www.kaggle.com/competitions/birdclef-2023",
+      "summaryEN": "Identify bird species in Kenyan field recordings.",
+      "guide": {
+        "zh": "历届训练资料可能重复，同一声音出现在训练和验证两端会让分数看起来过好。先看每个物种有多少独立录音，再用同一划分比较两种模型。结合各物种成绩判断改动是否也帮助了少见鸟种。",
+        "en": "Recordings recur across collections. If a copy reaches both training and validation, the model can recognize the clip itself. Count independent recordings per species before comparing models on the same split, then inspect rare species separately."
+      }
     },
     {
       "id": "birdclef-2024",
@@ -84,7 +114,12 @@
       "metric": "Birdclef ROC AUC",
       "start": "2024-04-03T18:00:10.537Z",
       "deadline": "2024-06-10T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/birdclef-2024"
+      "url": "https://www.kaggle.com/competitions/birdclef-2024",
+      "summaryEN": "Recognize bird species in continuous recordings from the Western Ghats.",
+      "guide": {
+        "zh": "带标签的短录音往往能清楚听见目标鸟，连续声景里则有安静区间、远处鸟鸣和多种背景声。先比较两类音频的时长与能量分布，然后在固定验证折上分别记录常见与稀有鸟种的 AUC，再判断加入无标签声景是否值得。",
+        "en": "Labeled clips often foreground one bird. A continuous soundscape also contains quiet stretches, distant calls and overlapping sounds. Compare duration and signal energy across the two collections. On a fixed fold, inspect AUC by species before deciding whether unlabeled soundscapes help."
+      }
     },
     {
       "id": "bms-molecular-translation",
@@ -97,7 +132,12 @@
       "metric": "Levenshtein Mean",
       "start": "2021-03-02T18:57:15.073Z",
       "deadline": "2021-06-03T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/bms-molecular-translation"
+      "url": "https://www.kaggle.com/competitions/bms-molecular-translation",
+      "summaryEN": "Transcribe a molecular structure image into its InChI string.",
+      "guide": {
+        "zh": "模型接收图像，提交的是字符串。读错一个符号可能引入多个字符编辑。先把错误分成图像识别、字符串生成和候选排序三类，再用编辑距离比较改进，保留原图以便回查。",
+        "en": "The input is an image and the output is a string. A single misread symbol can require several character edits. Keep the image beside each prediction, label errors from visual recognition, sequence generation or reranking, and compare their edit distances."
+      }
     },
     {
       "id": "champs-scalar-coupling",
@@ -109,7 +149,12 @@
       "metric": "Group Mean Log MAE",
       "start": "2019-05-29T20:12:00.193Z",
       "deadline": "2019-08-28T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/champs-scalar-coupling"
+      "url": "https://www.kaggle.com/competitions/champs-scalar-coupling",
+      "summaryEN": "Predict scalar coupling constants for atom pairs from molecular structures.",
+      "guide": {
+        "zh": "同一个分子里有多个待预测的原子对，它们共享结构背景。用分子而非单行划分本地验证，再按耦合类型分开统计绝对误差，可判断总分的变化主要来自哪一类原子对。",
+        "en": "Several target pairs can belong to the same molecule and share structural context. Hold out whole molecules in a local experiment. Break absolute errors down by coupling type to see which groups drive a change in the overall score."
+      }
     },
     {
       "id": "connectx",
@@ -121,7 +166,12 @@
       "metric": "Connect X",
       "start": "2020-01-03T21:25:59Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/connectx"
+      "url": "https://www.kaggle.com/competitions/connectx",
+      "summaryEN": "Build an agent that connects pieces in a line on a game board.",
+      "guide": {
+        "zh": "每步落子同时改变自己的连线机会和对方的威胁。先用少量固定棋局测试能否发现一步获胜和必须防守的位置，再让智能体轮流执先、执后与同一对手对局，分别记录胜率。",
+        "en": "Each move affects both your winning lines and the opponent’s threats. Start with positions that have a forced win or a mandatory block. Then alternate which agent moves first against a fixed opponent and report results by starting side."
+      }
     },
     {
       "id": "contradictory-my-dear-watson",
@@ -133,7 +183,12 @@
       "metric": "Categorization Accuracy",
       "start": "2020-07-30T21:03:15.780Z",
       "deadline": "2030-07-01T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/contradictory-my-dear-watson"
+      "url": "https://www.kaggle.com/competitions/contradictory-my-dear-watson",
+      "summaryEN": "Classify multilingual sentence pairs as entailment, contradiction or neutral.",
+      "guide": {
+        "zh": "输入包含前提与假设，词语相似并不能确定逻辑关系。挑出词汇重合但标签不同的句对，观察否定、数量和指代。按语言查看混淆矩阵，可以发现整体准确率掩盖的弱点。",
+        "en": "The input is a premise and a hypothesis. Inspect pairs with overlapping vocabulary but different labels, especially those involving negation, quantities or references. Compare confusion matrices by language to find weaknesses hidden by overall accuracy."
+      }
     },
     {
       "id": "digit-recognizer",
@@ -145,7 +200,12 @@
       "metric": "Categorization Accuracy",
       "start": "2012-07-25T20:43:30.087Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/digit-recognizer"
+      "url": "https://www.kaggle.com/competitions/digit-recognizer",
+      "summaryEN": "Classify handwritten MNIST digits from their pixel values.",
+      "guide": {
+        "zh": "每行像素需要按原顺序恢复成图像。先画出几张样本，确认方向和归一化一致，再查看最常互相混淆的两类数字。用同一验证集比较线性基线和卷积模型，保存错分样例。",
+        "en": "Restore each row of pixels to an image before modeling. Plot examples to verify orientation and scaling, then inspect the pair of digits your baseline confuses most often. Compare a linear classifier and a convolutional model on the same split."
+      }
     },
     {
       "id": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -157,7 +217,12 @@
       "metric": "CASMI: Mean Average Precision",
       "start": "2026-09-14T22:57:37.417Z",
       "deadline": "2026-12-14T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra"
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+      "summaryEN": "Infer two-dimensional molecular structures from mass spectra of complex extracts.",
+      "guide": {
+        "zh": "这是候选检索和排序问题。先检查正确结构是否进入候选集，再查看它被排到第几位。如果第一步失败，再好的重排模型也无从选中目标。分别记录候选覆盖率和平均精度有助于定位瓶颈。",
+        "en": "Treat candidate retrieval and ranking as separate stages. First check whether the correct structure enters the candidate set, then inspect its rank. Recording coverage alongside average precision tells you whether to improve retrieval or reranking."
+      }
     },
     {
       "id": "feedback-prize-english-language-learning",
@@ -169,7 +234,12 @@
       "metric": "Mean Weighted Columnwise Root Mean Squared Error",
       "start": "2022-08-30T17:23:07.433Z",
       "deadline": "2022-11-29T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning"
+      "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning",
+      "summaryEN": "Score English-language learners’ essays across six writing dimensions.",
+      "guide": {
+        "zh": "同一篇作文有六个分数，各维度相关但误差可能不同。保留按作文划分的折外预测，为每个维度分别计算误差，再看加权总分。阅读融合方案时重点检查权重在哪些样本上学到。",
+        "en": "Each essay has six related scores. Keep out-of-fold predictions grouped by essay, calculate error per dimension, then inspect the weighted aggregate. When reading an ensemble, identify which essays were used to learn its weights."
+      }
     },
     {
       "id": "gemma-4-developer-agent",
@@ -182,12 +252,17 @@
       "metric": "Gemma 4 Developer Agent (149921)",
       "start": "2026-09-23T14:05:47.363Z",
       "deadline": "2026-12-02T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent"
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
+      "summaryEN": "Build a software-development agent around Gemma 4.",
+      "guide": {
+        "zh": "先选一道可在本地运行测试的编程题，记录初始代码、智能体提出的修改和测试输出。分别统计读题错误、修改错误及运行超时，再在相同预算下比较提示词或工具配置。",
+        "en": "Choose a programming task with local tests. Save the initial code, proposed patch and test output. Distinguish task misunderstandings, incorrect edits and timeouts before comparing prompts or tool configurations under the same budget."
+      }
     },
     {
       "id": "gemma-4-developer-agent-paper",
       "title": "Google - The Gemma 4 Developer Agent Paper Track",
-      "summary": "Submit a Research Paper advancing the state-of-the-art for agentic software engineering",
+      "summary": "用研究论文评估面向软件开发的智能体方法。",
       "categories": [
         "NLP/LLM",
         "智能体"
@@ -195,7 +270,12 @@
       "metric": "见竞赛规则",
       "start": "2026-09-23T15:15:22.937Z",
       "deadline": "2026-11-12T23:59:00.807Z",
-      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper"
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper",
+      "summaryEN": "Evaluate a software-engineering agent approach in a research paper.",
+      "guide": {
+        "zh": "阅读时先把论文的主张改写成可测量的问题，例如相同预算下通过多少道测试。核对基准、工具权限和停止条件，比较失败案例，最后检查论文赛道要求提交的证据。",
+        "en": "Turn the paper’s claim into a measurable question, such as tests passed under a fixed budget. Check the benchmark, available tools and stopping criteria. Compare failure cases and refer to the track rules for the evidence required."
+      }
     },
     {
       "id": "google-verifiable-quantum-circuit-compilation",
@@ -207,7 +287,12 @@
       "metric": "Google Quantum AI Metric",
       "start": "2026-10-22T18:00:26.327Z",
       "deadline": "2027-01-20T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
+      "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
+      "summaryEN": "Reduce the resource cost of quantum circuits while preserving verifiable behavior.",
+      "guide": {
+        "zh": "先区分两个目标：改写前后是否等价、通过验证后成本降低多少。保存一份基线电路，只替换一处门序列，比较资源计数并运行官方验证器。抽样模拟适合定位问题，接受条件以验证器为准。",
+        "en": "Separate correctness from cost. Save a baseline circuit, replace one gate sequence, compare resource counts and run the official verifier. Sample simulations help locate errors. Use the verifier’s acceptance criteria when interpreting the reported cost."
+      }
     },
     {
       "id": "home-data-for-ml-course",
@@ -219,7 +304,12 @@
       "metric": "Mean Absolute Error",
       "start": "2018-07-18T19:25:27.107Z",
       "deadline": "2030-01-01T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/home-data-for-ml-course"
+      "url": "https://www.kaggle.com/competitions/home-data-for-ml-course",
+      "summaryEN": "Predict home prices from property attributes in the Kaggle Learn exercise.",
+      "guide": {
+        "zh": "可先只用面积和房间数训练小模型，把验证误差换算成平均相差多少成交金额。再添加一组分类特征，保持样本划分不变，并统计缺失值出现时的误差。",
+        "en": "Fit a small baseline using size and room counts. Interpret mean absolute error in sale-price units. Add one group of categorical features on the same split, then inspect errors on properties with missing attributes."
+      }
     },
     {
       "id": "house-prices-advanced-regression-techniques",
@@ -231,7 +321,12 @@
       "metric": "Root Mean Squared Logarithmic Error",
       "start": "2016-08-30T01:08:56.763Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques"
+      "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques",
+      "summaryEN": "Predict sale prices from residential property attributes.",
+      "guide": {
+        "zh": "房价分布右侧往往有少数高价样本。比较原始价格和对数价格建模时，在同一组房屋上按官方指标评估，再把预测还原到金额查看误差。检查地段或价格档是否系统性偏高、偏低。",
+        "en": "Compare models trained on raw and log prices using the official metric on the same houses. Convert predictions back to currency as a second diagnostic. Break errors down by neighborhood or price band to find systematic over- or underestimation."
+      }
     },
     {
       "id": "image-matching-challenge-2023",
@@ -243,19 +338,29 @@
       "metric": "imc2023",
       "start": "2023-04-11T20:20:46.877Z",
       "deadline": "2023-06-12T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023"
+      "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023",
+      "summaryEN": "Recover camera poses from images taken at different viewpoints.",
+      "guide": {
+        "zh": "两幅图像有相似纹理，并不保证它们看到同一个三维点。先查看有重叠区域的图像对和局部匹配，再观察这些点在多个视角中的几何一致性。把未匹配成功和位姿估计错误分开分析。",
+        "en": "A similar texture in two views does not guarantee a shared 3D point. Inspect overlapping image pairs and their local matches, then check whether the matches agree across multiple cameras. Separate missing correspondences from pose-estimation errors."
+      }
     },
     {
       "id": "kaggriculture",
       "title": "Kaggriculture",
-      "summary": "Create an agent to play in this farming simulation and compete with others to maximize your income",
+      "summary": "在农场模拟游戏中开发智能体，与其他玩家竞争收入。",
       "categories": [
         "智能体"
       ],
       "metric": "kaggriculture",
       "start": "2026-07-30T16:15:52.123Z",
       "deadline": "2026-10-14T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/kaggriculture"
+      "url": "https://www.kaggle.com/competitions/kaggriculture",
+      "summaryEN": "Build a farming-simulation agent that competes to earn income.",
+      "guide": {
+        "zh": "行动的收益可能要等多个回合才会体现。先固定游戏种子和对手，以一个简单策略作为基线，记录不同阶段的收入和支出。比较策略时同时看最终收入和表现最差的对局。",
+        "en": "A decision may pay off several turns later. Fix game seeds and opponents, run a simple baseline policy, and track income and expenses by stage. Compare final income alongside the lowest-performing games."
+      }
     },
     {
       "id": "llm-classification-finetuning",
@@ -267,7 +372,12 @@
       "metric": "Log Loss",
       "start": "2024-10-16T19:00:30.487Z",
       "deadline": "2030-07-01T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/llm-classification-finetuning"
+      "url": "https://www.kaggle.com/competitions/llm-classification-finetuning",
+      "summaryEN": "Predict human preferences between model responses in Chatbot Arena conversations.",
+      "guide": {
+        "zh": "要输出的是相对偏好。先交换两份回答的顺序，检查预测能否相应交换，并留意平局样本。用对数损失检查概率质量，尤其关注模型很自信却判断错误的对话。",
+        "en": "Predict a relative preference. Swap the two responses to test whether the prediction swaps appropriately and inspect ties separately. Log loss makes confidently wrong predictions particularly important, so review those conversations directly."
+      }
     },
     {
       "id": "lux-ai-season-3",
@@ -279,7 +389,12 @@
       "metric": "Lux AI Season 3",
       "start": "2024-12-09T19:47:51.783Z",
       "deadline": "2025-03-24T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/lux-ai-season-3"
+      "url": "https://www.kaggle.com/competitions/lux-ai-season-3",
+      "summaryEN": "Train an agent to compete in a partially observed grid game.",
+      "guide": {
+        "zh": "当前画面只揭示部分地图，策略需要决定哪些历史观测仍然可信。比较只看当前帧与保留历史的两个基线，用同一组对手和种子测试，并按探索阶段和后期决策回看失误。",
+        "en": "Only part of the map is visible at each step. Compare a current-frame policy with one that retains past observations. Use identical seeds and opponents, then replay losses to distinguish exploration errors from late-game decisions."
+      }
     },
     {
       "id": "name-that-llm",
@@ -291,7 +406,12 @@
       "metric": "Balanced Accuracy Score",
       "start": "2026-10-14T13:15:00Z",
       "deadline": "2027-01-14T23:59:00.817Z",
-      "url": "https://www.kaggle.com/competitions/name-that-llm"
+      "url": "https://www.kaggle.com/competitions/name-that-llm",
+      "summaryEN": "Identify the language model that wrote a given passage.",
+      "guide": {
+        "zh": "同一家族的模型可能在词汇和标点上非常相似。按作者模型画混淆矩阵，区分跨家族和同家族错分。比较分类器时按类看召回率，避免发布样本较多的模型主导结论。",
+        "en": "Related models may have similar vocabulary and punctuation. Build a confusion matrix by author model and separate within-family from across-family errors. Inspect recall for each class alongside balanced accuracy."
+      }
     },
     {
       "id": "nfl-big-data-bowl-2020",
@@ -303,7 +423,12 @@
       "metric": "Continuous Rank Probability Score",
       "start": "2019-10-09T21:30:25.623Z",
       "deadline": "2020-01-06T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020"
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020",
+      "summaryEN": "Predict the distribution of rushing yards from player positions and motion.",
+      "guide": {
+        "zh": "目标是每个码数阈值上的累计概率，一次冲球只有一个实际推进距离。先验证提交曲线单调且取值合法，再对照开球方向、阵形和场地边界。相同比赛的回合应放在同一验证组。",
+        "en": "Predict a cumulative probability for each yardage threshold. Check that each row is monotone and bounded, then inspect play direction, formation and field boundaries. Group plays from the same game when building a validation split."
+      }
     },
     {
       "id": "nfl-big-data-bowl-2027",
@@ -316,7 +441,12 @@
       "metric": "见竞赛规则",
       "start": "2026-10-06T19:43:47.377Z",
       "deadline": "2027-01-06T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027",
+      "summaryEN": "Connect sensor traces from player assessments to regular-season NFL performance.",
+      "guide": {
+        "zh": "先确定传感器序列对应哪位球员和哪次测试，再考虑用速度、变化率或时间窗口概括动作。把同一球员的数据放在同一侧，检查训练时使用的特征在预测常规赛表现时是否已经可见。",
+        "en": "Map each sensor sequence to its player and assessment before aggregating speed, changes or time windows. Split by player so repeated tests cannot appear on both sides. Check that each feature would be available when forecasting regular-season outcomes."
+      }
     },
     {
       "id": "nlp-getting-started",
@@ -328,7 +458,12 @@
       "metric": "F-Score (Micro)",
       "start": "2019-12-23T22:02:26.193Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/nlp-getting-started"
+      "url": "https://www.kaggle.com/competitions/nlp-getting-started",
+      "summaryEN": "Decide whether a tweet describes an actual disaster.",
+      "guide": {
+        "zh": "包含灾害词汇的推文也可能是在开玩笑或使用比喻。用词袋分类器建立基线，再人工查看误报和漏报各一组。分别记录精确率与召回率，观察改变判定阈值后 F 分数如何变化。",
+        "en": "Disaster words also appear in jokes and metaphors. Build a bag-of-words baseline, then read a sample of false positives and false negatives. Track precision and recall separately while changing the classification threshold."
+      }
     },
     {
       "id": "optiver-realized-volatility-prediction",
@@ -341,7 +476,12 @@
       "metric": "Root Mean Square Percentage Error",
       "start": "2021-06-28T15:12:56.933Z",
       "deadline": "2022-01-10T18:36:00Z",
-      "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction"
+      "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction",
+      "summaryEN": "Forecast short-term realized volatility from order-book and trade records.",
+      "guide": {
+        "zh": "同一股票在不同时间段有不同的交易活跃度。先按时间窗口整理订单簿和成交统计量，再用较早窗口训练、较晚窗口验证。比较邻居特征时，检查每个邻居在预测时点是否已经可见。",
+        "en": "Aggregate order-book and trade statistics within each time window. Fit on earlier periods and validate on later ones. If you add features from similar stocks or time windows, check that every neighbor would have been available at prediction time."
+      }
     },
     {
       "id": "physical-engineerings-last-exam",
@@ -354,19 +494,29 @@
       "metric": "见竞赛规则",
       "start": "2026-11-09T19:19:06.950Z",
       "deadline": "2027-01-05T23:59:59Z",
-      "url": "https://www.kaggle.com/competitions/physical-engineerings-last-exam"
+      "url": "https://www.kaggle.com/competitions/physical-engineerings-last-exam",
+      "summaryEN": "Build an agent to solve structural, civil, electrical and mechanical engineering questions.",
+      "guide": {
+        "zh": "先把题目中的已知量、要求量和单位整理成表，再用少量代表题检查输出格式、单位转换和推理过程。对比两个智能体时固定题集与工具预算，按错误类型统计，避免几道长题左右结论。",
+        "en": "List the givens, target variables and units for representative questions. Check answer format and dimensional consistency before comparing reasoning approaches. Use the same questions and tool budget, and group errors by type."
+      }
     },
     {
       "id": "playground-series-s6e10",
       "title": "Predicting Airline Satisfaction",
-      "summary": "Playground Series - Season 6 Episode 10",
+      "summary": "根据乘机体验相关特征预测旅客是否满意。",
       "categories": [
         "表格"
       ],
       "metric": "Roc Auc Score",
       "start": "2026-10-01T00:00:00Z",
       "deadline": "2026-10-31T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/playground-series-s6e10"
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e10",
+      "summaryEN": "Predict airline passenger satisfaction from trip and service attributes.",
+      "guide": {
+        "zh": "先检查评分字段的取值范围，区分缺失和低分。用简单分类器估计满意概率，在同一验证集上比较服务评分与行程特征各自的贡献，再看哪些旅客最容易被排错。",
+        "en": "Check rating scales and distinguish missing values from low scores. Start with a simple probability model, compare service ratings and trip attributes on the same holdout, and inspect which passengers are ranked incorrectly."
+      }
     },
     {
       "id": "playground-series-s6e11",
@@ -378,24 +528,34 @@
       "metric": "Roc Auc Score",
       "start": "2026-11-01T00:00:00Z",
       "deadline": "2026-11-30T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/playground-series-s6e11"
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e11",
+      "summaryEN": "Rank transactions by their estimated risk of credit-card fraud.",
+      "guide": {
+        "zh": "欺诈通常是少数类，把全部交易预测为正常也可能得到很高的准确率。先比较正常和欺诈交易的风险分数分布，再检查高风险区间里有多少真阳性。用 AUC 评价整体排序，也要查看接近阈值的错序样本。",
+        "en": "Fraud is a minority class, so a high accuracy can conceal a poor ranking. Plot scores for both classes and measure how many frauds reach the high-risk tail. Use AUC for ranking and inspect errors near an operational threshold."
+      }
     },
     {
       "id": "playground-series-s6e9",
       "title": "Predicting Electric Vehicle Purchases",
-      "summary": "Playground Series - Season 6 Episode 9",
+      "summary": "根据表格特征预测电动车购买倾向。",
       "categories": [
         "表格"
       ],
       "metric": "Roc Auc Score",
       "start": "2026-09-01T00:00:00Z",
       "deadline": "2026-09-30T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/playground-series-s6e9"
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e9",
+      "summaryEN": "Rank customers by their likelihood of purchasing an electric vehicle.",
+      "guide": {
+        "zh": "先训练一个简单概率模型，保留每个验证样本的预测。按得分从低到高分组，查看实际购买率是否随之上升。加入交互特征后，用相同样本比较排序变化与 AUC。",
+        "en": "Keep holdout probabilities from a simple baseline. Group examples by predicted score and check whether observed purchase rates rise across groups. Add interactions one at a time and compare changes in ranking and AUC on the same rows."
+      }
     },
     {
       "id": "rsna-knee-abnormality-detection",
       "title": "RSNA Knee Abnormality Detection",
-      "summary": "Create a model that can detect knee abnormalities based on multimodal imaging data",
+      "summary": "使用多模态影像检测膝部异常。",
       "categories": [
         "视觉",
         "NLP/LLM"
@@ -403,7 +563,12 @@
       "metric": "Roc Auc Score",
       "start": "2026-08-05T15:51:31.833Z",
       "deadline": "2026-10-22T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection"
+      "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection",
+      "summaryEN": "Detect knee abnormalities from multimodal imaging data.",
+      "guide": {
+        "zh": "同一检查可能提供多种视图或模态。先核对影像与标签的对应关系，按患者划分验证，避免同一人出现在两侧。比较单模态与多模态模型的错误类型，并检查缺失模态的样本。",
+        "en": "An examination may contain multiple views or modalities. Verify image-to-label alignment and group validation by patient. Compare error types for single- and multimodal models and inspect examinations with missing inputs."
+      }
     },
     {
       "id": "santa-2025",
@@ -415,7 +580,12 @@
       "metric": "Santa 2025 Metric",
       "start": "2025-11-17T18:25:29.117Z",
       "deadline": "2026-01-30T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/santa-2025"
+      "url": "https://www.kaggle.com/competitions/santa-2025",
+      "summaryEN": "Pack tree-shaped pieces into the smallest enclosing square.",
+      "guide": {
+        "zh": "每个候选布局既要放得紧，也要通过无重叠的可行性检查。选小规模实例画出边界与接触位置，分别记录边长和重叠。比较搜索方法时固定运行时间，并统计多次运行的最好值和中位数。",
+        "en": "A compact layout still has to be feasible. Draw the boundary and contact points for small instances and report side length separately from overlap. Compare search methods under equal runtime using both best and median outcomes."
+      }
     },
     {
       "id": "santa-2026",
@@ -427,7 +597,12 @@
       "metric": "Santa 2026 Metric",
       "start": "2026-11-18T00:56:01.297Z",
       "deadline": "2027-01-28T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/santa-2026"
+      "url": "https://www.kaggle.com/competitions/santa-2026",
+      "summaryEN": "Construct target integers from small starting values using as few arithmetic steps as possible.",
+      "guide": {
+        "zh": "一个中间结果可能帮助构造多个后续数。先在小目标上记录每一步运算及其输入，重放序列检查合法性，再比较不同构造需要多少步。把无效表达式和有效但过长的序列分开处理。",
+        "en": "Intermediate results can be reused. For small targets, record each operation and its operands, replay the sequence to verify legality, then compare step counts. Separate invalid constructions from valid sequences that are merely long."
+      }
     },
     {
       "id": "santander-customer-transaction-prediction",
@@ -439,7 +614,12 @@
       "metric": "Area Under Receiver Operating Characteristic Curve",
       "start": "2019-02-13T23:00:00Z",
       "deadline": "2019-04-10T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction"
+      "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction",
+      "summaryEN": "Predict whether a customer will transact from anonymized numerical features.",
+      "guide": {
+        "zh": "没有业务字段名时，可以先研究每列的分布、重复值和缺失模式。用同一验证划分比较原始数值与频次编码，明确计算频次时可访问哪些样本，之后再评估特征能否迁移。",
+        "en": "With anonymized columns, begin with distributions, repeated values and missingness. Compare raw values with frequency encodings on the same fold. State exactly which rows were available when computing counts before interpreting their transferability."
+      }
     },
     {
       "id": "spaceship-titanic",
@@ -451,7 +631,12 @@
       "metric": "Categorization Accuracy",
       "start": "2022-02-23T19:33:28.377Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/spaceship-titanic"
+      "url": "https://www.kaggle.com/competitions/spaceship-titanic",
+      "summaryEN": "Predict whether each fictional passenger was transported to another dimension.",
+      "guide": {
+        "zh": "乘客可能属于同一旅行团，组内属性会相关。比较按行随机划分与按团分组划分的结果，检查舱位、消费和缺失字段。加入团体统计时，把统计量的计算限定在当前可见的信息内。",
+        "en": "Passengers can travel in groups. Compare a random row split with a group-aware split and inspect cabin, spending and missing-value fields. Compute group statistics only from information available at prediction time."
+      }
     },
     {
       "id": "squares-in-squares",
@@ -463,7 +648,12 @@
       "metric": "Squares in Squares",
       "start": "2026-10-21T21:00:04.467Z",
       "deadline": "2027-07-18T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/squares-in-squares"
+      "url": "https://www.kaggle.com/competitions/squares-in-squares",
+      "summaryEN": "Pack a given number of unit squares inside the smallest possible square.",
+      "guide": {
+        "zh": "平移和旋转会同时改变边界与碰撞约束。先在少量方块上验证几何判定，画出最接近重叠的两块。优化阶段分别记录可行率和最小外框边长，以免用无效布局产生看似更好的结果。",
+        "en": "Translations and rotations change boundary and collision constraints together. Test geometry checks on small cases and plot the closest pair of squares. Track feasibility and enclosing side length separately so an invalid arrangement cannot appear to improve the result."
+      }
     },
     {
       "id": "store-sales-time-series-forecasting",
@@ -476,7 +666,12 @@
       "metric": "Root Mean Squared Logarithmic Error",
       "start": "2021-10-06T17:45:52.597Z",
       "deadline": "2030-06-30T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting"
+      "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting",
+      "summaryEN": "Forecast retail sales across stores and product families from historical records.",
+      "guide": {
+        "zh": "样本由日期、门店和商品类别共同标识。用向后滚动的窗口做本地验证，比较上一周同日销量与学习模型。加入滞后特征前，逐列检查其值只来自预测日期之前。",
+        "en": "Rows are indexed by date, store and product family. Use rolling time splits and compare a same-weekday baseline against a learned model. Check that every lag or rolling statistic uses only dates available at the forecast origin."
+      }
     },
     {
       "id": "the-pokemon-company-ptcg-ai-battle-challenge-playground",
@@ -488,7 +683,12 @@
       "metric": "cabt_bo3",
       "start": "2026-09-29T00:31:00.783Z",
       "deadline": "2027-01-08T23:59:59Z",
-      "url": "https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground"
+      "url": "https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground",
+      "summaryEN": "Train an agent to play Pokémon Trading Card Game battles.",
+      "guide": {
+        "zh": "每个回合要在合法动作中选择，单局结果还受抽牌影响。先实现一个能完成整局的简单策略，再固定对手和种子比较不同决策。记录胜率时同时保留关键转折回合，便于解释改进。",
+        "en": "The policy selects from legal actions, and card draws add variance. Start with a policy that completes a game. Compare decisions against fixed opponents and seeds, and keep pivotal turns alongside win rates to explain differences."
+      }
     },
     {
       "id": "titanic",
@@ -500,7 +700,12 @@
       "metric": "Categorization Accuracy",
       "start": "2012-09-28T21:13:33.550Z",
       "deadline": "2030-01-01T00:00:00Z",
-      "url": "https://www.kaggle.com/competitions/titanic"
+      "url": "https://www.kaggle.com/competitions/titanic",
+      "summaryEN": "Predict passenger survival from Titanic passenger records.",
+      "guide": {
+        "zh": "从性别、年龄、舱位等字段建立简单生还概率基线，先检查年龄缺失集中在哪些群体。家庭成员或同票号乘客可能相关，试着按同行群体分组验证，再判断特征是否真的带来可迁移的增益。",
+        "en": "Start with survival probabilities from sex, age and class. Inspect which groups have missing ages. Family members or passengers sharing a ticket can be related, so try group-aware validation before trusting improvements from group features."
+      }
     },
     {
       "id": "tpu-getting-started",
@@ -512,7 +717,12 @@
       "metric": "F-Score (Macro)",
       "start": "2020-06-18T23:27:53.083Z",
       "deadline": "2030-06-03T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/tpu-getting-started"
+      "url": "https://www.kaggle.com/competitions/tpu-getting-started",
+      "summaryEN": "Classify flower photographs using models trained on a TPU.",
+      "guide": {
+        "zh": "外观相似的花种可能只有局部纹理或花瓣形态不同。固定训练和验证图像，比较输入分辨率与裁剪方式。按类别查看误报和漏报，避免样本较多的花种掩盖宏平均 F 分数的变化。",
+        "en": "Similar flower species may differ only in local texture or petal shape. Keep the split fixed when comparing crop and resolution choices. Inspect false positives and negatives by species to understand changes in macro F-score."
+      }
     }
   ],
   "lessons": [
@@ -541,18 +751,20 @@
         }
       ],
       "title": "feature engineering + optuna + stacked pipe",
-      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 51",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 72",
           "source": 0
         }
@@ -562,7 +774,9 @@
         "XGBRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458"
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
+      "summaryEN": "The source contains calls to OneHotEncoder, XGBRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 33861524,
@@ -622,18 +836,20 @@
         }
       ],
       "title": "Spaceship Titanic with Headjack.ai",
-      "summary": "从源码可直接定位 OrdinalEncoder、CatBoostClassifier 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 OrdinalEncoder、CatBoostClassifier 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OrdinalEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OrdinalEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OrdinalEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 17",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 CatBoostClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 CatBoostClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls CatBoostClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 31",
           "source": 0
         }
@@ -645,7 +861,9 @@
       "readingMode": "code",
       "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65",
       "kernelID": 34686858,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to OrdinalEncoder, CatBoostClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 35791777,
@@ -740,18 +958,20 @@
         }
       ],
       "title": "Improving the model to predict house prices",
-      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 51",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 72",
           "source": 0
         }
@@ -761,7 +981,9 @@
         "XGBRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458"
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
+      "summaryEN": "The source contains calls to OneHotEncoder, XGBRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-137447062",
@@ -787,37 +1009,42 @@
         }
       ],
       "title": "notebook47ff03911b",
-      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StratifiedKFold、OneHotEncoder、XGBClassifier 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 StratifiedKFold。阅读时可以这样核查：逐折统计标签比例与少数类样本数。比例相近仍可能存在同一对象跨折的问题，另行检查重复记录。",
+          "bodyEN": "The source calls StratifiedKFold here. Reading exercise: Count labels and minority examples in every fold. Similar proportions can still conceal the same entity on both sides, so check for duplicates separately.",
           "reference": "Cell 15",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 34",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 15",
           "source": 0
         }
       ],
       "tags": [
         "StratifiedKFold",
-        "XGBClassifier",
-        "OneHotEncoder"
+        "OneHotEncoder",
+        "XGBClassifier"
       ],
       "readingMode": "code",
       "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231",
       "kernelID": 41293038,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StratifiedKFold, OneHotEncoder, XGBClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-137447625",
@@ -843,37 +1070,42 @@
         }
       ],
       "title": "notebook3ee6724898",
-      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StratifiedKFold、OneHotEncoder、XGBClassifier 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 StratifiedKFold。阅读时可以这样核查：逐折统计标签比例与少数类样本数。比例相近仍可能存在同一对象跨折的问题，另行检查重复记录。",
+          "bodyEN": "The source calls StratifiedKFold here. Reading exercise: Count labels and minority examples in every fold. Similar proportions can still conceal the same entity on both sides, so check for duplicates separately.",
           "reference": "Cell 31",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 63",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 31",
           "source": 0
         }
       ],
       "tags": [
         "StratifiedKFold",
-        "XGBClassifier",
-        "OneHotEncoder"
+        "OneHotEncoder",
+        "XGBClassifier"
       ],
       "readingMode": "code",
       "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8",
       "kernelID": 41293245,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StratifiedKFold, OneHotEncoder, XGBClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-137448304",
@@ -899,37 +1131,42 @@
         }
       ],
       "title": "notebook24e6c4c34d",
-      "summary": "从源码可直接定位 StratifiedKFold、XGBClassifier、OneHotEncoder 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StratifiedKFold、OneHotEncoder、XGBClassifier 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 StratifiedKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 StratifiedKFold。阅读时可以这样核查：逐折统计标签比例与少数类样本数。比例相近仍可能存在同一对象跨折的问题，另行检查重复记录。",
+          "bodyEN": "The source calls StratifiedKFold here. Reading exercise: Count labels and minority examples in every fold. Similar proportions can still conceal the same entity on both sides, so check for duplicates separately.",
           "reference": "Cell 14",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 33",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 14",
           "source": 0
         }
       ],
       "tags": [
         "StratifiedKFold",
-        "XGBClassifier",
-        "OneHotEncoder"
+        "OneHotEncoder",
+        "XGBClassifier"
       ],
       "readingMode": "code",
       "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14",
       "kernelID": 41292945,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StratifiedKFold, OneHotEncoder, XGBClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-16413783",
@@ -988,44 +1225,50 @@
         }
       ],
       "title": "🛸 Space Titanic: EDA|Advanced Feature Engineering",
-      "summary": "从源码可直接定位 KFold、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、TfidfVectorizer、LogisticRegression 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 79",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 TfidfVectorizer。阅读时可以这样核查：选两个相似文本比较词向量，检查词表在哪些样本上拟合，以及验证集中的新词如何处理。",
+          "bodyEN": "The source calls TfidfVectorizer here. Reading exercise: Compare vectors for two similar texts. Trace which documents fit the vocabulary and what happens to words seen only in validation.",
           "reference": "Cell 85",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 79",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 79",
           "source": 0
         }
       ],
       "tags": [
         "KFold",
+        "TfidfVectorizer",
         "LogisticRegression",
-        "predict_proba",
-        "TfidfVectorizer"
+        "predict_proba"
       ],
       "readingMode": "code",
       "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2",
       "kernelID": 53400434,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to KFold, TfidfVectorizer, LogisticRegression. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-182967677",
@@ -1051,18 +1294,20 @@
         }
       ],
       "title": "SpaceshipTitanic|Models|V2",
-      "summary": "从源码可直接定位 KFold、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 19",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 19",
           "source": 0
         }
@@ -1074,7 +1319,9 @@
       "readingMode": "code",
       "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4",
       "kernelID": 59650646,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to KFold, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 72633339,
@@ -1304,30 +1551,34 @@
         }
       ],
       "title": "optuna on 3 model stack",
-      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 1",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 1",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 CatBoostRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 CatBoostRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls CatBoostRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 1",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 mean_squared_error。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 mean_squared_error。阅读时可以这样核查：保存每行残差并排序，查看少数大误差对平方误差的贡献。确认计算时使用的是原目标还是变换后的目标。",
+          "bodyEN": "The source calls mean_squared_error here. Reading exercise: Sort the residuals and inspect how much large misses contribute to squared error. Check whether evaluation uses the original or a transformed target.",
           "reference": "Cell 1",
           "source": 0
         }
@@ -1339,7 +1590,9 @@
         "mean_squared_error"
       ],
       "readingMode": "code",
-      "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd"
+      "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd",
+      "summaryEN": "The source contains calls to KFold, OneHotEncoder, CatBoostRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 104405477,
@@ -1366,24 +1619,27 @@
         }
       ],
       "title": "improved ensemble and features",
-      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 1",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 1",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 CatBoostRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 CatBoostRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls CatBoostRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 1",
           "source": 0
         }
@@ -1394,7 +1650,9 @@
         "CatBoostRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa"
+      "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa",
+      "summaryEN": "The source contains calls to KFold, OneHotEncoder, CatBoostRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 106841507,
@@ -1454,24 +1712,27 @@
         }
       ],
       "title": "Basic NLP on Disaster Tweets",
-      "summary": "从源码可直接定位 CountVectorizer、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 CountVectorizer、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 CountVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 CountVectorizer。阅读时可以这样核查：选两个相似文本比较词向量，检查词表在哪些样本上拟合，以及验证集中的新词如何处理。",
+          "bodyEN": "The source calls CountVectorizer here. Reading exercise: Compare vectors for two similar texts. Trace which documents fit the vocabulary and what happens to words seen only in validation.",
           "reference": "Cell 46",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 53",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 73",
           "source": 0
         }
@@ -1484,7 +1745,9 @@
       "readingMode": "code",
       "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477",
       "kernelID": 8325963,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to CountVectorizer, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 110936631,
@@ -1511,35 +1774,40 @@
         }
       ],
       "title": "Top 18 | TabPFN for Housing Price",
-      "summary": "从源码可直接定位 TfidfVectorizer、LGBMRegressor、KFold 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、TfidfVectorizer、LGBMRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 25",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 TfidfVectorizer。阅读时可以这样核查：选两个相似文本比较词向量，检查词表在哪些样本上拟合，以及验证集中的新词如何处理。",
+          "bodyEN": "The source calls TfidfVectorizer here. Reading exercise: Compare vectors for two similar texts. Trace which documents fit the vocabulary and what happens to words seen only in validation.",
           "reference": "Cell 17",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LGBMRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LGBMRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls LGBMRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 23",
           "source": 0
         }
       ],
       "tags": [
+        "KFold",
         "TfidfVectorizer",
-        "LGBMRegressor",
-        "KFold"
+        "LGBMRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036"
+      "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036",
+      "summaryEN": "The source contains calls to KFold, TfidfVectorizer, LGBMRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 111848602,
@@ -1769,30 +2037,34 @@
         }
       ],
       "title": "fork gemma 2 llama 3 preference ensemble on 2xt4",
-      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 Sequential、softmax 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "模型实现",
-          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 Sequential。阅读时可以这样核查：跟踪一个批次的输入、输出形状和目标标签，固定验证集跑一次基线，再单独改变一项设置。",
+          "bodyEN": "The source calls Sequential here. Reading exercise: Trace input shapes, output shapes and target labels for one batch. Run a baseline on a fixed holdout and change one setting at a time.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 softmax。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls softmax here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 5",
           "source": 0
         }
       ],
       "tags": [
-        "softmax",
-        "Sequential"
+        "Sequential",
+        "softmax"
       ],
       "readingMode": "code",
       "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6",
       "kernelID": 142726366,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to Sequential, softmax. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-366027967",
@@ -1818,30 +2090,34 @@
         }
       ],
       "title": "llmclf headtail r6",
-      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 Sequential、softmax 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "模型实现",
-          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 Sequential。阅读时可以这样核查：跟踪一个批次的输入、输出形状和目标标签，固定验证集跑一次基线，再单独改变一项设置。",
+          "bodyEN": "The source calls Sequential here. Reading exercise: Trace input shapes, output shapes and target labels for one batch. Run a baseline on a fixed holdout and change one setting at a time.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 softmax。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls softmax here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 5",
           "source": 0
         }
       ],
       "tags": [
-        "softmax",
-        "Sequential"
+        "Sequential",
+        "softmax"
       ],
       "readingMode": "code",
       "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f",
       "kernelID": 142919313,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to Sequential, softmax. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-368205932",
@@ -1867,30 +2143,34 @@
         }
       ],
       "title": "llmclf ander r7",
-      "summary": "从源码可直接定位 softmax、Sequential 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 Sequential、softmax 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "模型实现",
-          "body": "源码在这里调用 Sequential。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 Sequential。阅读时可以这样核查：跟踪一个批次的输入、输出形状和目标标签，固定验证集跑一次基线，再单独改变一项设置。",
+          "bodyEN": "The source calls Sequential here. Reading exercise: Trace input shapes, output shapes and target labels for one batch. Run a baseline on a fixed holdout and change one setting at a time.",
           "reference": "Cell 13",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 softmax。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 softmax。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls softmax here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 7",
           "source": 0
         }
       ],
       "tags": [
-        "softmax",
-        "Sequential"
+        "Sequential",
+        "softmax"
       ],
       "readingMode": "code",
       "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27",
       "kernelID": 144273720,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to Sequential, softmax. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 145666980,
@@ -1917,35 +2197,40 @@
         }
       ],
       "title": "Housing Prices For Beginers  Baptiste Favarette",
-      "summary": "从源码可直接定位 OneHotEncoder、KFold、RandomForestRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 KFold、OneHotEncoder、RandomForestRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 KFold。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls KFold here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 42",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 OneHotEncoder。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls OneHotEncoder here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 38",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 RandomForestRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 RandomForestRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls RandomForestRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 43",
           "source": 0
         }
       ],
       "tags": [
-        "OneHotEncoder",
         "KFold",
+        "OneHotEncoder",
         "RandomForestRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "db18980ce9c94e3832bc60981955f5487160940e634f81fb04be8e38c33ace8f"
+      "fingerprint": "db18980ce9c94e3832bc60981955f5487160940e634f81fb04be8e38c33ace8f",
+      "summaryEN": "The source contains calls to KFold, OneHotEncoder, RandomForestRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372174163",
@@ -1971,24 +2256,27 @@
         }
       ],
       "title": "GLM User Prefix - 0716 Reference Run",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2001,7 +2289,9 @@
       "readingMode": "code",
       "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464",
       "kernelID": 146400274,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372225976",
@@ -2027,18 +2317,20 @@
         }
       ],
       "title": "S6E11 Which Signals Rank Fraud V3 reproduction",
-      "summary": "从源码可直接定位 train_test_split、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 train_test_split、roc_auc_score 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 train_test_split。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 train_test_split。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls train_test_split here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 4",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 roc_auc_score。阅读时可以这样核查：取一对正负样本，比较它们的排序如何影响指标。核对传入的是连续分数还是离散标签，并按同一验证集比较。",
+          "bodyEN": "The source calls roc_auc_score here. Reading exercise: Inspect a positive–negative pair and its ordering. Check whether the metric receives continuous scores or hard labels and compare on the same holdout.",
           "reference": "Cell 4",
           "source": 0
         }
@@ -2050,7 +2342,9 @@
       "readingMode": "code",
       "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27",
       "kernelID": 146428323,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to train_test_split, roc_auc_score. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372228341",
@@ -2087,25 +2381,35 @@
           "title": "重建对照组",
           "body": "作者校验五份输入文件的 SHA-256，先重建固定的对照预测。输入顺序或文件变更会破坏这个对比。",
           "reference": "Cell 3",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Five input files are checked against SHA-256 digests to reconstruct a fixed baseline. A changed file or row order would invalidate the comparison."
         },
         {
           "title": "确定训练长度",
           "body": "保留欺诈标签的比例，留出 20% 数据评估 AUC，用早停选出树数，再用全部训练数据重训。",
           "reference": "Cell 5",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The author stratifies by the fraud label, holds out 20% for AUC evaluation, uses early stopping to choose a tree count and refits on the full training set."
         },
         {
           "title": "在风险档内调序",
           "body": "把 CatBoost 排名转成 logit，在 40 档中估计中位趋势。残差截断到 ±0.55 后乘以 0.035，加入原分。公布的榜分属于整份提交。",
           "reference": "Cell 5",
-          "source": 0
+          "source": 0,
+          "bodyEN": "CatBoost ranks are converted to logits. A median trend across 40 bands is subtracted, residuals are clipped to ±0.55 and multiplied by 0.035 before addition to the base score. The published score covers the entire submission."
         }
       ],
       "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2",
       "originalTitle": "S6E11 CatBoost within fraud risk bands",
       "stale": false,
-      "kernelID": 146429500
+      "kernelID": 146429500,
+      "titleEN": "Reordering fraud predictions within similar risk bands",
+      "summaryEN": "The author divides baseline predictions into 40 risk bands. CatBoost scores are centered on the typical score in each band, and a small residual adjusts the original ranking. The aim is to resolve near ties.",
+      "takeawayEN": "Keep baseline predictions fixed. Compare AUC and average rank movement before and after adjustment on a second split.",
+      "exercise": {
+        "zh": "选出基础分接近的一对正负样本，把原分、风险档中位趋势、残差和调整后名次放在同一行。如果分数变了但相对次序没变，这一对对 AUC 的贡献也没变。再汇总有多少对从错序变成正序，又有多少对反向变化。",
+        "en": "Pick a positive and negative example with nearly equal baseline scores. Write down the baseline, band trend, residual and final rank for both. A numerical change that leaves their order intact does not change their contribution to AUC. Count corrected pairs and newly inverted pairs separately."
+      }
     },
     {
       "id": "k-372338058",
@@ -2131,24 +2435,27 @@
         }
       ],
       "title": "NTL H195 v6 keep glm to fable",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2161,7 +2468,9 @@
       "readingMode": "code",
       "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480",
       "kernelID": 146488017,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372418637",
@@ -2187,24 +2496,27 @@
         }
       ],
       "title": "ntl-0719-glm-prefix-fable-gate",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2217,7 +2529,9 @@
       "readingMode": "code",
       "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
       "kernelID": 146536527,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372427597",
@@ -2243,24 +2557,27 @@
         }
       ],
       "title": "Test User Prefix - Guarded Fable Return",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2273,7 +2590,9 @@
       "readingMode": "code",
       "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
       "kernelID": 146541977,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 146576128,
@@ -2367,24 +2686,27 @@
         }
       ],
       "title": "ntl arb719true",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2397,7 +2719,9 @@
       "readingMode": "code",
       "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698",
       "kernelID": 146608867,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 146610489,
@@ -2525,24 +2849,27 @@
         }
       ],
       "title": "NTL 0719 Dennis Fable Return 20261122",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2555,7 +2882,9 @@
       "readingMode": "code",
       "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
       "kernelID": 146629269,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372588062",
@@ -2581,24 +2910,27 @@
         }
       ],
       "title": "NTL 0718 user prefix fable repro",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 12",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 12",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 12",
           "source": 0
         }
@@ -2611,7 +2943,9 @@
       "readingMode": "code",
       "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5",
       "kernelID": 146629410,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372609786",
@@ -2637,24 +2971,27 @@
         }
       ],
       "title": "ntl d719 fork",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 12",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 12",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 12",
           "source": 0
         }
@@ -2667,7 +3004,9 @@
       "readingMode": "code",
       "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f",
       "kernelID": 146640431,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "k-372627682",
@@ -2693,24 +3032,27 @@
         }
       ],
       "title": "ntl-0718a-glm-cover20",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
+          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 11",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
+          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
           "reference": "Cell 11",
           "source": 0
         }
@@ -2723,7 +3065,9 @@
       "readingMode": "code",
       "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea",
       "kernelID": 146649046,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 146651254,
@@ -2783,30 +3127,34 @@
         }
       ],
       "title": "Name That LLM 0717 Fork",
-      "summary": "从源码可直接定位 GroupKFold、TfidfVectorizer、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 GroupKFold、TfidfVectorizer、LogisticRegression 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 GroupKFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 GroupKFold。阅读时可以这样核查：打印每折的分组标识，验证训练与留出样本没有共享组，再比较各折样本量和类别比例。",
+          "bodyEN": "The source calls GroupKFold here. Reading exercise: Print the group IDs in each fold. Check that no group occurs on both sides, then compare fold sizes and class balance.",
           "reference": "Cell 3",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 TfidfVectorizer。阅读时可以这样核查：选两个相似文本比较词向量，检查词表在哪些样本上拟合，以及验证集中的新词如何处理。",
+          "bodyEN": "The source calls TfidfVectorizer here. Reading exercise: Compare vectors for two similar texts. Trace which documents fit the vocabulary and what happens to words seen only in validation.",
           "reference": "Cell 3",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
+          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
           "reference": "Cell 95",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 roc_auc_score。阅读时可以这样核查：取一对正负样本，比较它们的排序如何影响指标。核对传入的是连续分数还是离散标签，并按同一验证集比较。",
+          "bodyEN": "The source calls roc_auc_score here. Reading exercise: Inspect a positive–negative pair and its ordering. Check whether the metric receives continuous scores or hard labels and compare on the same holdout.",
           "reference": "Cell 3",
           "source": 0
         }
@@ -2814,13 +3162,15 @@
       "tags": [
         "GroupKFold",
         "TfidfVectorizer",
-        "roc_auc_score",
-        "LogisticRegression"
+        "LogisticRegression",
+        "roc_auc_score"
       ],
       "readingMode": "code",
       "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419",
       "kernelID": 146656953,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to GroupKFold, TfidfVectorizer, LogisticRegression. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 146649107,
@@ -2992,25 +3342,35 @@
           "title": "识别误差来源",
           "body": "这一版本关注同一模型家族内接近的判定。作者在开头链接了基线版本，便于对照新增逻辑。",
           "reference": "Cell 1",
-          "source": 0
+          "source": 0,
+          "bodyEN": "This version focuses on close decisions between related models. The opening cell links a baseline to isolate the new logic."
         },
         {
           "title": "修正局部概率",
           "body": "Sibling residual 模块在融合后的 log 概率上工作。它提取标点及常见词等特征，在同一家族内重分配概率。",
           "reference": "Cell 14",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The sibling-residual module operates on ensembled log probabilities. Features such as punctuation and frequent words redistribute probability within a family."
         },
         {
           "title": "核查产物",
           "body": "最后读取验证记录，检查结果非空且列为 id 与 model，再保存散列。它验证文件结构；单独模块的得分收益仍需对照实验。",
           "reference": "Cell 56",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The final cell checks validation records, nonempty output and the id and model columns, then saves a digest. Isolating the module’s effect on score requires an ablation."
         }
       ],
       "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
       "originalTitle": "Name That LLM | Sibling Odds",
       "stale": false,
-      "kernelID": 146733174
+      "kernelID": 146733174,
+      "titleEN": "Identify the model family, then distinguish its closest relatives",
+      "summaryEN": "The public notebook refines probabilities among related language models using clues in the text. It preserves the ensemble’s overall estimate for the family while reallocating probability within it.",
+      "takeawayEN": "Inspect confusions within the same family. Compare confusion matrices before and after the adjustment to detect regressions.",
+      "exercise": {
+        "zh": "给同一段文本列出修改前后概率最高的三个模型，先把同家族概率求和，再看家族内谁排第一。如果选对家族仍分错具体模型，可抽查标点与常用词；若连家族都错了，则应回查基础分类器。",
+        "en": "For one passage, list the top three models before and after correction. Sum probabilities by family first, then inspect the winner within that family. A wrong sibling points you toward the text features. A wrong family points back to the baseline classifier."
+      }
     },
     {
       "kernelID": 146733391,
@@ -3104,18 +3464,20 @@
         }
       ],
       "title": "v108-ozr500",
-      "summary": "从源码可直接定位 LGBMClassifier、roc_auc_score 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 LGBMClassifier、roc_auc_score 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "模型实现",
-          "body": "源码在这里调用 LGBMClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 LGBMClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls LGBMClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 36",
           "source": 0
         },
         {
           "title": "推理与评分",
-          "body": "源码在这里调用 roc_auc_score。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "body": "源码在这里调用 roc_auc_score。阅读时可以这样核查：取一对正负样本，比较它们的排序如何影响指标。核对传入的是连续分数还是离散标签，并按同一验证集比较。",
+          "bodyEN": "The source calls roc_auc_score here. Reading exercise: Inspect a positive–negative pair and its ordering. Check whether the metric receives continuous scores or hard labels and compare on the same holdout.",
           "reference": "Cell 36",
           "source": 0
         }
@@ -3127,7 +3489,9 @@
       "readingMode": "code",
       "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088",
       "kernelID": 146772061,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to LGBMClassifier, roc_auc_score. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 146775948,
@@ -3197,25 +3561,35 @@
           "title": "固定输入",
           "body": "按 SHA-256 定位公开文件，使每一步改写都能回到同一组基线输入。",
           "reference": "Cell 4",
-          "source": 0
+          "source": 0,
+          "bodyEN": "SHA-256 digests identify the public input files so each rewrite starts from an identifiable baseline."
         },
         {
           "title": "评估改写",
           "body": "枚举待替换的门，并用样本上的值模拟检查改写条件。模拟给出观测结果，不能单独构成对所有输入的等价证明。",
           "reference": "Cell 9",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Candidate gates are enumerated and a sample-based simulation checks rewrite conditions. Agreement on those inputs is evidence about the sample, not a general equivalence proof."
         },
         {
           "title": "验证结果",
           "body": "使用未修改的官方验证器，核查提交里的每份文件。公开榜记录的是整个提交的分数。",
           "reference": "Cell 10",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The unmodified official verifier checks each submitted file. The public leaderboard score describes the complete submission."
         }
       ],
       "fingerprint": "c23ffe8d16cf9b71d8d4e4715fb87dec69fd102f2dd921428cdc4fbbac4a728a",
       "originalTitle": "QCC | DQI Zero-Test Cuts (verbatim 33.17067)",
       "stale": false,
-      "kernelID": 146794169
+      "kernelID": 146794169,
+      "titleEN": "Verify circuit rewrites on the same inputs",
+      "summaryEN": "Starting from public circuits, the author replaces selected controlled operations with cheaper gates. The notebook simulates the same inputs and checks each submitted file with the official verifier.",
+      "takeawayEN": "Save the original circuit. On a fixed seed, compare operation counts and verification results after one rewrite.",
+      "exercise": {
+        "zh": "把一次改写记录为一张对照表：基线文件指纹、替换位置、改写前后的门数、验证器结果。若门数下降但验证失败，先把这次改动单独回放；通过后再叠加下一条改写，便于定位是哪一步引入差异。",
+        "en": "Log the baseline digest, replacement location, before-and-after gate counts and verifier result for a single change. If cost falls but verification fails, replay that rewrite in isolation. Combine rewrites only after each passes its own check."
+      }
     },
     {
       "kernelID": 146802971,
@@ -3813,18 +4187,20 @@
         }
       ],
       "title": "Titanic Records",
-      "summary": "从源码可直接定位 get_dummies、RandomForestClassifier 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 get_dummies、RandomForestClassifier 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "特征处理",
-          "body": "源码在这里调用 get_dummies。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 get_dummies。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls get_dummies here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 19",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 RandomForestClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 RandomForestClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls RandomForestClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 19",
           "source": 0
         }
@@ -3834,7 +4210,9 @@
         "RandomForestClassifier"
       ],
       "readingMode": "code",
-      "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c"
+      "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c",
+      "summaryEN": "The source contains calls to get_dummies, RandomForestClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "kernelID": 20617021,
@@ -4227,37 +4605,42 @@
         }
       ],
       "title": "House Prices Prediction Part 2 with FE",
-      "summary": "从源码可直接定位 get_dummies、train_test_split、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "summary": "从源码可直接定位 train_test_split、get_dummies、XGBRegressor 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
       "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
       "steps": [
         {
           "title": "验证设计",
-          "body": "源码在这里调用 train_test_split。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "body": "源码在这里调用 train_test_split。阅读时可以这样核查：保存训练与验证样本索引，检查重复对象和目标分布。复现时沿用这些索引，这样分数变化才便于归因。",
+          "bodyEN": "The source calls train_test_split here. Reading exercise: Save the training and validation indices, inspect duplicate entities and compare target distributions. Reuse those indices to isolate the effect of the next change.",
           "reference": "Cell 24",
           "source": 0
         },
         {
           "title": "特征处理",
-          "body": "源码在这里调用 get_dummies。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "body": "源码在这里调用 get_dummies。阅读时可以这样核查：选一个只在验证集中出现的类别，跟踪它经过编码后的值与列位置。检查两侧的列是否对齐，以及未知类别如何处理。",
+          "bodyEN": "The source calls get_dummies here. Reading exercise: Trace a category seen only in validation through the encoder. Check its output value, column alignment and how unseen categories are handled.",
           "reference": "Cell 19",
           "source": 0
         },
         {
           "title": "模型实现",
-          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "body": "源码在这里调用 XGBRegressor。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
+          "bodyEN": "The source calls XGBRegressor here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
           "reference": "Cell 29",
           "source": 0
         }
       ],
       "tags": [
-        "get_dummies",
         "train_test_split",
+        "get_dummies",
         "XGBRegressor"
       ],
       "readingMode": "code",
       "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567",
       "kernelID": 27468403,
-      "stale": false
+      "stale": false,
+      "summaryEN": "The source contains calls to train_test_split, get_dummies, XGBRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
+      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
       "id": "w-10441",
@@ -4276,19 +4659,22 @@
           "title": "验证设计",
           "body": "作者先重建匿名时段的先后顺序，再使用 4 折时间验证，每折留出约 10% 的数据做验证。",
           "reference": "Reverse engineering of time-id order",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The authors recovered chronological order from anonymous time IDs, then used four temporal folds with about 10% held out in each."
         },
         {
           "title": "特征工程",
           "body": "从已有统计量构造距离，找到相似股票或相似时段，再聚合邻居特征。这让模型同时看到局部和跨样本的信息。",
           "reference": "Feature engineering",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They defined distances using existing statistics, found similar stocks or periods and aggregated neighbors’ features. The resulting inputs carry both local and cross-sample information."
         },
         {
           "title": "迁移与复现",
           "body": "原文讨论了竞赛与实际预测的时间信息差异。复现时在每个验证切点限制可访问的邻居，避免提前看到未来。",
           "reference": "Feature processing",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The writeup discusses differences between competition and real forecasting. At each validation cutoff restrict neighbors to samples that would already be observable."
         }
       ],
       "sources": [
@@ -4312,7 +4698,14 @@
         "score": "0.19548",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "cd63ea359263bef857824fd591ff85408ef72cbcbfc6f7da1ce10e05bf5fb2c1"
+      "fingerprint": "cd63ea359263bef857824fd591ff85408ef72cbcbfc6f7da1ce10e05bf5fb2c1",
+      "titleEN": "Borrow information from similar stocks to predict volatility",
+      "summaryEN": "A short history for one stock contains little context. The winners found similar stocks and time windows and provided aggregated statistics from those neighbors to the model.",
+      "takeawayEN": "On a fixed time split, add a neighbor mean for one baseline feature and compare error fold by fold.",
+      "exercise": {
+        "zh": "从一个时间窗出发，列出选中的近邻、距离和各自的波动统计量。检查近邻是否都在切点之前可用，再比较不加近邻、简单平均和按距离加权三组误差。这样能分清改进来自额外信息还是提前使用了未来数据。",
+        "en": "For one time window, list the chosen neighbors, distances and volatility statistics. Verify availability at the cutoff, then compare no neighbors, an unweighted mean and a distance-weighted mean. This separates useful context from accidental access to future data."
+      }
     },
     {
       "id": "w-10754",
@@ -4331,19 +4724,22 @@
           "title": "数据处理",
           "body": "作者结合时长、上传者与主要鸟种标签筛查重复录音，并手动移除部分重复项。",
           "reference": "Training Data",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Duration, uploader and primary species labels were used to screen for duplicates. The author removed a subset manually."
         },
         {
           "title": "验证设计",
           "body": "作者用五折分层交叉验证评估模型，并围绕比赛采用的 cmAP 指标比较实验。",
           "reference": "Validation: Be soft like cmAP",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Models were evaluated with five-fold stratified cross-validation and compared against the competition’s cmAP metric."
         },
         {
           "title": "推理与融合",
           "body": "把注意力声音事件检测的预测与各时刻的最大预测组合。原文将该调整的增益描述为较小。",
           "reference": "Small inference tricks",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Attention-based sound-event predictions were combined with the maximum prediction over time. The author describes the gain from this adjustment as small."
         }
       ],
       "sources": [
@@ -4363,7 +4759,14 @@
         "score": "0.76392",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "495f11b6229d2130e5aa1c5426fc0d94d4b7f1a1e8a8dd6555285abdc4f2d8fe"
+      "fingerprint": "495f11b6229d2130e5aa1c5426fc0d94d4b7f1a1e8a8dd6555285abdc4f2d8fe",
+      "titleEN": "Clean duplicate recordings before comparing bird-call models",
+      "summaryEN": "The author looked for repeated training audio and selected recordings of the target species from earlier editions. Models were then compared on the cleaned collection.",
+      "takeawayEN": "Count examples by species and check whether duplicate recordings span validation folds.",
+      "exercise": {
+        "zh": "挑出时长和鸟种相同的两份录音，听取片段确认是否真重复。以录音为单位固定折号，保存清理前后的每类验证分数。再打开推理融合，观察分数变化是否仍出现在同一批鸟种上。",
+        "en": "Listen to two clips with the same duration and species before calling them duplicates. Assign folds at recording level and save per-species scores before and after cleaning. Then enable inference blending and inspect whether the same species benefit."
+      }
     },
     {
       "id": "w-11537",
@@ -4382,19 +4785,22 @@
           "title": "验证设计",
           "body": "不同折的信号强度分布不同。团队比较标准差、能量等统计量，检查为什么某一折表现特别好。",
           "reference": "Data/labels preprocessing.",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Signal strengths varied across folds. The team examined standard deviation and energy to explain why one fold was unusually easy."
         },
         {
           "title": "输入与训练",
           "body": "将 10 秒音频转成 128 个 Mel 频带的频谱图，配合预训练的 EfficientNet-B0 等卷积网络识别鸟种。",
           "reference": "Model input",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Ten seconds of audio were converted into a 128-band Mel spectrogram. Pretrained convolutional models including EfficientNet-B0 then recognized species."
         },
         {
           "title": "推理与复现",
           "body": "作者提供了多种融合及耗时对照。先跑公开推理 Notebook 的单模型，再复现均值融合，分别记录耗时和榜分。",
           "reference": "Main steps to success",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The writeup compares ensembles and inference time. Start with one public inference model, then reproduce mean blending while recording runtime and score separately."
         }
       ],
       "sources": [
@@ -4418,7 +4824,14 @@
         "score": "0.690391",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee"
+      "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee",
+      "titleEN": "Learn bird calls from unlabeled soundscapes",
+      "summaryEN": "The competition provides labeled short recordings and unlabeled field soundscapes. The winners trained with both so the model encountered background audio closer to the test environment.",
+      "takeawayEN": "Fix one fold. Compare labeled recordings alone with training that also uses pseudo-labeled soundscapes.",
+      "exercise": {
+        "zh": "把一段声景的时间轴与模型输出对齐，选一个高置信鸟鸣段和一个背景噪声段听一遍。伪标签来自模型本身，可能把噪声也当成鸟。固定训练轮数和验证录音，只改变是否加入伪标签；同时检查安静段误报与各物种 AUC。",
+        "en": "Align a soundscape with the model’s time-indexed predictions. Listen to one confident call and one background segment. Pseudo-labels come from a model that can mistake noise for a bird. Hold training epochs and validation recordings fixed, toggle pseudo-labels, and track quiet-segment false positives alongside per-species AUC."
+      }
     },
     {
       "id": "w-115849",
@@ -4509,15 +4922,48 @@
           "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
         }
       ],
-      "title": "1st Place Solution",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "分开检查目标检测、跨帧关联和轨迹解码",
+      "summary": "冠军沿用先检测后跟踪的思路，但让关联模型同时看到目标附近的图像变化。判断哪里发生了身份交换时，能够回到检测、短时运动线索和相邻帧链接三个阶段逐项排查。",
+      "takeaway": "固定一小段已标注的图像序列，分别统计漏检和错误关联，再决定先改哪一段。",
       "tags": [
-        "Writeup"
+        "U-Net",
+        "Visual tracking",
+        "Graph matching"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "d0e7ad46d3528317baf3560d23677560e5b3de91105fec80292df4796235b892"
+      "steps": [
+        {
+          "title": "数据处理",
+          "titleEN": "Detect candidate centers",
+          "body": "作者用 U-Net 预测前景概率和朝向中心的位移场，从三维图像得到候选目标。",
+          "bodyEN": "A U-Net predicts foreground probability and a field pointing toward centers to generate candidate detections from each volume.",
+          "reference": "Overview of the approach",
+          "source": 0
+        },
+        {
+          "title": "模型与训练",
+          "titleEN": "Read three adjacent frames",
+          "body": "局部模型读取同一候选附近连续三帧的裁剪图像，估计状态以及前后位置，为跨帧关联提供外观线索。",
+          "bodyEN": "A local model takes crops from three neighboring frames and estimates state and positions across time, supplying visual cues for association.",
+          "reference": "Soon to Divide / Visual Tracking",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "titleEN": "Associate neighboring frames",
+          "body": "学习式关联器在相邻两帧间判断哪些候选应当连接，也处理一对多的分支，之后将这些决策组织成轨迹。",
+          "bodyEN": "A learned linker selects correspondences between adjacent frames, including branching associations. These decisions are then decoded into tracks.",
+          "reference": "# Linker",
+          "source": 0
+        }
+      ],
+      "fingerprint": "d0e7ad46d3528317baf3560d23677560e5b3de91105fec80292df4796235b892",
+      "titleEN": "Separate detection, frame linking and track decoding",
+      "summaryEN": "The winner used tracking by detection and added learned visual cues around each candidate. An identity switch can be traced back through detection, short-term appearance and motion cues, and links between consecutive frames.",
+      "takeawayEN": "Hold out a short annotated sequence and separate missed detections from incorrect links before choosing a stage to change.",
+      "exercise": {
+        "zh": "在连续三帧上给同一目标画出编号，先用真实位置检查匹配，再换回预测位置。如果关联错误随检测替换才出现，应先检查检测误差传播；如果真实位置上也错，则重点检查跨帧匹配。",
+        "en": "Mark the same object across three frames. Test links using reference positions, then substitute predicted detections. Errors introduced only by this substitution point toward detection error propagation. Errors present in both runs point toward the linker."
+      }
     },
     {
       "id": "w-116074",
@@ -4608,15 +5054,48 @@
           "url": "https://www.kaggle.com/competitions/playground-series-s6e9/leaderboard"
         }
       ],
-      "title": "1st Place - The AI Relay!",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "把六十个表格模型的预测合成一份购买排序",
+      "summary": "冠军在多轮实验中保留可复用的代码与笔记，最终用逻辑回归融合 60 个模型的预测。这里最值得复现的是怎样比较新增模型带来的排序变化，以及怎样区分本地、公开榜和最终榜。",
+      "takeaway": "先拿两组折外预测训练融合器，用独立留出样本检查比最佳单模多排对了哪些样本对。",
       "tags": [
-        "Writeup"
+        "Logit stacking",
+        "XGBoost",
+        "ROC AUC"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "bff81808b0e993ff3236e628fa52029e4c2e4fab0d48d88f925cfe9397092caf"
+      "steps": [
+        {
+          "title": "验证设计",
+          "titleEN": "AUC and pair ordering",
+          "body": "AUC 衡量真实购买者排在非购买者前面的概率。作者用本地验证与两种榜单分数记录实验进展。",
+          "bodyEN": "AUC measures the chance that a buyer ranks ahead of a non-buyer. The team recorded validation, public and private scores for successive stages.",
+          "reference": "The Relay Race",
+          "source": 0
+        },
+        {
+          "title": "复现与核查",
+          "titleEN": "Experiment handoffs",
+          "body": "团队在不同阶段交接代码、计划和实验记录，使后续阶段有基线和以往结果可比。",
+          "bodyEN": "Code, plans and experiment notes were passed between stages, preserving baselines and previous results for comparison.",
+          "reference": "The Baton Is The Notes",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "titleEN": "Logit stacking",
+          "body": "最终 60 个模型包括 XGBoost、神经网络和线性模型。各模型预测先转为 logit，再由逻辑回归估计融合权重。",
+          "bodyEN": "The final pool included XGBoost, neural networks and linear models. Predictions from 60 models were converted to logits and combined with logistic regression.",
+          "reference": "Final Solution",
+          "source": 0
+        }
+      ],
+      "fingerprint": "bff81808b0e993ff3236e628fa52029e4c2e4fab0d48d88f925cfe9397092caf",
+      "titleEN": "Combine sixty tabular models into one purchase ranking",
+      "summaryEN": "The winners carried code and experiment notes across successive rounds of modeling. Their final stack used logistic regression on predictions from 60 models. The writeup reports local, public and private scores, allowing readers to compare progress across all three.",
+      "takeawayEN": "Fit a two-model stack from out-of-fold predictions, then inspect the extra positive–negative pairs it orders correctly on a held-out set.",
+      "exercise": {
+        "zh": "给每一版模型保存折号、折外概率和测试概率。先尝试等权平均，再把概率变成 logit 训练逻辑回归。用未参与调权的样本评价两种融合，检查提升是否主要来自某一类客户。",
+        "en": "Save fold IDs, out-of-fold probabilities and test probabilities for each model. Start with an equal-weight blend, then train logistic regression on logits. Evaluate both on rows untouched by weight selection and check whether improvements concentrate in one customer group."
+      }
     },
     {
       "id": "w-11697",
@@ -4635,19 +5114,22 @@
           "title": "验证设计",
           "body": "作者报告融合后的本地验证与榜单变化方向接近；调权使用折外预测，能减轻在训练样本上选权重的偏差。",
           "reference": "Cross validation",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The authors report that local and leaderboard changes tracked one another. Learning weights on out-of-fold predictions reduces the bias of selecting weights on fitted examples."
         },
         {
           "title": "模型与训练",
           "body": "团队改变文本池化、输入长度和编码器，利用伪标签增加训练样本。这些改变提供不同的模型误差。",
           "reference": "Modeling",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The team varied pooling, sequence length and encoder architecture and added pseudo-labeled essays. These choices created models with different error patterns."
         },
         {
           "title": "推理与复现",
           "body": "先按单个维度看误差，随后用 Optuna 为各维度调权。可从公开训练代码和最佳提交版本对照复现。",
           "reference": "Weight Tuning",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They inspected errors by dimension and used Optuna to tune weights separately. Public training code and the best submission provide reproduction references."
         }
       ],
       "sources": [
@@ -4671,7 +5153,14 @@
         "score": "0.433356",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "4750e4b2e9d2c441094720189c9d35b628ec77f1236a7a2f8e77ec780bef21bc"
+      "fingerprint": "4750e4b2e9d2c441094720189c9d35b628ec77f1236a7a2f8e77ec780bef21bc",
+      "titleEN": "Learn separate ensemble weights for six writing scores",
+      "summaryEN": "The winners trained several text encoders, retained out-of-fold predictions and learned a separate set of ensemble weights for each of the six writing dimensions.",
+      "takeawayEN": "Save out-of-fold predictions for each encoder. Compare a shared weight vector with a separate vector per target.",
+      "exercise": {
+        "zh": "做一张表，每行是一篇留出作文，每列是某个模型对某一维度的预测。先给所有模型相同权重，再只改变一个维度的权重。分别记录六列误差，检查某一项的收益是否被另一项的退步抵消。",
+        "en": "Build a table with one held-out essay per row and a column for each model–target prediction. Start with equal weights and change the weights for one dimension only. Record all six errors to see whether a gain on one dimension hides a loss elsewhere."
+      }
     },
     {
       "id": "w-119524",
@@ -4762,15 +5251,48 @@
           "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard"
         }
       ],
-      "title": "1st Place Solution",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "把训练报告变成监督信号，在影像中定位异常",
+      "summary": "这是冠军队一位成员的分支。4,407 份训练检查中仅 58 份带完整的 12 项标签，训练端另有文字报告。作者利用这些资料补充软标签与区域框，测试时依靠影像预测。",
+      "takeaway": "在同一组留出检查上比较全图汇聚与区域内汇聚，并按异常类别记录误差。",
       "tags": [
-        "Writeup"
+        "ConvNeXt",
+        "ROI pooling",
+        "Soft labels"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "135b1645abe1a8476648e2b90f7e4ed4fcc309d76138a2b66c74b0ddf2b7062e"
+      "steps": [
+        {
+          "title": "数据处理",
+          "titleEN": "Training supervision",
+          "body": "团队从训练报告与图像得到各项异常的概率、感兴趣区域与切片病灶框，把这些监督信号区分开来。",
+          "bodyEN": "The team derived finding probabilities, regions of interest and per-slice lesion boxes from the available training material and used them as distinct supervision signals.",
+          "reference": "0. Overview",
+          "source": 0
+        },
+        {
+          "title": "模型与训练",
+          "titleEN": "Pooling inside a region",
+          "body": "ConvNeXt-T 编码每张切片。某项异常的区域框与特征格的重叠度决定初始权重，随后在框内学习注意力。",
+          "bodyEN": "ConvNeXt-T encodes slices. Overlap with a finding’s region box sets the initial pooling weights, then attention is learned within that box.",
+          "reference": "Using the ROIs: box pooling",
+          "source": 0
+        },
+        {
+          "title": "验证设计",
+          "titleEN": "Held-out studies",
+          "body": "作者按检查划分五折，单独保留 58 份金标准检查作为参照，并比较不同软标签上的折外 AUC。",
+          "bodyEN": "The author used five study-level folds, kept the 58 gold-labeled studies separate as a reference and compared out-of-fold AUC against different soft labels.",
+          "reference": "### Evaluation",
+          "source": 0
+        }
+      ],
+      "fingerprint": "135b1645abe1a8476648e2b90f7e4ed4fcc309d76138a2b66c74b0ddf2b7062e",
+      "titleEN": "Convert training reports into supervision for image classification",
+      "summaryEN": "This is one branch of the winning team. Only 58 of 4,407 training studies had all 12 labels, while reports were available during training. The author used this extra information to derive soft labels and region boxes for an image-based inference pipeline.",
+      "takeawayEN": "Compare global pooling with region-based pooling on the same held-out studies and report error by finding.",
+      "exercise": {
+        "zh": "挑一项异常，在同一份检查上对比区域框轻微偏移前后的预测。对多个序列分别打分再取平均，可检查一个错误区域是否拖累整份检查。文字报告只在训练端可用，本地推理也要遵守相同限制。",
+        "en": "For one finding, shift its region box slightly and compare predictions on the same study. Inspect series scores before averaging to see whether one poor region dominates the result. Exclude reports during local inference just as at test time."
+      }
     },
     {
       "id": "w-121422",
@@ -4828,15 +5350,48 @@
           "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard"
         }
       ],
-      "title": "1st Place Solution - Our Journey to Becoming Professional Farmers",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "让农场智能体先模仿，再用自博弈修正策略",
+      "summary": "农场游戏要经过很多回合才知道输赢。冠军先让策略模仿公开回放，给自博弈一个起点；发现某类局面一直处理不好时，再补入针对性示范，恢复 PPO 训练。",
+      "takeaway": "找一类反复输掉的局面，分别评估补示范前、模仿后和自博弈后的策略。",
       "tags": [
-        "Writeup"
+        "PPO",
+        "Behavior cloning",
+        "Transformer"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "cd330458e1ff4ca9a26be88c32e316c529c0462bcc5067426424867a8ef9b01f"
+      "steps": [
+        {
+          "title": "数据与特征",
+          "titleEN": "Observations",
+          "body": "模型同时利用双方农场、市场与公开游戏状态，并从公开信息估计对手隐藏库存。",
+          "bodyEN": "Observations combine both farms, the market and public game state. Hidden opponent inventory is estimated from public information.",
+          "reference": "Solution Overview",
+          "source": 0
+        },
+        {
+          "title": "模型与训练",
+          "titleEN": "Alternating imitation and PPO",
+          "body": "先用公开策略的示范初始化，再通过自博弈训练。发现策略缺口时用短暂模仿阶段补上行为，之后继续优化胜负回报。",
+          "bodyEN": "The team initialized from demonstrations, moved to PPO self-play, and inserted short imitation phases when the current policy lacked a useful strategy.",
+          "reference": "Behavior Cloning and PPO",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "titleEN": "Action corrections",
+          "body": "最终方案用规则处理库存和动作冲突。一个提交在推理时修正，另一个还在训练回合中纳入这些规则，使训练时看到的动作更接近部署。",
+          "bodyEN": "Final agents corrected inventory and conflicting actions. One applied corrections at inference. Another also included them during training rollouts to better match deployment.",
+          "reference": "Action Corrections and Final Submissions",
+          "source": 0
+        }
+      ],
+      "fingerprint": "cd330458e1ff4ca9a26be88c32e316c529c0462bcc5067426424867a8ef9b01f",
+      "titleEN": "Teach a farming policy by imitation, then refine it in self-play",
+      "summaryEN": "Games have long horizons and delayed outcomes. The winners initialized a policy from public replays, then trained it in self-play. When replay analysis revealed a missing behavior, they introduced targeted demonstrations and resumed PPO.",
+      "takeawayEN": "Choose a recurring losing situation and evaluate the policy before demonstrations, after imitation and after resumed self-play.",
+      "exercise": {
+        "zh": "固定对手与开局，把目标策略出现的次数和整局胜率分开记录。模仿后目标动作更常见，可能只是学会了照做；若下一轮自博弈后同一对手上的胜率也上升，才有依据继续研究它在决策链中的价值。",
+        "en": "Fix opponents and starting positions. Count the targeted behavior separately from game wins. Imitation can increase the frequency of an action without improving play. Evaluate it again after self-play to see whether the agent has learned when to use it."
+      }
     },
     {
       "id": "w-121870",
@@ -4894,15 +5449,48 @@
           "url": "https://www.kaggle.com/competitions/playground-series-s6e10/leaderboard"
         }
       ],
-      "title": "1st Place - TFMs and LLMs with tabular data!",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "把一行表格当作文本，从两个候选标签反推满意度",
+      "summary": "冠军把每个字段写成可读文本，分别假设旅客满意和不满意，让语言模型评估哪种假设更能解释这一行特征。这种打分方式与已有表格模型犯的错不同，因此还被加入最终融合。",
+      "takeaway": "在一小批留出行上固定字段顺序，对比标签放在开头和末尾的 AUC 与推理开销。",
       "tags": [
-        "Writeup"
+        "GPT-2",
+        "Stacking",
+        "ROC AUC"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "055e82ae42dd7635facd5a45ea7ea33a54b076395b38f439a5142da7a9ff8651"
+      "steps": [
+        {
+          "title": "特征表示",
+          "titleEN": "The row as text",
+          "body": "每一列写成“列名 is 取值”，按顺序拼成句子。原文用 GPT-2，因而无需为每个字段单设编码器。",
+          "bodyEN": "Each field becomes “column is value” and the fields form one sequence. The writeup uses GPT-2 without a separate tokenizer for each feature.",
+          "reference": "How to make two new kinds of tabular LLMs",
+          "source": 0
+        },
+        {
+          "title": "模型训练",
+          "titleEN": "Two ways to score a row",
+          "body": "标签在末尾时模型根据特征预测标签；放在开头时，分别给定两个标签，比较产生已观测字段的可能性。后者需要多次前向计算。",
+          "bodyEN": "With a target-last sequence the model predicts the label from the features. With a target-first sequence it scores the observed features under each possible label, requiring additional forward passes.",
+          "reference": "Tabular LLM #2: target first",
+          "source": 0
+        },
+        {
+          "title": "推理与融合",
+          "titleEN": "Contribution to the blend",
+          "body": "作者在含 245 对公开折外与测试预测的堆叠模型上加入自己的分类器，用本地和公开榜分数比较加入前后的表现。",
+          "bodyEN": "The team added its classifiers to a stack using 245 public pairs of out-of-fold and test predictions and compared validation and public leaderboard scores.",
+          "reference": "Adding the GPT classifier to the stack",
+          "source": 0
+        }
+      ],
+      "fingerprint": "055e82ae42dd7635facd5a45ea7ea33a54b076395b38f439a5142da7a9ff8651",
+      "titleEN": "Read a table row under two candidate labels",
+      "summaryEN": "The winners serialized each row as text and scored it twice, assuming either a satisfied or dissatisfied passenger. The model that better explains the observed features receives more support. Its predictions added diversity to an existing blend.",
+      "takeawayEN": "On held-out rows, fix the feature order and compare AUC and inference cost for target-first and target-last scoring.",
+      "exercise": {
+        "zh": "同一行先写“满意”，再写“不满意”，只改变这一个前缀，记录两种条件下后续字段的对数似然。对差值很小的行，调换字段顺序再测一次。单独记录模型得分和加入融合后的变化，可以看出它贡献的是独立强度还是互补性。",
+        "en": "Score the same row twice, changing only the candidate label prefix. Record the log likelihood of the remaining features under both labels. For near ties, change the feature order and rerun. Report standalone performance separately from the gain when adding it to a blend."
+      }
     },
     {
       "id": "w-12604",
@@ -4921,19 +5509,22 @@
           "title": "数据与特征",
           "body": "地图特征包含距离上次观测某格子经过的步数，用于表示部分可观测环境中的历史信息。",
           "reference": "Observation Space and Features",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Map features include the number of steps since a tile was last observed, representing the age of information under partial observability."
         },
         {
           "title": "模型训练",
           "body": "队伍以 IMPALA 和 V-trace 训练多智能体策略，并调整奖励尺度和熵。",
           "reference": "Core Algorithm: IMPALA + V-trace",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The team trained multi-agent policies with IMPALA and V-trace and adjusted reward scale and entropy."
         },
         {
           "title": "验证设计",
           "body": "通过大量自博弈及对旧版本、教师版本的胜率比较，评估策略迭代。",
           "reference": "Comparing Agents: Real-Time Win Rates",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They evaluated policy updates through extensive self-play and win-rate comparisons against old and teacher versions."
         }
       ],
       "sources": [
@@ -4953,7 +5544,14 @@
         "score": "2831.4",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "4039872f53a511e9b5ce9c4b365397f42faa4f004acc2c69476f7ba43e37ab7a"
+      "fingerprint": "4039872f53a511e9b5ce9c4b365397f42faa4f004acc2c69476f7ba43e37ab7a",
+      "titleEN": "Use observation history and self-play to compare policies",
+      "summaryEN": "The winners maintained map state from previous observations, then trained a multi-agent policy. They checked progress by playing new policies against earlier versions.",
+      "takeawayEN": "Keep a fixed set of opponents and game seeds and compare win rates for old and new policies.",
+      "exercise": {
+        "zh": "在回放中挑一个刚离开视野的格子，标记智能体最后观测它的时间。比较有无历史特征时下一步动作是否变化，再用多组固定对手验证。单局获胜只能作案例，胜率比较还要看对局数量和先后手。",
+        "en": "Pick a tile that just left view and mark when the policy last observed it. Compare its next action with and without the history feature, then test against several fixed opponents. Treat one win as an example and report the game count and starting side with win rates."
+      }
     },
     {
       "id": "w-12828",
@@ -4972,19 +5570,22 @@
           "title": "数据构造",
           "body": "先挑选有重叠的图像对，检测旋转与重叠区域，减少明显无意义的匹配。",
           "reference": "Image Pair Construction",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They selected overlapping image pairs and identified rotation and overlap to avoid uninformative matching work."
         },
         {
           "title": "匹配与重建",
           "body": "稀疏与稠密方法产生互补候选。团队在粗 SfM 前按置信度合并候选，处理同一点在多张图中的不一致。",
           "reference": "Confidence-guided Merge",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Sparse and dense matchers proposed complementary points. Before coarse SfM the team merged proposals by confidence to reconcile inconsistent correspondences across images."
         },
         {
           "title": "推理与复现",
           "body": "以粗相机和已匹配点为起点迭代细化。逐步记录各场景的重建结果，区分匹配不足和几何优化错误。",
           "reference": "Iterative Refinement",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Starting from coarse cameras and matched points, they refined iteratively. Track reconstruction results per scene to separate insufficient matches from geometry errors."
         }
       ],
       "sources": [
@@ -5008,7 +5609,14 @@
         "score": "0.570",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "5d23441237996fddd0ae829d74d82cbfa96753c22bc2e6464a6ecc7c36628be7"
+      "fingerprint": "5d23441237996fddd0ae829d74d82cbfa96753c22bc2e6464a6ecc7c36628be7",
+      "titleEN": "Resolve conflicting image matches across views",
+      "summaryEN": "A plausible match between two photos may conflict with evidence from other views. The winners combined sparse and dense matches, built a coarse reconstruction and refined the geometry iteratively.",
+      "takeawayEN": "Run a coarse reconstruction on one small scene, then switch on refinement alone and compare recovered cameras and pose error.",
+      "exercise": {
+        "zh": "选三张有重叠的照片，在第一张标出一个点，沿两条路径找到它在第三张中的位置。若两条路径不一致，回查遮挡、重复纹理和匹配置信度。记录细化前后可恢复的相机数以及误差，避免只看成功场景。",
+        "en": "Mark one point in the first of three overlapping photos and trace it to the third via two paths. If the paths disagree, inspect occlusion, repeated texture and confidence. Record recovered cameras and errors before and after refinement, including failed scenes."
+      }
     },
     {
       "id": "w-66144",
@@ -5027,19 +5635,22 @@
           "title": "模型与优化",
           "body": "通过单个布局的变异及两个布局的交叉产生候选；变异可改变图块的位置和旋转角度。",
           "reference": "Offspring generation",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Mutation changes one layout, including piece positions and rotations. Crossover builds candidates from two layouts."
         },
         {
           "title": "评估设计",
           "body": "用图块重叠及超出正方形边界的程度构造代价，GPU 局部优化尝试把候选修正为可行解。",
           "reference": "GPU relaxation",
-          "source": 0
+          "source": 0,
+          "bodyEN": "A cost measures overlap and protrusion beyond the square. GPU local optimization attempts to repair candidates into feasible layouts."
         },
         {
           "title": "候选筛选与复现",
           "body": "在每个子种群中保留代价低的部分布局，再结合差异性挑选其余候选。",
           "reference": "Selection",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Each subpopulation keeps some low-cost layouts and uses dissimilarity when selecting the rest."
         }
       ],
       "sources": [
@@ -5063,7 +5674,14 @@
         "score": "68.781235119300",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "00f106fd7a144cb190382dba501bd1d24c08b91d693d9f5bf1cb447c0628ecd5"
+      "fingerprint": "00f106fd7a144cb190382dba501bd1d24c08b91d693d9f5bf1cb447c0628ecd5",
+      "titleEN": "Balance feasibility and population diversity in packing",
+      "summaryEN": "The winning genetic search explores layouts and uses local optimization to reduce overlaps and boundary violations. Selection considers both cost and differences between layouts.",
+      "takeawayEN": "On a small instance, fix the boundary and random seed. Record feasibility, overlap cost and final side length separately.",
+      "exercise": {
+        "zh": "在相同边长下从两种布局开始：一种紧凑但略有重叠，另一种留有空隙。给它们相同的局部优化预算，记录能否修复。然后比较仅保留低代价候选与保留不同布局的搜索，观察是否反复卡在同一位置。",
+        "en": "At the same side length, start from a tight layout with slight overlap and a looser layout. Give them equal repair budgets. Compare selection by cost alone against keeping dissimilar layouts, and inspect whether the search returns to the same stalled arrangement."
+      }
     },
     {
       "id": "w-8172",
@@ -5082,19 +5700,22 @@
           "title": "特征表示",
           "body": "作者为原子及原子对构建不同细粒度的嵌入，例如在原子类型之外加入连接关系信息。",
           "reference": "Input features and embeddings",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The authors built embeddings at several resolutions for atoms and pairs, adding connectivity information beyond atom type."
         },
         {
           "title": "模型训练",
           "body": "图 Transformer 风格的模型一次处理整个分子，同时输出多个耦合值。",
           "reference": "Overall architecture",
-          "source": 0
+          "source": 0,
+          "bodyEN": "A graph Transformer-style architecture processes a whole molecule and emits multiple coupling predictions in one pass."
         },
         {
           "title": "推理与融合",
           "body": "队伍训练了多个模型进行融合，公开仓库保留了架构变体，便于追溯最终预测。",
           "reference": "Ensembling",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The team ensembled several models. Their public repository contains architectural variants that help trace the final prediction."
         }
       ],
       "sources": [
@@ -5118,7 +5739,14 @@
         "score": "-3.23968",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "2c31d8fb905fcb457943dcf2d9a7eaec18cc03256c3eaf22a05d5ec46c5800e0"
+      "fingerprint": "2c31d8fb905fcb457943dcf2d9a7eaec18cc03256c3eaf22a05d5ec46c5800e0",
+      "titleEN": "Use the whole molecule to predict atom-pair properties",
+      "summaryEN": "The winners sent a complete molecule through a graph model and predicted several coupling constants together. Hierarchical representations combined information about atoms and their pairs at different levels of detail.",
+      "takeawayEN": "On the same split, compare pair-only inputs with inputs that include whole-molecule context.",
+      "exercise": {
+        "zh": "选一个分子中的两个原子对，把每个原子的局部信息与整个分子的连接信息分列。先看只用局部特征时哪组误差最大，再加入全图上下文，在相同耦合类型内比较，以免不同类型的数值尺度掩盖变化。",
+        "en": "For two pairs in one molecule, separate local atom descriptors from connectivity across the graph. Identify the larger error with pair-only inputs, then add global context. Compare within coupling type so differences in numeric scale do not obscure the effect."
+      }
     },
     {
       "id": "w-9008",
@@ -5137,19 +5765,22 @@
           "title": "数据处理",
           "body": "团队观察到测试图中椒盐噪声更多，随后在训练图像中加入相应噪声增强。",
           "reference": "Phase1: Image captioning training",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The team saw more salt-and-pepper noise in test images and added similar noise to training images."
         },
         {
           "title": "模型训练",
           "body": "用多种图像编码器和文本解码器生成 InChI 候选，通过束搜索扩大候选范围。",
           "reference": "Phase2: InChI candidates generation",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Several image encoders and text decoders generated InChI candidates. Beam search expanded the candidate pool."
         },
         {
           "title": "推理与融合",
           "body": "先检查候选结构是否合法，再用多个模型对图像与候选的匹配损失评分，据此重排。",
           "reference": "Phase3: InChI candidates reranking",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Invalid candidates were removed. Several models then scored image–candidate matching losses to rerank the remaining strings."
         }
       ],
       "sources": [
@@ -5169,7 +5800,14 @@
         "score": "0.53934",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "bfd9d66872436ee207e95c2a5a7b10b6f66550785204242f9a2ace1549c3f03d"
+      "fingerprint": "bfd9d66872436ee207e95c2a5a7b10b6f66550785204242f9a2ace1549c3f03d",
+      "titleEN": "Separate candidate generation from molecular reranking",
+      "summaryEN": "The third-place team proposed multiple structural strings, checked their validity and rescored them with several models. This separates errors in generating a candidate from errors in choosing it.",
+      "takeawayEN": "Measure how often the true string reaches the candidate set, then how often reranking moves it to first place.",
+      "exercise": {
+        "zh": "把一批图像分成三组：正确字符串没有进入候选集、进入但未排首位、已经排首位。第一组提示需要检查生成器，第二组适合试重排。报告总体编辑距离时，再分别记录这三组的占比。",
+        "en": "Group images by whether the correct string was absent from the pool, present but not first, or already first. The first group points to generation and the second to reranking. Report these proportions alongside aggregate edit distance."
+      }
     },
     {
       "id": "w-9716",
@@ -5188,19 +5826,22 @@
           "title": "数据观察",
           "body": "团队逐列分析只出现一次与重复出现的取值，发现不同样本群体的频次结构不同。",
           "reference": "Feature engineering",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The team inspected unique and repeated values column by column and found different frequency patterns across groups of examples."
         },
         {
           "title": "模型与训练",
           "body": "原始特征与衍生特征分别进入 LightGBM 和定制网络。原文列出两种模型的单模成绩。",
           "reference": "TLDR",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Raw and derived features were used in LightGBM and a custom network. The writeup reports individual scores for both models."
         },
         {
           "title": "复现边界",
           "body": "部分构造利用该比赛特有的数据生成规律。复现时先列清推理时可见的样本范围，再比较两类模型融合后的误差。",
           "reference": "Technical part",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Some features depended on the competition’s data-generation process. Define which rows are visible at inference before comparing ensemble errors."
         }
       ],
       "sources": [
@@ -5220,7 +5861,14 @@
         "score": "0.92573",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "de85ff3ec1b63ba5e806121eb2b3eba07e7b2134f47c2582fbd6b9200d19c84c"
+      "fingerprint": "de85ff3ec1b63ba5e806121eb2b3eba07e7b2134f47c2582fbd6b9200d19c84c",
+      "titleEN": "Extract signal from the frequency of anonymized values",
+      "summaryEN": "The anonymous columns still reveal whether a value repeats. The winners engineered per-column frequency features and combined tree models with a custom neural network.",
+      "takeawayEN": "Frequency-encode one column and compare it with raw values on a held-out split before generalizing to another dataset.",
+      "exercise": {
+        "zh": "手算一列训练值的频次表，再把验证集中的已见值、未见值分开编码。若把验证集也纳入计数会改变特征，应把两种设置作为独立实验记录。最后比较原始值、仅频次、两者合用。",
+        "en": "Compute a count table for one training column and encode seen and unseen validation values separately. If including holdout rows in the counts changes features, log that as a distinct experiment. Compare raw values, counts alone and their combination."
+      }
     },
     {
       "id": "w-9832",
@@ -5239,19 +5887,22 @@
           "title": "特征表示",
           "body": "将卷积编码器的首层步幅从 2×2 改为 1×1，使后续特征图保留更多时频位置。",
           "reference": "Model Architecture",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The encoder’s first stride was reduced from 2×2 to 1×1 so later feature maps retained more time–frequency locations."
         },
         {
           "title": "模型训练",
           "body": "在 15 秒片段上结合次要标签训练，用背景录音和其他噪声进行增强，并根据主要鸟种调整采样与损失权重。",
           "reference": "Model Training",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The branch trained on 15-second segments with secondary labels, added background recordings and other noise, and adjusted sampling and loss weights by primary species."
         },
         {
           "title": "推理与融合",
           "body": "作者保留三个检查点并对模型权重取平均。队伍的最终融合还包括 BirdNET 和其他成员的模型。",
           "reference": "Model Training",
-          "source": 0
+          "source": 0,
+          "bodyEN": "The author averaged three checkpoints’ weights. The final team ensemble also included BirdNET and models from other members."
         }
       ],
       "sources": [
@@ -5271,7 +5922,14 @@
         "score": "0.8527",
         "checked": "2026-11-23T11:33:50Z"
       },
-      "fingerprint": "4c3a5e00b7e5cf8d208e46b78bcdfb187f013cd639da6b60d310da5c001f7660"
+      "fingerprint": "4c3a5e00b7e5cf8d208e46b78bcdfb187f013cd639da6b60d310da5c001f7660",
+      "titleEN": "Preserve fine time–frequency detail in a bird-call detector",
+      "summaryEN": "This winning-team member explains one branch of the ensemble. A smaller initial stride preserves temporal and frequency resolution, and the branch learns multiple labels from longer audio segments.",
+      "takeawayEN": "Keep inputs and training budget fixed while comparing the initial stride and background-noise augmentation.",
+      "exercise": {
+        "zh": "在同一段频谱图上标出一声很短的鸟鸣。比较首层步幅为 1 和 2 时，中间特征图还剩多少时间位置。缩小步幅会增加计算量，因此除验证分数外，还要在相同硬件上记录推理耗时。",
+        "en": "Mark a short call on one spectrogram. Compare how many time positions remain in an intermediate feature map with first-layer strides of one and two. Smaller strides cost computation, so record inference time on the same hardware alongside validation quality."
+      }
     },
     {
       "id": "w-9958",
@@ -5290,19 +5948,22 @@
           "title": "验证设计",
           "body": "按 GameId 做 5 折 GroupKFold，验证时仅评估 2018 赛季样本。作者报告该设置与公开榜相关性较好。",
           "reference": "CV",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They used five-fold GroupKFold by GameId and evaluated only 2018-season examples during validation. The authors reported good agreement with the public board."
         },
         {
           "title": "数据处理",
           "body": "同一次跑动包含攻守双方的多名球员。构造相对位置时保持跑动方向一致，让表示可在回合之间比较。",
           "reference": "Data processing",
-          "source": 0
+          "source": 0,
+          "bodyEN": "Each rushing play contains several offensive and defensive players. A consistent running direction makes relative positions comparable across plays."
         },
         {
           "title": "推理与复现",
           "body": "对横坐标方向以外的横场 Y 轴做镜像，并同步变换派生特征。分别预测原始与镜像阵形再融合。",
           "reference": "Augmentation & TTA",
-          "source": 0
+          "source": 0,
+          "bodyEN": "They reflected the sideline-to-sideline Y axis and adjusted derived features consistently. Predictions from the original and mirrored formations were blended."
         }
       ],
       "sources": [
@@ -5322,7 +5983,14 @@
         "score": "0.011658",
         "checked": "2026-11-23T11:03:30Z"
       },
-      "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a"
+      "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a",
+      "titleEN": "Exploit field symmetry to predict rushing yards",
+      "summaryEN": "Runs on opposite sides of the field can lead to the same gain. The winners reflected lateral coordinates and their derived features, then blended predictions from the original and mirrored formations.",
+      "takeawayEN": "Keep each game in one fold before testing mirror augmentation, so neighboring plays do not leak into validation.",
+      "exercise": {
+        "zh": "画出一个回合的持球队员和最近防守者，同时画出镜像。两者的距离应相同，而横向速度符号应相反。先用这些关系检查变换是否一致，再比较原始、仅镜像和两者融合后的累计概率曲线。",
+        "en": "Plot the ball carrier and nearest defender before and after reflection. Their distance should stay constant while lateral velocity changes sign. Check these invariants first, then compare cumulative predictions from original, mirrored and blended inputs."
+      }
     }
   ],
   "comparisons": [
@@ -5332,7 +6000,8 @@
         "w-10754",
         "w-9832"
       ],
-      "text": "BirdCLEF 2023 先按时长、上传者和鸟种找出重复录音。2022 冠军队的一个模型则缩小首层步幅，保留更细的时频变化。复现鸟声基线时，可以先清理重复样本，再单独测试频谱分辨率的影响。"
+      "text": "BirdCLEF 2023 先按时长、上传者和鸟种找出重复录音。2022 冠军队的一个模型则缩小首层步幅，保留更细的时频变化。复现鸟声基线时，可以先清理重复样本，再单独测试频谱分辨率的影响。",
+      "textEN": "BirdCLEF 2023 screened for duplicate recordings by duration, uploader and species. A 2022 branch reduced the first stride to retain finer time–frequency changes. Clean the audio collection first, then test spectrogram resolution in a separate experiment."
     },
     {
       "topic": "推理与融合",
@@ -5340,7 +6009,8 @@
         "w-10754",
         "w-9832"
       ],
-      "text": "两届 BirdCLEF 方案在不同阶段合并信息。2023 将注意力预测与时间维度上的最大预测组合，2022 的一个分支先平均三个检查点的权重，再参加队伍融合。可以分别记录两种操作带来的分数变化。"
+      "text": "两届 BirdCLEF 方案在不同阶段合并信息。2023 将注意力预测与时间维度上的最大预测组合，2022 的一个分支先平均三个检查点的权重，再参加队伍融合。可以分别记录两种操作带来的分数变化。",
+      "textEN": "The two BirdCLEF solutions combine information at different stages. The 2023 team combined attention predictions with temporal maxima. A 2022 branch averaged three checkpoints before entering the team ensemble. Measure each operation separately."
     },
     {
       "topic": "验证设计",
@@ -5348,7 +6018,8 @@
         "w-10754",
         "w-11537"
       ],
-      "text": "BirdCLEF 2023 用五折分层验证比较模型，2024 则发现某一折特别容易，并用信号强度检查差异。验证鸟声模型时，可以同时记录各折的类别分布、录音能量和单折成绩。"
+      "text": "BirdCLEF 2023 用五折分层验证比较模型，2024 则发现某一折特别容易，并用信号强度检查差异。验证鸟声模型时，可以同时记录各折的类别分布、录音能量和单折成绩。",
+      "textEN": "BirdCLEF 2023 compared models on five stratified folds. The 2024 team investigated an unusually easy fold using signal strength. Track class mix, recording energy and scores per fold when validating a bird-call model."
     },
     {
       "topic": "模型与训练",
@@ -5356,7 +6027,8 @@
         "w-9832",
         "w-11537"
       ],
-      "text": "两届 BirdCLEF 都训练卷积网络识别鸟声。2022 的一个分支用 15 秒片段和次要鸟种标签训练，2024 把 10 秒片段转成 128 个 Mel 频带。比较窗口长度时，可以固定频谱配置与验证划分。"
+      "text": "两届 BirdCLEF 都训练卷积网络识别鸟声。2022 的一个分支用 15 秒片段和次要鸟种标签训练，2024 把 10 秒片段转成 128 个 Mel 频带。比较窗口长度时，可以固定频谱配置与验证划分。",
+      "textEN": "Both BirdCLEF solutions trained convolutional networks. A 2022 branch used 15-second clips with secondary labels, while the 2024 team converted 10-second clips to 128 Mel bands. Hold the split and spectrogram settings fixed when comparing window lengths."
     },
     {
       "topic": "模型与训练",
@@ -5364,7 +6036,8 @@
         "w-9008",
         "w-8172"
       ],
-      "text": "BMS 从分子图像生成多个结构字符串，CHAMPS 则把已知分子的原子和连接关系作为输入，同时预测多个原子对的性质。迁移方法前，先确定结构是要预测的目标，还是可以提供给模型的输入。"
+      "text": "BMS 从分子图像生成多个结构字符串，CHAMPS 则把已知分子的原子和连接关系作为输入，同时预测多个原子对的性质。迁移方法前，先确定结构是要预测的目标，还是可以提供给模型的输入。",
+      "textEN": "BMS generates structural strings from images. CHAMPS starts with atoms and their connections and predicts properties of several pairs at once. Before transferring a method, establish whether structure is a prediction target or an input you already have."
     },
     {
       "topic": "推理与融合",
@@ -5372,7 +6045,8 @@
         "w-9008",
         "w-8172"
       ],
-      "text": "BMS 先排除无效分子结构，再用多个模型给候选排序。CHAMPS 直接融合多个模型预测的连续数值。两者的输出形式不同，可以分别检验候选排序和数值融合的收益。"
+      "text": "BMS 先排除无效分子结构，再用多个模型给候选排序。CHAMPS 直接融合多个模型预测的连续数值。两者的输出形式不同，可以分别检验候选排序和数值融合的收益。",
+      "textEN": "BMS discards invalid structures and combines model scores to rank candidates. CHAMPS combines continuous numerical predictions. Evaluate candidate ranking and numerical blending against their respective output types."
     }
   ]
 }
