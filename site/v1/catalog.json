@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated": "2026-11-23T11:03:30Z",
+  "updated": "2026-11-23T11:04:43Z",
   "competitions": [
+    {
+      "id": "arc-prize-2026-arc-agi-2",
+      "title": "ARC Prize 2026 - ARC-AGI-2",
+      "summary": "Create an AI capable of novel reasoning",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Abstraction and Reasoning Challenge",
+      "start": "2026-03-25T17:38:19.547Z",
+      "deadline": "2026-11-02T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2"
+    },
+    {
+      "id": "arc-prize-2026-arc-agi-3",
+      "title": "ARC Prize 2026 - ARC-AGI-3",
+      "summary": "Create an AI capable of fluid intelligence",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "ARC-AGI-3 Metric",
+      "start": "2026-03-25T17:38:23.913Z",
+      "deadline": "2026-11-02T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3"
+    },
+    {
+      "id": "arc-prize-2026-paper-track",
+      "title": "ARC Prize 2026 - Paper Track",
+      "summary": "Document your conceptual approach for the ARC Prize 2026",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "见竞赛规则",
+      "start": "2026-03-25T17:38:13.097Z",
+      "deadline": "2026-11-09T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track"
+    },
+    {
+      "id": "biohub-cell-tracking-during-development",
+      "title": "Biohub - Cell Tracking During Development",
+      "summary": "Detect and track zebrafish cells through 3D space and time",
+      "categories": [
+        "视觉"
+      ],
+      "metric": "CZI Biohub Zebrafish 133605",
+      "start": "2026-06-29T19:01:13.613Z",
+      "deadline": "2026-09-29T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development"
+    },
     {
       "id": "birdclef-2024",
       "title": "BirdCLEF 2024",
@@ -13,6 +61,213 @@
       "start": "2024-04-03T18:00:10.537Z",
       "deadline": "2024-06-10T23:59:00Z",
       "url": "https://www.kaggle.com/competitions/birdclef-2024"
+    },
+    {
+      "id": "connectx",
+      "title": "Connect X",
+      "summary": "Connect your checkers in a row before your opponent!",
+      "categories": [
+        "智能体"
+      ],
+      "metric": "Connect X",
+      "start": "2020-01-03T21:25:59Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/connectx"
+    },
+    {
+      "id": "contradictory-my-dear-watson",
+      "title": "Contradictory, My Dear Watson",
+      "summary": "Detecting contradiction and entailment in multilingual text using TPUs",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Categorization Accuracy",
+      "start": "2020-07-30T21:03:15.780Z",
+      "deadline": "2030-07-01T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/contradictory-my-dear-watson"
+    },
+    {
+      "id": "digit-recognizer",
+      "title": "Digit Recognizer",
+      "summary": "Learn computer vision fundamentals with the famous MNIST data",
+      "categories": [
+        "视觉",
+        "表格"
+      ],
+      "metric": "Categorization Accuracy",
+      "start": "2012-07-25T20:43:30.087Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/digit-recognizer"
+    },
+    {
+      "id": "enveda-CASMI26-molecule-id-mass-spectra",
+      "title": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+      "summary": "Predict 2D chemical structures of small molecules detected in complex biological extracts",
+      "categories": [
+        "其他"
+      ],
+      "metric": "CASMI: Mean Average Precision",
+      "start": "2026-09-14T22:57:37.417Z",
+      "deadline": "2026-12-14T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra"
+    },
+    {
+      "id": "feedback-prize-english-language-learning",
+      "title": "Feedback Prize - English Language Learning",
+      "summary": "给英语学习者的作文预测六项写作能力分数。",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Mean Weighted Columnwise Root Mean Squared Error",
+      "start": "2022-08-30T17:23:07.433Z",
+      "deadline": "2022-11-29T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning"
+    },
+    {
+      "id": "gemma-4-developer-agent",
+      "title": "Google - The Gemma 4 Developer Agent Competition",
+      "summary": "Accelerate research in autonomous coding agents",
+      "categories": [
+        "NLP/LLM",
+        "智能体"
+      ],
+      "metric": "Gemma 4 Developer Agent (149921)",
+      "start": "2026-09-23T14:05:47.363Z",
+      "deadline": "2026-12-02T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent"
+    },
+    {
+      "id": "gemma-4-developer-agent-paper",
+      "title": "Google - The Gemma 4 Developer Agent Paper Track",
+      "summary": "Submit a Research Paper advancing the state-of-the-art for agentic software engineering",
+      "categories": [
+        "NLP/LLM",
+        "智能体"
+      ],
+      "metric": "见竞赛规则",
+      "start": "2026-09-23T15:15:22.937Z",
+      "deadline": "2026-11-12T23:59:00.807Z",
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper"
+    },
+    {
+      "id": "google-verifiable-quantum-circuit-compilation",
+      "title": "Google Quantum AI - Verifiable Quantum Circuit Compilation",
+      "summary": "Reducing the resources required for quantum applications",
+      "categories": [
+        "优化"
+      ],
+      "metric": "Google Quantum AI Metric",
+      "start": "2026-10-22T18:00:26.327Z",
+      "deadline": "2027-01-20T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
+    },
+    {
+      "id": "home-data-for-ml-course",
+      "title": "Housing Prices Competition for Kaggle Learn Users",
+      "summary": "Apply what you learned in the Machine Learning course on Kaggle Learn alongside others in the course.",
+      "categories": [
+        "其他"
+      ],
+      "metric": "Mean Absolute Error",
+      "start": "2018-07-18T19:25:27.107Z",
+      "deadline": "2030-01-01T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/home-data-for-ml-course"
+    },
+    {
+      "id": "house-prices-advanced-regression-techniques",
+      "title": "House Prices - Advanced Regression Techniques",
+      "summary": "Predict sales prices and practice feature engineering, RFs, and gradient boosting",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Root Mean Squared Logarithmic Error",
+      "start": "2016-08-30T01:08:56.763Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques"
+    },
+    {
+      "id": "image-matching-challenge-2023",
+      "title": "Image Matching Challenge 2023",
+      "summary": "从一组不同视角的照片恢复相机位姿。",
+      "categories": [
+        "视觉"
+      ],
+      "metric": "imc2023",
+      "start": "2023-04-11T20:20:46.877Z",
+      "deadline": "2023-06-12T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023"
+    },
+    {
+      "id": "kaggriculture",
+      "title": "Kaggriculture",
+      "summary": "Create an agent to play in this farming simulation and compete with others to maximize your income",
+      "categories": [
+        "智能体"
+      ],
+      "metric": "kaggriculture",
+      "start": "2026-07-30T16:15:52.123Z",
+      "deadline": "2026-10-14T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/kaggriculture"
+    },
+    {
+      "id": "llm-classification-finetuning",
+      "title": "LLM Classification Finetuning",
+      "summary": "Finetune LLMs to Predict Human Preference using Chatbot Arena conversations",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Log Loss",
+      "start": "2024-10-16T19:00:30.487Z",
+      "deadline": "2030-07-01T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/llm-classification-finetuning"
+    },
+    {
+      "id": "name-that-llm",
+      "title": "Name That LLM",
+      "summary": "Identify the model behind the text",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "Balanced Accuracy Score",
+      "start": "2026-10-14T13:15:00Z",
+      "deadline": "2027-01-14T23:59:00.817Z",
+      "url": "https://www.kaggle.com/competitions/name-that-llm"
+    },
+    {
+      "id": "nfl-big-data-bowl-2020",
+      "title": "NFL Big Data Bowl",
+      "summary": "从球员位置和运动信息预测一次冲球推进距离的概率分布。",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Continuous Rank Probability Score",
+      "start": "2019-10-09T21:30:25.623Z",
+      "deadline": "2020-01-06T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020"
+    },
+    {
+      "id": "nfl-big-data-bowl-2027",
+      "title": "NFL Big Data Bowl 2027",
+      "summary": "Uncover non-obvious linkages between Combine sensor tracking and regular-season NFL game performance",
+      "categories": [
+        "其他"
+      ],
+      "metric": "见竞赛规则",
+      "start": "2026-10-06T19:43:47.377Z",
+      "deadline": "2027-01-06T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+    },
+    {
+      "id": "nlp-getting-started",
+      "title": "Natural Language Processing with Disaster Tweets",
+      "summary": "Predict which Tweets are about real disasters and which ones are not",
+      "categories": [
+        "NLP/LLM"
+      ],
+      "metric": "F-Score (Micro)",
+      "start": "2019-12-23T22:02:26.193Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/nlp-getting-started"
     },
     {
       "id": "optiver-realized-volatility-prediction",
@@ -28,40 +283,78 @@
       "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction"
     },
     {
-      "id": "feedback-prize-english-language-learning",
-      "title": "Feedback Prize - English Language Learning",
-      "summary": "给英语学习者的作文预测六项写作能力分数。",
+      "id": "physical-engineerings-last-exam",
+      "title": "Google - Agent Harness on Physical-Engineering's Last Exam",
+      "summary": "Build autonomous agent harnesses to solve real-world structural, civil, electrical, and mechanical engineering tasks",
       "categories": [
-        "NLP/LLM"
+        "NLP/LLM",
+        "智能体"
       ],
-      "metric": "Mean Weighted Columnwise Root Mean Squared Error",
-      "start": "2022-08-30T17:23:07.433Z",
-      "deadline": "2022-11-29T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning"
+      "metric": "见竞赛规则",
+      "start": "2026-11-09T19:19:06.950Z",
+      "deadline": "2027-01-05T23:59:59Z",
+      "url": "https://www.kaggle.com/competitions/physical-engineerings-last-exam"
     },
     {
-      "id": "image-matching-challenge-2023",
-      "title": "Image Matching Challenge 2023",
-      "summary": "从一组不同视角的照片恢复相机位姿。",
-      "categories": [
-        "视觉"
-      ],
-      "metric": "imc2023",
-      "start": "2023-04-11T20:20:46.877Z",
-      "deadline": "2023-06-12T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/image-matching-challenge-2023"
-    },
-    {
-      "id": "nfl-big-data-bowl-2020",
-      "title": "NFL Big Data Bowl",
-      "summary": "从球员位置和运动信息预测一次冲球推进距离的概率分布。",
+      "id": "playground-series-s6e10",
+      "title": "Predicting Airline Satisfaction",
+      "summary": "Playground Series - Season 6 Episode 10",
       "categories": [
         "表格"
       ],
-      "metric": "Continuous Rank Probability Score",
-      "start": "2019-10-09T21:30:25.623Z",
-      "deadline": "2020-01-06T23:59:00Z",
-      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020"
+      "metric": "Roc Auc Score",
+      "start": "2026-10-01T00:00:00Z",
+      "deadline": "2026-10-31T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e10"
+    },
+    {
+      "id": "playground-series-s6e11",
+      "title": "Predicting Credit Card Fraud",
+      "summary": "Playground Series - Season 6 Episode 11",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Roc Auc Score",
+      "start": "2026-11-01T00:00:00Z",
+      "deadline": "2026-11-30T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e11"
+    },
+    {
+      "id": "playground-series-s6e9",
+      "title": "Predicting Electric Vehicle Purchases",
+      "summary": "Playground Series - Season 6 Episode 9",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Roc Auc Score",
+      "start": "2026-09-01T00:00:00Z",
+      "deadline": "2026-09-30T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/playground-series-s6e9"
+    },
+    {
+      "id": "rsna-knee-abnormality-detection",
+      "title": "RSNA Knee Abnormality Detection",
+      "summary": "Create a model that can detect knee abnormalities based on multimodal imaging data",
+      "categories": [
+        "视觉",
+        "NLP/LLM"
+      ],
+      "metric": "Roc Auc Score",
+      "start": "2026-08-05T15:51:31.833Z",
+      "deadline": "2026-10-22T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection"
+    },
+    {
+      "id": "santa-2026",
+      "title": "Santa 2026 - The Elf Calculator",
+      "summary": "Write arithmetic programs to build large target numbers from small starting values in the fewest steps",
+      "categories": [
+        "优化"
+      ],
+      "metric": "Santa 2026 Metric",
+      "start": "2026-11-18T00:56:01.297Z",
+      "deadline": "2027-01-28T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/santa-2026"
     },
     {
       "id": "santander-customer-transaction-prediction",
@@ -74,63 +367,3019 @@
       "start": "2019-02-13T23:00:00Z",
       "deadline": "2019-04-10T23:59:00Z",
       "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction"
+    },
+    {
+      "id": "spaceship-titanic",
+      "title": "Spaceship Titanic",
+      "summary": "Predict which passengers are transported to an alternate dimension",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Categorization Accuracy",
+      "start": "2022-02-23T19:33:28.377Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/spaceship-titanic"
+    },
+    {
+      "id": "squares-in-squares",
+      "title": "Squares in Squares",
+      "summary": "Find the smallest enclosing square for N unit squares",
+      "categories": [
+        "优化"
+      ],
+      "metric": "Squares in Squares",
+      "start": "2026-10-21T21:00:04.467Z",
+      "deadline": "2027-07-18T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/squares-in-squares"
+    },
+    {
+      "id": "store-sales-time-series-forecasting",
+      "title": "Store Sales - Time Series Forecasting",
+      "summary": "Use machine learning to predict grocery sales",
+      "categories": [
+        "时间序列",
+        "表格"
+      ],
+      "metric": "Root Mean Squared Logarithmic Error",
+      "start": "2021-10-06T17:45:52.597Z",
+      "deadline": "2030-06-30T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting"
+    },
+    {
+      "id": "the-pokemon-company-ptcg-ai-battle-challenge-playground",
+      "title": "The Pokémon Company - PTCG AI Battle Challenge Playground",
+      "summary": "Build an AI Training Agent to play the Pokémon Trading Card Game",
+      "categories": [
+        "智能体"
+      ],
+      "metric": "cabt_bo3",
+      "start": "2026-09-29T00:31:00.783Z",
+      "deadline": "2027-01-08T23:59:59Z",
+      "url": "https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground"
+    },
+    {
+      "id": "titanic",
+      "title": "Titanic - Machine Learning from Disaster",
+      "summary": "Start here! Predict survival on the Titanic and get familiar with ML basics",
+      "categories": [
+        "表格"
+      ],
+      "metric": "Categorization Accuracy",
+      "start": "2012-09-28T21:13:33.550Z",
+      "deadline": "2030-01-01T00:00:00Z",
+      "url": "https://www.kaggle.com/competitions/titanic"
+    },
+    {
+      "id": "tpu-getting-started",
+      "title": "Petals to the Metal - Flower Classification on TPU",
+      "summary": "Getting Started with TPUs on Kaggle!",
+      "categories": [
+        "视觉"
+      ],
+      "metric": "F-Score (Macro)",
+      "start": "2020-06-18T23:27:53.083Z",
+      "deadline": "2030-06-03T23:59:00Z",
+      "url": "https://www.kaggle.com/competitions/tpu-getting-started"
     }
   ],
   "lessons": [
     {
-      "id": "w-11537",
-      "competitionID": "birdclef-2024",
-      "title": "从无标签声景里学鸟鸣",
-      "author": "Team Kefir",
-      "summary": "比赛给了带鸟种标签的短录音，也给了没有标签的野外声景。冠军把两者放进同一套训练流程，让模型接触接近测试环境的背景声。",
-      "takeaway": "先固定一个验证折，比较只用标注录音和加入声景伪标签后的变化。",
-      "tags": [
-        "伪标签",
-        "频谱图"
-      ],
-      "published": "2024-06-13T21:27:24.363Z",
-      "steps": [
-        {
-          "title": "验证设计",
-          "body": "不同折的信号强度分布不同。团队比较标准差、能量等统计量，检查为什么某一折表现特别好。",
-          "reference": "Data/labels preprocessing.",
-          "source": 0
-        },
-        {
-          "title": "输入与训练",
-          "body": "将 10 秒音频转成 128 个 Mel 频带的频谱图，配合预训练的 EfficientNet-B0 等卷积网络识别鸟种。",
-          "reference": "Model input",
-          "source": 0
-        },
-        {
-          "title": "推理与复现",
-          "body": "作者提供了多种融合及耗时对照。先跑公开推理 Notebook 的单模型，再复现均值融合，分别记录耗时和榜分。",
-          "reference": "Main steps to success",
-          "source": 0
-        }
-      ],
+      "id": "k-113927975",
+      "competitionID": "home-data-for-ml-course",
+      "author": "rıza temizel",
+      "published": "2022-12-15T17:53:54.260Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 25,
+        "teams": 3641,
+        "score": "11602.83535",
+        "checked": "2026-11-23T11:04:43Z"
+      },
       "sources": [
         {
-          "title": "冠军方案原文",
-          "url": "https://www.kaggle.com/competitions/birdclef-2024/writeups/team-kefir-1st-place-solution"
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/rzatemizel/feature-engineering-optuna-stacked-pipe?scriptVersionId=113927975"
         },
         {
-          "title": "最终排行榜",
-          "url": "https://www.kaggle.com/competitions/birdclef-2024/leaderboard"
-        },
-        {
-          "title": "冠军推理 Notebook",
-          "url": "https://www.kaggle.com/code/chemrovkirill/birdclef-2024-1st-place-inference"
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
         }
       ],
+      "title": "feature engineering + optuna + stacked pipe",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-115529441",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Senapati Rajesh",
+      "published": "2023-01-05T04:03:14.847Z",
       "evidence": {
-        "kind": "final",
-        "rank": 1,
-        "teams": 974,
-        "score": "0.690391",
-        "checked": "2026-11-23T11:03:30Z"
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
       },
-      "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee"
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/senapatirajesh/predicting-the-prices?scriptVersionId=115529441"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "Predicting the prices",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-118036481",
+      "competitionID": "spaceship-titanic",
+      "author": "Gautam Shah",
+      "published": "2023-02-02T14:51:07.413Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 111,
+        "teams": 2115,
+        "score": "0.81669",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gautamshah2002/spaceship-titanic-with-headjack-ai?scriptVersionId=118036481"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "Spaceship Titanic with Headjack.ai",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-121392019",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Zhecheng Li",
+      "published": "2023-03-08T01:49:39.557Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/lizhecheng/high-score-by-data-matching?scriptVersionId=121392019"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "High Score By Data-Matching",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-126285507",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "PARISA PRABSIANG",
+      "published": "2023-04-18T14:16:04.713Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/parisaprabsiang/for-best-score-use-this-notebook-up-vote?scriptVersionId=126285507"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "for best score use this notebook - up vote",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-131364720",
+      "competitionID": "home-data-for-ml-course",
+      "author": "Cabane à data",
+      "published": "2023-05-28T18:51:58.487Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 27,
+        "teams": 3641,
+        "score": "11671.53164",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mohamedbissane/improving-the-model-to-predict-house-prices?scriptVersionId=131364720"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "Improving the model to predict house prices",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-137447062",
+      "competitionID": "spaceship-titanic",
+      "author": "Tamaki ishikawa",
+      "published": "2023-07-21T08:08:13.443Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 114,
+        "teams": 2115,
+        "score": "0.81622",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/tamakii/notebook47ff03911b?scriptVersionId=137447062"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "notebook47ff03911b",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-137447625",
+      "competitionID": "spaceship-titanic",
+      "author": "YUUKI MORI",
+      "published": "2023-07-21T08:13:50.863Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 111,
+        "teams": 2115,
+        "score": "0.81669",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/moriyuuki6123380085/notebook3ee6724898?scriptVersionId=137447625"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "notebook3ee6724898",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-137448304",
+      "competitionID": "spaceship-titanic",
+      "author": "玉置浩貴",
+      "published": "2023-07-21T08:21:17.393Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 113,
+        "teams": 2115,
+        "score": "0.81646",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/hirotakaaa/notebook24e6c4c34d?scriptVersionId=137448304"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "notebook24e6c4c34d",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-16413783",
+      "competitionID": "digit-recognizer",
+      "author": "Raghawendra Singh",
+      "published": "2019-06-27T19:38:48.290Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/raghaw/mnist-cnn-external-data-perfect-score?scriptVersionId=16413783"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "MNIST: CNN + External data = Perfect score",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "5c97b87046d7eb8504010e3f31cfbecb5e042299c63eecc3b58ef62cb883f985",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-168861359",
+      "competitionID": "spaceship-titanic",
+      "author": "Javin Lim",
+      "published": "2024-03-26T14:46:44.880Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 111,
+        "teams": 2115,
+        "score": "0.81669",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/javinlim/space-titanic-eda-advanced-feature-engineering?scriptVersionId=168861359"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "🛸 Space Titanic: EDA|Advanced Feature Engineering",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-182967677",
+      "competitionID": "spaceship-titanic",
+      "author": "YuntechIM_B11123055",
+      "published": "2024-06-12T06:46:18.243Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 102,
+        "teams": 2115,
+        "score": "0.81903",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/yuntechimb11123055/spaceshiptitanic-models-v2?scriptVersionId=182967677"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/spaceship-titanic/leaderboard"
+        }
+      ],
+      "title": "SpaceshipTitanic|Models|V2",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-212168075",
+      "competitionID": "tpu-getting-started",
+      "author": "Maryam Almarri",
+      "published": "2024-12-09T20:22:43.500Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 6,
+        "teams": 67,
+        "score": "0.97956",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/maryamalmarri/predict-models-densenet201?scriptVersionId=212168075"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/tpu-getting-started/leaderboard"
+        }
+      ],
+      "title": "predict_models_DenseNet201",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-21631624",
+      "competitionID": "digit-recognizer",
+      "author": "Manoj K",
+      "published": "2019-10-07T10:13:35.430Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/manoj1998/mark1-mnist?scriptVersionId=21631624"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Mark1 (Mnist)",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-25668838",
+      "competitionID": "digit-recognizer",
+      "author": "Louis Delloye",
+      "published": "2019-12-25T00:16:58.913Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/louisdelloye/data-recognizer-100-score?scriptVersionId=25668838"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Data Recognizer - 100% score ...",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "24b5dd826ecc60503c68a93bb023837a8284f6d765ba3de604577ff48105c261",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-26881574",
+      "competitionID": "nlp-getting-started",
+      "author": "Buddhadeb Mondal",
+      "published": "2020-01-14T10:39:15.510Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/aaroha33/a-real-disaster-leaked-label?scriptVersionId=26881574"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "A Real Disaster - Leaked Label",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-273566828",
+      "competitionID": "tpu-getting-started",
+      "author": "Cristian2208",
+      "published": "2025-11-05T02:10:16.310Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 5,
+        "teams": 67,
+        "score": "0.98084",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/cristian2208/tpu-automated-ensemble?scriptVersionId=273566828"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/tpu-getting-started/leaderboard"
+        }
+      ],
+      "title": "tpu automated ensemble",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-277086012",
+      "competitionID": "tpu-getting-started",
+      "author": "Jayasimha V",
+      "published": "2025-11-13T06:58:22.070Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 2,
+        "teams": 67,
+        "score": "0.98222",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jayasimhav/petals-to-the-metal-flower-classification?scriptVersionId=277086012"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/tpu-getting-started/leaderboard"
+        }
+      ],
+      "title": "Petals to the Metal - Flower Classification",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-286026928",
+      "competitionID": "home-data-for-ml-course",
+      "author": "betagammashtrit",
+      "published": "2025-12-13T23:41:58.407Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 35,
+        "teams": 3641,
+        "score": "11911.65105",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/betagammashtrit/optuna-on-3-model-stack?scriptVersionId=286026928"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "optuna on 3 model stack",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-286033336",
+      "competitionID": "home-data-for-ml-course",
+      "author": "betagammashtrit",
+      "published": "2025-12-14T00:52:54.230Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 23,
+        "teams": 3641,
+        "score": "11572.97803",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/betagammashtrit/improved-ensemble-and-features?scriptVersionId=286033336"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "improved ensemble and features",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-291558654",
+      "competitionID": "home-data-for-ml-course",
+      "author": "betagammashtrit",
+      "published": "2026-01-13T02:48:43.897Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 62,
+        "teams": 3641,
+        "score": "12329.79076",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/betagammashtrit/autofgluon-winning-features?scriptVersionId=291558654"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "autofgluon winning features",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-29911658",
+      "competitionID": "nlp-getting-started",
+      "author": "Zara Khan",
+      "published": "2020-03-09T19:32:04.573Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/zarajamshaid/basic-nlp-on-disaster-tweets?scriptVersionId=29911658"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "Basic NLP on Disaster Tweets",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-300684238",
+      "competitionID": "home-data-for-ml-course",
+      "author": "Benedictus Ryu Gunawan",
+      "published": "2026-02-28T17:33:51.607Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 33,
+        "teams": 3641,
+        "score": "11849.04818",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/benedictusryugunawan/top-18-tabpfn-for-housing-price?scriptVersionId=300684238"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "Top 18 | TabPFN for Housing Price",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-302838836",
+      "competitionID": "store-sales-time-series-forecasting",
+      "author": "Thanh Nhan Nguyen",
+      "published": "2026-03-11T10:09:24.323Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 69,
+        "teams": 725,
+        "score": "0.37947",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ssssws/store-sales-time-series-forecasting-h-blend?scriptVersionId=302838836"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard"
+        }
+      ],
+      "title": "Store Sales - Time Series Forecasting | h-blend",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "615831a7cf3a3eb2c8eb59e2e8afb45cb6e4444137637096e6ffbcd2f9dc2098",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-30685379",
+      "competitionID": "nlp-getting-started",
+      "author": "Anusha Nidamanuri",
+      "published": "2020-03-23T13:23:56.407Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/anushakarthik1991/nlp-with-disaster-tweets-eda-cleaning-and-bert?scriptVersionId=30685379"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "NLP with Disaster Tweets - EDA, Cleaning and BERT",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-313917882",
+      "competitionID": "home-data-for-ml-course",
+      "author": "Jeki Wan Taufik",
+      "published": "2026-04-23T15:56:00.840Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 3641,
+        "score": "0",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jek1wantaufik/lightgbm-k-fold-cv-for-house-price-prediction?scriptVersionId=313917882"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "LightGBM K-Fold CV for House Price Prediction",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-358224038",
+      "competitionID": "gemma-4-developer-agent",
+      "author": "sont",
+      "published": "2026-10-14T05:33:06.430Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 152,
+        "teams": 6538,
+        "score": "0.2",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jvnhonglei/gemma-4-superagent-reproduction?scriptVersionId=358224038"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/leaderboard"
+        }
+      ],
+      "title": "Gemma 4 SuperAgent Reproduction",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-361064349",
+      "competitionID": "gemma-4-developer-agent",
+      "author": "xiuchi sun",
+      "published": "2026-10-22T08:09:30.777Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 152,
+        "teams": 6538,
+        "score": "0.2",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/xiuchisun/gemma-4-agent-budget-fit-31b-mainline?scriptVersionId=361064349"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/leaderboard"
+        }
+      ],
+      "title": "Gemma 4 Agent Budget-Fit 31B Mainline",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-364443572",
+      "competitionID": "gemma-4-developer-agent",
+      "author": "shimauchu",
+      "published": "2026-11-01T05:44:06.667Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 152,
+        "teams": 6538,
+        "score": "0.2",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/shimauchu/gemma-davis-v19-temp04?scriptVersionId=364443572"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/leaderboard"
+        }
+      ],
+      "title": "Gemma Davis v19 Temp04",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "596fae2c032b824e891eeb69a4675e332a2c0b4d567268e3db3a9836ba9f9696",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-365669427",
+      "competitionID": "llm-classification-finetuning",
+      "author": "Siyuan Chen",
+      "published": "2026-11-04T15:25:38.653Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 22,
+        "teams": 323,
+        "score": "0.82756",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gloriachen0816/fork-gemma-2-llama-3-preference-ensemble-on-2xt4?scriptVersionId=365669427"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/llm-classification-finetuning/leaderboard"
+        }
+      ],
+      "title": "fork gemma 2 llama 3 preference ensemble on 2xt4",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-366027967",
+      "competitionID": "llm-classification-finetuning",
+      "author": "Siyuan Chen",
+      "published": "2026-11-05T16:58:12.900Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 19,
+        "teams": 323,
+        "score": "0.82728",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gloriachen0816/llmclf-headtail-r6?scriptVersionId=366027967"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/llm-classification-finetuning/leaderboard"
+        }
+      ],
+      "title": "llmclf headtail r6",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-368205932",
+      "competitionID": "llm-classification-finetuning",
+      "author": "Siyuan Chen",
+      "published": "2026-11-10T21:45:58.797Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 18,
+        "teams": 323,
+        "score": "0.82685",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gloriachen0816/llmclf-ander-r7?scriptVersionId=368205932"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/llm-classification-finetuning/leaderboard"
+        }
+      ],
+      "title": "llmclf ander r7",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372174163",
+      "competitionID": "name-that-llm",
+      "author": "奶龙",
+      "published": "2026-11-21T11:30:46.467Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 492,
+        "teams": 6822,
+        "score": "0.717",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/dennis6886/glm-user-prefix-0716-reference-run?scriptVersionId=372174163"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "GLM User Prefix - 0716 Reference Run",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372225976",
+      "competitionID": "playground-series-s6e11",
+      "author": "奶龙",
+      "published": "2026-11-21T14:08:23.313Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 160,
+        "teams": 2813,
+        "score": "0.95547",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/dennis6886/s6e11-which-signals-rank-fraud-v3-reproduction?scriptVersionId=372225976"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e11/leaderboard"
+        }
+      ],
+      "title": "S6E11 Which Signals Rank Fraud V3 reproduction",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372228341",
+      "competitionID": "playground-series-s6e11",
+      "author": "奶龙",
+      "published": "2026-11-21T14:15:33.237Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 160,
+        "teams": 2813,
+        "score": "0.95547",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/dennis6886/s6e11-catboost-within-fraud-risk-bands?scriptVersionId=372228341"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e11/leaderboard"
+        }
+      ],
+      "title": "只在相近风险档里微调欺诈排序",
+      "summary": "把公开预测分成 40 个风险档。CatBoost 学到的分数先减去所在风险区间的典型水平，再以小权重调整原排序。这样能把精力放在难分先后的交易上。",
+      "takeaway": "固定基础预测，比较调整前后的 AUC 和平均名次移动，同时换一个划分检查稳定性。",
+      "tags": [
+        "CatBoost",
+        "分层验证",
+        "排序"
+      ],
+      "steps": [
+        {
+          "title": "重建对照组",
+          "body": "作者校验五份输入文件的 SHA-256，先重建固定的对照预测。输入顺序或文件变更会破坏这个对比。",
+          "reference": "Cell 3",
+          "source": 0
+        },
+        {
+          "title": "确定训练长度",
+          "body": "保留欺诈标签的比例，留出 20% 数据评估 AUC，用早停选出树数，再用全部训练数据重训。",
+          "reference": "Cell 5",
+          "source": 0
+        },
+        {
+          "title": "在风险档内调序",
+          "body": "把 CatBoost 排名转成 logit，在 40 档中估计中位趋势。残差截断到 ±0.55 后乘以 0.035，加入原分。公布的榜分属于整份提交。",
+          "reference": "Cell 5",
+          "source": 0
+        }
+      ],
+      "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2"
+    },
+    {
+      "id": "k-372338058",
+      "competitionID": "name-that-llm",
+      "author": "Kuan-Chieh Huang",
+      "published": "2026-11-21T20:05:47.130Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 492,
+        "teams": 6822,
+        "score": "0.717",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/kchuang/ntl-h195-v6-keep-glm-to-fable?scriptVersionId=372338058"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL H195 v6 keep glm to fable",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372418637",
+      "competitionID": "name-that-llm",
+      "author": "hc luo",
+      "published": "2026-11-22T02:02:03.027Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 118,
+        "teams": 6822,
+        "score": "0.719",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/hcluo8888/ntl-0719-glm-prefix-fable-gate?scriptVersionId=372418637"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-0719-glm-prefix-fable-gate",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372427597",
+      "competitionID": "name-that-llm",
+      "author": "m-toshi desu",
+      "published": "2026-11-22T02:41:07.597Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mtoshidesu/test-user-prefix-guarded-fable-return?scriptVersionId=372427597"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "Test User Prefix - Guarded Fable Return",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372487335",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Mr.Liang",
+      "published": "2026-11-22T06:31:12.867Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jnliang/casmi-e064-follow-0500?scriptVersionId=372487335"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi-e064-follow-0500",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372532133",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Vedrin Jeliazkov",
+      "published": "2026-11-22T09:03:57.373Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/vedrinjeliazkov/casmi26-0495-d1-nnet10-500-1122?scriptVersionId=372532133"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "CASMI26-0495-D1-NNET10-500-1122",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "5c21409605a16b7d4cd8b866e66b00fe6892c560ae3cb58feb3cab4649338424",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372548786",
+      "competitionID": "name-that-llm",
+      "author": "navigator63",
+      "published": "2026-11-22T09:57:30.750Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/navigator63/ntl-arb719true?scriptVersionId=372548786"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl arb719true",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372551883",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Kuan-Chieh Huang",
+      "published": "2026-11-22T10:07:42.403Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/kchuang/casmi26-e278-ars500-nistclean?scriptVersionId=372551883"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "CASMI26 E278 ARS500 nistclean",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ec4cfa829cb059cc6f7010d33bfc675900a61d0681f74737f7f1ed00b9ecd532",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372574240",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "ADITYA RAJ",
+      "published": "2026-11-22T11:16:59.487Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp328-sovereign-0500-aprior-uniq?scriptVersionId=372574240"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26 exp328 sovereign 0500 aprior uniq",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "3c9b9acfc96d437d187300106cb85539e81afb0ed85c6b5f17082872a29158a5",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372576889",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Koushik Rudra",
+      "published": "2026-11-22T11:25:30.063Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 267,
+        "teams": 5838,
+        "score": "0.501",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/koushikrudra/casmi26-with-180x?scriptVersionId=372576889"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-with-180x",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "587ba8fdcca71fb4ff5d04fd2fa874bbf5d47e8b3dce36a68e6c7491053b6dbd",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372587781",
+      "competitionID": "name-that-llm",
+      "author": "uninhibited-scholar",
+      "published": "2026-11-22T12:00:14.857Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/uninhibitedscholar/ntl-0719-dennis-fable-return-20261122?scriptVersionId=372587781"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL 0719 Dennis Fable Return 20261122",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372588062",
+      "competitionID": "name-that-llm",
+      "author": "feiyu26",
+      "published": "2026-11-22T12:01:07.143Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/feiyu26/ntl-0718-user-prefix-fable-repro?scriptVersionId=372588062"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL 0718 user prefix fable repro",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372609786",
+      "competitionID": "name-that-llm",
+      "author": "Soren",
+      "published": "2026-11-22T13:08:24.803Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 492,
+        "teams": 6822,
+        "score": "0.717",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/huanansu/ntl-d719-fork?scriptVersionId=372609786"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl d719 fork",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372627682",
+      "competitionID": "name-that-llm",
+      "author": "hc luo",
+      "published": "2026-11-22T14:03:00.287Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/hcluo8888/ntl-0718a-glm-cover20?scriptVersionId=372627682"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-0718a-glm-cover20",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372632412",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Rishabh Bafna",
+      "published": "2026-11-22T14:16:56.583Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/rishabhbafnaiiitd/casmi26-0-500-aprior-stack-fr-after-p5-tail?scriptVersionId=372632412"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "CASMI26 0.500 | APRIOR Stack + FR after P5 Tail",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372642965",
+      "competitionID": "name-that-llm",
+      "author": "chen yibo",
+      "published": "2026-11-22T14:46:02.957Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 259,
+        "teams": 6822,
+        "score": "0.718",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/chyibo/name-that-llm-0717-fork?scriptVersionId=372642965"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "Name That LLM 0717 Fork",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372671398",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Kuan-Chieh Huang",
+      "published": "2026-11-22T16:05:55.763Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/kchuang/casmi26-e281-uniq-sink-off?scriptVersionId=372671398"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "CASMI26 E281 UNIQ sink off",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "77d82adbb81e8242f991b8aa08d7c3e447c50f91214c0570936a0ef72fa91acd",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372717326",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Subham Sharma",
+      "published": "2026-11-22T18:22:26.487Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 387,
+        "teams": 5838,
+        "score": "0.5",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/subsh2004/casmi26-arm-w?scriptVersionId=372717326"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-arm-w",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "1755156d48fcba251289f6539d62ba24913071017f640e4b7afe1fd519bb844b",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372750961",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "jiyuhao1213",
+      "published": "2026-11-22T20:16:11.403Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 267,
+        "teams": 5838,
+        "score": "0.501",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v111?scriptVersionId=372750961"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-v111",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "b2c1a84e5c220db7b6c3c41d74cf1b316d07ee1f349d34158d70dd32da8390ef",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372772868",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Mr.Liang",
+      "published": "2026-11-22T21:31:56.460Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 70,
+        "teams": 5838,
+        "score": "0.505",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jnliang/casmi-e068-keep1f-e180x?scriptVersionId=372772868"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi-e068-keep1f-e180x",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "4df08201b419af110617d42a6ee0f86f8f1c8075d7f19a16821ace84a8c2787c",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372780350",
+      "competitionID": "name-that-llm",
+      "author": "RanJeet Gupta",
+      "published": "2026-11-22T22:01:24.317Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 99,
+        "teams": 6822,
+        "score": "0.72",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ranjeet258/name-that-llm-sibling-odds?scriptVersionId=372780350"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "先判模型家族，再区分近亲模型",
+      "summary": "识别文本作者时，同家族模型容易混淆。这份公开方案用文本证据调整家族内部的相对概率，同时保留模型集成对家族的总体判断。",
+      "takeaway": "单独检查同家族错分样本。对照修正前后的混淆矩阵，观察家族内调整是否引入了新错误。",
+      "tags": [
+        "文本分类",
+        "概率校准"
+      ],
+      "steps": [
+        {
+          "title": "识别误差来源",
+          "body": "这一版本关注同一模型家族内接近的判定。作者在开头链接了基线版本，便于对照新增逻辑。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "修正局部概率",
+          "body": "Sibling residual 模块在融合后的 log 概率上工作。它提取标点及常见词等特征，在同一家族内重分配概率。",
+          "reference": "Cell 14",
+          "source": 0
+        },
+        {
+          "title": "核查产物",
+          "body": "最后读取验证记录，检查结果非空且列为 id 与 model，再保存散列。它验证文件结构；单独模块的得分收益仍需对照实验。",
+          "reference": "Cell 56",
+          "source": 0
+        }
+      ],
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+    },
+    {
+      "id": "k-372780693",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "jiyuhao1213",
+      "published": "2026-11-22T22:02:52.303Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 70,
+        "teams": 5838,
+        "score": "0.505",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v112?scriptVersionId=372780693"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-v112",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372795758",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "jiyuhao1213",
+      "published": "2026-11-22T23:04:09.610Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 267,
+        "teams": 5838,
+        "score": "0.501",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v113?scriptVersionId=372795758"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-v113",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "55a65738efa000b4c08db92e4e390b8f63a7fbf80eeef47499f640f3b876ad00",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372842377",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "StarsMoon",
+      "published": "2026-11-23T02:15:00.190Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 70,
+        "teams": 5838,
+        "score": "0.505",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/wangmingye0829/v108-ozr500?scriptVersionId=372842377"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "v108-ozr500",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372852491",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "author": "Leo",
+      "published": "2026-11-23T02:54:18.270Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 267,
+        "teams": 5838,
+        "score": "0.501",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/huangkx666/enveda-p2s-501fork?scriptVersionId=372852491"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "enveda p2s 501fork",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e9a641efac4878abd07d9ec77a69ee804de87655b247e3299d12258c2a5c8661",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-372880859",
+      "competitionID": "google-verifiable-quantum-circuit-compilation",
+      "author": "liuzewen123",
+      "published": "2026-11-23T04:35:42.867Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 66,
+        "teams": 3623,
+        "score": "33.17067",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/liuzewen123/qcc-dqi-zero-test-cuts-verbatim-33-17067?scriptVersionId=372880859"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard"
+        }
+      ],
+      "title": "改写量子门后，用同一组输入复核",
+      "summary": "作者从已公开的电路出发，用更便宜的门改写部分受控操作。随后在相同输入上模拟，并用官方验证器检查最终交付的各个文件。",
+      "takeaway": "先保留未修改电路，在同一随机种子上比较一次改写的操作数和验证结果。",
+      "tags": [
+        "电路优化",
+        "对照实验"
+      ],
+      "steps": [
+        {
+          "title": "固定输入",
+          "body": "按 SHA-256 定位公开文件，使每一步改写都能回到同一组基线输入。",
+          "reference": "Cell 4",
+          "source": 0
+        },
+        {
+          "title": "评估改写",
+          "body": "枚举待替换的门，并用样本上的值模拟检查改写条件。模拟给出观测结果，不能单独构成对所有输入的等价证明。",
+          "reference": "Cell 9",
+          "source": 0
+        },
+        {
+          "title": "验证结果",
+          "body": "使用未修改的官方验证器，核查提交里的每份文件。公开榜记录的是整个提交的分数。",
+          "reference": "Cell 10",
+          "source": 0
+        }
+      ],
+      "fingerprint": "c23ffe8d16cf9b71d8d4e4715fb87dec69fd102f2dd921428cdc4fbbac4a728a"
+    },
+    {
+      "id": "k-372896479",
+      "competitionID": "google-verifiable-quantum-circuit-compilation",
+      "author": "liuzewen123",
+      "published": "2026-11-23T05:25:53.707Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 330,
+        "teams": 3623,
+        "score": "33.17029",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/liuzewen123/qcc-3357-loaders-stock-dqi?scriptVersionId=372896479"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard"
+        }
+      ],
+      "title": "QCC | 3357 loaders + stock DQI",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d798e56e02c6ad749891e0ff7a912568b531fe830df35f03d86783fd62b77ad2",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-39482869",
+      "competitionID": "titanic",
+      "author": "AhmedMazenAhmedMurad",
+      "published": "2020-07-25T09:30:22.537Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ahmedmurad1990/titanic-competition-how-to-get-top-score-100?scriptVersionId=39482869"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Titanic-Competition : How to get top score 100%",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-40384661",
+      "competitionID": "digit-recognizer",
+      "author": "JumpingManDT",
+      "published": "2020-08-08T15:09:00.723Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jumpingmandt/digit-recognizer-easy-compare?scriptVersionId=40384661"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Digit recognizer easy compare",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-41059570",
+      "competitionID": "digit-recognizer",
+      "author": "Ghaiyur",
+      "published": "2020-08-20T06:17:00.073Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ghaiyur/mnist-vcv2?scriptVersionId=41059570"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "mnist_vcv2",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-41388930",
+      "competitionID": "tpu-getting-started",
+      "author": "AhmedMazenAhmedMurad",
+      "published": "2020-08-25T21:51:18.190Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 5,
+        "teams": 67,
+        "score": "0.98035",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ahmedmurad1990/fc-ensemble-external-data-2?scriptVersionId=41388930"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/tpu-getting-started/leaderboard"
+        }
+      ],
+      "title": "FC Ensemble External Data 2",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-41797632",
+      "competitionID": "nlp-getting-started",
+      "author": "AhmedMazenAhmedMurad",
+      "published": "2020-09-01T19:43:26.663Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ahmedmurad1990/nlp-disaster-tweets-with-electra-base?scriptVersionId=41797632"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "NLP_Disaster_Tweets with ELECTRA Base",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ebf1060dedc32b1b53eef605497b9e99e4da452cec680b3ba844fec00bf34afc",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-42642100",
+      "competitionID": "digit-recognizer",
+      "author": "Nakul Singh",
+      "published": "2020-09-14T09:16:55.923Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/nakulsingh1289/score-1-00-in-digit-recognizer?scriptVersionId=42642100"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Score 1.00 in Digit-Recognizer ",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "7425b1d48908f9794771b87e3ec865a128c8a1d7d372c7057a5139db256d12a0",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-42893184",
+      "competitionID": "digit-recognizer",
+      "author": "PavanKalyan",
+      "published": "2020-09-17T16:58:25.973Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/pavan9065/digit-recognizer-v2-0?scriptVersionId=42893184"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Digit recognizer-v2.0",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "eb3ebe785487825be65dba8da98f5e6d7a88bc526db3b0220578e2f90d8dabb5",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-45864806",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Fahad vp",
+      "published": "2020-10-31T05:48:20Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mohammedfahadvp/house-price?scriptVersionId=45864806"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House_Price",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "90a411141a1f4e0360410e65e907ab5e197c14ca068ce8092808ffd3db3abb1d",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-55235987",
+      "competitionID": "digit-recognizer",
+      "author": "Jamie Leech",
+      "published": "2021-02-25T21:02:55.610Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jamieleech/digit-recognizer-v3-0?scriptVersionId=55235987"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "Digit recognizer-v3.0",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-55240773",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Karen Smiths",
+      "published": "2021-02-25T22:49:23.013Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/karensmiths/house-prices-best-score?scriptVersionId=55240773"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House-Prices Best Score",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "13e79cebfbfa997b30999a4c5b4e303889ff5ba8c86377d42d181564cd9df4f0",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-55314995",
+      "competitionID": "titanic",
+      "author": "Benn Heinz",
+      "published": "2021-02-26T18:53:44.013Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/bennheinz/be-in-top-10-submissions?scriptVersionId=55314995"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Be in Top 10 submissions",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "0c582b5e78c5c4bca6f825e42575fdb24bbfc05d99774a47ba419a490d2b736f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-61255797",
+      "competitionID": "nlp-getting-started",
+      "author": "Yossawadee Promwong",
+      "published": "2021-04-28T20:42:23.807Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/yossawadeepromwong/disaster-and-nondisaster-tweets?scriptVersionId=61255797"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "Disaster-and-NonDisaster-tweets",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-62414083",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Jennifer MH Chiang",
+      "published": "2021-05-10T03:45:17.967Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jennifermhchiang/house-price?scriptVersionId=62414083"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House Price",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "6f7d7ec5ce53ce2645f48bb2bb800a57480cda93664cafc9528da5f9b6634e2e",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-65447629",
+      "competitionID": "titanic",
+      "author": "Ayush Shrivastava",
+      "published": "2021-06-11T09:38:31.183Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/boss0ayush/extensive-eda-plus-top2?scriptVersionId=65447629"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Extensive_EDA_plus_top2%",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "bbea7ff390bfbeb83906fa97d9a3e6e7b21519a70fcdd111138c5f82e80ec79f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-74600426",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Kumud Singh",
+      "published": "2021-09-12T18:41:03.377Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/kumudsingh9/house-price-competition-advanced-reg-improved?scriptVersionId=74600426"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House-Price Competition Advanced Reg Improved ",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-74905963",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Enes Şimşek",
+      "published": "2021-09-16T12:43:10.550Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/enesimek/house-price-prediction?scriptVersionId=74905963"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House Price Prediction ",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-75032326",
+      "competitionID": "titanic",
+      "author": "Saravana Kumar",
+      "published": "2021-09-18T04:37:01.357Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/victorsullivan/titanic-records?scriptVersionId=75032326"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Titanic Records",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-75043606",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Erwin",
+      "published": "2021-09-18T08:12:32.910Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/syerwin/house-prices-prediction?scriptVersionId=75043606"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "house prices prediction",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-75815589",
+      "competitionID": "titanic",
+      "author": "SABBIR AHMED",
+      "published": "2021-09-27T16:37:31.453Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/sabbir108/titanic-records?scriptVersionId=75815589"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Titanic Records",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e781b1deadc901cd72b31543192cec0a56d27c15031ee0eb4aec49180a473aa2",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-76090159",
+      "competitionID": "titanic",
+      "author": "Luong Duong Minh",
+      "published": "2021-10-01T04:06:01.900Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/luongduongminh/titanic-machine-learning-from-disaster?scriptVersionId=76090159"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Titanic - Machine Learning from Disaster",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "f3e31b9e3c0e72fe5b4926ca94d937ebe70a08086751e014f3100c8ef7ec51b4",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-76368250",
+      "competitionID": "titanic",
+      "author": "Antonina Bugayova",
+      "published": "2021-10-05T06:20:13.763Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/antoninabugayova/score1?scriptVersionId=76368250"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "титаник score1",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-78027906",
+      "competitionID": "titanic",
+      "author": "Prof-Ahmad Hussein",
+      "published": "2021-10-26T05:59:36.247Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/profahmadhussein2010/titanic-machine-learning-from-disaster?scriptVersionId=78027906"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "Titanic - Machine Learning from Disaster",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "ae0ace7ca26543c71822718f42952191deab8626de508f97c6fd8f0b00f631dc",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-78027942",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Prof-Ahmad Hussein",
+      "published": "2021-10-26T06:00:00.540Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/profahmadhussein2010/house-prices1?scriptVersionId=78027942"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House Prices1",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-78373354",
+      "competitionID": "nlp-getting-started",
+      "author": "Antonina Bugayova",
+      "published": "2021-10-30T07:47:42.507Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 648,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/antoninabugayova/nlp-with-disaster-tweets-new-b?scriptVersionId=78373354"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/nlp-getting-started/leaderboard"
+        }
+      ],
+      "title": "NLP with Disaster Tweets_new_b",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "e379f00dc23a6b347b3efe5f4416a4249a1c3ddd561d8c71d15c9e1bc91f51aa",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-80681540",
+      "competitionID": "digit-recognizer",
+      "author": "Andriy Lysanets",
+      "published": "2021-11-24T18:19:09.790Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 1331,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/andrewlysanets/notebookd81a9539b5?scriptVersionId=80681540"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/digit-recognizer/leaderboard"
+        }
+      ],
+      "title": "notebookd81a9539b5",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "2eb42b4cd7611ebf85bf157a1bb69eb3c1cc82738501d3f1293c8a45bf01f4f6",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-81567898",
+      "competitionID": "titanic",
+      "author": "Yazan Majzoub",
+      "published": "2021-12-05T05:37:15.723Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/yazanmajzob/auto-eda?scriptVersionId=81567898"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": " Auto EDA ",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "47cc6be3145212da2166a6cb0425fcc8b790ceac0a35101a090ae23dde5ce461",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-85386378",
+      "competitionID": "titanic",
+      "author": "Evgeny Potapov",
+      "published": "2022-01-16T16:12:51.963Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/evgenypotapov/notebook602c8b4de2?scriptVersionId=85386378"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "notebook602c8b4de2",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "5c9a408e09c309b8ad9dcc75220ed789a10a0ae61ca00071326708b3b46e6ad8",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-86298162",
+      "competitionID": "titanic",
+      "author": "Vivo Vinco",
+      "published": "2022-01-27T10:46:52.647Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 1,
+        "teams": 11104,
+        "score": "1",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/vivovinco/titanic-real-1-0?scriptVersionId=86298162"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/titanic/leaderboard"
+        }
+      ],
+      "title": "※ Titanic - Real 1.0",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "161b17174a8c75cb1bad7b5bc2e871bd342cd2e9c38a2005c7e87b78391b7e5a",
+      "awaitingExplanation": true
+    },
+    {
+      "id": "k-96887702",
+      "competitionID": "house-prices-advanced-regression-techniques",
+      "author": "Adarsh Malviya",
+      "published": "2022-05-29T07:03:03.487Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 55,
+        "teams": 4753,
+        "score": "0.00044",
+        "checked": "2026-11-23T11:04:43Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/adarshmalviy/house-prices-prediction-part-2-with-fe?scriptVersionId=96887702"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard"
+        }
+      ],
+      "title": "House Prices Prediction Part 2 with FE",
+      "summary": "这份公开 Notebook 的版本和成绩已核验。",
+      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "tags": [
+        "Notebook"
+      ],
+      "steps": [],
+      "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567",
+      "awaitingExplanation": true
     },
     {
       "id": "w-10441",
@@ -186,6 +3435,61 @@
         "checked": "2026-11-23T11:03:30Z"
       },
       "fingerprint": "cd63ea359263bef857824fd591ff85408ef72cbcbfc6f7da1ce10e05bf5fb2c1"
+    },
+    {
+      "id": "w-11537",
+      "competitionID": "birdclef-2024",
+      "title": "从无标签声景里学鸟鸣",
+      "author": "Team Kefir",
+      "summary": "比赛给了带鸟种标签的短录音，也给了没有标签的野外声景。冠军把两者放进同一套训练流程，让模型接触接近测试环境的背景声。",
+      "takeaway": "先固定一个验证折，比较只用标注录音和加入声景伪标签后的变化。",
+      "tags": [
+        "伪标签",
+        "频谱图"
+      ],
+      "published": "2024-06-13T21:27:24.363Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "不同折的信号强度分布不同。团队比较标准差、能量等统计量，检查为什么某一折表现特别好。",
+          "reference": "Data/labels preprocessing.",
+          "source": 0
+        },
+        {
+          "title": "输入与训练",
+          "body": "将 10 秒音频转成 128 个 Mel 频带的频谱图，配合预训练的 EfficientNet-B0 等卷积网络识别鸟种。",
+          "reference": "Model input",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "作者提供了多种融合及耗时对照。先跑公开推理 Notebook 的单模型，再复现均值融合，分别记录耗时和榜分。",
+          "reference": "Main steps to success",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/birdclef-2024/writeups/team-kefir-1st-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/birdclef-2024/leaderboard"
+        },
+        {
+          "title": "冠军推理 Notebook",
+          "url": "https://www.kaggle.com/code/chemrovkirill/birdclef-2024-1st-place-inference"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 974,
+        "score": "0.690391",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee"
     },
     {
       "id": "w-11697",
@@ -298,57 +3602,6 @@
       "fingerprint": "5d23441237996fddd0ae829d74d82cbfa96753c22bc2e6464a6ecc7c36628be7"
     },
     {
-      "id": "w-9958",
-      "competitionID": "nfl-big-data-bowl-2020",
-      "title": "用场地对称性预测推进距离",
-      "author": "The Zoo",
-      "summary": "向球场左侧或右侧跑动可以有相同的推进距离。冠军同时翻转横向坐标及相对特征，并在推理时融合镜像输入的预测。",
-      "takeaway": "先把同一场比赛放进同一折，再测试镜像增强，避免相邻回合泄漏到验证集。",
-      "tags": [
-        "分组验证",
-        "镜像增强"
-      ],
-      "published": "2020-01-10T10:17:56.387Z",
-      "steps": [
-        {
-          "title": "验证设计",
-          "body": "按 GameId 做 5 折 GroupKFold，验证时仅评估 2018 赛季样本。作者报告该设置与公开榜相关性较好。",
-          "reference": "CV",
-          "source": 0
-        },
-        {
-          "title": "数据处理",
-          "body": "同一次跑动包含攻守双方的多名球员。构造相对位置时保持跑动方向一致，让表示可在回合之间比较。",
-          "reference": "Data processing",
-          "source": 0
-        },
-        {
-          "title": "推理与复现",
-          "body": "对横坐标方向以外的横场 Y 轴做镜像，并同步变换派生特征。分别预测原始与镜像阵形再融合。",
-          "reference": "Augmentation & TTA",
-          "source": 0
-        }
-      ],
-      "sources": [
-        {
-          "title": "冠军方案原文",
-          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/writeups/the-zoo-1st-place-solution-the-zoo"
-        },
-        {
-          "title": "最终排行榜",
-          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/leaderboard"
-        }
-      ],
-      "evidence": {
-        "kind": "final",
-        "rank": 1,
-        "teams": 1817,
-        "score": "0.011658",
-        "checked": "2026-11-23T11:03:30Z"
-      },
-      "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a"
-    },
-    {
       "id": "w-9716",
       "competitionID": "santander-customer-transaction-prediction",
       "title": "从匿名数值的出现次数提取信号",
@@ -398,6 +3651,57 @@
         "checked": "2026-11-23T11:03:30Z"
       },
       "fingerprint": "de85ff3ec1b63ba5e806121eb2b3eba07e7b2134f47c2582fbd6b9200d19c84c"
+    },
+    {
+      "id": "w-9958",
+      "competitionID": "nfl-big-data-bowl-2020",
+      "title": "用场地对称性预测推进距离",
+      "author": "The Zoo",
+      "summary": "向球场左侧或右侧跑动可以有相同的推进距离。冠军同时翻转横向坐标及相对特征，并在推理时融合镜像输入的预测。",
+      "takeaway": "先把同一场比赛放进同一折，再测试镜像增强，避免相邻回合泄漏到验证集。",
+      "tags": [
+        "分组验证",
+        "镜像增强"
+      ],
+      "published": "2020-01-10T10:17:56.387Z",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "按 GameId 做 5 折 GroupKFold，验证时仅评估 2018 赛季样本。作者报告该设置与公开榜相关性较好。",
+          "reference": "CV",
+          "source": 0
+        },
+        {
+          "title": "数据处理",
+          "body": "同一次跑动包含攻守双方的多名球员。构造相对位置时保持跑动方向一致，让表示可在回合之间比较。",
+          "reference": "Data processing",
+          "source": 0
+        },
+        {
+          "title": "推理与复现",
+          "body": "对横坐标方向以外的横场 Y 轴做镜像，并同步变换派生特征。分别预测原始与镜像阵形再融合。",
+          "reference": "Augmentation & TTA",
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "冠军方案原文",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/writeups/the-zoo-1st-place-solution-the-zoo"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/leaderboard"
+        }
+      ],
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 1817,
+        "score": "0.011658",
+        "checked": "2026-11-23T11:03:30Z"
+      },
+      "fingerprint": "360f4af91770f0a8f5c067e6d1aacd446de5b12631e15112e46c196c59c0945a"
     }
   ]
 }
