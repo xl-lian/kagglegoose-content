@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23T11:13:53Z",
+  "updated": "2026-11-23T11:17:44Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -444,8 +444,10 @@
   ],
   "lessons": [
     {
+      "kernelID": 33331313,
       "id": "k-113927975",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "feature engineering + optuna + stacked pipe",
       "author": "rıza temizel",
       "published": "2022-12-15T17:53:54.260Z",
       "evidence": {
@@ -453,7 +455,7 @@
         "rank": 25,
         "teams": 3641,
         "score": "11602.83535",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -466,17 +468,31 @@
         }
       ],
       "title": "feature engineering + optuna + stacked pipe",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 51",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 72",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "OneHotEncoder",
+        "XGBRegressor"
+      ],
+      "readingMode": "code",
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458"
     },
     {
+      "kernelID": 33861524,
       "id": "k-115529441",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "Predicting the prices",
@@ -487,7 +503,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -520,7 +536,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -554,9 +570,12 @@
         "CatBoostClassifier"
       ],
       "readingMode": "code",
-      "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65"
+      "fingerprint": "1577012fbde3c48b3f90160954f8d605bbf6a9abfc418b67fea719f41dbcdb65",
+      "kernelID": 34686858,
+      "stale": false
     },
     {
+      "kernelID": 35791777,
       "id": "k-121392019",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "High Score By Data-Matching",
@@ -567,7 +586,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -590,6 +609,7 @@
       "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39"
     },
     {
+      "kernelID": 37419191,
       "id": "k-126285507",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "for best score use this notebook - up vote",
@@ -600,7 +620,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -623,8 +643,10 @@
       "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa"
     },
     {
+      "kernelID": 39153555,
       "id": "k-131364720",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "Improving the model to predict house prices",
       "author": "Cabane à data",
       "published": "2023-05-28T18:51:58.487Z",
       "evidence": {
@@ -632,7 +654,7 @@
         "rank": 27,
         "teams": 3641,
         "score": "11671.53164",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -645,15 +667,28 @@
         }
       ],
       "title": "Improving the model to predict house prices",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 OneHotEncoder、XGBRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 51",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 XGBRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 72",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "OneHotEncoder",
+        "XGBRegressor"
+      ],
+      "readingMode": "code",
+      "fingerprint": "fb6d999daa15b9489edfc12a3ed8961b4bcb1df80c9ee0f6e709b68301af8458"
     },
     {
       "id": "k-137447062",
@@ -666,7 +701,7 @@
         "rank": 114,
         "teams": 2115,
         "score": "0.81622",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -707,7 +742,9 @@
         "OneHotEncoder"
       ],
       "readingMode": "code",
-      "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231"
+      "fingerprint": "d7a73a06b9be21ae9680d6ebaa01477ca9abe40c394acb1026a8baea0d461231",
+      "kernelID": 41293038,
+      "stale": false
     },
     {
       "id": "k-137447625",
@@ -720,7 +757,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -761,7 +798,9 @@
         "OneHotEncoder"
       ],
       "readingMode": "code",
-      "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8"
+      "fingerprint": "b2552422ed4254806da6339fd940c85062f4abac831cc7dd6d2d6a6ce303b3a8",
+      "kernelID": 41293245,
+      "stale": false
     },
     {
       "id": "k-137448304",
@@ -774,7 +813,7 @@
         "rank": 113,
         "teams": 2115,
         "score": "0.81646",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -815,7 +854,9 @@
         "OneHotEncoder"
       ],
       "readingMode": "code",
-      "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14"
+      "fingerprint": "6e1c63d68b7577c9b2453366feafb4d31f57929b703c1d77e38e238cc4f8db14",
+      "kernelID": 41292945,
+      "stale": false
     },
     {
       "id": "k-16413783",
@@ -861,7 +902,7 @@
         "rank": 111,
         "teams": 2115,
         "score": "0.81669",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -909,7 +950,9 @@
         "TfidfVectorizer"
       ],
       "readingMode": "code",
-      "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2"
+      "fingerprint": "44737c10486715c178a2411ebcc077a2314e48c57255008ebe1751f821af47f2",
+      "kernelID": 53400434,
+      "stale": false
     },
     {
       "id": "k-182967677",
@@ -922,7 +965,7 @@
         "rank": 102,
         "teams": 2115,
         "score": "0.81903",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -956,9 +999,12 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4"
+      "fingerprint": "a1ef23b64e2fdd1516a31048b70ed4d03e8d9f2ac0d7715e1207f17a044604d4",
+      "kernelID": 59650646,
+      "stale": false
     },
     {
+      "kernelID": 72633339,
       "id": "k-212168075",
       "competitionID": "tpu-getting-started",
       "originalTitle": "predict_models_DenseNet201",
@@ -969,7 +1015,7 @@
         "rank": 6,
         "teams": 67,
         "score": "0.97956",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -992,8 +1038,10 @@
       "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440"
     },
     {
+      "kernelID": 6121068,
       "id": "k-21631624",
       "competitionID": "digit-recognizer",
+      "originalTitle": "Mark1 (Mnist)",
       "author": "Manoj K",
       "published": "2019-10-07T10:13:35.430Z",
       "evidence": {
@@ -1001,7 +1049,7 @@
         "rank": 1,
         "teams": 1331,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1014,15 +1062,14 @@
         }
       ],
       "title": "Mark1 (Mnist)",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
       "awaitingExplanation": true,
-      "stale": true
+      "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97"
     },
     {
       "id": "k-25668838",
@@ -1058,6 +1105,7 @@
       "stale": true
     },
     {
+      "kernelID": 7524551,
       "id": "k-26881574",
       "competitionID": "nlp-getting-started",
       "originalTitle": "A Real Disaster - Leaked Label",
@@ -1068,7 +1116,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1091,6 +1139,7 @@
       "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e"
     },
     {
+      "kernelID": 98079348,
       "id": "k-273566828",
       "competitionID": "tpu-getting-started",
       "originalTitle": "tpu automated ensemble",
@@ -1101,7 +1150,7 @@
         "rank": 5,
         "teams": 67,
         "score": "0.98084",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1124,6 +1173,7 @@
       "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719"
     },
     {
+      "kernelID": 99881870,
       "id": "k-277086012",
       "competitionID": "tpu-getting-started",
       "originalTitle": "Petals to the Metal - Flower Classification",
@@ -1134,7 +1184,7 @@
         "rank": 2,
         "teams": 67,
         "score": "0.98222",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1157,8 +1207,10 @@
       "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20"
     },
     {
+      "kernelID": 104402203,
       "id": "k-286026928",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "optuna on 3 model stack",
       "author": "betagammashtrit",
       "published": "2025-12-13T23:41:58.407Z",
       "evidence": {
@@ -1166,7 +1218,7 @@
         "rank": 35,
         "teams": 3641,
         "score": "11911.65105",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1179,19 +1231,48 @@
         }
       ],
       "title": "optuna on 3 model stack",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 CatBoostRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "推理与评分",
+          "body": "源码在这里调用 mean_squared_error。对照预测或评分调用，确认模型输出如何变成提交值。",
+          "reference": "Cell 1",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "KFold",
+        "OneHotEncoder",
+        "CatBoostRegressor",
+        "mean_squared_error"
+      ],
+      "readingMode": "code",
+      "fingerprint": "eaf3ab43eb3d879f044a70f6ef1faeeadb08b5d760222b79ed6a5b1cd58240dd"
     },
     {
+      "kernelID": 104405477,
       "id": "k-286033336",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "improved ensemble and features",
       "author": "betagammashtrit",
       "published": "2025-12-14T00:52:54.230Z",
       "evidence": {
@@ -1199,7 +1280,7 @@
         "rank": 23,
         "teams": 3641,
         "score": "11572.97803",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1212,19 +1293,41 @@
         }
       ],
       "title": "improved ensemble and features",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 KFold、OneHotEncoder、CatBoostRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 CatBoostRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 1",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "KFold",
+        "OneHotEncoder",
+        "CatBoostRegressor"
+      ],
+      "readingMode": "code",
+      "fingerprint": "c2115c6476978d6a2e11d09e82aaffeae4b20df53effb0c9e562ebf3a3bd1efa"
     },
     {
+      "kernelID": 106841507,
       "id": "k-291558654",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "autofgluon winning features",
       "author": "betagammashtrit",
       "published": "2026-01-13T02:48:43.897Z",
       "evidence": {
@@ -1232,7 +1335,7 @@
         "rank": 62,
         "teams": 3641,
         "score": "12329.79076",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1245,15 +1348,14 @@
         }
       ],
       "title": "autofgluon winning features",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74",
       "awaitingExplanation": true,
-      "stale": true
+      "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74"
     },
     {
       "id": "k-29911658",
@@ -1266,7 +1368,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1307,11 +1409,15 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477"
+      "fingerprint": "cbacf9553d28e97d8e557c2120140e2dddb4502b6841c7f26b42b619e7191477",
+      "kernelID": 8325963,
+      "stale": false
     },
     {
+      "kernelID": 110936631,
       "id": "k-300684238",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "Top 18 | TabPFN for Housing Price",
       "author": "Benedictus Ryu Gunawan",
       "published": "2026-02-28T17:33:51.607Z",
       "evidence": {
@@ -1319,7 +1425,7 @@
         "rank": 33,
         "teams": 3641,
         "score": "11849.04818",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1332,17 +1438,38 @@
         }
       ],
       "title": "Top 18 | TabPFN for Housing Price",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 TfidfVectorizer、LGBMRegressor、KFold 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 25",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 TfidfVectorizer。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 17",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 LGBMRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 23",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "TfidfVectorizer",
+        "LGBMRegressor",
+        "KFold"
+      ],
+      "readingMode": "code",
+      "fingerprint": "4a90fcea7afd75d7a7f86bc198820155dc64f766e1f0bef9eb738b5f87f89036"
     },
     {
+      "kernelID": 111848602,
       "id": "k-302838836",
       "competitionID": "store-sales-time-series-forecasting",
       "originalTitle": "Store Sales - Time Series Forecasting | h-blend",
@@ -1353,7 +1480,7 @@
         "rank": 69,
         "teams": 725,
         "score": "0.37947",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1376,6 +1503,7 @@
       "fingerprint": "615831a7cf3a3eb2c8eb59e2e8afb45cb6e4444137637096e6ffbcd2f9dc2098"
     },
     {
+      "kernelID": 8541936,
       "id": "k-30685379",
       "competitionID": "nlp-getting-started",
       "originalTitle": "NLP with Disaster Tweets - EDA, Cleaning and BERT",
@@ -1386,7 +1514,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1409,8 +1537,10 @@
       "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4"
     },
     {
+      "kernelID": 116667740,
       "id": "k-313917882",
       "competitionID": "home-data-for-ml-course",
+      "originalTitle": "LightGBM K-Fold CV for House Price Prediction",
       "author": "Jeki Wan Taufik",
       "published": "2026-04-23T15:56:00.840Z",
       "evidence": {
@@ -1418,7 +1548,7 @@
         "rank": 1,
         "teams": 3641,
         "score": "0",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1431,17 +1561,17 @@
         }
       ],
       "title": "LightGBM K-Fold CV for House Price Prediction",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db",
       "awaitingExplanation": true,
-      "stale": true
+      "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db"
     },
     {
+      "kernelID": 138615187,
       "id": "k-358224038",
       "competitionID": "gemma-4-developer-agent",
       "originalTitle": "Gemma 4 SuperAgent Reproduction",
@@ -1450,9 +1580,9 @@
       "evidence": {
         "kind": "public",
         "rank": 152,
-        "teams": 6538,
+        "teams": 6537,
         "score": "0.2",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1475,6 +1605,7 @@
       "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8"
     },
     {
+      "kernelID": 140177407,
       "id": "k-361064349",
       "competitionID": "gemma-4-developer-agent",
       "originalTitle": "Gemma 4 Agent Budget-Fit 31B Mainline",
@@ -1483,9 +1614,9 @@
       "evidence": {
         "kind": "public",
         "rank": 152,
-        "teams": 6538,
+        "teams": 6537,
         "score": "0.2",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1508,6 +1639,7 @@
       "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef"
     },
     {
+      "kernelID": 142056892,
       "id": "k-364443572",
       "competitionID": "gemma-4-developer-agent",
       "originalTitle": "Gemma Davis v19 Temp04",
@@ -1516,9 +1648,9 @@
       "evidence": {
         "kind": "public",
         "rank": 152,
-        "teams": 6538,
+        "teams": 6537,
         "score": "0.2",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1551,7 +1683,7 @@
         "rank": 22,
         "teams": 323,
         "score": "0.82756",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1585,7 +1717,9 @@
         "Sequential"
       ],
       "readingMode": "code",
-      "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6"
+      "fingerprint": "4a30b69b822d75b124328801b44eecf92695d2b07783baa3327006d5514679b6",
+      "kernelID": 142726366,
+      "stale": false
     },
     {
       "id": "k-366027967",
@@ -1598,7 +1732,7 @@
         "rank": 19,
         "teams": 323,
         "score": "0.82728",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1632,7 +1766,9 @@
         "Sequential"
       ],
       "readingMode": "code",
-      "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f"
+      "fingerprint": "ec92f55b86fa5aff426541085592b017112952dfb8534da053bfa3bb8582327f",
+      "kernelID": 142919313,
+      "stale": false
     },
     {
       "id": "k-368205932",
@@ -1645,7 +1781,7 @@
         "rank": 18,
         "teams": 323,
         "score": "0.82685",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1679,7 +1815,64 @@
         "Sequential"
       ],
       "readingMode": "code",
-      "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27"
+      "fingerprint": "cae378ccdc3f49ce10e4d21b41fd4fc1a46e7e029d58e419ea946052df231d27",
+      "kernelID": 144273720,
+      "stale": false
+    },
+    {
+      "kernelID": 145666980,
+      "id": "k-370828555",
+      "competitionID": "home-data-for-ml-course",
+      "originalTitle": "Housing Prices For Beginers  Baptiste Favarette",
+      "author": "Baptiste Favarette",
+      "published": "2026-11-17T23:46:36.413Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 111,
+        "teams": 3641,
+        "score": "12675.54135",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/baptistefavarette/housing-prices-for-beginers-baptiste-favarette?scriptVersionId=370828555"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard"
+        }
+      ],
+      "title": "Housing Prices For Beginers  Baptiste Favarette",
+      "summary": "从源码可直接定位 OneHotEncoder、KFold、RandomForestRegressor 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "验证设计",
+          "body": "源码在这里调用 KFold。定位数据划分的位置，核对用于拟合和评估的样本范围。",
+          "reference": "Cell 42",
+          "source": 0
+        },
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 OneHotEncoder。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 38",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 RandomForestRegressor。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 43",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "OneHotEncoder",
+        "KFold",
+        "RandomForestRegressor"
+      ],
+      "readingMode": "code",
+      "fingerprint": "db18980ce9c94e3832bc60981955f5487160940e634f81fb04be8e38c33ace8f"
     },
     {
       "id": "k-372174163",
@@ -1689,10 +1882,10 @@
       "published": "2026-11-21T11:30:46.467Z",
       "evidence": {
         "kind": "public",
-        "rank": 494,
-        "teams": 6823,
+        "rank": 496,
+        "teams": 6824,
         "score": "0.717",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1733,7 +1926,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464"
+      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464",
+      "kernelID": 146400274,
+      "stale": false
     },
     {
       "id": "k-372225976",
@@ -1746,7 +1941,7 @@
         "rank": 160,
         "teams": 2814,
         "score": "0.95547",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1780,7 +1975,9 @@
         "roc_auc_score"
       ],
       "readingMode": "code",
-      "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27"
+      "fingerprint": "ac3a74b1aa9af14a14baa99bb982617959a5597200c39aead047066431f91d27",
+      "kernelID": 146428323,
+      "stale": false
     },
     {
       "id": "k-372228341",
@@ -1792,7 +1989,7 @@
         "rank": 160,
         "teams": 2814,
         "score": "0.95547",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1834,7 +2031,8 @@
       ],
       "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2",
       "originalTitle": "S6E11 CatBoost within fraud risk bands",
-      "stale": false
+      "stale": false,
+      "kernelID": 146429500
     },
     {
       "id": "k-372338058",
@@ -1844,10 +2042,10 @@
       "published": "2026-11-21T20:05:47.130Z",
       "evidence": {
         "kind": "public",
-        "rank": 494,
-        "teams": 6823,
+        "rank": 496,
+        "teams": 6824,
         "score": "0.717",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1888,7 +2086,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480"
+      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480",
+      "kernelID": 146488017,
+      "stale": false
     },
     {
       "id": "k-372418637",
@@ -1899,9 +2099,9 @@
       "evidence": {
         "kind": "public",
         "rank": 118,
-        "teams": 6823,
+        "teams": 6824,
         "score": "0.719",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1942,7 +2142,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "kernelID": 146536527,
+      "stale": false
     },
     {
       "id": "k-372427597",
@@ -1952,10 +2154,10 @@
       "published": "2026-11-22T02:41:07.597Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -1996,9 +2198,12 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "kernelID": 146541977,
+      "stale": false
     },
     {
+      "kernelID": 146576128,
       "id": "k-372487335",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi-e064-follow-0500",
@@ -2006,10 +2211,10 @@
       "published": "2026-11-22T06:31:12.867Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2032,6 +2237,7 @@
       "fingerprint": "c21ca9261102603475626148afc0d513e3e181a0edcab92ce8ddd5ce7f5344ce"
     },
     {
+      "kernelID": 146600284,
       "id": "k-372532133",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "CASMI26-0495-D1-NNET10-500-1122",
@@ -2039,10 +2245,10 @@
       "published": "2026-11-22T09:03:57.373Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2072,10 +2278,10 @@
       "published": "2026-11-22T09:57:30.750Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2116,9 +2322,12 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698"
+      "fingerprint": "f8cba70679556498fdc472d76a9e21777b7a9f90fc600c9ac4de5e05691e3698",
+      "kernelID": 146608867,
+      "stale": false
     },
     {
+      "kernelID": 146610489,
       "id": "k-372551883",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "CASMI26 E278 ARS500 nistclean",
@@ -2126,10 +2335,10 @@
       "published": "2026-11-22T10:07:42.403Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2152,6 +2361,7 @@
       "fingerprint": "ec4cfa829cb059cc6f7010d33bfc675900a61d0681f74737f7f1ed00b9ecd532"
     },
     {
+      "kernelID": 146622131,
       "id": "k-372574240",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26 exp328 sovereign 0500 aprior uniq",
@@ -2159,10 +2369,10 @@
       "published": "2026-11-22T11:16:59.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2185,6 +2395,7 @@
       "fingerprint": "3c9b9acfc96d437d187300106cb85539e81afb0ed85c6b5f17082872a29158a5"
     },
     {
+      "kernelID": 146622674,
       "id": "k-372576889",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26-with-180x",
@@ -2192,10 +2403,10 @@
       "published": "2026-11-22T11:25:30.063Z",
       "evidence": {
         "kind": "public",
-        "rank": 269,
+        "rank": 273,
         "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2225,10 +2436,10 @@
       "published": "2026-11-22T12:00:14.857Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2269,7 +2480,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118"
+      "fingerprint": "e7995007521f58599e410106752b156f00ca83e14d5c3032d3416137e02ec118",
+      "kernelID": 146629269,
+      "stale": false
     },
     {
       "id": "k-372588062",
@@ -2279,10 +2492,10 @@
       "published": "2026-11-22T12:01:07.143Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2323,7 +2536,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5"
+      "fingerprint": "883f1be33fba6ea2823b3c4cff62e8a4c4907a32e651d42dc7fb3521ccffe8b5",
+      "kernelID": 146629410,
+      "stale": false
     },
     {
       "id": "k-372609786",
@@ -2333,10 +2548,10 @@
       "published": "2026-11-22T13:08:24.803Z",
       "evidence": {
         "kind": "public",
-        "rank": 494,
-        "teams": 6823,
+        "rank": 496,
+        "teams": 6824,
         "score": "0.717",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2377,7 +2592,9 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f"
+      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f",
+      "kernelID": 146640431,
+      "stale": false
     },
     {
       "id": "k-372627682",
@@ -2387,10 +2604,10 @@
       "published": "2026-11-22T14:03:00.287Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2431,9 +2648,12 @@
         "predict_proba"
       ],
       "readingMode": "code",
-      "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea"
+      "fingerprint": "6570f6b7c85da271bda983b4877643a61029fc396271aa0e421cfed3f3f78bea",
+      "kernelID": 146649046,
+      "stale": false
     },
     {
+      "kernelID": 146651254,
       "id": "k-372632412",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "CASMI26 0.500 | APRIOR Stack + FR after P5 Tail",
@@ -2441,10 +2661,10 @@
       "published": "2026-11-22T14:16:56.583Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2474,10 +2694,10 @@
       "published": "2026-11-22T14:46:02.957Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 6823,
+        "rank": 260,
+        "teams": 6824,
         "score": "0.718",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2525,9 +2745,12 @@
         "LogisticRegression"
       ],
       "readingMode": "code",
-      "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419"
+      "fingerprint": "c0d8cda0b867573463affdb33d9dcf2ac59842a88eb9a2f23e8d7571a71ee419",
+      "kernelID": 146656953,
+      "stale": false
     },
     {
+      "kernelID": 146649107,
       "id": "k-372671398",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "CASMI26 E281 UNIQ sink off",
@@ -2535,10 +2758,10 @@
       "published": "2026-11-22T16:05:55.763Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2561,6 +2784,7 @@
       "fingerprint": "77d82adbb81e8242f991b8aa08d7c3e447c50f91214c0570936a0ef72fa91acd"
     },
     {
+      "kernelID": 146695480,
       "id": "k-372717326",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26-arm-w",
@@ -2568,10 +2792,10 @@
       "published": "2026-11-22T18:22:26.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 391,
+        "rank": 396,
         "teams": 5840,
         "score": "0.5",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2594,6 +2818,7 @@
       "fingerprint": "1755156d48fcba251289f6539d62ba24913071017f640e4b7afe1fd519bb844b"
     },
     {
+      "kernelID": 146714556,
       "id": "k-372750961",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26-v111",
@@ -2601,10 +2826,10 @@
       "published": "2026-11-22T20:16:11.403Z",
       "evidence": {
         "kind": "public",
-        "rank": 269,
+        "rank": 273,
         "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2627,6 +2852,7 @@
       "fingerprint": "b2c1a84e5c220db7b6c3c41d74cf1b316d07ee1f349d34158d70dd32da8390ef"
     },
     {
+      "kernelID": 146728511,
       "id": "k-372772868",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi-e068-keep1f-e180x",
@@ -2637,7 +2863,7 @@
         "rank": 70,
         "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2667,9 +2893,9 @@
       "evidence": {
         "kind": "public",
         "rank": 99,
-        "teams": 6823,
+        "teams": 6824,
         "score": "0.72",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2710,9 +2936,11 @@
       ],
       "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
       "originalTitle": "Name That LLM | Sibling Odds",
-      "stale": false
+      "stale": false,
+      "kernelID": 146733174
     },
     {
+      "kernelID": 146733391,
       "id": "k-372780693",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26-v112",
@@ -2723,7 +2951,7 @@
         "rank": 70,
         "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2746,6 +2974,7 @@
       "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be"
     },
     {
+      "kernelID": 146742817,
       "id": "k-372795758",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "casmi26-v113",
@@ -2753,10 +2982,10 @@
       "published": "2026-11-22T23:04:09.610Z",
       "evidence": {
         "kind": "public",
-        "rank": 269,
+        "rank": 273,
         "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2789,7 +3018,7 @@
         "rank": 70,
         "teams": 5840,
         "score": "0.505",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2823,9 +3052,12 @@
         "roc_auc_score"
       ],
       "readingMode": "code",
-      "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088"
+      "fingerprint": "fee31fa860783e263ff322b3efa62a1a9d11b9fb3f42bb889291f01ec9513088",
+      "kernelID": 146772061,
+      "stale": false
     },
     {
+      "kernelID": 146775948,
       "id": "k-372852491",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
       "originalTitle": "enveda p2s 501fork",
@@ -2833,10 +3065,10 @@
       "published": "2026-11-23T02:54:18.270Z",
       "evidence": {
         "kind": "public",
-        "rank": 269,
+        "rank": 273,
         "teams": 5840,
         "score": "0.501",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2865,10 +3097,10 @@
       "published": "2026-11-23T04:35:42.867Z",
       "evidence": {
         "kind": "public",
-        "rank": 66,
+        "rank": 67,
         "teams": 3624,
         "score": "33.17067",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2909,9 +3141,11 @@
       ],
       "fingerprint": "c23ffe8d16cf9b71d8d4e4715fb87dec69fd102f2dd921428cdc4fbbac4a728a",
       "originalTitle": "QCC | DQI Zero-Test Cuts (verbatim 33.17067)",
-      "stale": false
+      "stale": false,
+      "kernelID": 146794169
     },
     {
+      "kernelID": 146802971,
       "id": "k-372896479",
       "competitionID": "google-verifiable-quantum-circuit-compilation",
       "originalTitle": "QCC | 3357 loaders + stock DQI",
@@ -2919,10 +3153,10 @@
       "published": "2026-11-23T05:25:53.707Z",
       "evidence": {
         "kind": "public",
-        "rank": 332,
+        "rank": 336,
         "teams": 3624,
         "score": "33.17029",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2945,8 +3179,10 @@
       "fingerprint": "d798e56e02c6ad749891e0ff7a912568b531fe830df35f03d86783fd62b77ad2"
     },
     {
+      "kernelID": 10864074,
       "id": "k-39482869",
       "competitionID": "titanic",
+      "originalTitle": "Titanic-Competition : How to get top score 100%",
       "author": "AhmedMazenAhmedMurad",
       "published": "2020-07-25T09:30:22.537Z",
       "evidence": {
@@ -2954,7 +3190,7 @@
         "rank": 1,
         "teams": 11104,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -2967,15 +3203,14 @@
         }
       ],
       "title": "Titanic-Competition : How to get top score 100%",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05",
       "awaitingExplanation": true,
-      "stale": true
+      "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05"
     },
     {
       "id": "k-40384661",
@@ -3044,6 +3279,7 @@
       "stale": true
     },
     {
+      "kernelID": 11374700,
       "id": "k-41388930",
       "competitionID": "tpu-getting-started",
       "originalTitle": "FC Ensemble External Data 2",
@@ -3054,7 +3290,7 @@
         "rank": 5,
         "teams": 67,
         "score": "0.98035",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3077,6 +3313,7 @@
       "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30"
     },
     {
+      "kernelID": 11486803,
       "id": "k-41797632",
       "competitionID": "nlp-getting-started",
       "originalTitle": "NLP_Disaster_Tweets with ELECTRA Base",
@@ -3087,7 +3324,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3176,6 +3413,7 @@
       "stale": true
     },
     {
+      "kernelID": 12603639,
       "id": "k-45864806",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House_Price",
@@ -3186,7 +3424,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3242,6 +3480,7 @@
       "stale": true
     },
     {
+      "kernelID": 15163913,
       "id": "k-55240773",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House-Prices Best Score",
@@ -3252,7 +3491,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3308,6 +3547,7 @@
       "stale": true
     },
     {
+      "kernelID": 16594963,
       "id": "k-61255797",
       "competitionID": "nlp-getting-started",
       "originalTitle": "Disaster-and-NonDisaster-tweets",
@@ -3318,7 +3558,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3341,6 +3581,7 @@
       "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084"
     },
     {
+      "kernelID": 16868064,
       "id": "k-62414083",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House Price",
@@ -3351,7 +3592,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3407,6 +3648,7 @@
       "stale": true
     },
     {
+      "kernelID": 20488811,
       "id": "k-74600426",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House-Price Competition Advanced Reg Improved ",
@@ -3417,7 +3659,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3440,6 +3682,7 @@
       "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b"
     },
     {
+      "kernelID": 20574571,
       "id": "k-74905963",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House Price Prediction ",
@@ -3450,7 +3693,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3473,8 +3716,10 @@
       "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3"
     },
     {
+      "kernelID": 20613698,
       "id": "k-75032326",
       "competitionID": "titanic",
+      "originalTitle": "Titanic Records",
       "author": "Saravana Kumar",
       "published": "2021-09-18T04:37:01.357Z",
       "evidence": {
@@ -3482,7 +3727,7 @@
         "rank": 1,
         "teams": 11104,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3495,17 +3740,31 @@
         }
       ],
       "title": "Titanic Records",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
-      "tags": [
-        "Notebook"
+      "summary": "从源码可直接定位 get_dummies、RandomForestClassifier 的调用。以下按代码位置展开；榜单成绩属于完整提交。",
+      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
+      "steps": [
+        {
+          "title": "特征处理",
+          "body": "源码在这里调用 get_dummies。跟随该调用的输入与输出，检查训练集与测试集使用的转换是否一致。",
+          "reference": "Cell 19",
+          "source": 0
+        },
+        {
+          "title": "模型实现",
+          "body": "源码在这里调用 RandomForestClassifier。从模型构造位置查看超参数，再沿调用链检查输入和训练逻辑。",
+          "reference": "Cell 19",
+          "source": 0
+        }
       ],
-      "steps": [],
-      "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c",
-      "awaitingExplanation": true,
-      "stale": true
+      "tags": [
+        "get_dummies",
+        "RandomForestClassifier"
+      ],
+      "readingMode": "code",
+      "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c"
     },
     {
+      "kernelID": 20617021,
       "id": "k-75043606",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "house prices prediction",
@@ -3516,7 +3775,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3605,8 +3864,10 @@
       "stale": true
     },
     {
+      "kernelID": 21003177,
       "id": "k-76368250",
       "competitionID": "titanic",
+      "originalTitle": "титаник score1",
       "author": "Antonina Bugayova",
       "published": "2021-10-05T06:20:13.763Z",
       "evidence": {
@@ -3614,7 +3875,7 @@
         "rank": 1,
         "teams": 11104,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3627,15 +3888,14 @@
         }
       ],
       "title": "титаник score1",
-      "summary": "这份公开 Notebook 的版本和成绩已核验。",
-      "takeaway": "可先打开对应版本，对照输入、特征和提交代码。",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
       "tags": [
         "Notebook"
       ],
-      "steps": [],
-      "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533",
       "awaitingExplanation": true,
-      "stale": true
+      "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533"
     },
     {
       "id": "k-78027906",
@@ -3671,6 +3931,7 @@
       "stale": true
     },
     {
+      "kernelID": 21526333,
       "id": "k-78027942",
       "competitionID": "house-prices-advanced-regression-techniques",
       "originalTitle": "House Prices1",
@@ -3681,7 +3942,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3704,6 +3965,7 @@
       "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8"
     },
     {
+      "kernelID": 21637454,
       "id": "k-78373354",
       "competitionID": "nlp-getting-started",
       "originalTitle": "NLP with Disaster Tweets_new_b",
@@ -3714,7 +3976,7 @@
         "rank": 1,
         "teams": 648,
         "score": "1",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3879,7 +4141,7 @@
         "rank": 55,
         "teams": 4753,
         "score": "0.00044",
-        "checked": "2026-11-23T11:13:53Z"
+        "checked": "2026-11-23T11:17:44Z"
       },
       "sources": [
         {
@@ -3920,7 +4182,9 @@
         "XGBRegressor"
       ],
       "readingMode": "code",
-      "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567"
+      "fingerprint": "1ef4f60d9409df4fa96616becb2d157e4c324382fcf51a4de114ee2f25d68567",
+      "kernelID": 27468403,
+      "stale": false
     },
     {
       "id": "w-10441",
@@ -4033,6 +4297,204 @@
       "fingerprint": "b83664b746703ba58af31d24d31fb3112c85f999992f80975376b488591d0fee"
     },
     {
+      "id": "w-115849",
+      "originalTitle": "3rd Place Solution",
+      "competitionID": "biohub-cell-tracking-during-development",
+      "author": "yu4u",
+      "published": "2026-09-30T00:30:09.793Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 3,
+        "teams": 3947,
+        "score": "0.96714",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/3rd-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
+        }
+      ],
+      "title": "3rd Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "eeca4b5dee0fc44f409bf93e74e096398dc69fbed1beb5db34a39f159bef1cfe"
+    },
+    {
+      "id": "w-116017",
+      "originalTitle": "2nd Place Solution",
+      "competitionID": "biohub-cell-tracking-during-development",
+      "author": "Soheil Ayati",
+      "published": "2026-09-30T21:21:32.207Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 2,
+        "teams": 3947,
+        "score": "0.97041",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/2nd-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
+        }
+      ],
+      "title": "2nd Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "d3a1b17fe25f02cf46e610470aef9ba18e536d29315ae5da13f6a3e156ff9f01"
+    },
+    {
+      "id": "w-116073",
+      "originalTitle": "1st Place Solution",
+      "competitionID": "biohub-cell-tracking-during-development",
+      "author": "Sergio Alvarez",
+      "published": "2026-10-01T01:28:11.873Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 3947,
+        "score": "0.97759",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/1st-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
+        }
+      ],
+      "title": "1st Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "d0e7ad46d3528317baf3560d23677560e5b3de91105fec80292df4796235b892"
+    },
+    {
+      "id": "w-116074",
+      "originalTitle": "2nd Place Solution",
+      "competitionID": "playground-series-s6e9",
+      "author": "Team Alicia",
+      "published": "2026-10-01T05:41:10.837Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 2,
+        "teams": 3575,
+        "score": "0.94588",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/writeups/2nd-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/leaderboard"
+        }
+      ],
+      "title": "2nd Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "049045d5f12b82b5a2687bb0b3674e17bb0bc829c8964b9392ceefe41a845c1c"
+    },
+    {
+      "id": "w-116088",
+      "originalTitle": "3rd Place Solution — Feature Engineering and Logistic Regression Stacking",
+      "competitionID": "playground-series-s6e9",
+      "author": "M & M",
+      "published": "2026-10-01T07:13:00.723Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 3,
+        "teams": 3575,
+        "score": "0.94584",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/writeups/3rd-place-solution-feature-engineering-and-logis"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/leaderboard"
+        }
+      ],
+      "title": "3rd Place Solution — Feature Engineering and Logistic Regression Stacking",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "ce270abff417eb9cdaf69b3d18896f8b8c2e2d6934e052fdef1f9864c504bb91"
+    },
+    {
+      "id": "w-116198",
+      "originalTitle": "1st Place - The AI Relay!",
+      "competitionID": "playground-series-s6e9",
+      "author": "Chris Deotte",
+      "published": "2026-10-01T20:12:35.020Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 3575,
+        "score": "0.94602",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/writeups/1st-place-the-ai-relay"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e9/leaderboard"
+        }
+      ],
+      "title": "1st Place - The AI Relay!",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "bff81808b0e993ff3236e628fa52029e4c2e4fab0d48d88f925cfe9397092caf"
+    },
+    {
       "id": "w-11697",
       "competitionID": "feedback-prize-english-language-learning",
       "title": "让六个写作维度各自选模型",
@@ -4086,6 +4548,237 @@
         "checked": "2026-11-23T11:03:30Z"
       },
       "fingerprint": "4750e4b2e9d2c441094720189c9d35b628ec77f1236a7a2f8e77ec780bef21bc"
+    },
+    {
+      "id": "w-119524",
+      "originalTitle": "[3rd place] All Medalists Who BC'd on Our Records MUST Vote!",
+      "competitionID": "kaggriculture",
+      "author": "DSM",
+      "published": "2026-10-21T11:24:58.973Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 3,
+        "teams": 10148,
+        "score": "5580.3",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/writeups/kaggriculture-3rd-place-dsm-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard"
+        }
+      ],
+      "title": "[3rd place] All Medalists Who BC'd on Our Records MUST Vote!",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "746f5eaf892ea5355ebe77c26aefc050b04f27d1c7adbb328244bc54181b0fb6"
+    },
+    {
+      "id": "w-121338",
+      "originalTitle": "2nd Place Solution",
+      "competitionID": "rsna-knee-abnormality-detection",
+      "author": "MURAD",
+      "published": "2026-10-24T17:20:08.350Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 2,
+        "teams": 6299,
+        "score": "0.960",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/2nd-place-gold-solution-vision-llm-soft-labels-an"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard"
+        }
+      ],
+      "title": "2nd Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "68765f7a360e92ff4b47c8d17590176a8901521a0c9f031cf29cb000c6268a79"
+    },
+    {
+      "id": "w-121393",
+      "originalTitle": "1st Place Solution",
+      "competitionID": "rsna-knee-abnormality-detection",
+      "author": "Team Kangaroo🦘",
+      "published": "2026-10-25T02:00:59.907Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 6299,
+        "score": "0.960",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/1st-place-solution"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard"
+        }
+      ],
+      "title": "1st Place Solution",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "135b1645abe1a8476648e2b90f7e4ed4fcc309d76138a2b66c74b0ddf2b7062e"
+    },
+    {
+      "id": "w-121422",
+      "originalTitle": "3rd Place Solution: RSNA Knee Abnormality Detection 2026",
+      "competitionID": "rsna-knee-abnormality-detection",
+      "author": "DataTech Club",
+      "published": "2026-10-25T10:23:58.377Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 3,
+        "teams": 6299,
+        "score": "0.959",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/3rd-place-solution-rsna-knee-abnormality-detectio"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard"
+        }
+      ],
+      "title": "3rd Place Solution: RSNA Knee Abnormality Detection 2026",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "ba26bdc32dc603d7639ad9a787bde31b6cbfdc7b74e7b6355bc47333fdcf010d"
+    },
+    {
+      "id": "w-121866",
+      "originalTitle": "1st Place Solution - Our Journey to Becoming Professional Farmers",
+      "competitionID": "kaggriculture",
+      "author": "M & M & P & Q",
+      "published": "2026-10-28T02:23:11.670Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 10148,
+        "score": "5890.3",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/writeups/1st-place-solution-our-journey-to-becoming-profe"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard"
+        }
+      ],
+      "title": "1st Place Solution - Our Journey to Becoming Professional Farmers",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "cd330458e1ff4ca9a26be88c32e316c529c0462bcc5067426424867a8ef9b01f"
+    },
+    {
+      "id": "w-121870",
+      "originalTitle": "2nd - Trading clutch, and no B200s harmed!",
+      "competitionID": "kaggriculture",
+      "author": "Victor @ Tufa Labs",
+      "published": "2026-10-27T18:16:54.603Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 2,
+        "teams": 10148,
+        "score": "5823.4",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/writeups/trading-clutch-no-b200"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard"
+        }
+      ],
+      "title": "2nd - Trading clutch, and no B200s harmed!",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "0f6d5b35e0c16c89efafb93f070a4d63cccf40b2492c53022d2ebd79a124647d"
+    },
+    {
+      "id": "w-122911",
+      "originalTitle": "1st Place - TFMs and LLMs with tabular data!",
+      "competitionID": "playground-series-s6e10",
+      "author": "Chris Deotte",
+      "published": "2026-11-01T07:46:20.903Z",
+      "evidence": {
+        "kind": "final",
+        "rank": 1,
+        "teams": 3734,
+        "score": "0.96318",
+        "checked": "2026-11-23T11:17:44Z"
+      },
+      "sources": [
+        {
+          "title": "方案原文",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e10/writeups/1st-place-tfms-and-llms-with-tabular-data"
+        },
+        {
+          "title": "最终排行榜",
+          "url": "https://www.kaggle.com/competitions/playground-series-s6e10/leaderboard"
+        }
+      ],
+      "title": "1st Place - TFMs and LLMs with tabular data!",
+      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
+      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "tags": [
+        "Writeup"
+      ],
+      "steps": [],
+      "awaitingExplanation": true,
+      "fingerprint": "055e82ae42dd7635facd5a45ea7ea33a54b076395b38f439a5142da7a9ff8651"
     },
     {
       "id": "w-12828",
