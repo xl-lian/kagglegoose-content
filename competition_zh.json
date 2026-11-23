@@ -1,0 +1,23 @@
+{
+  "physical-engineerings-last-exam": ["构建能解决结构、土木、电气和机械工程题的智能体。", ["智能体", "NLP/LLM"]],
+  "google-verifiable-quantum-circuit-compilation": ["在通过验证的前提下，减少量子应用所需的计算资源。", ["优化"]],
+  "nfl-big-data-bowl-2027": ["从球员测试的传感器轨迹中找出与 NFL 常规赛表现有关的信号。", ["时间序列", "表格"]],
+  "gemma-4-developer-agent": ["围绕 Gemma 4 开发自主编程智能体。", ["智能体", "NLP/LLM"]],
+  "name-that-llm": ["阅读一段生成文本，识别写下它的语言模型。", ["NLP/LLM"]],
+  "enveda-CASMI26-molecule-id-mass-spectra": ["根据质谱数据推断复杂提取物中小分子的二维化学结构。", ["科学计算"]],
+  "santa-2026": ["从给定的小数值出发，用尽可能少的算术步骤构造目标整数。", ["优化"]],
+  "squares-in-squares": ["把指定数量的单位正方形排入尽可能小的正方形。", ["优化"]],
+  "playground-series-s6e11": ["根据交易特征估计信用卡欺诈风险，并按风险对交易排序。", ["表格"]],
+  "the-pokemon-company-ptcg-ai-battle-challenge-playground": ["训练能够参与宝可梦卡牌对战的智能体。", ["智能体"]],
+  "titanic": ["根据乘客资料预测其在泰坦尼克号事故中的生还情况。", ["表格"]],
+  "house-prices-advanced-regression-techniques": ["根据房屋属性预测成交价，练习特征工程与回归。", ["表格"]],
+  "home-data-for-ml-course": ["用住宅属性预测房价，练习 Kaggle Learn 课程中的机器学习方法。", ["表格"]],
+  "spaceship-titanic": ["根据飞船乘客信息预测其是否被传送到另一维度。", ["表格"]],
+  "digit-recognizer": ["从 MNIST 图像识别手写数字。", ["视觉"]],
+  "store-sales-time-series-forecasting": ["使用历史记录预测零售门店的商品销售额。", ["时间序列", "表格"]],
+  "nlp-getting-started": ["判断推文描述的是否为真实灾害。", ["NLP/LLM"]],
+  "connectx": ["开发在棋盘上实现连续连子的对战策略。", ["智能体"]],
+  "llm-classification-finetuning": ["根据 Chatbot Arena 对话预测人类对模型回答的偏好。", ["NLP/LLM"]],
+  "tpu-getting-started": ["使用 TPU 训练花卉图像分类模型。", ["视觉"]],
+  "contradictory-my-dear-watson": ["判断多语言句子对的蕴含、矛盾或中立关系。", ["NLP/LLM"]]
+}

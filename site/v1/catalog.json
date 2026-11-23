@@ -65,7 +65,7 @@
     {
       "id": "connectx",
       "title": "Connect X",
-      "summary": "Connect your checkers in a row before your opponent!",
+      "summary": "开发在棋盘上实现连续连子的对战策略。",
       "categories": [
         "智能体"
       ],
@@ -77,7 +77,7 @@
     {
       "id": "contradictory-my-dear-watson",
       "title": "Contradictory, My Dear Watson",
-      "summary": "Detecting contradiction and entailment in multilingual text using TPUs",
+      "summary": "判断多语言句子对的蕴含、矛盾或中立关系。",
       "categories": [
         "NLP/LLM"
       ],
@@ -89,10 +89,9 @@
     {
       "id": "digit-recognizer",
       "title": "Digit Recognizer",
-      "summary": "Learn computer vision fundamentals with the famous MNIST data",
+      "summary": "从 MNIST 图像识别手写数字。",
       "categories": [
-        "视觉",
-        "表格"
+        "视觉"
       ],
       "metric": "Categorization Accuracy",
       "start": "2012-07-25T20:43:30.087Z",
@@ -102,9 +101,9 @@
     {
       "id": "enveda-CASMI26-molecule-id-mass-spectra",
       "title": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
-      "summary": "Predict 2D chemical structures of small molecules detected in complex biological extracts",
+      "summary": "根据质谱数据推断复杂提取物中小分子的二维化学结构。",
       "categories": [
-        "其他"
+        "科学计算"
       ],
       "metric": "CASMI: Mean Average Precision",
       "start": "2026-09-14T22:57:37.417Z",
@@ -126,10 +125,10 @@
     {
       "id": "gemma-4-developer-agent",
       "title": "Google - The Gemma 4 Developer Agent Competition",
-      "summary": "Accelerate research in autonomous coding agents",
+      "summary": "围绕 Gemma 4 开发自主编程智能体。",
       "categories": [
-        "NLP/LLM",
-        "智能体"
+        "智能体",
+        "NLP/LLM"
       ],
       "metric": "Gemma 4 Developer Agent (149921)",
       "start": "2026-09-23T14:05:47.363Z",
@@ -152,7 +151,7 @@
     {
       "id": "google-verifiable-quantum-circuit-compilation",
       "title": "Google Quantum AI - Verifiable Quantum Circuit Compilation",
-      "summary": "Reducing the resources required for quantum applications",
+      "summary": "在通过验证的前提下，减少量子应用所需的计算资源。",
       "categories": [
         "优化"
       ],
@@ -164,9 +163,9 @@
     {
       "id": "home-data-for-ml-course",
       "title": "Housing Prices Competition for Kaggle Learn Users",
-      "summary": "Apply what you learned in the Machine Learning course on Kaggle Learn alongside others in the course.",
+      "summary": "用住宅属性预测房价，练习 Kaggle Learn 课程中的机器学习方法。",
       "categories": [
-        "其他"
+        "表格"
       ],
       "metric": "Mean Absolute Error",
       "start": "2018-07-18T19:25:27.107Z",
@@ -176,7 +175,7 @@
     {
       "id": "house-prices-advanced-regression-techniques",
       "title": "House Prices - Advanced Regression Techniques",
-      "summary": "Predict sales prices and practice feature engineering, RFs, and gradient boosting",
+      "summary": "根据房屋属性预测成交价，练习特征工程与回归。",
       "categories": [
         "表格"
       ],
@@ -212,7 +211,7 @@
     {
       "id": "llm-classification-finetuning",
       "title": "LLM Classification Finetuning",
-      "summary": "Finetune LLMs to Predict Human Preference using Chatbot Arena conversations",
+      "summary": "根据 Chatbot Arena 对话预测人类对模型回答的偏好。",
       "categories": [
         "NLP/LLM"
       ],
@@ -224,7 +223,7 @@
     {
       "id": "name-that-llm",
       "title": "Name That LLM",
-      "summary": "Identify the model behind the text",
+      "summary": "阅读一段生成文本，识别写下它的语言模型。",
       "categories": [
         "NLP/LLM"
       ],
@@ -248,9 +247,10 @@
     {
       "id": "nfl-big-data-bowl-2027",
       "title": "NFL Big Data Bowl 2027",
-      "summary": "Uncover non-obvious linkages between Combine sensor tracking and regular-season NFL game performance",
+      "summary": "从球员测试的传感器轨迹中找出与 NFL 常规赛表现有关的信号。",
       "categories": [
-        "其他"
+        "时间序列",
+        "表格"
       ],
       "metric": "见竞赛规则",
       "start": "2026-10-06T19:43:47.377Z",
@@ -260,7 +260,7 @@
     {
       "id": "nlp-getting-started",
       "title": "Natural Language Processing with Disaster Tweets",
-      "summary": "Predict which Tweets are about real disasters and which ones are not",
+      "summary": "判断推文描述的是否为真实灾害。",
       "categories": [
         "NLP/LLM"
       ],
@@ -285,10 +285,10 @@
     {
       "id": "physical-engineerings-last-exam",
       "title": "Google - Agent Harness on Physical-Engineering's Last Exam",
-      "summary": "Build autonomous agent harnesses to solve real-world structural, civil, electrical, and mechanical engineering tasks",
+      "summary": "构建能解决结构、土木、电气和机械工程题的智能体。",
       "categories": [
-        "NLP/LLM",
-        "智能体"
+        "智能体",
+        "NLP/LLM"
       ],
       "metric": "见竞赛规则",
       "start": "2026-11-09T19:19:06.950Z",
@@ -310,7 +310,7 @@
     {
       "id": "playground-series-s6e11",
       "title": "Predicting Credit Card Fraud",
-      "summary": "Playground Series - Season 6 Episode 11",
+      "summary": "根据交易特征估计信用卡欺诈风险，并按风险对交易排序。",
       "categories": [
         "表格"
       ],
@@ -347,7 +347,7 @@
     {
       "id": "santa-2026",
       "title": "Santa 2026 - The Elf Calculator",
-      "summary": "Write arithmetic programs to build large target numbers from small starting values in the fewest steps",
+      "summary": "从给定的小数值出发，用尽可能少的算术步骤构造目标整数。",
       "categories": [
         "优化"
       ],
@@ -371,7 +371,7 @@
     {
       "id": "spaceship-titanic",
       "title": "Spaceship Titanic",
-      "summary": "Predict which passengers are transported to an alternate dimension",
+      "summary": "根据飞船乘客信息预测其是否被传送到另一维度。",
       "categories": [
         "表格"
       ],
@@ -383,7 +383,7 @@
     {
       "id": "squares-in-squares",
       "title": "Squares in Squares",
-      "summary": "Find the smallest enclosing square for N unit squares",
+      "summary": "把指定数量的单位正方形排入尽可能小的正方形。",
       "categories": [
         "优化"
       ],
@@ -395,7 +395,7 @@
     {
       "id": "store-sales-time-series-forecasting",
       "title": "Store Sales - Time Series Forecasting",
-      "summary": "Use machine learning to predict grocery sales",
+      "summary": "使用历史记录预测零售门店的商品销售额。",
       "categories": [
         "时间序列",
         "表格"
@@ -408,7 +408,7 @@
     {
       "id": "the-pokemon-company-ptcg-ai-battle-challenge-playground",
       "title": "The Pokémon Company - PTCG AI Battle Challenge Playground",
-      "summary": "Build an AI Training Agent to play the Pokémon Trading Card Game",
+      "summary": "训练能够参与宝可梦卡牌对战的智能体。",
       "categories": [
         "智能体"
       ],
@@ -420,7 +420,7 @@
     {
       "id": "titanic",
       "title": "Titanic - Machine Learning from Disaster",
-      "summary": "Start here! Predict survival on the Titanic and get familiar with ML basics",
+      "summary": "根据乘客资料预测其在泰坦尼克号事故中的生还情况。",
       "categories": [
         "表格"
       ],
@@ -432,7 +432,7 @@
     {
       "id": "tpu-getting-started",
       "title": "Petals to the Metal - Flower Classification on TPU",
-      "summary": "Getting Started with TPUs on Kaggle!",
+      "summary": "使用 TPU 训练花卉图像分类模型。",
       "categories": [
         "视觉"
       ],
