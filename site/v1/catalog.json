@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23T23:55:39Z",
+  "updated": "2026-11-24T03:34:41Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -4117,7 +4117,16 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本不仅公布结果，而是给出了可检查、可复用的方法：以提示分组折做 OOF 评估，发现 claude-fable-5、glm-5.3、glm-5.3-flash 召回偏低；再用有预算的 GLM 似然阶段，按混合质量与 0.35*min(fable_mass, mass) 重排读取行，并用 prefix_decisions.py 中的 fable_return/sibling_agreement 规则更新同族决策。推理编排、分类器堆叠与概率融合也可见，读者能追踪建模、验证与优化取舍。",
+        "status": "selected"
+      }
     },
     {
       "kernelID": 146888991,
@@ -4151,7 +4160,10 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "1217444fca48467e8991f2a8acd339141dd2c6ce31e51743d72c76cd48dd1361"
+      "fingerprint": "1217444fca48467e8991f2a8acd339141dd2c6ce31e51743d72c76cd48dd1361",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z"
+      }
     },
     {
       "kernelID": 146904747,
@@ -4178,32 +4190,25 @@
         }
       ],
       "title": "enveda 505 reclaim",
-      "summary": "从源码可直接定位 LGBMClassifier、roc_auc_score 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "summaryEN": "The source contains calls to LGBMClassifier, roc_auc_score. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
+      "summary": "成绩已核验，原文保留在索引中。",
+      "summaryEN": "The result is verified. The original source is indexed.",
+      "takeaway": "打开原文查看作者提交的资料。",
+      "takeawayEN": "Open the original source for the author's material.",
       "tags": [
-        "LGBMClassifier",
-        "roc_auc_score"
+        "Notebook"
       ],
-      "steps": [
-        {
-          "title": "模型实现",
-          "body": "源码在这里调用 LGBMClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
-          "bodyEN": "The source calls LGBMClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
-          "reference": "Cell 43",
-          "source": 0
+      "steps": [],
+      "fingerprint": "aaa5400d460f9703b5d311a8b5c445ccf54e1828c7c2ab685d324bb31466f30f",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
         },
-        {
-          "title": "推理与评分",
-          "body": "源码在这里调用 roc_auc_score。阅读时可以这样核查：取一对正负样本，比较它们的排序如何影响指标。核对传入的是连续分数还是离散标签，并按同一验证集比较。",
-          "bodyEN": "The source calls roc_auc_score here. Reading exercise: Inspect a positive–negative pair and its ordering. Check whether the metric receives continuous scores or hard labels and compare on the same holdout.",
-          "reference": "Cell 43",
-          "source": 0
-        }
-      ],
-      "readingMode": "code",
-      "fingerprint": "aaa5400d460f9703b5d311a8b5c445ccf54e1828c7c2ab685d324bb31466f30f"
+        "reason": "该笔记本主要是对公开组合方案的调参消融（如TAU由0.85改为0.80）与排行榜结果汇报，核心流水线为他人字节级冻结代码，未提供可独立追溯建模/验证决策的完整可复用方法，且混有大量排名与分数陈述。",
+        "status": "skipped"
+      },
+      "awaitingExplanation": true
     },
     {
       "kernelID": 10864074,
@@ -5829,7 +5834,10 @@
       ],
       "steps": [],
       "awaitingExplanation": true,
-      "fingerprint": "68765f7a360e92ff4b47c8d17590176a8901521a0c9f031cf29cb000c6268a79"
+      "fingerprint": "68765f7a360e92ff4b47c8d17590176a8901521a0c9f031cf29cb000c6268a79",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z"
+      }
     },
     {
       "id": "w-121393",
@@ -5921,15 +5929,79 @@
           "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard"
         }
       ],
-      "title": "3rd Place Solution: RSNA Knee Abnormality Detection 2026",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "从报告软标签到2.5D MRI阅读器：RSNA膝部异常检测第三名方案拆解",
+      "summary": "该任务要求基于膝部 MRI 图像预测 12 个异常标签，以 ROC AUC 评估，但 4407 个训练研究中仅有 58 个具有专家裁定标签，其余只有多语言报告。作者的做法是：用 GPT-6 Astra 结合 MRI 与报告为多模态软标签（N 版本），再对 PF OA、Lateral OA、Synovitis 做专科读者修正并用分位数映射保留排序（R 版本）；随后训练 2.5D 阅读器（相邻三层切片堆叠为三通道，BiT/ConvNeXt/DINOv3/CoAtNet 骨干，可选深度注意力与 OA 耦合头），并以固定分组预算的概率融合集成。难点在于图像级评价与报告监督之间的错位、标签噪声以及集成权重容易随实验数量失控。",
+      "takeaway": "监督信号的质量与构造方式可能比模型结构更关键：先用图像+报告生成连续软标签，再按发现分层修正标签并固定分组预算做概率融合；同时注意公开/私有榜三位小数下 0.959 并不能证明 Gold 重训或分组策略有优势。",
       "tags": [
-        "Writeup"
+        "2.5D MRI Reader",
+        "Multimodal Soft Labels",
+        "Transfer Learning (BiT/ConvNeXt/DINOv3/CoAtNet)",
+        "Depth Attention",
+        "Group-Budget Probability Ensembling"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "ba26bdc32dc603d7639ad9a787bde31b6cbfdc7b74e7b6355bc47333fdcf010d"
+      "steps": [
+        {
+          "title": "用图像+报告构造12维连续软标签",
+          "titleEN": "Construct 12 continuous soft targets from images plus reports",
+          "body": "输入是每个研究的 MRI 切片与多语言报告。操作：让 GPT-6 Astra 先看 MRI（PF 专科用同一平面/序列组最多 9 张 384px 采样切片的有序拼图），检查位置、严重度与范围，再与报告核对，输出 12 个连续目标；其他报告阅读器意见仅作佐证而非投票，接受的修改只改相关目标。学生模型在冻结快照上训练，看不到报告或阅读器解释。这样做的动机是报告可能漏报或描述低于竞赛阳性阈值的变化，纯文本标签会把图像级目标带偏。局限：这是模型辅助标注，可能引入系统性偏差，作者也未报告该步骤的独立消融。",
+          "bodyEN": "Inputs are each study's MRI slices and multilingual report. GPT-6 Astra first examines the MRI (for the PF specialist, ordered sheets of up to nine sampled 384-px slices from one plane/sequence group), checks location, severity and extent, then reconciles with the report to assign 12 continuous targets. Other report-reader opinions are supporting evidence, not votes, and accepted revisions change only the relevant targets. Student models train on frozen snapshots without reports or reader explanations. The motivation is that reports can omit findings or describe changes below the competition's positive threshold, so purely text-derived labels would misdirect an image-level target. Limitation: this is model-assisted annotation that may carry systematic bias, and no isolated ablation of this step is reported.",
+          "reference": "1.1 Read the images, not just the diagnostic terms",
+          "source": 0
+        },
+        {
+          "title": "按发现修正标签并用分位数映射保留排序",
+          "titleEN": "Refine labels per finding and preserve ordering via quantile mapping",
+          "body": "输入是 N 版本目标与专科读者的修正结果。操作：接受 Lateral OA 与 Synovitis 的专科排序后得到 R 版本；在每个被接受的修正子集内，用新排序选取旧目标的分位数，未修正条目保持不变。动机是新读者可能同时改变排序与概率尺度，分位数映射把两者分开，从而在保留新排序的同时限制尺度漂移。作者明确 R 是目标变换而非 ranking loss，且该映射只用于修正子集内部，不用于测试集预测。局限：它依赖读者对子集的排序质量，且 N 与 R 两版都进入模型池，混合效果未做单因素隔离。",
+          "bodyEN": "Inputs are the N targets and specialist revisions. After accepting specialist rankings for Lateral OA and Synovitis, version R is produced: within each accepted revision subset, ranks select quantiles of the previous targets while unrevised entries stay fixed. The motivation is that a new reader can change both ordering and probability scale; quantile mapping separates these effects, preserving the new ordering while limiting scale changes. The authors state R is a target transformation, not a ranking loss, and the mapping applies only inside revision subsets, not to test-set predictions. Limitation: it depends on the quality of the specialist ordering, and since both N and R enter the pool, their mixing is not isolated as a single-factor ablation.",
+          "reference": "1.2 Preserve complementary targets",
+          "source": 0
+        },
+        {
+          "title": "把膝部MRI读成2.5D窗口并聚合为研究级logits",
+          "titleEN": "Read knee MRI as 2.5D windows and aggregate to study-level logits",
+          "body": "输入是五类采集组（矢状/冠状的流体敏感与非流体敏感、轴位）的切片。操作：按 DICOM 物理几何排序、标准化膝朝向、对缺失视图做掩码；约 140mm 视野缩放到 224/384/512px；每个 2.5D 窗口堆叠同一序列的三张相邻切片作为三通道输入，由 BiT ResNetV2-50、ConvNeXt-Small、DINOv3 ViT-B/16 或 CoAtNet 编码，再经类特定空间池化、全局平均池化与注意力 MIL 聚合成 12 个研究级 logits；代表性缓存按组分配 18/14/12/8/12 个中心位置共至多 64 个，缺失位置掩码。动机是在有限显存下同时利用层内局部结构与跨层上下文。局限：推理只覆盖缓存中的有效窗口，而非全部原始 DICOM 切片。",
+          "bodyEN": "Inputs are slices from five acquisition groups (sagittal/coronal fluid-sensitive and non-fluid-sensitive, and axial). Slices are sorted by DICOM physical geometry, knee orientation is standardized and missing views masked; a roughly 140 mm field of view is resized to 224/384/512 px. Each 2.5D window stacks three adjacent slices from one series as a three-channel input, encoded by BiT ResNetV2-50, ConvNeXt-Small, DINOv3 ViT-B/16 or CoAtNet, then aggregated into 12 study logits by class-specific spatial pooling, global average pooling and attention MIL. A representative cache allocates 18/14/12/8/12 center positions per group, up to 64, with missing positions masked. The motivation is to exploit both in-slice local structure and cross-slice context under limited memory. Limitation: inference covers valid cached windows, not every raw DICOM slice.",
+          "reference": "2.1 Geometry and local context",
+          "source": 0
+        },
+        {
+          "title": "可选深度注意力与OA耦合头",
+          "titleEN": "Optional depth attention and OA-coupled head",
+          "body": "输入是同一序列内的窗口特征。操作：深度上下文（36 个成员中的 31 个）在序列内用 32 维投影、2×2 区域池化与 4 个注意力头交换特征，训练包保留序列块并以 32 个窗口为上限；OA 耦合（36 个中的 5 个）学习区域软骨等级，把累积序数预测转为分室最大值加学习残差，只修改三个 OA logits，其余九个不变，OAI 等级仅用于训练监督而耦合预测头在测试时仍生效。动机是让网络利用层间物理位置信息并对 OA 相关的三个发现建模序数结构。局限：这些是作者的配置选择，作者未将其作为单独消融报告收益，且“特征路径为示意而非实测注意力图”。",
+          "bodyEN": "Inputs are window features within a series. Depth context (31 of 36 members) exchanges features using 32-dimensional projections, 2x2 regional pooling and four attention heads within each series, with training bags preserving series blocks capped at 32 windows. OA coupling (5 of 36) learns regional cartilage grades, converting cumulative ordinal predictions into compartment-wise maxima plus learned residuals that modify only the three OA logits while the other nine stay unchanged; OAI grades supervise training only and the coupled head remains active at test time. The motivation is to use physical position between slices and to model ordinal structure for the three OA-related findings. Limitation: these are the authors' configuration choices, not isolated ablations, and figure features are 'schematic, not measured attention maps'.",
+          "reference": "2.2 Depth attention and OA coupling",
+          "source": 0
+        },
+        {
+          "title": "固定分组预算的概率融合与Gold58重训",
+          "titleEN": "Group-budget probability fusion and Gold58 refits",
+          "body": "输入是各成员对 12 个发现的 sigmoid 概率。操作：基础预测 B[c] = 0.5·mean(Mature12) + 0.5·mean(Matrix20)，其余九个发现用 B[c]；三个弱发现用 P[c] = 0.5·B[c] + 0.5·mean(Expert8)；四个共享 checkpoint 只推理一次但保留两组贡献，得 12+20+8−4=36 个唯一模型，八个专家成员合计获得弱发现 58.33% 的展开权重；随后在冻结 G36 后将可匹配成员替换为含 58 个专家标签研究的重训版本（27 个重训+9 个原 checkpoint），分组与融合不变。动机是防止某架构的实验数或种子数自动决定其权重，并给弱发现额外专家支持。局限：作者自己指出 0.959 的三位小数既未确立 Gold 重训收益也未确立分组优势，且未用重训后的样本内分数重选成员；本方案是可复现的集成工程，而非单因素消融证据。",
+          "bodyEN": "Inputs are each member's sigmoid probabilities for 12 findings. The base prediction is B[c] = 0.5·mean(Mature12) + 0.5·mean(Matrix20), used for the other nine findings; the weak three use P[c] = 0.5·B[c] + 0.5·mean(Expert8). Four shared checkpoints are inferred once but keep contributions in both groups, giving 12+20+8-4 = 36 unique models, with the eight expert members receiving 58.33% of expanded weak-finding weight. After freezing G36, eligible members are replaced by refits including the 58 expert-labeled studies (27 refits + 9 original checkpoints) with grouping and fusion fixed. The motivation is to stop the number of experiments or seeds for one architecture from determining its share, and to give weak findings extra expert support. Limitation: the authors note the three-decimal 0.959 establishes neither a Gold-refit benefit nor a grouping advantage, and post-refit in-sample scores were not used to reselect members; this is reproducible ensemble engineering, not single-factor ablation evidence.",
+          "reference": "4. G36-Gold: fixed group budgets, finding-specific support",
+          "source": 0
+        }
+      ],
+      "fingerprint": "ba26bdc32dc603d7639ad9a787bde31b6cbfdc7b74e7b6355bc47333fdcf010d",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该方案详细披露了可复用的建模与集成方法：多模态软标签构建、2.5D 多切片读取器、深度注意力、OAI 外部监督混合、组感知概率融合公式及固定 epoch 训练配方，并附完整训练/推理代码与权重链接，读者可追踪其建模与优化决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        }
+      },
+      "titleEN": "From Report-Derived Soft Labels to 2.5D MRI Readers: Dissecting the 3rd-Place RSNA Knee Abnormality Solution",
+      "summaryEN": "The task is to predict 12 knee abnormality labels from MRI with ROC AUC, yet only 58 of 4,407 training studies had expert-adjudicated labels while the rest only had multilingual reports. The authors built multimodal soft labels (version N) by having GPT-6 Astra review MRI together with the report, then had finding-specific readers refine PF OA, Lateral OA and Synovitis and applied quantile mapping within accepted revisions to preserve ordering (version R). They trained 2.5D readers (three adjacent slices stacked as channels, BiT/ConvNeXt/DINOv3/CoAtNet backbones, optional depth attention and OA-coupled head) and ensembled them with fixed group budgets. The core difficulties are the mismatch between image-level evaluation and report-derived supervision, label noise, and ensemble weights drifting with the number of experiments.",
+      "takeawayEN": "Supervision quality and construction may matter more than architecture: generate continuous soft labels from image plus report, refine them per finding, and blend probabilities under fixed group budgets. Also note that at three-decimal leaderboard precision, 0.959 does not prove a benefit from Gold58 refits or the grouping strategy.",
+      "exercise": {
+        "zh": "在公开 Notebook 基础上做小规模对照：固定同一骨干与同一个 seed，仅改变监督构造，比较 (a) 仅用报告文本标签、(b) 图像+报告软标签 N、(c) 对单一发现应用分位数映射的 R 三种设置下的局部 AUC，并记录每种设置下有多少样本被修正；借此检验软标签与分位数映射是否真的带来提升，而不是直接照搬融合权重。",
+        "en": "On top of the public notebook, run a small controlled comparison: fix the same backbone and seed and vary only supervision construction, comparing the local AUC of (a) report-text-only labels, (b) image+report soft targets (N), and (c) R with quantile mapping for a single finding, while logging how many samples were revised in each setting. This tests whether soft labels and quantile mapping actually help instead of copying the ensemble weights."
+      }
     },
     {
       "id": "w-121866",
@@ -6029,7 +6101,10 @@
       ],
       "steps": [],
       "awaitingExplanation": true,
-      "fingerprint": "0f6d5b35e0c16c89efafb93f070a4d63cccf40b2492c53022d2ebd79a124647d"
+      "fingerprint": "0f6d5b35e0c16c89efafb93f070a4d63cccf40b2492c53022d2ebd79a124647d",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:34:41Z"
+      }
     },
     {
       "id": "w-122911",
