@@ -1,6 +1,11 @@
 name: Refresh and publish
 on:
   workflow_dispatch:
+    inputs:
+      editorial_only:
+        description: Review the current verified catalog without a full Kaggle crawl
+        type: boolean
+        default: false
   schedule:
     - cron: '17 */6 * * *'
   push:
@@ -27,10 +32,20 @@ jobs:
       - name: Refresh public data
         if: github.event_name != 'push'
         env:
+          EDITORIAL_ONLY: ${{ inputs.editorial_only }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
           MODEL_BASE_URL: ${{ vars.MODEL_BASE_URL }}
           MODEL_NAME: ${{ vars.MODEL_NAME }}
-        run: python refresh.py
+        run: |
+          if [[ "$EDITORIAL_ONLY" == "true" ]]; then
+            python refresh.py --editorial-only
+          else
+            python refresh.py
+          fi
       - name: Save verified snapshot
         if: github.event_name != 'push'
         run: |
