@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-24T03:46:01Z",
+  "updated": "2026-11-24T09:56:25Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -749,9 +749,9 @@
       "evidence": {
         "kind": "public",
         "rank": 25,
-        "teams": 3662,
+        "teams": 3642,
         "score": "11602.83535",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -802,9 +802,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -824,7 +824,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f"
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
+      "stale": false
     },
     {
       "id": "k-118036481",
@@ -834,10 +835,10 @@
       "published": "2023-02-02T14:51:07.413Z",
       "evidence": {
         "kind": "public",
-        "rank": 111,
-        "teams": 2133,
+        "rank": 112,
+        "teams": 2146,
         "score": "0.81669",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -889,9 +890,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -911,7 +912,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39"
+      "fingerprint": "cddda1d0dd9a2ad47440c865113881e84987b74866391104b6783871f9e80f39",
+      "stale": false
     },
     {
       "kernelID": 37419191,
@@ -923,9 +925,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -945,7 +947,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa"
+      "fingerprint": "72f88b7fecd2dec5b2d23d8f4d7e99932bb6989b4c4f6257688fcf69d623aafa",
+      "stale": false
     },
     {
       "kernelID": 39153555,
@@ -957,9 +960,9 @@
       "evidence": {
         "kind": "public",
         "rank": 27,
-        "teams": 3662,
+        "teams": 3642,
         "score": "11671.53164",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1008,10 +1011,10 @@
       "published": "2023-07-21T08:08:13.443Z",
       "evidence": {
         "kind": "public",
-        "rank": 114,
-        "teams": 2133,
+        "rank": 115,
+        "teams": 2146,
         "score": "0.81622",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1069,10 +1072,10 @@
       "published": "2023-07-21T08:13:50.863Z",
       "evidence": {
         "kind": "public",
-        "rank": 111,
-        "teams": 2133,
+        "rank": 112,
+        "teams": 2146,
         "score": "0.81669",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1130,10 +1133,10 @@
       "published": "2023-07-21T08:21:17.393Z",
       "evidence": {
         "kind": "public",
-        "rank": 113,
-        "teams": 2133,
+        "rank": 114,
+        "teams": 2146,
         "score": "0.81646",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1224,10 +1227,10 @@
       "published": "2024-03-26T14:46:44.880Z",
       "evidence": {
         "kind": "public",
-        "rank": 111,
-        "teams": 2133,
+        "rank": 112,
+        "teams": 2146,
         "score": "0.81669",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1293,10 +1296,10 @@
       "published": "2024-06-12T06:46:18.243Z",
       "evidence": {
         "kind": "public",
-        "rank": 102,
-        "teams": 2133,
+        "rank": 103,
+        "teams": 2146,
         "score": "0.81903",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1348,9 +1351,9 @@
       "evidence": {
         "kind": "public",
         "rank": 6,
-        "teams": 68,
+        "teams": 69,
         "score": "0.97956",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1370,7 +1373,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440"
+      "fingerprint": "aca53ce5aed71d9da192006baa4304a49ba50c7094c7a42c9768fd18dd369440",
+      "stale": false
     },
     {
       "kernelID": 6121068,
@@ -1382,9 +1386,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1331,
+        "teams": 1343,
         "score": "1",
-        "checked": "2026-11-23T11:17:44Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1405,7 +1409,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
-      "stale": true
+      "stale": false
     },
     {
       "id": "k-25668838",
@@ -1415,9 +1419,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1331,
+        "teams": 1343,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1438,7 +1442,9 @@
       "steps": [],
       "fingerprint": "24b5dd826ecc60503c68a93bb023837a8284f6d765ba3de604577ff48105c261",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 7204871,
+      "originalTitle": "Data Recognizer - 100% score ..."
     },
     {
       "kernelID": 7524551,
@@ -1450,9 +1456,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1472,7 +1478,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e"
+      "fingerprint": "a34abc79abacd11eaa8ed261823f2c6971bdf63a8389ac742beb3848d079d40e",
+      "stale": false
     },
     {
       "kernelID": 98079348,
@@ -1484,9 +1491,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 68,
+        "teams": 69,
         "score": "0.98084",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1506,7 +1513,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719"
+      "fingerprint": "42c9b942af18c0a52b31495babd16d913858c776e86f9655cbe7068f18164719",
+      "stale": false
     },
     {
       "kernelID": 99881870,
@@ -1518,9 +1526,9 @@
       "evidence": {
         "kind": "public",
         "rank": 2,
-        "teams": 68,
+        "teams": 69,
         "score": "0.98222",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1540,7 +1548,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20"
+      "fingerprint": "bdd0bfd18021c791d0bb6354bf19df85c78b60566edd2ab286e6bfd1c150ed20",
+      "stale": false
     },
     {
       "kernelID": 104402203,
@@ -1552,9 +1561,9 @@
       "evidence": {
         "kind": "public",
         "rank": 35,
-        "teams": 3662,
+        "teams": 3642,
         "score": "11911.65105",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1621,9 +1630,9 @@
       "evidence": {
         "kind": "public",
         "rank": 23,
-        "teams": 3662,
+        "teams": 3642,
         "score": "11572.97803",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1682,9 +1691,9 @@
       "evidence": {
         "kind": "public",
         "rank": 62,
-        "teams": 3662,
+        "teams": 3642,
         "score": "12329.79076",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1704,7 +1713,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74"
+      "fingerprint": "db7fe02e64d2076fe48620f424c46890dfdda7ffc346e97e8acc74f415d98c74",
+      "stale": false
     },
     {
       "id": "k-29911658",
@@ -1715,9 +1725,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1777,9 +1787,9 @@
       "evidence": {
         "kind": "public",
         "rank": 33,
-        "teams": 3662,
+        "teams": 3642,
         "score": "11849.04818",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1829,40 +1839,6 @@
       "stale": false
     },
     {
-      "kernelID": 111848602,
-      "id": "k-302838836",
-      "competitionID": "store-sales-time-series-forecasting",
-      "originalTitle": "Store Sales - Time Series Forecasting | h-blend",
-      "author": "Thanh Nhan Nguyen",
-      "published": "2026-03-11T10:09:24.323Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 71,
-        "teams": 736,
-        "score": "0.37947",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/ssssws/store-sales-time-series-forecasting-h-blend?scriptVersionId=302838836"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting/leaderboard"
-        }
-      ],
-      "title": "Store Sales - Time Series Forecasting | h-blend",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "615831a7cf3a3eb2c8eb59e2e8afb45cb6e4444137637096e6ffbcd2f9dc2098"
-    },
-    {
       "kernelID": 8541936,
       "id": "k-30685379",
       "competitionID": "nlp-getting-started",
@@ -1872,9 +1848,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1894,7 +1870,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4"
+      "fingerprint": "3f1207d6b659b490b85d763550caec88ff02461377dc40857d1e04db52a665e4",
+      "stale": false
     },
     {
       "kernelID": 116667740,
@@ -1906,9 +1883,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 3662,
+        "teams": 3642,
         "score": "0",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1928,7 +1905,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db"
+      "fingerprint": "15f24c1b8aa88f310b4eaf89a2976e9af94e93576893e26ccbaf37a2e9e8a0db",
+      "stale": false
     },
     {
       "kernelID": 138615187,
@@ -1939,10 +1917,10 @@
       "published": "2026-10-14T05:33:06.430Z",
       "evidence": {
         "kind": "public",
-        "rank": 156,
-        "teams": 6591,
+        "rank": 158,
+        "teams": 6623,
         "score": "0.2",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1962,7 +1940,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8"
+      "fingerprint": "216443d60ad7a030e7ec9424260ba598ac63d407d04cce8163a5a60c029278f8",
+      "stale": false
     },
     {
       "kernelID": 140177407,
@@ -1973,10 +1952,10 @@
       "published": "2026-10-22T08:09:30.777Z",
       "evidence": {
         "kind": "public",
-        "rank": 156,
-        "teams": 6591,
+        "rank": 158,
+        "teams": 6623,
         "score": "0.2",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -1996,7 +1975,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef"
+      "fingerprint": "b777e17cfa7700c0dc9b80f278835c3f3c4ef83da26e5ccef643bdbf370691ef",
+      "stale": false
     },
     {
       "kernelID": 142056892,
@@ -2007,10 +1987,10 @@
       "published": "2026-11-01T05:44:06.667Z",
       "evidence": {
         "kind": "public",
-        "rank": 156,
-        "teams": 6591,
+        "rank": 158,
+        "teams": 6623,
         "score": "0.2",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2030,7 +2010,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "596fae2c032b824e891eeb69a4675e332a2c0b4d567268e3db3a9836ba9f9696"
+      "fingerprint": "596fae2c032b824e891eeb69a4675e332a2c0b4d567268e3db3a9836ba9f9696",
+      "stale": false
     },
     {
       "id": "k-365669427",
@@ -2041,9 +2022,9 @@
       "evidence": {
         "kind": "public",
         "rank": 23,
-        "teams": 328,
+        "teams": 324,
         "score": "0.82756",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2094,9 +2075,9 @@
       "evidence": {
         "kind": "public",
         "rank": 20,
-        "teams": 328,
+        "teams": 324,
         "score": "0.82728",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2139,40 +2120,6 @@
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
-      "kernelID": 142961357,
-      "id": "k-366106031",
-      "competitionID": "connectx",
-      "originalTitle": "2swap's Connect4 Starter Notebook",
-      "author": "Ertuğrul Özer",
-      "published": "2026-11-05T23:45:47.037Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 32,
-        "teams": 323,
-        "score": "1146.4",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/ozertuu/2swap-s-connect4-starter-notebook?scriptVersionId=366106031"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/connectx/leaderboard"
-        }
-      ],
-      "title": "2swap's Connect4 Starter Notebook",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "4216138e16e3ab36a705aaf4aec15397d92af322df809426e2f26614ecb3d504"
-    },
-    {
       "id": "k-368205932",
       "competitionID": "llm-classification-finetuning",
       "originalTitle": "llmclf ander r7",
@@ -2181,9 +2128,9 @@
       "evidence": {
         "kind": "public",
         "rank": 18,
-        "teams": 328,
+        "teams": 324,
         "score": "0.82685",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2284,68 +2231,7 @@
       "fingerprint": "db18980ce9c94e3832bc60981955f5487160940e634f81fb04be8e38c33ace8f",
       "summaryEN": "The source contains calls to KFold, OneHotEncoder, RandomForestRegressor. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
-      "stale": false
-    },
-    {
-      "id": "k-372174163",
-      "competitionID": "name-that-llm",
-      "originalTitle": "GLM User Prefix - 0716 Reference Run",
-      "author": "奶龙",
-      "published": "2026-11-21T11:30:46.467Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 632,
-        "teams": 6877,
-        "score": "0.717",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/dennis6886/glm-user-prefix-0716-reference-run?scriptVersionId=372174163"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "GLM User Prefix - 0716 Reference Run",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "steps": [
-        {
-          "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
-          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
-          "reference": "Cell 11",
-          "source": 0
-        },
-        {
-          "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
-          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
-          "reference": "Cell 11",
-          "source": 0
-        },
-        {
-          "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
-          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
-          "reference": "Cell 11",
-          "source": 0
-        }
-      ],
-      "tags": [
-        "StandardScaler",
-        "LogisticRegression",
-        "predict_proba"
-      ],
-      "readingMode": "code",
-      "fingerprint": "cb709286107f6dfa234eaf90f5ffc2acc604ba2faf77ccd39026357f58a37464",
-      "kernelID": 146400274,
-      "stale": false,
-      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
+      "stale": true
     },
     {
       "id": "k-372225976",
@@ -2355,10 +2241,10 @@
       "published": "2026-11-21T14:08:23.313Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 2879,
+        "rank": 216,
+        "teams": 2927,
         "score": "0.95547",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2407,10 +2293,10 @@
       "published": "2026-11-21T14:15:33.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 2879,
+        "rank": 216,
+        "teams": 2927,
         "score": "0.95547",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2433,24 +2319,39 @@
       "steps": [
         {
           "title": "重建对照组",
-          "body": "作者校验五份输入文件的 SHA-256，先重建固定的对照预测。输入顺序或文件变更会破坏这个对比。",
+          "body": "从 `/kaggle/input` 查找五份预测文件，用文件名和各自的 SHA-256 锁定版本，再按 `sample_submission.csv` 的 `id` 顺序对齐 `is_fraud`。对每份预测计算 `logit((rankdata(values) - 0.5) / len(values))`，依次得到 `R`、`Q`、`P`、`O`、`F`。用最小二乘（`rcond=None`）将 `F-Q` 投影到由 `R-Q`、`Q-P`、`P-O` 组成的矩阵上，减去拟合值后得到 `residual`，再计算 `score = R + 0.35 * residual`。把 `score` 转回百分位排名，写入 `/kaggle/working/submission.csv`，并核对输出的 SHA-256。",
           "reference": "Cell 3",
           "source": 0,
-          "bodyEN": "Five input files are checked against SHA-256 digests to reconstruct a fixed baseline. A changed file or row order would invalidate the comparison."
+          "bodyEN": "Find the five prediction files under `/kaggle/input`, pin each revision by filename and SHA-256, and align its `is_fraud` values to the `id` order in `sample_submission.csv`. Apply `logit((rankdata(values) - 0.5) / len(values))` to each prediction vector to obtain `R`, `Q`, `P`, `O`, and `F`, in that order. Use least squares (`rcond=None`) to regress `F-Q` on `R-Q`, `Q-P`, and `P-O`, subtract the fitted values to obtain `residual`, and compute `score = R + 0.35 * residual`. Convert `score` back to percentile ranks, write `/kaggle/working/submission.csv`, and verify its SHA-256.",
+          "why": "这一步先复现固定的对照排序，供后续 CatBoost 修正使用。最小二乘残差保留了 `F-Q` 中无法由已有三组排序变化线性解释的部分。",
+          "whyEN": "This recreates a fixed control ranking for the later CatBoost correction. The least-squares residual retains the part of `F-Q` that the three existing rank shifts do not explain linearly.",
+          "limit": "同名文件不能互换，必须匹配指定哈希；预测还须通过 `id` 唯一性、行数和有限值检查。输出哈希验证的是文件复现是否一致，原文没有单独验证残差加权的收益。",
+          "limitEN": "Files with the same name are not interchangeable: each must match its specified hash. The predictions must also pass the ID uniqueness, row count, and finiteness checks. The output hash verifies exact file reproduction; the source does not separately validate the benefit of residual weighting.",
+          "titleEN": "Rebuild the control"
         },
         {
           "title": "确定训练长度",
-          "body": "保留欺诈标签的比例，留出 20% 数据评估 AUC，用早停选出树数，再用全部训练数据重训。",
+          "body": "读取官方 `train.csv` 和 `test.csv`，将 `is_fraud` 从训练特征中取出作为标签，并按样例提交的 `id` 和训练特征列对齐测试集。将非数值且非布尔列的缺失值填为 `'unknown'` 后转成字符串，再加入 `merchant_risk_score*velocity_score` 和 `cvv_retry_count*prior_disputes` 两个交互项。以标签分层切分，设置 `test_size=.2`、`random_state=79`；CatBoost 使用 `depth=7`、`learning_rate=.11`、`loss_function='Logloss'`、`eval_metric='AUC'`、`random_seed=79`、`cat_features=categories`、`thread_count=4`、`verbose=False` 和 `allow_writing_files=False`。试跑设 `iterations=300`、`early_stopping_rounds=35`，并根据留出集的正类概率计算 ROC-AUC。读取试跑模型的 `tree_count_`，以该值作为 `iterations`，用相同参数在全部训练数据上重训。",
           "reference": "Cell 5",
           "source": 0,
-          "bodyEN": "The author stratifies by the fraud label, holds out 20% for AUC evaluation, uses early stopping to choose a tree count and refits on the full training set."
+          "bodyEN": "Load the official `train.csv` and `test.csv`, remove `is_fraud` from the training features to use as the label, and align the test set to the sample submission IDs and training feature columns. Fill missing values in columns that are neither numeric nor Boolean with `'unknown'`, cast those columns to strings, and add the interactions `merchant_risk_score*velocity_score` and `cvv_retry_count*prior_disputes`. Stratify the split by label with `test_size=.2` and `random_state=79`; configure CatBoost with `depth=7`, `learning_rate=.11`, `loss_function='Logloss'`, `eval_metric='AUC'`, `random_seed=79`, `cat_features=categories`, `thread_count=4`, `verbose=False`, and `allow_writing_files=False`. Run the pilot with `iterations=300` and `early_stopping_rounds=35`, then compute ROC-AUC from the positive-class probabilities on the holdout. Set `iterations` to the pilot model's `tree_count_` and refit on all training data with the same parameters.",
+          "why": "先用分层留出集选择树数，再用选定的树数在所有有标签的样本上拟合最终模型。",
+          "whyEN": "Use a stratified holdout to select the tree count, then train the final model with that tree count on all labeled rows.",
+          "limit": "树数由一次固定种子的留出切分选出，不是交叉验证的结果。留出 AUC 只评估试跑的 CatBoost，原文没有报告这种选树方式或全量重训相对其他做法的收益。",
+          "limitEN": "The tree count comes from one fixed-seed holdout split, not cross-validation. The holdout AUC evaluates only the pilot CatBoost model; the source reports no comparison validating the benefit of this tree selection procedure or the full-data refit.",
+          "titleEN": "Choose the number of trees"
         },
         {
           "title": "在风险档内调序",
-          "body": "把 CatBoost 排名转成 logit，在 40 档中估计中位趋势。残差截断到 ±0.55 后乘以 0.035，加入原分。公布的榜分属于整份提交。",
+          "body": "将全量重训模型输出的测试集正类概率转成对数几率排名 `tree_rank`，并把对照 `score` 转成百分位 `percentile`。用 `np.minimum((percentile*40).astype(int),39)` 划分风险档，计算各档内 `tree_rank` 的中位数，档中心设为 `(np.arange(40)+.5)/40`。在档中心之间对中位数做线性插值，并从 `tree_rank` 中减去插值结果以得到 `within_band`。按 `candidate = score+.035*np.clip(within_band,-.55,.55)` 修正对照分数，将候选分数重新排名并以 `(after-.5)/len(after)` 写出提交，同时记录变化的排名数和平均绝对排名移动。",
           "reference": "Cell 5",
           "source": 0,
-          "bodyEN": "CatBoost ranks are converted to logits. A median trend across 40 bands is subtracted, residuals are clipped to ±0.55 and multiplied by 0.035 before addition to the base score. The published score covers the entire submission."
+          "bodyEN": "Convert the refitted model's positive-class test probabilities to logit ranks (`tree_rank`) and the control `score` to percentiles (`percentile`). Assign risk bands with `np.minimum((percentile*40).astype(int),39)`, compute the median `tree_rank` in each band, and set the band centers to `(np.arange(40)+.5)/40`. Linearly interpolate the medians across the band centers and subtract the interpolated value from `tree_rank` to obtain `within_band`. Apply `candidate = score+.035*np.clip(within_band,-.55,.55)`, rerank the candidate scores, and write `(after-.5)/len(after)` to the submission while logging the number of changed ranks and the mean absolute rank movement.",
+          "why": "用同一对照风险水平下的 CatBoost 排名作为参照，提取局部相对信号，而不是直接用 CatBoost 替换全局排序。裁剪和小权重限制了对原分数的扰动。",
+          "whyEN": "Use the typical CatBoost rank at a similar control risk level as a reference, so the correction reflects a local signal rather than replacing the global ranking. Clipping and a small weight limit how much the original scores are perturbed.",
+          "limit": "风险档用于估计局部参照，并非重排的硬边界：最终是全局重排，候选样本仍可能跨档换序。排名移动只表明预测发生了变化，原文没有报告这一步相对对照的 ROC-AUC 收益。",
+          "limitEN": "The bands define a local reference, not hard reranking boundaries: the final rerank is global, so rows can still swap order across bands. Rank movement shows only that predictions changed; the source does not report a ROC-AUC gain over the control for this step.",
+          "titleEN": "Adjust the ranking within risk bands"
         }
       ],
       "fingerprint": "2a89db7d14528b07a2855ca545c6fb10fa1cc11849b80907444097bcec662fe2",
@@ -2463,68 +2364,15 @@
       "exercise": {
         "zh": "选出基础分接近的一对正负样本，把原分、风险档中位趋势、残差和调整后名次放在同一行。如果分数变了但相对次序没变，这一对对 AUC 的贡献也没变。再汇总有多少对从错序变成正序，又有多少对反向变化。",
         "en": "Pick a positive and negative example with nearly equal baseline scores. Write down the baseline, band trend, residual and final rank for both. A numerical change that leaves their order intact does not change their contribution to AUC. Count corrected pairs and newly inverted pairs separately."
-      }
-    },
-    {
-      "id": "k-372338058",
-      "competitionID": "name-that-llm",
-      "originalTitle": "NTL H195 v6 keep glm to fable",
-      "author": "Kuan-Chieh Huang",
-      "published": "2026-11-21T20:05:47.130Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 632,
-        "teams": 6877,
-        "score": "0.717",
-        "checked": "2026-11-23T23:55:39Z"
       },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/kchuang/ntl-h195-v6-keep-glm-to-fable?scriptVersionId=372338058"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+      "llmReview": {
+        "lastDeepen": "2026-11-24T09:56:25Z",
+        "deepenedBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
         }
-      ],
-      "title": "NTL H195 v6 keep glm to fable",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "steps": [
-        {
-          "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
-          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
-          "reference": "Cell 11",
-          "source": 0
-        },
-        {
-          "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
-          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
-          "reference": "Cell 11",
-          "source": 0
-        },
-        {
-          "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
-          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
-          "reference": "Cell 11",
-          "source": 0
-        }
-      ],
-      "tags": [
-        "StandardScaler",
-        "LogisticRegression",
-        "predict_proba"
-      ],
-      "readingMode": "code",
-      "fingerprint": "6fd2fe4f140680fe241749bca61c2c8fa20c06c619544d8f16427690daea2480",
-      "kernelID": 146488017,
-      "stale": false,
-      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
+      },
+      "findings": []
     },
     {
       "id": "k-372418637",
@@ -2534,10 +2382,10 @@
       "published": "2026-11-22T02:02:03.027Z",
       "evidence": {
         "kind": "public",
-        "rank": 232,
-        "teams": 6877,
+        "rank": 362,
+        "teams": 6923,
         "score": "0.719",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2595,10 +2443,10 @@
       "published": "2026-11-22T02:41:07.597Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2656,10 +2504,10 @@
       "published": "2026-11-22T09:57:30.750Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2710,40 +2558,6 @@
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
-      "kernelID": 146622674,
-      "id": "k-372576889",
-      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "casmi26-with-180x",
-      "author": "Koushik Rudra",
-      "published": "2026-11-22T11:25:30.063Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/koushikrudra/casmi26-with-180x?scriptVersionId=372576889"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
-        }
-      ],
-      "title": "casmi26-with-180x",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "587ba8fdcca71fb4ff5d04fd2fa874bbf5d47e8b3dce36a68e6c7491053b6dbd"
-    },
-    {
       "id": "k-372587781",
       "competitionID": "name-that-llm",
       "originalTitle": "NTL 0719 Dennis Fable Return 20261122",
@@ -2751,10 +2565,10 @@
       "published": "2026-11-22T12:00:14.857Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2812,10 +2626,10 @@
       "published": "2026-11-22T12:01:07.143Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2866,67 +2680,6 @@
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
-      "id": "k-372609786",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl d719 fork",
-      "author": "Soren",
-      "published": "2026-11-22T13:08:24.803Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 632,
-        "teams": 6877,
-        "score": "0.717",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/huanansu/ntl-d719-fork?scriptVersionId=372609786"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl d719 fork",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "steps": [
-        {
-          "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
-          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
-          "reference": "Cell 12",
-          "source": 0
-        },
-        {
-          "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
-          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
-          "reference": "Cell 12",
-          "source": 0
-        },
-        {
-          "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
-          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
-          "reference": "Cell 12",
-          "source": 0
-        }
-      ],
-      "tags": [
-        "StandardScaler",
-        "LogisticRegression",
-        "predict_proba"
-      ],
-      "readingMode": "code",
-      "fingerprint": "718ea26f489fdba75c89b671c9f5622f6e031f04d1fc004e47c6e56186d26a3f",
-      "kernelID": 146640431,
-      "stale": false,
-      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
-    },
-    {
       "id": "k-372627682",
       "competitionID": "name-that-llm",
       "originalTitle": "ntl-0718a-glm-cover20",
@@ -2934,10 +2687,10 @@
       "published": "2026-11-22T14:03:00.287Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -2995,10 +2748,10 @@
       "published": "2026-11-22T14:46:02.957Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3057,40 +2810,6 @@
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
-      "kernelID": 146714556,
-      "id": "k-372750961",
-      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "casmi26-v111",
-      "author": "jiyuhao1213",
-      "published": "2026-11-22T20:16:11.403Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v111?scriptVersionId=372750961"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
-        }
-      ],
-      "title": "casmi26-v111",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "b2c1a84e5c220db7b6c3c41d74cf1b316d07ee1f349d34158d70dd32da8390ef"
-    },
-    {
       "kernelID": 146728511,
       "id": "k-372772868",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -3099,10 +2818,10 @@
       "published": "2026-11-22T21:31:56.460Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3122,7 +2841,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "4df08201b419af110617d42a6ee0f86f8f1c8075d7f19a16821ace84a8c2787c"
+      "fingerprint": "4df08201b419af110617d42a6ee0f86f8f1c8075d7f19a16821ace84a8c2787c",
+      "stale": false
     },
     {
       "id": "k-372780350",
@@ -3131,10 +2851,10 @@
       "published": "2026-11-22T22:01:24.317Z",
       "evidence": {
         "kind": "public",
-        "rank": 100,
-        "teams": 6877,
+        "rank": 105,
+        "teams": 6923,
         "score": "0.721",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3186,6 +2906,9 @@
       "exercise": {
         "zh": "给同一段文本列出修改前后概率最高的三个模型，先把同家族概率求和，再看家族内谁排第一。如果选对家族仍分错具体模型，可抽查标点与常用词；若连家族都错了，则应回查基础分类器。",
         "en": "For one passage, list the top three models before and after correction. Sum probabilities by family first, then inspect the winner within that family. A wrong sibling points you toward the text features. A wrong family points back to the baseline classifier."
+      },
+      "llmReview": {
+        "lastDeepen": "2026-11-24T09:56:25Z"
       }
     },
     {
@@ -3197,10 +2920,10 @@
       "published": "2026-11-22T22:02:52.303Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3220,41 +2943,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be"
-    },
-    {
-      "kernelID": 146742817,
-      "id": "k-372795758",
-      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "casmi26-v113",
-      "author": "jiyuhao1213",
-      "published": "2026-11-22T23:04:09.610Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v113?scriptVersionId=372795758"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
-        }
-      ],
-      "title": "casmi26-v113",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "55a65738efa000b4c08db92e4e390b8f63a7fbf80eeef47499f640f3b876ad00"
+      "fingerprint": "5468cff0cd5511779e9e2cce8b7396efad4b07114a2a9e644b32f57f2b93f6be",
+      "stale": false
     },
     {
       "id": "k-372842377",
@@ -3264,10 +2954,10 @@
       "published": "2026-11-23T02:15:00.190Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3310,40 +3000,6 @@
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set."
     },
     {
-      "kernelID": 146775948,
-      "id": "k-372852491",
-      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "enveda p2s 501fork",
-      "author": "Leo",
-      "published": "2026-11-23T02:54:18.270Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/huangkx666/enveda-p2s-501fork?scriptVersionId=372852491"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
-        }
-      ],
-      "title": "enveda p2s 501fork",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "e9a641efac4878abd07d9ec77a69ee804de87655b247e3299d12258c2a5c8661"
-    },
-    {
       "kernelID": 146787417,
       "id": "k-372868833",
       "competitionID": "name-that-llm",
@@ -3352,10 +3008,10 @@
       "published": "2026-11-23T03:54:42.300Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3401,7 +3057,8 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "f38acda89d94ceef8488f55a2189de5dd7079688bb0c811155c786d49d5fbdac"
+      "fingerprint": "f38acda89d94ceef8488f55a2189de5dd7079688bb0c811155c786d49d5fbdac",
+      "stale": false
     },
     {
       "id": "k-372880859",
@@ -3410,10 +3067,10 @@
       "published": "2026-11-23T04:35:42.867Z",
       "evidence": {
         "kind": "public",
-        "rank": 93,
-        "teams": 3649,
+        "rank": 107,
+        "teams": 3659,
         "score": "33.17067",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3476,10 +3133,10 @@
       "published": "2026-11-23T05:10:58.463Z",
       "evidence": {
         "kind": "public",
-        "rank": 400,
-        "teams": 6877,
+        "rank": 520,
+        "teams": 6923,
         "score": "0.718",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3525,7 +3182,8 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "01f149dd005ebe6cf734c27c82a1a2aac4785a689c8b9fbf8a992c14d5c1ce4f"
+      "fingerprint": "01f149dd005ebe6cf734c27c82a1a2aac4785a689c8b9fbf8a992c14d5c1ce4f",
+      "stale": false
     },
     {
       "kernelID": 146800749,
@@ -3536,10 +3194,10 @@
       "published": "2026-11-23T05:13:37.830Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3559,41 +3217,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "289d030ce034cbd8d55d9ba3e4bdc175b7c3e4e90c1f95f951e6ebd85125b2b3"
-    },
-    {
-      "kernelID": 146806526,
-      "id": "k-372902932",
-      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "casmi26-v116",
-      "author": "jiyuhao1213",
-      "published": "2026-11-23T05:45:13.490Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v116?scriptVersionId=372902932"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
-        }
-      ],
-      "title": "casmi26-v116",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "c5d70745f704c599bfb0ac01a8055ef01f1c91f179952b6422516dfd005dab43"
+      "fingerprint": "289d030ce034cbd8d55d9ba3e4bdc175b7c3e4e90c1f95f951e6ebd85125b2b3",
+      "stale": false
     },
     {
       "kernelID": 146806539,
@@ -3604,10 +3229,10 @@
       "published": "2026-11-23T05:45:18.493Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3627,7 +3252,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "1ec6123de78c1fa6c39a5e1e12f096e8e6fc188c4f425f1d84b4cf170a79b829"
+      "fingerprint": "1ec6123de78c1fa6c39a5e1e12f096e8e6fc188c4f425f1d84b4cf170a79b829",
+      "stale": false
     },
     {
       "kernelID": 146811722,
@@ -3638,10 +3264,10 @@
       "published": "2026-11-23T06:12:36.873Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3679,7 +3305,42 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "2b6d81419d0c84f9ffcef701d0a68db438e1adaf58d28ccc5fb44b0d319275c2"
+      "fingerprint": "2b6d81419d0c84f9ffcef701d0a68db438e1adaf58d28ccc5fb44b0d319275c2",
+      "stale": false
+    },
+    {
+      "kernelID": 146812540,
+      "id": "k-372913773",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-v119",
+      "author": "jiyuhao1213",
+      "published": "2026-11-23T06:16:46.107Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v119?scriptVersionId=372913773"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-v119",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "fffef811c1abc0e72e32f5d52cb08c2a31f9dfa426d6030fac801f073f8cb20c"
     },
     {
       "kernelID": 146823493,
@@ -3690,10 +3351,10 @@
       "published": "2026-11-23T07:16:52.243Z",
       "evidence": {
         "kind": "public",
-        "rank": 122,
-        "teams": 6877,
+        "rank": 142,
+        "teams": 6923,
         "score": "0.72",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3739,7 +3400,8 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "dbb18be267f1905721e17a2aab1960df1ffe9859f6ae652128f09115ec1b0e50"
+      "fingerprint": "dbb18be267f1905721e17a2aab1960df1ffe9859f6ae652128f09115ec1b0e50",
+      "stale": false
     },
     {
       "kernelID": 146827892,
@@ -3750,10 +3412,10 @@
       "published": "2026-11-23T07:38:27.223Z",
       "evidence": {
         "kind": "public",
-        "rank": 122,
-        "teams": 6877,
+        "rank": 142,
+        "teams": 6923,
         "score": "0.72",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3799,7 +3461,8 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "a3759a31f73da7f255397e39886aeff074f2e2d256caf1d6e47c4bc4d64ae00a"
+      "fingerprint": "a3759a31f73da7f255397e39886aeff074f2e2d256caf1d6e47c4bc4d64ae00a",
+      "stale": false
     },
     {
       "kernelID": 146834937,
@@ -3810,10 +3473,10 @@
       "published": "2026-11-23T08:16:14.003Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3851,33 +3514,34 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "aaa5400d460f9703b5d311a8b5c445ccf54e1828c7c2ab685d324bb31466f30f"
+      "fingerprint": "aaa5400d460f9703b5d311a8b5c445ccf54e1828c7c2ab685d324bb31466f30f",
+      "stale": false
     },
     {
-      "kernelID": 146839799,
-      "id": "k-372965043",
+      "kernelID": 146842304,
+      "id": "k-372969831",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
-      "originalTitle": "casmi26-v120",
-      "author": "jiyuhao1213",
-      "published": "2026-11-23T08:43:04.867Z",
+      "originalTitle": "CASMI26 mass top8 lead",
+      "author": "核乌拉鱼",
+      "published": "2026-11-23T08:57:05.577Z",
       "evidence": {
         "kind": "public",
-        "rank": 505,
-        "teams": 5876,
-        "score": "0.501",
-        "checked": "2026-11-23T23:55:39Z"
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
           "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v120?scriptVersionId=372965043"
+          "url": "https://www.kaggle.com/code/hewulayu/casmi26-mass-top8-lead?scriptVersionId=372969831"
         },
         {
           "title": "公开排行榜",
           "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
         }
       ],
-      "title": "casmi26-v120",
+      "title": "CASMI26 mass top8 lead",
       "summary": "本版本已通过公开榜成绩核验。",
       "takeaway": "打开固定版本，对照输入、特征和提交代码。",
       "steps": [],
@@ -3885,7 +3549,41 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "cc71c6f030a25d894dc9ea375ef555cb74bbe449187425d0f82b18fb7e70e4a8"
+      "fingerprint": "806a05dc1687ebefd5e39195be4a52e4c525782d0f0e81d8ddfd4504e0898ee8"
+    },
+    {
+      "kernelID": 146852233,
+      "id": "k-372988860",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "enveda p2s 502fork",
+      "author": "Leo",
+      "published": "2026-11-23T09:48:49.233Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/huangkx666/enveda-p2s-502fork?scriptVersionId=372988860"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "enveda p2s 502fork",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "6257a8f74d9ee443a5df2c41fb4b5321c9bb74b5552e68638afac258c120f5ee"
     },
     {
       "kernelID": 146852569,
@@ -3896,10 +3594,10 @@
       "published": "2026-11-23T09:50:52.567Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -3983,7 +3681,8 @@
       "exercise": {
         "zh": "请基于该笔记本，实现邻居网络重排序方法，将一组质谱候选分子列表用邻居信息补充评分并重排序。试调节余弦阈值和权重参数，观察候选排名的变化及对最终分数的影响。",
         "en": "Using the notebook as reference, implement the neighbor-network re-ranking method that supplements the scoring of candidate molecules based on spectral neighbor information and re-ranks them. Experiment with different cosine similarity thresholds and weighting parameters, and observe their effects on candidate ranking and final scores."
-      }
+      },
+      "stale": false
     },
     {
       "kernelID": 146862412,
@@ -3994,10 +3693,10 @@
       "published": "2026-11-23T10:45:50.647Z",
       "evidence": {
         "kind": "public",
-        "rank": 122,
-        "teams": 6877,
+        "rank": 142,
+        "teams": 6923,
         "score": "0.72",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4081,7 +3780,42 @@
       "exercise": {
         "zh": "尝试基于给定的两阶段推理框架，实现对部分测试数据优先分配资源的策略，并设计简单的兄弟模型后验决策规则，观察其对准确率的提升。",
         "en": "Try to implement a resource prioritization strategy for partial test data based on the given two-stage inference framework, and design a simple posterior decision rule among sibling models. Observe the impact on accuracy improvement."
-      }
+      },
+      "stale": false
+    },
+    {
+      "kernelID": 146879524,
+      "id": "k-373041937",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26-v121",
+      "author": "jiyuhao1213",
+      "published": "2026-11-23T12:22:54.910Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiyuhao1213/casmi26-v121?scriptVersionId=373041937"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi26-v121",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "a052122f32ae6ba83ccceb10864d6eada36ea4b05ceb06579b68f9090aadbcac"
     },
     {
       "kernelID": 146883504,
@@ -4092,10 +3826,10 @@
       "published": "2026-11-23T12:45:04.167Z",
       "evidence": {
         "kind": "public",
-        "rank": 232,
-        "teams": 6877,
+        "rank": 362,
+        "teams": 6923,
         "score": "0.719",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4179,7 +3913,8 @@
       "exercise": {
         "zh": "在你自己的一组 prompt 分组 OOF 预测上复现作者的诊断：计算每一类的召回，找出低于均值 0.55 的两三个类；然后保持重打分预算比例不变，仅改变待重打分行的排序（例如加入对 Fable 的偏好项），在 OOF 上比较修正前后的该类召回与整体 Balanced Accuracy，确认改判是否来自门控规则而非排序噪声。",
         "en": "On your own prompt-grouped OOF predictions, reproduce the diagnosis: compute per-class recall and find the two or three classes below the 0.55 mean. Then keep the re-scoring coverage ratio fixed and only change the ranking of rows sent to re-scoring (e.g. add a Fable preference term), comparing per-class recall and overall Balanced Accuracy before and after, to check whether flips come from the gating rules rather than ranking noise."
-      }
+      },
+      "stale": false
     },
     {
       "kernelID": 146886831,
@@ -4190,10 +3925,10 @@
       "published": "2026-11-23T13:03:48.513Z",
       "evidence": {
         "kind": "public",
-        "rank": 122,
-        "teams": 6877,
+        "rank": 142,
+        "teams": 6923,
         "score": "0.72",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4248,33 +3983,34 @@
         },
         "reason": "该笔记本不仅公布结果，而是给出了可检查、可复用的方法：以提示分组折做 OOF 评估，发现 claude-fable-5、glm-5.3、glm-5.3-flash 召回偏低；再用有预算的 GLM 似然阶段，按混合质量与 0.35*min(fable_mass, mass) 重排读取行，并用 prefix_decisions.py 中的 fable_return/sibling_agreement 规则更新同族决策。推理编排、分类器堆叠与概率融合也可见，读者能追踪建模、验证与优化取舍。",
         "status": "selected"
-      }
+      },
+      "stale": false
     },
     {
-      "kernelID": 146888991,
-      "id": "k-373061263",
-      "competitionID": "squares-in-squares",
-      "originalTitle": "notebook5133d9028c",
-      "author": "chensiyv",
-      "published": "2026-11-23T13:17:37.973Z",
+      "kernelID": 146900878,
+      "id": "k-373084646",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "CASMI26 E287 NPX LAM 0.70",
+      "author": "Kuan-Chieh Huang",
+      "published": "2026-11-23T14:22:01.493Z",
       "evidence": {
         "kind": "public",
-        "rank": 200,
-        "teams": 2430,
-        "score": "22.0927584555",
-        "checked": "2026-11-23T23:55:39Z"
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
           "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/lianlian99/notebook5133d9028c?scriptVersionId=373061263"
+          "url": "https://www.kaggle.com/code/kchuang/casmi26-e287-npx-lam-0-70?scriptVersionId=373084646"
         },
         {
           "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/squares-in-squares/leaderboard"
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
         }
       ],
-      "title": "notebook5133d9028c",
+      "title": "CASMI26 E287 NPX LAM 0.70",
       "summary": "本版本已通过公开榜成绩核验。",
       "takeaway": "打开固定版本，对照输入、特征和提交代码。",
       "steps": [],
@@ -4282,10 +4018,7 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "1217444fca48467e8991f2a8acd339141dd2c6ce31e51743d72c76cd48dd1361",
-      "llmReview": {
-        "lastAttempt": "2026-11-24T03:34:41Z"
-      }
+      "fingerprint": "c05fccd81ba2ce3e988bdaa0013ce05f03c1777b4452cef904ea784e7f882856"
     },
     {
       "kernelID": 146904747,
@@ -4296,10 +4029,10 @@
       "published": "2026-11-23T14:44:12.937Z",
       "evidence": {
         "kind": "public",
-        "rank": 121,
-        "teams": 5876,
+        "rank": 260,
+        "teams": 5901,
         "score": "0.505",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4330,7 +4063,545 @@
         "reason": "该笔记本主要是对公开组合方案的调参消融（如TAU由0.85改为0.80）与排行榜结果汇报，核心流水线为他人字节级冻结代码，未提供可独立追溯建模/验证决策的完整可复用方法，且混有大量排名与分数陈述。",
         "status": "skipped"
       },
-      "awaitingExplanation": true
+      "awaitingExplanation": true,
+      "stale": false
+    },
+    {
+      "kernelID": 146914972,
+      "id": "k-373112945",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi-e072-follow-pablo-v30",
+      "author": "Mr.Liang",
+      "published": "2026-11-23T15:41:39.260Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 105,
+        "teams": 5901,
+        "score": "0.506",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jnliang/casmi-e072-follow-pablo-v30?scriptVersionId=373112945"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "casmi-e072-follow-pablo-v30",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "7b52dbcf2dde9c58a9ee78547ec487d0316007df63826adee49b23eebd8ce9c2"
+    },
+    {
+      "kernelID": 146919556,
+      "id": "k-373121941",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl 720 sibodds",
+      "author": "lbjyang",
+      "published": "2026-11-23T16:07:50.540Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 142,
+        "teams": 6923,
+        "score": "0.72",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/lbjyang/ntl-720-sibodds?scriptVersionId=373121941"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl 720 sibodds",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+    },
+    {
+      "kernelID": 146925609,
+      "id": "k-373133974",
+      "competitionID": "name-that-llm",
+      "originalTitle": "Name That LLM 0720 Luna Sol Bidirectional",
+      "author": "永雏塔菲",
+      "published": "2026-11-23T16:42:15.797Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 142,
+        "teams": 6923,
+        "score": "0.72",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/jiaobinliu/name-that-llm-0720-luna-sol-bidirectional?scriptVersionId=373133974"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "Name That LLM 0720 Luna Sol Bidirectional",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "83f2d649fe56cd0af2a647edcb59b3f4b40c58634f5d51d85150a250059bf32b"
+    },
+    {
+      "kernelID": 147001114,
+      "id": "k-373267243",
+      "competitionID": "name-that-llm",
+      "originalTitle": "NTL Public0720 Candidate Margin 079",
+      "author": "wkdbskwsm",
+      "published": "2026-11-24T00:33:45.003Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 362,
+        "teams": 6923,
+        "score": "0.719",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/wkdbskwsm/ntl-public0720-candidate-margin-079?scriptVersionId=373267243"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL Public0720 Candidate Margin 079",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "a3759a31f73da7f255397e39886aeff074f2e2d256caf1d6e47c4bc4d64ae00a"
+    },
+    {
+      "kernelID": 147002516,
+      "id": "k-373269617",
+      "competitionID": "name-that-llm",
+      "originalTitle": "fork 0 720 preserve glm to fable corrections",
+      "author": "Siyuan Chen",
+      "published": "2026-11-24T00:44:10.617Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 142,
+        "teams": 6923,
+        "score": "0.72",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gloriachen0816/fork-0-720-preserve-glm-to-fable-corrections?scriptVersionId=373269617"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "fork 0 720 preserve glm to fable corrections",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "09683dc47e559d638f6a3f24817c18da39892dcda309b21ec5627c4ab307906e"
+    },
+    {
+      "kernelID": 147004311,
+      "id": "k-373272558",
+      "competitionID": "name-that-llm",
+      "originalTitle": "fork 0 717 sibling odds qwen3 8 27b nf4",
+      "author": "Siyuan Chen",
+      "published": "2026-11-24T00:56:44.947Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 142,
+        "teams": 6923,
+        "score": "0.72",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/gloriachen0816/fork-0-717-sibling-odds-qwen3-8-27b-nf4?scriptVersionId=373272558"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "fork 0 717 sibling odds qwen3 8 27b nf4",
+      "summary": "成绩已核验，原文保留在索引中。",
+      "takeaway": "打开原文查看作者提交的资料。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "de3b250a05633cde29d3dcf696987db9e4a5b4f53c83983094a26c157cb4de2a",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T09:56:25Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记主要复述他人已发布方案（Zayd、RanJeet 的分数与流程），核心改动仅是系数由0.55调到0.60，并列出分数表；大量代码为资产挂载、校验与格式读写，缺少可复现的两步以上方法细节，也未能让读者独立追踪建模/验证/推理决策，故不选。",
+        "status": "skipped"
+      },
+      "summaryEN": "The result is verified. The original source is indexed.",
+      "takeawayEN": "Open the original source for the author's material."
+    },
+    {
+      "kernelID": 147011772,
+      "id": "k-373285190",
+      "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0.721 GLM Fable Corrections",
+      "author": "Emmanuel Mireku Mensah",
+      "published": "2026-11-24T01:52:56.947Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 142,
+        "teams": 6923,
+        "score": "0.72",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/emmanuelmirekumensah/ntl-0-721-glm-fable-corrections?scriptVersionId=373285190"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "识别文本背后的语言模型：从集成预测到 GLM 与 Fable 纠错",
+      "summary": "任务是判断一段 40–250 词的文本由 18 个语言模型中的哪一个生成，评价指标是各类别召回率的平均值，即平衡准确率。按提示词分组的折外预测显示，Fable 和两个 GLM 类别的召回率偏低，因此笔记本在基础集成之外增加了针对性的似然复判。由于推理预算不足以复判所有文本，流程优先处理已有 Fable 倾向的候选，并用一道保护规则避免末轮重判撤销证据较强的 Fable 翻转。附件提到最终版本还加入了 Sibling Odds，但没有给出足以复现该规则的细节。",
+      "takeaway": "预算有限时，先决定哪些文本值得复判，再决定哪些翻转值得保留。要判断某条规则是否有效，应固定候选行、分数和其他后处理，只切换这一条规则，而不是把不同重跑的分差当作消融结果。",
+      "steps": [
+        {
+          "title": "配置基础集成推理",
+          "titleEN": "Configure base ensemble inference",
+          "body": "将 `DATA`、序列化后的 `MODELS` 和 `PREFIT` 分别通过 `--data`、`--models` 和 `--prefit_core` 传给 `infer.py`。将 `--tfidf_w`、`--distort_w` 和 `--svc_w` 均设为 `0`，将 `--adapt_w` 和 `--adapt_thr` 分别设为 `1.0` 和 `0.15`。同时传入 `--sinkhorn 0.30`、`--sinkhorn_target_mix 0.35` 和 `--group_sim 0.70`，并在命令配置中将输出路径设为 `/kaggle/working/submission.parquet`。",
+          "bodyEN": "Pass `DATA`, the serialized `MODELS` list, and `PREFIT` to `infer.py` via `--data`, `--models`, and `--prefit_core`, respectively. Set `--tfidf_w`, `--distort_w`, and `--svc_w` to `0`, and set `--adapt_w` and `--adapt_thr` to `1.0` and `0.15`, respectively. Also pass `--sinkhorn 0.30`, `--sinkhorn_target_mix 0.35`, and `--group_sim 0.70`, and set the command's output path to `/kaggle/working/submission.parquet`.",
+          "reference": "Cell 40",
+          "why": "先生成面向全部类别的基础预测，再由专门的似然阶段复判部分候选。",
+          "whyEN": "Produce baseline predictions for all classes before a dedicated likelihood stage revisits a subset of candidates.",
+          "limit": "这段命令依赖前面定义的模型和预拟合资产；附件没有单独验证这些参数各自的收益。",
+          "limitEN": "The command depends on previously defined models and prefitted assets. The excerpt does not isolate the benefit of any of these settings.",
+          "source": 0
+        },
+        {
+          "title": "在固定预算下重排 GLM 复判队列",
+          "titleEN": "Rerank the GLM scoring queue under a fixed budget",
+          "body": "以基础集成的混合概率质量 `mass` 作为候选行的原始优先级。从集成结果中取 Fable 的概率质量 `fable_mass`，给原优先级加上 `0.35 * min(fable_mass, mass)`。按调整后的优先级安排 GLM 似然计算；单行优先级最多提高到原来的 1.35 倍，复判预算不变。",
+          "bodyEN": "Start with the base ensemble's blended probability mass, `mass`, as each candidate row's priority. Take the ensemble's Fable probability mass, `fable_mass`, and add `0.35 * min(fable_mass, mass)` to the original priority. Use the adjusted priorities to schedule GLM likelihood scoring: a row's priority can rise to at most 1.35 times its original value, while the scoring budget stays fixed.",
+          "reference": "Cell 4",
+          "why": "按提示词分组的折外结果显示 Fable 和两个 GLM 类别召回率偏低；重排让已有 Fable 倾向的候选更可能进入有限的复判名额。",
+          "whyEN": "Prompt-grouped out-of-fold results showed low recall for Fable and both GLM classes. The reranking makes candidates with existing Fable support more likely to receive one of the limited rescoring slots.",
+          "limit": "折外召回率用于诊断弱项，不是这项重排的消融结果；附件未单独验证重排的收益。",
+          "limitEN": "The out-of-fold recalls diagnose weak classes; they are not an ablation of the reranking rule. The excerpt does not isolate its benefit.",
+          "source": 0
+        },
+        {
+          "title": "设置双 GLM 似然阶段的截止时间",
+          "titleEN": "Set a deadline for the two-model GLM likelihood stage",
+          "body": "以 `DATA` 下的 `test.csv` 为测试输入，启用 GLM-5.3-Flash 和 GLM-5.3 的似然阶段，并用 `KAGGLE_IS_COMPETITION_RERUN` 判断是否为评分重跑。将 `V1_DEADLINE_H` 设为 `8.8`，低于笔记本的 9 小时上限。将 `V1_ROBUST` 设为 `True`，使用 `--priority-order --shrink`；将 `V1_PACK, V1_UBATCH_DIV, V1_SEQ_BATCH, V1_PREFETCH` 依次设为 `False, 1, 8, False`。",
+          "bodyEN": "Use `test.csv` under `DATA` as the test input, enable the GLM-5.3-Flash and GLM-5.3 likelihood stage, and use `KAGGLE_IS_COMPETITION_RERUN` to detect a scoring rerun. Set `V1_DEADLINE_H` to `8.8`, below the notebook's 9-hour limit. Set `V1_ROBUST` to `True` to use `--priority-order --shrink`, and set `V1_PACK, V1_UBATCH_DIV, V1_SEQ_BATCH, V1_PREFETCH` to `False, 1, 8, False`, respectively.",
+          "reference": "Cell 44",
+          "why": "如果模型运行偏慢，按优先级缩小候选集可以保留排在前面的文本，而不是丢掉整个似然阶段。",
+          "whyEN": "If a model runs slowly, shrinking the candidate set in priority order preserves the highest-priority passages rather than losing the entire likelihood stage.",
+          "limit": "成本估计来自原运行硬件，不能直接当作其他环境的吞吐保证；原文没有单独报告这些设置对平衡准确率的影响。",
+          "limitEN": "The cost estimates were measured on the original hardware and do not guarantee throughput elsewhere. The source does not report a separate balanced-accuracy effect for these settings.",
+          "source": 0
+        },
+        {
+          "title": "保护证据较强的 GLM → Fable 翻转",
+          "titleEN": "Protect well-supported GLM-to-Fable flips",
+          "body": "只检查基础集成预测为 GLM、而似然阶段将 `claude-fable-5` 推到第一位的行。比较复判前后 Fable 相对两个 GLM 类别中较强者的 logit 优势。只有优势至少增加 `0.30` logit，且复判后达到 `0.25` logit 或更高时，才通过 `fable_return` 保留 Fable 预测，不在末轮重新判定。",
+          "bodyEN": "Check only rows that the base ensemble labeled GLM and that the likelihood stage moved to `claude-fable-5` in first place. Compare Fable's logit lead over the stronger of the two GLM classes before and after likelihood scoring. Use `fable_return` to keep the Fable prediction without re-deciding it in the final pass only if the lead grows by at least `0.30` logit and finishes at `0.25` logit or higher.",
+          "reference": "Cell 52",
+          "why": "末轮会用似然阶段之前的分数重判当前标签非 GLM 的行，因而可能把刚翻到 Fable 的文本改回 GLM。保护规则让证据较强的翻转保留下来。",
+          "whyEN": "The final pass re-decides rows currently labeled non-GLM from pre-likelihood scores, so it can send a newly flipped Fable prediction back to GLM. The guard preserves flips with stronger evidence.",
+          "limit": "这不是通用的 Fable 提权规则：它不适用于未被似然阶段翻到 Fable 的行。原文没有测出该规则的独立收益。",
+          "limitEN": "This is not a general Fable boost: it does not apply to rows that the likelihood stage did not flip to Fable. The source does not measure the guard's standalone gain.",
+          "source": 0
+        },
+        {
+          "title": "核验实际评分的提交文件",
+          "titleEN": "Audit the submission file that is actually scored",
+          "body": "读取 `submission.parquet`，检查列恰为 `id, model`、ID 唯一且顺序与 `test.csv` 一致，并检查标签均属于 18 个候选类别。将行数和文件的 SHA-256 写入 `variant-proof.json`。随后读取该记录，断言行数和两列符合要求，再把同一 SHA-256 写入 `final_verification.json`。",
+          "bodyEN": "Read `submission.parquet` and check that its columns are exactly `id, model`, that IDs are unique and in the same order as `test.csv`, and that every label is one of the 18 allowed classes. Write the row count and the file's SHA-256 to `variant-proof.json`. Then read that record back, assert the row count and the two columns, and write the same SHA-256 to `final_verification.json`.",
+          "reference": "Cell 56",
+          "why": "核验文件结构和行对齐，并留下可用于确认评分文件身份的记录。",
+          "whyEN": "Verify the file structure and row alignment, and leave a record that identifies the scored artifact.",
+          "limit": "结构检查和哈希不能验证预测是否正确，也不能说明平衡准确率有所提升。",
+          "limitEN": "Schema checks and hashes cannot establish that predictions are correct or that balanced accuracy improved.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "模型集成",
+        "预算约束下的似然复判",
+        "边际阈值保护",
+        "提交文件审计"
+      ],
+      "fingerprint": "09683dc47e559d638f6a3f24817c18da39892dcda309b21ec5627c4ab307906e",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T09:56:25Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该来源包含可复现的具体方法：GLM 似然阶段的行优先级排序与预算控制、Fable 守卫翻转规则（以 0.30 logit 增益和 0.25 终值门槛决定是否保留预测）、按嵌入聚类重建提示分组做分组验证，以及多视图字符/词/形状/功能词特征的融合读取器；这些步骤均可追踪建模与验证决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "Identifying the Language Model Behind a Passage: From Ensemble Predictions to GLM–Fable Corrections",
+      "summaryEN": "The task is to identify which of 18 language models generated a 40–250-word passage, using balanced accuracy, the mean recall across classes. Prompt-grouped out-of-fold predictions showed low recall for Fable and both GLM classes, motivating a targeted likelihood pass after the base ensemble. Because the inference budget cannot cover every passage, the pipeline prioritizes candidates that already have some Fable support and uses a guard to keep the final pass from undoing well-supported flips to Fable. The excerpt mentions that the final version also adds Sibling Odds, but does not provide enough detail to reproduce that rule.",
+      "takeawayEN": "Under a tight budget, first decide which passages deserve rescoring, then decide which flips deserve to survive. To test a rule, hold the candidate rows, scores, and other post-processing fixed and toggle only that rule rather than treating gaps between separate reruns as ablation results.",
+      "exercise": {
+        "zh": "建议实验：如果能在带标签的数据上生成按提示词分组的折外预测，缓存基础集成 logits、似然复判后的 logits 和实际复判行。固定这些输入及其余后处理，分别开启和关闭 `fable_return`。比较平衡准确率、Fable 和两个 GLM 类别的召回率，并在发生翻转的行中检查保留了多少正确翻转、又保留了多少错误翻转。",
+        "en": "Suggested experiment: If you can generate prompt-grouped out-of-fold predictions on labeled data, cache the base-ensemble logits, post-likelihood logits, and the rows actually rescored. Hold these inputs and all other post-processing fixed, and run once with `fable_return` enabled and once with it disabled. Compare balanced accuracy and recall for Fable and both GLM classes, then inspect the flipped rows to count how many correct and incorrect flips the guard preserved."
+      },
+      "findings": [
+        {
+          "claim": "同一流程的两次隐藏测试评分分别为 0.720 和 0.721。原文将 0.001 的差异归为运行间波动，而非代码改动。",
+          "claimEN": "Two hidden-test runs of the same pipeline scored 0.720 and 0.721. The source attributes the 0.001 difference to run-to-run variation rather than a code change.",
+          "setup": "两次运行的 29 个代码单元逐字节一致且顺序相同，均挂载相同的 46 个输入，使用 GPU T4 x2 并关闭网络。",
+          "setupEN": "All 29 code cells matched byte for byte and in order. Both runs attached the same 46 inputs and used GPU T4 x2 with internet access disabled.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "原文估计隐藏测试评分的运行间波动约为 ±0.001。",
+          "caveatEN": "The source estimates run-to-run variation in hidden-test scores at about ±0.001.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Balanced Accuracy",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "V12 运行",
+                "en": "V12 run"
+              },
+              {
+                "zh": "同代码另一次运行",
+                "en": "Separate run of identical code"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.720",
+                    "value": 0.72
+                  },
+                  {
+                    "text": "0.721",
+                    "value": 0.721
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "带 Fable 保护规则的 V3 重跑复现了参考结果 0.719。较早的参考流程重跑得到 0.716，但两者的 +0.003 不能全归因于保护规则。",
+          "claimEN": "The V3 rerun with the Fable guard reproduced the reference score of 0.719. An earlier reference-pipeline rerun scored 0.716, but the full +0.003 cannot be attributed to the guard.",
+          "setup": "比较早期参考流程与带保护规则的 V3 的独立重跑，使用同一竞赛指标；原文未报告固定其他设置、只切换保护规则的对照。",
+          "setupEN": "The comparison used separate reruns of an earlier reference pipeline and V3 with the guard, scored on the same competition metric. No controlled comparison toggling only the guard was reported.",
+          "reference": "Cell 52",
+          "source": 0,
+          "caveat": "测试集无公开标签，运行间波动约为 ±0.001；保护规则的独立贡献未测量。",
+          "caveatEN": "Test labels were unavailable, and run-to-run variation was about ±0.001. The guard's standalone contribution was not measured.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Balanced Accuracy",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "早期参考流程重跑",
+                "en": "Earlier reference-pipeline rerun"
+              },
+              {
+                "zh": "带保护规则的 V3 重跑",
+                "en": "V3 rerun with the guard"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.716",
+                    "value": 0.716
+                  },
+                  {
+                    "text": "0.719",
+                    "value": 0.719
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kernelID": 147017903,
+      "id": "k-373295640",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "enveda p2s 503fork",
+      "author": "Leo",
+      "published": "2026-11-24T02:35:38.793Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 260,
+        "teams": 5901,
+        "score": "0.505",
+        "checked": "2026-11-24T09:56:25Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/huangkx666/enveda-p2s-503fork?scriptVersionId=373295640"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "从质谱到分子结构：用碎片、谱图邻居和参考库重排候选",
+      "summary": "这项竞赛要求根据复杂提取物的质谱数据，对小分子的二维结构候选排序，以平均精度均值（MAP）评估。相同分子式的异构体质量相同，因此前体质量可以帮助区分不同分子式，却不能单独区分这些异构体。笔记本在已有候选列表上叠加理论碎片匹配、谱图邻居证据和实测参考谱匹配。各层对榜首采用不同规则：外部参考谱满足直接命中的门槛时可以提升候选，学习式碎片重排则固定前两名。",
+      "takeaway": "复现多层重排时，除了记录各层的分数和阈值，还要检查它能改动哪些名次：能提供新证据，不等于可以改写榜首。",
+      "steps": [
+        {
+          "title": "用理论碎片解释 MS/MS 峰",
+          "titleEN": "Explain MS/MS Peaks with Theoretical Fragments",
+          "body": "输入是一个分子的多张 MS/MS 谱和候选 SMILES。对每个候选枚举重原子图断键后所得连通片段的中性质量，最多断 2 根键；同一质量只保留最少断键数。匹配时在中性碎片质量上考虑 -2..+3 个氢的偏移和前体加合物允许的电荷载体，质量容差为 0.005 Da。匹配到的峰按最少断键数计分：0 或 1 根键的权重为 1，2 根键的权重 `w2=0.6`；用线性峰强度计算被解释的比例，再对有峰的谱图取均值。",
+          "bodyEN": "The inputs are multiple MS/MS spectra for one molecule and a list of candidate SMILES. For each candidate, enumerate neutral masses of connected fragments after cutting up to 2 bonds in the heavy-atom graph, retaining the fewest cuts for each mass. Match peaks using hydrogen shifts of -2..+3 and charge carriers allowed by the precursor adduct, with a mass tolerance of 0.005 Da. Credit each matched peak according to the minimum number of cuts: 0 or 1 cut gets weight 1, and 2 cuts get `w2=0.6`; calculate the explained share using linear peak intensities and average over spectra with peaks.",
+          "reference": "Cell 12",
+          "why": "用候选结构能解释多少观测碎片来补充前体质量证据，尤其是在比较同分子式异构体时。",
+          "whyEN": "How much of the observed fragmentation a structure can explain complements precursor-mass evidence, especially for same-formula isomers.",
+          "limit": "无法解析的 SMILES 返回空分数。原文引用了异构体面板上的 MRR 对照，但没有报告此步骤在整套竞赛流程中的独立 MAP 收益。",
+          "limitEN": "Unparseable SMILES return no score. The source cites an MRR comparison on an isomer panel but does not report this step's standalone MAP gain in the full competition pipeline.",
+          "source": 0
+        },
+        {
+          "title": "用谱图邻居的候选结构重排",
+          "titleEN": "Rerank Using Candidate Structures from Spectral Neighbors",
+          "body": "输入是测试分子的谱图和已有候选列表；若两个分子各有一张加合物相同的谱图，且修正余弦至少为 0.6、匹配峰至少有 6 个，就连接这两个分子。每个邻居贡献前 5 名候选，按 1/rank 加权后归一化；结构相似度用 Morgan 指纹（r = 2，2048 bits）的 Tanimoto 相似度计算，再按谱图余弦的四次方汇总。按 z(−log rank) + 0.35 · z(网络分数) 重排。D-L1 再为每个查询加入最多 5 个来自训练集共识谱的已知结构节点，对不符合合理化学变化的前体质量差降低边权，并用邻居重排后的列表再次传播。",
+          "bodyEN": "The inputs are test spectra and existing candidate lists; link two molecules when they have a pair of spectra with the same adduct, a modified cosine of at least 0.6, and at least 6 matched peaks. Each neighbor contributes its top 5 candidates with normalized 1/rank weights; compute structural similarity with Tanimoto similarity on Morgan fingerprints (r = 2, 2048 bits), then aggregate with spectral cosine raised to the fourth power. Rerank by z(−log rank) + 0.35 · z(network score). D-L1 also adds up to 5 known-structure nodes per query from training consensus spectra, downweights edges whose precursor mass difference does not correspond to a plausible chemical edit, and propagates again using the neighbors' reranked lists.",
+          "reference": "Cell 22",
+          "why": "让相似谱图提供结构相似性证据，同时用原始排名和前体质量差约束这种证据。",
+          "whyEN": "Similar spectra provide evidence of structural similarity, while the original rank and precursor mass differences constrain that evidence.",
+          "limit": "D-L1 保留普通网络版本的榜首，只重排第 2–25 名。原文未给出 D-L1 各项改动的独立收益。",
+          "limitEN": "D-L1 keeps the plain network's first-ranked candidate and only reorders ranks 2–25. The source does not report separate gains for the D-L1 additions.",
+          "source": 0
+        },
+        {
+          "title": "用高置信外部参考谱命中提升首选",
+          "titleEN": "Promote High-Confidence External Reference Hits to Rank 1",
+          "body": "输入是测试查询谱、外部实测 MS/MS 参考谱和已有候选排序。直接命中要求前体质量误差不超过 10 ppm、电离模式相同、峰强度开平方后计算的余弦相似度至少为 0.85，且至少匹配 4 个峰。满足门槛时，将参考谱对应的结构提升到第 1 名；若 `lib_max >= LIB_TAU`，则保护已有排序。",
+          "bodyEN": "The inputs are test query spectra, measured external MS/MS reference spectra, and existing candidate rankings. A direct hit requires precursor error of at most 10 ppm, the same ionization mode, cosine similarity of at least 0.85 after square-root intensity transformation, and at least 4 matched peaks. A qualifying hit promotes the reference structure to rank 1, unless `lib_max >= LIB_TAU`, in which case the existing ranking is protected.",
+          "reference": "Cell 24",
+          "why": "直接利用实测参考谱为首选结构提供证据，同时避免覆盖流程中已有的强匹配。",
+          "whyEN": "A measured reference spectrum provides direct evidence for the top candidate without overriding an already strong match from the pipeline.",
+          "limit": "这一步依赖参考库覆盖；所给片段没有列出 `LIB_TAU` 的数值，也没有报告该层的独立 MAP 收益。原文说明发生异常时保留原提交。",
+          "limitEN": "This step depends on reference-library coverage. The supplied excerpt gives neither a numeric value for `LIB_TAU` nor a standalone MAP gain for this layer. It states that the original submission is kept on error.",
+          "source": 0
+        },
+        {
+          "title": "用 FRNet 重排第 3 名及以后的候选",
+          "titleEN": "Use FRNet to Rerank Candidates from Rank 3 Onward",
+          "body": "输入是已有候选列表和碎片特征，列表至少需要 3 个合并后的峰。FRNet 使用公开架构和碎片特征，权重在竞赛训练集上训练。模型给列表中的每个候选打分，在全列表内计算 z 分数，再按 −rank + 3.0 · z 重排第 3..n 名。前两名固定，不增删候选；运行预算为 2,400 s，使用 CPU 和 fp32。",
+          "bodyEN": "The inputs are an existing candidate list and fragment features, with at least 3 merged peaks required for the list. FRNet uses a public architecture and fragment features, with weights trained on the competition training set. It scores every candidate, z-scores the outputs over the whole list, then reranks positions 3..n by −rank + 3.0 · z. The first two ranks are fixed and no candidate is added or removed; the CPU budget is 2,400 s using fp32.",
+          "reference": "Cell 29",
+          "why": "用学习到的碎片信号调整后续候选，同时保护前两名已有的排序。",
+          "whyEN": "The learned fragment signal adjusts lower-ranked candidates while preserving the existing top two.",
+          "limit": "真实结构若不在候选列表中，此步无法补回；即使真实结构原排第 3 名或更低，也不能被提升到前两名。原文未报告此层的独立收益。",
+          "limitEN": "This layer cannot recover a true structure missing from the list or move a true structure from rank 3 or lower into the top two. The source does not report a standalone gain for this layer.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "理论碎片匹配",
+        "谱图邻居重排",
+        "参考谱库匹配",
+        "FRNet"
+      ],
+      "fingerprint": "3e9b07d81d1f9bac0ade6dfbb1a3ba5b7cec8d17fa6e991bc6f6d11608b7e799",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T09:56:25Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本包含多处可复查的建模/重排方法：MetFrag-lite 片段重打分器（枚举≤2键断裂碎片并按峰强度计分，附参数与接口说明）以及基于邻居网络的候选人重排（修饰余弦建边、Tanimoto证据加权、z分数融合）。同时记录了APRIOR加合物似然模型、UNIQ去重、质量误差先验和外谱库直接命中晋升规则等，读者可据此追溯从打分到重排再到提交的推理决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "From Mass Spectra to Molecular Structures: Reranking Candidates with Fragments, Spectral Neighbors, and Reference Libraries",
+      "summaryEN": "The competition asks entrants to rank candidate 2D structures of small molecules from mass spectra of complex extracts, using mean average precision (MAP). Isomers with the same molecular formula have the same mass, so precursor mass can help distinguish formulas but cannot distinguish those isomers on its own. The notebook layers theoretical fragment matching, evidence from spectral neighbors, and matching against measured reference spectra onto existing candidate lists. The layers treat the top of the list differently: an external reference hit can promote a candidate when it meets the direct-hit thresholds, while the learned fragment reranker keeps the first two ranks fixed.",
+      "takeawayEN": "When reproducing a layered reranker, track not only its scores and thresholds but also which ranks each layer can change: adding evidence does not necessarily mean allowing a new rank-1 candidate.",
+      "exercise": {
+        "zh": "在有真实结构标签的留出集上保存 FRNet 重排前后的列表，固定谱图、候选集合和上游排序，仅切换 FRNet 层。用断言验证前两名和候选集合不变，再按真实结构原来位于前两名、第 3 名及以后、或不在列表中分组，比较重排前后的真实结构名次和 MAP。",
+        "en": "On a labeled holdout set, save candidate lists before and after FRNet. Keep the spectra, candidate sets, and upstream rankings fixed, and toggle only the FRNet layer. Assert that the top two and candidate sets are unchanged, then group queries by whether the true structure originally ranked in the top two, at rank 3 or lower, or was absent, and compare its rank and MAP before and after reranking."
+      },
+      "findings": [
+        {
+          "claim": "碎片评分模块的说明引用了一项论坛消融：在同分子式异构体面板上，所列默认设置相对共同基线的 MRR 变化为 +0.065。",
+          "claimEN": "The fragment-scoring module cites a forum ablation in which the listed defaults yielded an MRR change of +0.065 over the common baseline on a same-formula isomer panel.",
+          "setup": "在同一异构体面板上，将默认碎片评分设置与共同基线比较。默认设置使用 `w2=0.6`、线性峰强度、0.005 Da 容差、-2..+3 的氢偏移和最多 2 根断键；所给片段未列出基线的完整参数。",
+          "setupEN": "The default fragment-scoring settings were compared with a common baseline on the same isomer panel. The defaults use `w2=0.6`, linear intensity, a 0.005 Da tolerance, hydrogen shifts of -2..+3, and at most 2 bond cuts; the excerpt does not list the full baseline settings.",
+          "reference": "Cell 12",
+          "source": 0,
+          "caveat": "面板包含 241 个结构。这是模块说明引用的结果，未报告折数、种子或标准误，也不能当作整套流程的 MAP 提升。",
+          "caveatEN": "The panel contains 241 structures. This result is cited in the module documentation, with no folds, seeds, or standard errors reported, and it is not a MAP gain for the full pipeline."
+        }
+      ]
     },
     {
       "kernelID": 10864074,
@@ -4342,9 +4613,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11157,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4364,7 +4635,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05"
+      "fingerprint": "e9579d034672b08f00c83cd4906815f25ecb4e5f6e72d01d3474ba4d8d089a05",
+      "stale": false
     },
     {
       "id": "k-40384661",
@@ -4374,9 +4646,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1331,
+        "teams": 1343,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4397,7 +4669,9 @@
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 11098601,
+      "originalTitle": "Digit recognizer easy compare"
     },
     {
       "id": "k-41059570",
@@ -4442,9 +4716,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 68,
+        "teams": 69,
         "score": "0.98035",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4464,7 +4738,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30"
+      "fingerprint": "a21c4c39ee209b848afdde746c203ede9199cc935b0b5f12627db1130a3ddf30",
+      "stale": false
     },
     {
       "kernelID": 11486803,
@@ -4476,9 +4751,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4498,7 +4773,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "ebf1060dedc32b1b53eef605497b9e99e4da452cec680b3ba844fec00bf34afc"
+      "fingerprint": "ebf1060dedc32b1b53eef605497b9e99e4da452cec680b3ba844fec00bf34afc",
+      "stale": false
     },
     {
       "id": "k-42642100",
@@ -4508,9 +4784,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1331,
+        "teams": 1343,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4531,7 +4807,9 @@
       "steps": [],
       "fingerprint": "7425b1d48908f9794771b87e3ec865a128c8a1d7d372c7057a5139db256d12a0",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 11722614,
+      "originalTitle": "Score 1.00 in Digit-Recognizer "
     },
     {
       "id": "k-42893184",
@@ -4576,9 +4854,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4598,7 +4876,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "90a411141a1f4e0360410e65e907ab5e197c14ca068ce8092808ffd3db3abb1d"
+      "fingerprint": "90a411141a1f4e0360410e65e907ab5e197c14ca068ce8092808ffd3db3abb1d",
+      "stale": false
     },
     {
       "id": "k-55235987",
@@ -4643,9 +4922,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4665,7 +4944,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "13e79cebfbfa997b30999a4c5b4e303889ff5ba8c86377d42d181564cd9df4f0"
+      "fingerprint": "13e79cebfbfa997b30999a4c5b4e303889ff5ba8c86377d42d181564cd9df4f0",
+      "stale": false
     },
     {
       "id": "k-55314995",
@@ -4675,9 +4955,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11104,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4698,7 +4978,9 @@
       "steps": [],
       "fingerprint": "0c582b5e78c5c4bca6f825e42575fdb24bbfc05d99774a47ba419a490d2b736f",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 15180914,
+      "originalTitle": "Be in Top 10 submissions"
     },
     {
       "kernelID": 16594963,
@@ -4710,9 +4992,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4732,7 +5014,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084"
+      "fingerprint": "513ebd6bf8b06a62134935e6a88fed8fb099fa7d3bc6023ebb0ac4c238d4b084",
+      "stale": false
     },
     {
       "kernelID": 16868064,
@@ -4744,9 +5027,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4766,7 +5049,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "6f7d7ec5ce53ce2645f48bb2bb800a57480cda93664cafc9528da5f9b6634e2e"
+      "fingerprint": "6f7d7ec5ce53ce2645f48bb2bb800a57480cda93664cafc9528da5f9b6634e2e",
+      "stale": false
     },
     {
       "id": "k-65447629",
@@ -4776,9 +5060,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11104,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4799,7 +5083,9 @@
       "steps": [],
       "fingerprint": "bbea7ff390bfbeb83906fa97d9a3e6e7b21519a70fcdd111138c5f82e80ec79f",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 17658123,
+      "originalTitle": "Extensive_EDA_plus_top2%"
     },
     {
       "kernelID": 20488811,
@@ -4811,9 +5097,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4833,7 +5119,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b"
+      "fingerprint": "d8a1d6f4c43ba42a86dd6eb2ee236aef646337d01ecb45b51955bd35aadc423b",
+      "stale": false
     },
     {
       "kernelID": 20574571,
@@ -4845,9 +5132,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4867,7 +5154,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3"
+      "fingerprint": "ab7d6e9342077be6c98ecb2b009b9d744102183ba96d7364c0adf270fabac8b3",
+      "stale": false
     },
     {
       "kernelID": 20613698,
@@ -4879,9 +5167,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11157,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4932,9 +5220,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4954,7 +5242,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f"
+      "fingerprint": "eefce00ba9add5beb7f9ae6e9f395dfc453eb420707e93c46de8f9848d54b65f",
+      "stale": false
     },
     {
       "id": "k-75815589",
@@ -4964,9 +5253,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11104,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -4987,7 +5276,9 @@
       "steps": [],
       "fingerprint": "e781b1deadc901cd72b31543192cec0a56d27c15031ee0eb4aec49180a473aa2",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 20841679,
+      "originalTitle": "Titanic Records"
     },
     {
       "kernelID": 20922028,
@@ -5039,7 +5330,8 @@
         }
       ],
       "readingMode": "code",
-      "fingerprint": "f3e31b9e3c0e72fe5b4926ca94d937ebe70a08086751e014f3100c8ef7ec51b4"
+      "fingerprint": "f3e31b9e3c0e72fe5b4926ca94d937ebe70a08086751e014f3100c8ef7ec51b4",
+      "stale": true
     },
     {
       "kernelID": 21003177,
@@ -5051,9 +5343,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11104,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T11:17:44Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5074,7 +5366,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533",
-      "stale": true
+      "stale": false
     },
     {
       "id": "k-78027906",
@@ -5119,9 +5411,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5141,7 +5433,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8"
+      "fingerprint": "5b119b7f055aae27523406e137bb59595e75f838b7fedc3fd5b3db02cbbbcdf8",
+      "stale": false
     },
     {
       "kernelID": 21637454,
@@ -5153,9 +5446,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 652,
+        "teams": 655,
         "score": "1",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5175,7 +5468,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "e379f00dc23a6b347b3efe5f4416a4249a1c3ddd561d8c71d15c9e1bc91f51aa"
+      "fingerprint": "e379f00dc23a6b347b3efe5f4416a4249a1c3ddd561d8c71d15c9e1bc91f51aa",
+      "stale": false
     },
     {
       "id": "k-80681540",
@@ -5218,9 +5512,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11104,
+        "teams": 11153,
         "score": "1",
-        "checked": "2026-11-23T11:04:43Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5241,7 +5535,9 @@
       "steps": [],
       "fingerprint": "47cc6be3145212da2166a6cb0425fcc8b790ceac0a35101a090ae23dde5ce461",
       "awaitingExplanation": true,
-      "stale": true
+      "stale": false,
+      "kernelID": 22548626,
+      "originalTitle": " Auto EDA "
     },
     {
       "id": "k-85386378",
@@ -5318,9 +5614,9 @@
       "evidence": {
         "kind": "public",
         "rank": 55,
-        "teams": 4742,
+        "teams": 4729,
         "score": "0.00044",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5572,7 +5868,7 @@
         "rank": 3,
         "teams": 3947,
         "score": "0.96714",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5592,7 +5888,8 @@
       ],
       "steps": [],
       "awaitingExplanation": true,
-      "fingerprint": "eeca4b5dee0fc44f409bf93e74e096398dc69fbed1beb5db34a39f159bef1cfe"
+      "fingerprint": "eeca4b5dee0fc44f409bf93e74e096398dc69fbed1beb5db34a39f159bef1cfe",
+      "stale": false
     },
     {
       "id": "w-116017",
@@ -5605,7 +5902,7 @@
         "rank": 2,
         "teams": 3947,
         "score": "0.97041",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5689,7 +5986,8 @@
       "exercise": {
         "zh": "1. 尝试在单一3D U-Net模型中引入相邻多帧输出来提升检测准确性；\n2. 实施合成数据增强，将真实细胞轨迹提取后进行衰减与模糊处理，插入训练样本，以提升模型对弱信号细胞的识别能力；\n3. 基于检测器输出的候选点构建时序图，设计评分函数进行轨迹链接和细胞分裂识别；\n4. 实现一个后处理步骤，利用未被跟踪选中但置信较高的检测点，根据时间和空间连贯性恢复遗漏的轨迹。",
         "en": "1. Experiment with incorporating multiple adjacent frames as input channels in a 3D U-Net model to enhance detection accuracy;\n2. Implement synthetic augmentation by extracting real cell trajectories, dimming and blurring them, and inserting into training samples to improve recognition of faint cells;\n3. Construct a temporal graph from detector candidate points, designing scoring functions for plausible track linking and cell division identification;\n4. Develop a post-processing step that revisits unused high-confidence detections and recovers missed tracks based on temporal and spatial continuity."
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-116073",
@@ -5702,7 +6000,7 @@
         "rank": 1,
         "teams": 3947,
         "score": "0.97759",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5769,7 +6067,7 @@
         "rank": 2,
         "teams": 3575,
         "score": "0.94588",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5853,7 +6151,8 @@
       "exercise": {
         "zh": "尝试使用TabPFN模型，基于完整上下文数据进行训练，并观察不同上下文规模对AUC的影响。然后使用distilgpt2微调生成LLR特征，作为模型额外输入，比较有无LLR时模型性能的区别。最后，设计一个包含非负权重和权重和约束的线性融合，使用FFT高效计算平滑AUC损失进行权重优化，完成模型融合。",
         "en": "Try training TabPFN models using full context data and observe how different context sizes affect AUC. Then fine-tune distilgpt2 to generate LLR features as auxiliary inputs, comparing model performance with and without LLR. Finally, implement a linear blend with non-negative weights summing to one, optimizing weights using FFT-based efficient computation of smoothed AUC loss for ensemble combination."
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-116088",
@@ -5866,7 +6165,7 @@
         "rank": 3,
         "teams": 3575,
         "score": "0.94584",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -5895,7 +6194,8 @@
         },
         "reason": "该文可追溯地记录了多层可复用方法：对精确值与多级取整收入做折外目标编码、用GLM logit作为offset由LightGBM学习残差的堆叠结构、将概率裁剪转logit后做L2逻辑回归堆叠，以及软伪标签和BPE收入token分组特征；还给出相同5折划分、逐步CV对比和验证局限，属于可检查的建模与验证决策，而非仅公布名次。",
         "status": "selected"
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-116198",
@@ -5908,7 +6208,7 @@
         "rank": 1,
         "teams": 3575,
         "score": "0.94602",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6040,7 +6340,7 @@
         "rank": 3,
         "teams": 10148,
         "score": "5580.3",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6108,7 +6408,8 @@
       "exercise": {
         "zh": "在类似的长时程游戏环境中，先使用专家回放训练一个模仿学习策略，然后实现 PPO 自对弈，并尝试在推理时加入一个仅修复确定无效动作的规则，测量其对胜率的影响。",
         "en": "In a similar long-horizon game environment, first train an imitation learning policy from expert replays, then implement PPO self-play, and try adding an inference-time rule that only fixes certainly wasted moves, measuring its impact on win rate."
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-121338",
@@ -6121,7 +6422,7 @@
         "rank": 2,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6144,7 +6445,8 @@
       "fingerprint": "68765f7a360e92ff4b47c8d17590176a8901521a0c9f031cf29cb000c6268a79",
       "llmReview": {
         "lastAttempt": "2026-11-24T03:34:41Z"
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-121393",
@@ -6157,7 +6459,7 @@
         "rank": 1,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6224,7 +6526,7 @@
         "rank": 3,
         "teams": 6299,
         "score": "0.959",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6308,7 +6610,8 @@
       "exercise": {
         "zh": "在公开 Notebook 基础上做小规模对照：固定同一骨干与同一个 seed，仅改变监督构造，比较 (a) 仅用报告文本标签、(b) 图像+报告软标签 N、(c) 对单一发现应用分位数映射的 R 三种设置下的局部 AUC，并记录每种设置下有多少样本被修正；借此检验软标签与分位数映射是否真的带来提升，而不是直接照搬融合权重。",
         "en": "On top of the public notebook, run a small controlled comparison: fix the same backbone and seed and vary only supervision construction, comparing the local AUC of (a) report-text-only labels, (b) image+report soft targets (N), and (c) R with quantile mapping for a single finding, while logging how many samples were revised in each setting. This tests whether soft labels and quantile mapping actually help instead of copying the ensemble weights."
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-121866",
@@ -6321,7 +6624,7 @@
         "rank": 1,
         "teams": 10148,
         "score": "5890.3",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6388,7 +6691,7 @@
         "rank": 2,
         "teams": 10148,
         "score": "5823.4",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
@@ -6411,7 +6714,8 @@
       "fingerprint": "0f6d5b35e0c16c89efafb93f070a4d63cccf40b2492c53022d2ebd79a124647d",
       "llmReview": {
         "lastAttempt": "2026-11-24T03:34:41Z"
-      }
+      },
+      "stale": false
     },
     {
       "id": "w-122911",
@@ -6424,7 +6728,7 @@
         "rank": 1,
         "teams": 3734,
         "score": "0.96318",
-        "checked": "2026-11-23T23:55:39Z"
+        "checked": "2026-11-24T09:56:25Z"
       },
       "sources": [
         {
