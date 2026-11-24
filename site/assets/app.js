@@ -438,6 +438,124 @@ function metricList(rows) {
   return '<dl class="metrics">' +
     rows.map(([k, v]) => "<div><dt>" + esc(k) + "</dt><dd>" + esc(v) + "</dd></div>").join("") + "</dl>";
 }
+const sectionName = (ref) => String(ref || "").replace(/^#+\s*/, "");
+const facet = (kind, title, text) =>
+  text ? '<div class="facet ' + kind + '"><span>' + esc(title) + "</span><p>" + esc(text) + "</p></div>" : "";
+const pct = (v) => (Math.round(v * 100) / 100) + "%";
+function niceTicks(lo, hi, count = 4) {
+  const raw = (hi - lo) / count || Math.abs(hi) || 1;
+  const power = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 2.5, 5, 10].map((m) => m * power).find((s) => s >= raw) || raw;
+  const digits = Math.max(0, -Math.floor(Math.log10(step) + 1e-9) + (step / power === 2.5 ? 1 : 0));
+  const ticks = [];
+  for (let t = Math.ceil(lo / step) * step; t <= hi + step * 1e-6; t += step) ticks.push(t);
+  return ticks.map((t) => [t, t.toFixed(digits)]);
+}
+// Charts draw only numbers copied from the cited passage; each keeps its original spelling.
+function chartView(chart) {
+  const labels = chart.labels || [], series = chart.series || [];
+  if (labels.length < 2 || !series.length || series.some((s) => s.values?.length !== labels.length)) return "";
+  const all = series.flatMap((s) => s.values.map((v) => v.value));
+  const lowest = Math.min(...all), highest = Math.max(...all);
+  const two = series.length > 1;
+  const best = !two && chart.better !== "none"
+    ? series[0].values.reduce((b, v, i, vs) =>
+      (chart.better === "lower" ? v.value < vs[b].value : v.value > vs[b].value) ? i : b, 0)
+    : -1;
+  const tone = (s, i) => two ? "s" + s : best < 0 || best === i ? "s0" : "context";
+  const tip = (i, s) => esc(bilingual(labels[i]) + (two ? " · " + bilingual(series[s].name) : "") + ": " +
+    series[s].values[i].text);
+  const legend = two
+    ? '<div class="viz-legend">' + series.map((s, i) =>
+      '<span><i class="swatch s' + i + '"></i>' + esc(bilingual(s.name)) + "</span>"
+    ).join("") + "</div>"
+    : "";
+  const head = '<div class="viz-head"><span>' + esc(chart.unit || "") + "</span>" + legend + "</div>";
+  const table = '<details class="viz-table"><summary>' + tr("查看数据", "Show data") + "</summary><table><thead><tr><th>" +
+    "</th>" + series.map((s) => "<th>" + esc(bilingual(s.name)) + "</th>").join("") + "</tr></thead><tbody>" +
+    labels.map((label, i) =>
+      "<tr><th>" + esc(bilingual(label)) + "</th>" + series.map((s) => "<td>" + esc(s.values[i].text) + "</td>")
+        .join("") + "</tr>"
+    ).join("") + "</tbody></table></details>";
+  if (chart.kind === "line") {
+    const pad = (highest - lowest) * 0.14 || Math.abs(highest) * 0.01 || 1;
+    const ticks = niceTicks(lowest - pad, highest + pad);
+    const lo = Math.min(lowest - pad, ticks[0][0]), hi = Math.max(highest + pad, ticks.at(-1)[0]);
+    const x = (i) => 6 + i * 88 / (labels.length - 1);
+    const y = (v) => (hi - v) / (hi - lo) * 100;
+    const grid = ticks.map(([t, text]) =>
+      '<span class="viz-grid" style="top:' + pct(y(t)) + '"><b>' + esc(text) + "</b></span>"
+    ).join("");
+    const lines = series.map((s, k) =>
+      '<polyline class="s' + k + '" points="' + s.values.map((v, i) => x(i).toFixed(2) + "," + y(v.value).toFixed(2))
+        .join(" ") + '"/>'
+    ).join("");
+    const dots = series.map((s, k) =>
+      s.values.map((v, i) =>
+        '<span class="viz-dot s' + k + '" tabindex="0" style="left:' + pct(x(i)) + ";top:" + pct(y(v.value)) +
+        '" data-tip="' + tip(i, k) + '" aria-label="' + tip(i, k) + '"></span>' +
+        (i === 0 || i === labels.length - 1
+          ? '<span class="viz-end ' + (k ? "below" : "above") + '" style="left:' + pct(x(i)) + ";top:" +
+            pct(y(v.value)) + '">' + esc(v.text) + "</span>"
+          : "")
+      ).join("")
+    ).join("");
+    const axis = labels.map((label, i) =>
+      '<span style="left:' + pct(x(i)) + '">' + esc(bilingual(label)) + "</span>"
+    ).join("");
+    return '<figure class="viz">' + head + '<div class="viz-line"><div class="viz-plot">' + grid +
+      '<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">' + lines + "</svg>" + dots +
+      '</div><div class="viz-x">' + axis + "</div></div>" + table + "</figure>";
+  }
+  // Close positive values would look equal as bars from zero, so they become dots on a cropped axis.
+  const dotted = lowest > 0 && lowest / highest > 0.8;
+  const pad = (highest - lowest) * 0.12 || Math.abs(highest) * 0.01 || 1;
+  const lo = dotted ? lowest - pad : Math.min(0, lowest), hi = dotted ? highest + pad : Math.max(0, highest);
+  const at = (v) => (v - lo) / ((hi - lo) || 1) * 100;
+  const zero = at(0);
+  const rows = labels.map((label, i) =>
+    '<div class="viz-row"><span class="viz-label">' + esc(bilingual(label)) + "</span>" +
+    series.map((s, k) => {
+      const v = s.values[i], end = at(v.value);
+      const mark = dotted
+        ? '<span class="viz-pin ' + tone(k, i) + '" style="left:' + pct(end) + '"></span>'
+        : '<span class="viz-bar ' + tone(k, i) + (v.value < 0 ? " neg" : "") + '" style="left:' +
+          pct(Math.min(zero, end)) + ";width:" + pct(Math.max(Math.abs(end - zero), 0.6)) + '"></span>';
+      return '<div class="viz-series" tabindex="0" data-tip="' + tip(i, k) + '" aria-label="' + tip(i, k) +
+        '"><div class="viz-track' + (dotted ? " dotted" : "") + '">' +
+        (!dotted && lo < 0 ? '<span class="viz-zero" style="left:' + pct(zero) + '"></span>' : "") + mark +
+        '</div><span class="viz-num' + (best === i ? " best" : "") + '">' + esc(v.text) + "</span></div>";
+    }).join("") + "</div>"
+  ).join("");
+  const scale = dotted
+    ? '<div class="viz-scale"><span>' + esc(lo.toPrecision(4)) + "</span><span>" +
+      tr("坐标轴不从 0 开始", "Axis does not start at 0") + "</span><span>" + esc(hi.toPrecision(4)) + "</span></div>"
+    : "";
+  return '<figure class="viz">' + head + '<div class="viz-bars">' + rows + "</div>" + scale + table + "</figure>";
+}
+function findingsBlock(l) {
+  if (!readable(l) || !Array.isArray(l.findings)) return "";
+  const heading = "<h2>" + tr("实验结论", "Reported results") + "</h2>";
+  if (!l.findings.length) {
+    return '<section class="reader-block findings">' + heading + "<p>" +
+      tr(
+        "原文没有报告可对照的实验数值。可以按“复现实验”自己做一次对照。",
+        "The source reports no comparable experiment numbers. Use the exercise below to run a comparison yourself.",
+      ) + "</p></section>";
+  }
+  const cards = l.findings.map((f, i) => {
+    const source = l.sources[f.source];
+    return '<article class="finding"><div class="finding-head"><span class="finding-no">' + (i + 1) + "</span><h3>" +
+      esc(copy(f, "claim")) + "</h3></div>" + (f.chart ? chartView(f.chart) : "") +
+      facet("setup", tr("对照设置", "What was compared"), copy(f, "setup")) +
+      (f.caveat ? facet("caveat", tr("结论边界", "How far it holds"), copy(f, "caveat")) : "") +
+      (source ? external(source.url, tr("原文 · ", "Source · ") + sectionName(f.reference), "text-link under") : "") +
+      "</article>";
+  }).join("");
+  return '<section class="reader-block findings">' + heading + '<p class="hint">' +
+    tr("数值逐字摘自原文，本站没有复现。", "Numbers are copied verbatim from the source; KaggleGoose has not reproduced them.") +
+    "</p>" + cards + "</section>";
+}
 function lessonView(l) {
   const c = competitions.get(l.competitionID);
   const r = record(l.id);
@@ -466,7 +584,9 @@ function lessonView(l) {
       '" aria-label="' + esc(mark + " · " + copy(s, "title")) + '" aria-pressed="' + checked + '">' +
       (checked ? icon("check") : i + 1) + "</button><div><h3>" + esc(copy(s, "title")) + "</h3><p>" +
       esc(copy(s, "body")) + "</p>" +
-      (source ? external(source.url, s.reference || word(source.title), "text-link under") : "") +
+      (s.why ? facet("why", tr("为什么这样做", "Why this step"), copy(s, "why")) : "") +
+      (s.limit ? facet("caveat", tr("局限与注意", "Limits and caveats"), copy(s, "limit")) : "") +
+      (source ? external(source.url, sectionName(s.reference) || word(source.title), "text-link under") : "") +
       "</div></div>";
   }).join("");
   const walkthrough = readable(l)
@@ -494,7 +614,8 @@ function lessonView(l) {
     tr("记下想复现的设置或实验结果…", "Record settings or experiment results…") + '">' + esc(r.note || "") +
     '</textarea><p class="notes-status" id="note-status" aria-live="polite">' +
     tr("笔记保存在当前浏览器", "Notes are stored in this browser") + "</p></aside>";
-  return top + '<div class="reader-layout"><div class="flow">' + intro + walkthrough + exercise + sources +
+  return top + '<div class="reader-layout"><div class="flow">' + intro + walkthrough + findingsBlock(l) + exercise +
+    sources +
     '</div><div class="side-stack">' + proof + note + "</div></div>";
 }
 const topicFamilies = [

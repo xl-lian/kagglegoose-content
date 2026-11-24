@@ -15,6 +15,9 @@ from editorial import (
     SCREEN,
     bind_references,
     source_blocks,
+    lesson_result,
+    appears,
+    copied_decimals,
 )
 from refresh import sync_one
 
@@ -54,6 +57,10 @@ LESSON = dict(
             titleEN="Split",
             body="分组验证。",
             bodyEN="Group validation.",
+            why="同组样本不跨折。",
+            whyEN="Groups never span folds.",
+            limit="未报告收益。",
+            limitEN="No gain is reported.",
             reference="Cell 1",
             quote="GroupKFold(5)",
         ),
@@ -62,13 +69,46 @@ LESSON = dict(
             titleEN="Fit",
             body="模型拟合。",
             bodyEN="Fit the model.",
+            why="用训练折拟合。",
+            whyEN="Fit on training folds.",
+            limit="无对照。",
+            limitEN="No baseline.",
             reference="Cell 2",
             quote="model.fit(train)",
         ),
     ],
+    findings=[],
     evidence={"rank": 42},
     sources=[{"url": "https://untrusted.example"}],
 )
+REPORT = (
+    "## Setup\nFive group folds.\n"
+    "## Results\nAUC by context rows: 107,000 gives 0.946076; 214,000 gives 0.946175; "
+    "the last step added +14.2u. Pseudo-labels cost −0.13u.\n"
+    "## Notes\nOne seed, fold 0 only."
+)
+
+
+def finding(**chart):
+    return dict(
+        claim="上下文越多 AUC 越高，从 0.946076 升到 0.946175。",
+        claimEN="More context raised AUC from 0.946076 to 0.946175.",
+        setup="同一折、同一模型，只改上下文行数。",
+        setupEN="Same fold and model; only context rows change.",
+        caveat="只用了一个种子。",
+        caveatEN="A single seed.",
+        reference="## Results",
+        quote="AUC by context rows",
+        chart=chart or None,
+    )
+
+
+def write(*findings):
+    doc = copy.deepcopy(LESSON)
+    for step, ref in zip(doc["steps"], ("## Setup", "## Results")):
+        step.update(reference=ref, quote=REPORT.split(ref + "\n")[1][:12])
+    doc["findings"] = list(findings)
+    return doc
 
 
 class EditorialTests(unittest.TestCase):
@@ -142,6 +182,8 @@ class EditorialTests(unittest.TestCase):
         )
 
     def test_provider_request_uses_only_its_own_key(self):
+        self.assertEqual(KEYS["openai"].model, "gpt-6.2-sol")
+        self.assertEqual(providers({"OPENAI_API_KEY": "k", "OPENAI_MODEL": "other"})["openai"].model, "other")
         for provider in KEYS.values():
             with patch("editorial.urllib.request.build_opener") as opener:
                 opener.return_value.open.return_value.__enter__.return_value.read.return_value = (
@@ -214,3 +256,110 @@ class EditorialTests(unittest.TestCase):
             _, changed = sync_one(c, False, {"w-9": indexed}, "later")
             self.assertNotIn("llmReview", changed[0])
             self.assertTrue(changed[0]["awaitingExplanation"])
+
+
+class FindingTests(unittest.TestCase):
+    CHART = dict(
+        kind="line",
+        unit="AUC",
+        better="higher",
+        labels=[{"zh": "10.7 万行", "en": "107k rows"}, {"zh": "21.4 万行", "en": "214k rows"}],
+        series=[{"name": {"zh": "折 0", "en": "Fold 0"}, "values": ["0.946076", "0.946175"]}],
+    )
+
+    def test_reported_numbers_become_a_chart(self):
+        lesson = lesson_result(write(finding(**self.CHART)), REPORT, False)
+        result = lesson["findings"][0]
+        self.assertEqual(result["reference"], "## Results")
+        self.assertEqual(result["source"], 0)
+        self.assertEqual(result["caveatEN"], "A single seed.")
+        values = result["chart"]["series"][0]["values"]
+        self.assertEqual([v["value"] for v in values], [0.946076, 0.946175])
+        self.assertEqual(values[0]["text"], "0.946076")
+        self.assertEqual(lesson["steps"][0]["limitEN"], "No gain is reported.")
+
+    def test_numbers_outside_the_cited_section_are_not_charted(self):
+        for values in (["0.946076", "0.95"], ["0.946076", "-14.2"], ["0.946", "0.946175"]):
+            chart = dict(self.CHART, series=[dict(self.CHART["series"][0], values=values)])
+            with contextlib.redirect_stdout(io.StringIO()):
+                result = lesson_result(write(finding(**chart)), REPORT, False)
+            self.assertNotIn("chart", result["findings"][0])
+        signed = dict(self.CHART, kind="bar", series=[dict(self.CHART["series"][0], values=["+14.2u", "−0.13u"])])
+        values = lesson_result(write(finding(**signed)), REPORT, False)["findings"][0]["chart"]["series"][0]["values"]
+        self.assertEqual([v["value"] for v in values], [14.2, -0.13])
+
+    def test_invented_decimal_or_missing_findings_block_publication(self):
+        invented = finding()
+        invented["claimEN"] = "Context raised AUC to 0.9512."
+        with self.assertRaises(ValueError):
+            lesson_result(write(invented), REPORT, False)
+        missing = write()
+        del missing["findings"]
+        with self.assertRaises(ValueError):
+            lesson_result(missing, REPORT, False)
+        unsourced = finding()
+        unsourced["quote"] = "not in the writeup"
+        with self.assertRaises(ValueError):
+            lesson_result(write(unsourced), REPORT, False)
+        self.assertTrue(appears("668,665", "rows: 668,665 train"))
+        self.assertFalse(appears("665", "rows: 668,665 train"))
+        self.assertFalse(appears("1", "gain 1.62u"))
+        self.assertTrue(copied_decimals("伪标签让堆叠下降 −0.13u。", REPORT))
+        self.assertFalse(copied_decimals("Pseudo-labels added 0.13u.", REPORT))
+
+    def test_earlier_lessons_gain_detail_without_moving_steps(self):
+        item = copy.deepcopy(ITEM)
+        item.pop("awaitingExplanation")
+        item["fingerprint"] = hashlib.sha256(REPORT.encode()).hexdigest()
+        item["evidence"] = {"kind": "final", "rank": 2}
+        item["steps"] = [
+            dict(title="设定", body="短。", reference="Setup", source=0),
+            dict(title="结果", titleEN="Results", body="短。", reference="## Results", source=0),
+        ]
+        detail = write(finding(**self.CHART))
+        for step in detail["steps"]:
+            step.pop("title")
+        detail["steps"][0]["titleEN"] = "Setup"
+        transport = Mock(return_value=detail)
+        editor = Editor(KEYS, transport, 8)
+        with contextlib.redirect_stdout(io.StringIO()):
+            enrich({item["id"]: item}, {"comp": COMP}, lambda _: REPORT, "now", editor)
+        self.assertEqual(transport.call_args.args[1][:20], __import__("editorial").DEEPEN[:20])
+        self.assertEqual([s["title"] for s in item["steps"]], ["设定", "结果"])
+        self.assertEqual(item["steps"][0]["reference"], "Setup")
+        self.assertEqual(item["steps"][0]["titleEN"], "Setup")
+        self.assertEqual(item["steps"][1]["titleEN"], "Results")
+        self.assertEqual(item["steps"][1]["whyEN"], "Fit on training folds.")
+        self.assertEqual(len(item["findings"]), 1)
+        self.assertEqual(item["llmReview"]["deepenedBy"]["provider"], "openai")
+        with contextlib.redirect_stdout(io.StringIO()):
+            enrich({item["id"]: item}, {"comp": COMP}, lambda _: REPORT, "later", editor)
+        self.assertEqual(transport.call_count, 1)
+
+    def test_deepening_cannot_move_a_step_and_keeps_a_budget_share(self):
+        item = copy.deepcopy(ITEM)
+        item.pop("awaitingExplanation")
+        item["fingerprint"] = hashlib.sha256(REPORT.encode()).hexdigest()
+        item["evidence"] = {"kind": "final", "rank": 2}
+        item["steps"] = [
+            dict(title="设定", body="短。", reference="## Setup", source=0),
+            dict(title="结果", body="短。", reference="## Results", source=0),
+        ]
+        moved = write()
+        moved["steps"].reverse()
+        with contextlib.redirect_stdout(io.StringIO()):
+            enrich({item["id"]: item}, {"comp": COMP}, lambda _: REPORT, "now",
+                   Editor(KEYS, Mock(return_value=moved), 8))
+        self.assertNotIn("findings", item)
+        self.assertEqual(item["llmReview"]["lastDeepen"], "now")
+        waiting = {}
+        for n in range(12):
+            entry = copy.deepcopy(ITEM)
+            entry["id"] = f"k-{n}"
+            waiting[entry["id"]] = entry
+        waiting[item["id"]] = item
+        transport = Mock(side_effect=lambda provider, prompt, *_: write() if prompt != SCREEN else {"selected": False, "reason": "无"})
+        with contextlib.redirect_stdout(io.StringIO()):
+            enrich(waiting, {"comp": COMP}, lambda l: REPORT if l is item else RAW, "later", Editor(KEYS, transport, 8))
+        self.assertEqual(item["findings"], [])
+        self.assertEqual(transport.call_count, 8)
