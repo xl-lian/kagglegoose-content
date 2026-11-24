@@ -1,6 +1,6 @@
 # KaggleGoose 内容源
 
-面向 iOS 的公开竞赛目录、中文方案和成绩凭据。在线快照位于 [v1/catalog.json](https://xl-lian.github.io/kagglegoose-content/v1/catalog.json)。
+[打开 KaggleGoose 网页版](https://xl-lian.github.io/kagglegoose-content/)，浏览竞赛、阅读双语讲解并记录复现进度。网页与 iOS 共用公开竞赛目录和成绩凭据。在线快照位于 [v1/catalog.json](https://xl-lian.github.io/kagglegoose-content/v1/catalog.json)。
 
 GitHub Actions 每 6 小时读取公开竞赛目录、排行榜、获奖队伍链接和固定版本 Notebook。每场在得分与最近运行排序下分别查看 30 个公开候选。赛中只接受可归属至具体版本的成绩，以同分并列方式对照全榜前 10%。近期结束竞赛持续检查最终前三名的公开 writeup。无公开成绩的比赛仍可出现在竞赛目录中。
 
@@ -25,3 +25,15 @@ gh secret set OPENAI_API_KEY --repo xl-lian/kagglegoose-content
 python3 -m unittest discover -s tests
 python3 refresh.py
 ```
+
+
+网页版位于 `site/`，可直接使用静态 HTTP 服务预览。它从同源的 `v1/catalog.json` 读取目录，收藏、笔记与复现进度写入浏览器本地存储。
+
+<details>
+<summary>BirdCLEF 首页题图</summary>
+
+[题图文件](site/assets/birdclef.jpg) 由内置 ImageGen 生成。提示词如下。
+
+> Wide editorial wildlife photograph for a BirdCLEF birdsong article cover. A small vivid teal-jade and cinnamon-orange tropical songbird in three-quarter profile on a slender natural twig, beak slightly open in song. Place the entire bird in the right third, near x=75%, y=48%. Left half is quiet dark pine-green out-of-focus rainforest for a headline overlay. Soft daylight on intricate feathers, gentle film grain, sophisticated natural history magazine photography. Landscape 3:2, no text, no logos, no border.
+
+</details>
