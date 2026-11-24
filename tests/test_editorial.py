@@ -1,4 +1,6 @@
 import copy
+import contextlib
+import io
 import hashlib
 import unittest
 from unittest.mock import Mock, patch
@@ -63,7 +65,8 @@ LESSON = dict(
 class EditorialTests(unittest.TestCase):
     def run_editor(self, item, transport, configured=None, budget=8):
         editor = Editor(KEYS if configured is None else configured, transport, budget)
-        enrich({item["id"]: item}, {"comp": COMP}, lambda _: RAW, "now", editor)
+        with contextlib.redirect_stdout(io.StringIO()):
+            enrich({item["id"]: item}, {"comp": COMP}, lambda _: RAW, "now", editor)
         return editor
 
     def test_both_providers_and_independent_leaderboard(self):

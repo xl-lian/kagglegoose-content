@@ -61,3 +61,11 @@ jobs:
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        id: deploy
+        continue-on-error: true
+      - name: Allow Pages artifact registration to finish
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 20
+      - name: Retry Pages deployment
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
