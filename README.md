@@ -2,7 +2,7 @@
 
 [打开 KaggleGoose 网页版](https://xl-lian.github.io/kagglegoose-content/)，浏览竞赛、阅读双语讲解并记录复现进度。网页与 iOS 共用公开竞赛目录和成绩凭据。在线快照位于 [v1/catalog.json](https://xl-lian.github.io/kagglegoose-content/v1/catalog.json)。
 
-GitHub Actions 每 6 小时读取公开竞赛目录、排行榜、获奖队伍链接和固定版本 Notebook。每场在得分与最近运行排序下分别查看 30 个公开候选。赛中只接受可归属至具体版本的成绩，以同分并列方式对照全榜前 10%。近期结束竞赛持续检查最终前三名的公开 writeup。无公开成绩的比赛仍可出现在竞赛目录中。
+GitHub Actions 每天按洛杉矶当地时间 00:00 和 12:00 读取公开竞赛目录、排行榜、获奖队伍链接和固定版本 Notebook。每场在得分与最近运行排序下分别查看 30 个公开候选。赛中只接受可归属至具体版本的成绩，以同分并列方式对照全榜前 10%。近期结束竞赛持续检查最终前三名的公开 writeup。无公开成绩的比赛仍可出现在竞赛目录中。
 
 ## LLM 筛选与双语讲解
 
@@ -19,7 +19,7 @@ gh secret set OPENAI_API_KEY --repo xl-lian/kagglegoose-content
 
 每步讲解分为做法、`why`（为什么这样做）和 `limit`（局限与注意）。`findings` 收录作者报告的实验结论，每条附对照设置、结论边界和原文位置；作者给出成组数值时附 `chart`（柱状或折线）。图中每个数值都必须在所引章节里逐字出现且符号一致，结论文字里的小数也必须能在原文中找到；图表数值对不上时只丢弃图表，结论照常发布。原文没有报告实验数值时 `findings` 为空数组。较早发布、尚无 `findings` 的讲解会在每轮预留的 3 次请求内补充细节，步骤标题和原文位置保持不变，复现进度不受影响。
 
-配置完成可在 **Actions → Refresh and publish → Run workflow** 勾选 `editorial_only`，直接从当前目录筛选。默认定时任务每六小时采集并筛选。手机端用于个人追问的 Key 只保存在设备上。
+配置完成可在 **Actions → Refresh and publish → Run workflow** 勾选 `editorial_only`，直接从当前目录筛选。定时任务会先采集再筛选。手机端用于个人追问的 Key 只保存在设备上。
 
 在 Python 3.12 及安装了 curl 的环境中运行：
 
