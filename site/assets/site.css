@@ -34,22 +34,22 @@
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --ink: #e9f1e9;
-  --mute: #b0c0b5;
+  --ink: #eeeeee;
+  --mute: #bbbbbb;
   --forest: #a0dfa9;
   --green: #94d5ab;
-  --line: #34473b;
-  --paper: #101713;
-  --surface: #19231d;
-  --surface-muted: #232f27;
-  --surface-inset: #121b16;
-  --footer: #141d17;
-  --soft: #253b2c;
-  --hover: #2c3c30;
+  --line: #404040;
+  --paper: #191919;
+  --surface: #242424;
+  --surface-muted: #2e2e2e;
+  --surface-inset: #1c1c1c;
+  --footer: #1e1e1e;
+  --soft: #303030;
+  --hover: #383838;
   --on-forest: #132b1b;
   --focus: #aedc96;
-  --control-edge: #617967;
-  --progress-track: #304236;
+  --control-edge: #767676;
+  --progress-track: #383838;
   --progress-fill: #8dcc9a;
   --new-bg: #253c2e;
   --new-ink: #a6dfb1;
@@ -272,6 +272,12 @@ button {
     rgba(10, 30, 24, 0.2) 69%,
     transparent
   );
+}
+:root[data-theme="dark"] .hero {
+  background: var(--surface);
+}
+:root[data-theme="dark"] .hero:after {
+  background: linear-gradient(90deg, #242424 3%, rgb(36 36 36 / 94%) 34%, rgb(36 36 36 / 35%) 65%, transparent 88%);
 }
 .hero-body {
   padding: 30px 34px;

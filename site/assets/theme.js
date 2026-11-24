@@ -9,7 +9,7 @@
     preference = value === "dark" || value === "light" ? value : "system";
     const dark = preference === "system" ? system.matches : preference === "dark";
     document.documentElement.dataset.theme = dark ? "dark" : "light";
-    browserColor.content = dark ? "#101713" : "#f6f8f4";
+    browserColor.content = dark ? "#191919" : "#f6f8f4";
     const picker = document.getElementById("theme");
     if (picker) picker.value = preference;
   }
