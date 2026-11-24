@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-24T03:38:17Z",
+  "updated": "2026-11-24T03:46:01Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -3911,33 +3911,79 @@
           "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
         }
       ],
-      "title": "casmi-e070-npx-keep1f",
-      "summary": "从源码可直接定位 LGBMClassifier、roc_auc_score 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "summaryEN": "The source contains calls to LGBMClassifier, roc_auc_score. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
+      "title": "基于质谱数据的复杂提取物小分子二维结构识别及排序策略",
+      "summary": "本作品针对 Enveda CASMI 2026 竞赛任务，即从质谱数据中推断复杂提取物里的小分子二维结构，提出了一套集成多个方法的得分与排序管线。难点在于候选分子结构众多，且外部库与训练数据之间存在合成物与天然产物的混杂。作者基于现有公开多模型系统，依次添加邻近网络重排序、片段检查(re-ranker)、天然产物倾向性模型(NPX)等策略，调整外部库覆盖阈值，优化名次和可信度得分，实现了排名提升至 0.505 的高水平效果。整体方法兼顾准确率与合理排名，同时对领导分子（rank=1）特殊优化，保证天生合成物不会占优头名。此方案基于多模型融合、谱相似度网络、先验知识调节及学习型天然产物模型，相互补充，应对难区，展现了质谱小分子结构预测的最新前沿技术。",
+      "summaryEN": "This work addresses the Enveda CASMI 2026 challenge task of inferring 2D chemical structures of small molecules in complex extracts from mass spectra. The key difficulties include a large candidate structure space and a mixture of synthetic and natural product entries in external and training libraries. The authors build upon existing public multi-model pipelines and progressively incorporate neighbor-network re-ranking, fragment-based re-rankers, and a learned natural-product likeness model (NPX), adjusting external library overlay thresholds to improve ranking accuracy and confidence. Their integrated strategy achieves a top score of 0.505. The overall approach balances precision and ranking robustness by special treatment of lead candidates (rank 1) to prevent synthetic compounds from dominating. The method leverages model ensembles, spectral similarity networks, prior knowledge adjustments, and learned naturalness classifiers, effectively addressing challenge intricacies and demonstrating cutting-edge mass spectral small molecule structure identification techniques.",
+      "takeaway": "1. 通过多层次重排序（邻居网络、片段重排等）提升候选分子的排名质量。\n2. 利用天然产物模型（NPX）区分天然与合成结构，防止合成物首位误排。\n3. 采用外部库叠加策略并调节阈值，有效利用公共与私有谱图库提高准确率。\n4. 配套工程实现及提交策略严谨，确保结果可复现与提交合规。\n5. 方法开源且集成多作者优秀成果，有助于进一步研究和改进。",
+      "takeawayEN": "1. Multi-stage re-ranking (neighbor networks, fragment re-rankers) effectively improves candidate ranking quality.\n2. Leveraging a natural product likeness model (NPX) distinguishes natural from synthetic structures, avoiding synthetic compounds dominating top ranks.\n3. External library overlay with tunable thresholds effectively leverages public and private spectral databases for accuracy gains.\n4. Careful engineering and submission protocol ensures reproducibility and valid competition entries.\n5. The method integrates multiple state-of-the-art contributions, promoting further research and method development.",
       "tags": [
-        "LGBMClassifier",
-        "roc_auc_score"
+        "邻居网络重排序",
+        "片段重排",
+        "天然产物模型(NPX)",
+        "外部库叠加",
+        "多模型融合"
       ],
       "steps": [
         {
-          "title": "模型实现",
-          "body": "源码在这里调用 LGBMClassifier。阅读时可以这样核查：记录树的数量、控制复杂度的参数与输入列。在同一验证折只改变一个参数，同时观察训练误差和验证误差是否出现分化。",
-          "bodyEN": "The source calls LGBMClassifier here. Reading exercise: Record the tree count, complexity controls and input columns. Change one setting on a fixed fold and compare training and validation error for signs of overfitting.",
+          "title": "输入与环境配置",
+          "titleEN": "Input and Environment Setup",
+          "body": "输入包括质谱峰数据、小分子候选结构及多个外部公共库（如 enveda-180、COCONUT、LOTUS 等）。环境基于 Kaggle 平台，配置固定的颜色、字体及绘图参数，确保结果可视化一致性。加载必要的 Python 包及辅助函数，保证代码运行稳定。",
+          "bodyEN": "Inputs include mass spectral peak data, candidate small molecule structures, and several external public libraries (e.g., enveda-180, COCONUT, LOTUS). The environment is set up on Kaggle with fixed colors, fonts, and plotting styles for consistent visualization. Necessary Python packages and helper functions are loaded to guarantee stable code execution.",
+          "reference": "Cell 1",
+          "source": 0
+        },
+        {
+          "title": "公共和私有模型融合，并替换长训模型",
+          "titleEN": "Integration of Public and Private Models with Replacement of Long-Trained Model",
+          "body": "管线首先调用公开的基础版本模型，随后检测并替换为作者自有私有模型（更长训练时间，更佳表现），通过复制权重和配置文件完成。确保使用的 神经得分器 是最优训练版本，经测试和校验无异常，提升整体预测能力。",
+          "bodyEN": "The pipeline first invokes the public baseline model, then identifies and replaces it with the authors’ private long-trained model (superior performance) by copying weights and configurations. This ensures the neural scorer used is the best-trained version, tested and verified without errors, improving overall prediction quality.",
+          "reference": "Cell 16",
+          "source": 0
+        },
+        {
+          "title": "邻居网络重排序",
+          "titleEN": "Neighbor-Network Re-ranking",
+          "body": "构建光谱相似邻居网络：若两分子光谱具有相同加合物且修改版余弦相似度≥0.6且匹配峰≥6，则视为邻居。来自邻居的前5名候选贡献证据，按1/排名权重归一化。候选得分为余弦四次方加权邻居证据与分子指纹（Morgan指纹，半径2，2048位）相似度乘积和。\n通过统计值z分数结合原排名负对数与网络得分再排序。该方法加入已知结构节点和基于前体差值的边权调节，并执行两轮传播步骤。运行时受内存和时间限制，错误时保留输入以便后续调试。\n此步骤提升列表整体排名合理性，特别是3-25名位次调整，1名位一般保持不变。",
+          "bodyEN": "Builds a neighbor network over spectra: two molecules are neighbors if they share the same adduct and have modified cosine similarity ≥0.6 with at least 6 matched peaks. Top 5 candidates from neighbors contribute evidence weighted by 1/rank and normalized. Candidate score is a sum of cosine^4 multiplied by weighted Tanimoto similarity between candidate and evidence based on Morgan fingerprints (radius=2, 2048 bits).\nThe final list is re-sorted by combined z-scores of -log(rank) plus network score with specific weights. The method includes known structure nodes and edge weight reductions for implausible precursor mass differences; applies two propagation steps. Runs with batch memory and time budget guards; on failures input is preserved. This mainly reorders ranks 3–25, leaving rank 1 mostly stable.",
+          "reference": "Cell 25",
+          "source": 0
+        },
+        {
+          "title": "天然产物候选重排序（NPX）",
+          "titleEN": "Natural Product Candidate Re-ranking (NPX)",
+          "body": "针对主链中迷惑的合成物，作者设计了 NPX 模型，基于无立体信息的 Morgan 计数指纹、Fsp3、环数量、杂原子及卤素等特征学习天然产物倾向性。该模型在 held-out 分子上性能优秀（AUC≥0.9），对250个天然产物样本预测概率中位数≥0.6。\n对于排名2-25的候选，按得分= -1.5·ln(rank)+0.35·clip(logit p_np, -4,4)重新稳定排序；对于排名1，若它概率极低(<0.02)且无天然产物表支持，则从2-5名中选概率>0.6的天然产物置换前位。\n该步骤放在候选库一致性(UNIQ)和合成物降权(E180X)之后，前后顺序严格，若NPX未达门槛则跳过不改。",
+          "bodyEN": "To distinguish synthetic compounds from confusing leads, the authors devised NPX, a learned natural product likeness model based on stereochemistry-free Morgan count fingerprints, Fsp3, ring count, heteroatoms, and halogens. The model performs well on held-out molecules (AUC≥0.9) and predicts a median natural product probability ≥0.6 on 250 test natural product examples.\nFor candidates ranked 2–25, scores are computed as -1.5 * ln(rank) + 0.35 * clipped logit of p_np, and sorted stably. For rank 1, if the candidate shows very low p_np (<0.02) and lacks natural product database presence, it can be replaced by a rank 2–5 candidate with p_np > 0.6. This NPX step is applied after uniqueness enforcement (UNIQ) and synthetic demotion (E180X), and it is gated by model quality thresholds to ensure fail-closed behavior.",
           "reference": "Cell 43",
           "source": 0
         },
         {
-          "title": "推理与评分",
-          "body": "源码在这里调用 roc_auc_score。阅读时可以这样核查：取一对正负样本，比较它们的排序如何影响指标。核对传入的是连续分数还是离散标签，并按同一验证集比较。",
-          "bodyEN": "The source calls roc_auc_score here. Reading exercise: Inspect a positive–negative pair and its ordering. Check whether the metric receives continuous scores or hard labels and compare on the same holdout.",
-          "reference": "Cell 43",
+          "title": "外部库叠加与提交管线",
+          "titleEN": "External Library Overlay and Submission Pipeline",
+          "body": "使用多个外部库（casmi26-extlib、MassBank harmonized library等）进行谱库匹配，设定余弦相似阈值(如 0.80)和匹配峰数，用于将外部库直接符合的结构提升至排名第一。该机制基于先前 SOTA 管线修改，实测提升了得分表现。\n随后按综合步骤产出提交文件，确保唯一结构策略和检核，且符合竞赛格式。整体流程可复现，且可在 Kaggle 平台 GPU 环境下运行。",
+          "bodyEN": "Multiple external libraries (casmi26-extlib, MassBank harmonized library, etc.) are used for spectral library matching with cosine similarity thresholds (e.g., 0.80) and minimum matched peaks, promoting external library hits directly to rank 1. This overlay mechanism is a modification of previous state-of-the-art pipelines and empirically improves score.\nThen submission files are generated enforcing uniqueness constraints and validation for the competition format. The overall pipeline is reproducible and executable on Kaggle GPU environments.",
+          "reference": "Cell 4",
           "source": 0
         }
       ],
-      "readingMode": "code",
-      "fingerprint": "53ca0545bc669bff070457fef81ab0fe2f23519213c6faaca023c13d81dcbecf"
+      "fingerprint": "53ca0545bc669bff070457fef81ab0fe2f23519213c6faaca023c13d81dcbecf",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:46:01Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本包含多项可复用且可追溯的建模与重排方法：邻接网络重排（修改余弦建图、Morgan指纹Tanimoto加权传播、z分数融合重排）、NPX学习型天然产物相似度打分器（特征设计、分数公式、rank1提升门控）、片段重排器锁定前两名并按z分数重排3-25名，以及片段检查与合并的leader安全策略；每一步都给出具体参数、特征、门控与失败回退条件，读者可据此复现验证与优化决策。虽含结果数字，但主体是具体可检验的方法而非空泛声明。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-4.1-mini"
+        }
+      },
+      "titleEN": "Identification and Ranking of Small Molecule 2D Structures from Mass Spectra in Complex Extracts",
+      "exercise": {
+        "zh": "请基于该笔记本，实现邻居网络重排序方法，将一组质谱候选分子列表用邻居信息补充评分并重排序。试调节余弦阈值和权重参数，观察候选排名的变化及对最终分数的影响。",
+        "en": "Using the notebook as reference, implement the neighbor-network re-ranking method that supplements the scoring of candidate molecules based on spectral neighbor information and re-ranks them. Experiment with different cosine similarity thresholds and weighting parameters, and observe their effects on candidate ranking and final scores."
+      }
     },
     {
       "kernelID": 146862412,
@@ -3963,41 +4009,79 @@
           "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
         }
       ],
-      "title": "NTL 720 Sibling Odds (mirror)",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
+      "title": "NTL 720 Sibling Odds 方法解析",
+      "summary": "任务是在生成文本分类竞赛中，通过集成多个基于不同语言模型的子模型预测结果，实现更准确地识别文本属于哪种语言模型。主要难点是测试集很大且资源有限，只有部分文本能被较慢但精准的模型处理，且某些模型家族间区分难度较大。方法动机是融合风格特征、生成模型评分和统计模型等多种视角，通过多阶段分段推理和样本选择，结合变体筛选决策规则，提升分类性能。",
+      "summaryEN": "The task is to classify generated texts in a competition by identifying which language model produced them. The main challenge includes large test data with limited budget allowing only partial scoring by slower but more accurate models, and fine distinctions within model families. The method motivates integrating multiple perspectives such as stylistic features, generation model likelihoods, and statistical models in a multi-stage segmented inference pipeline, combined with variant filtering decision rules, to improve classification accuracy.",
+      "takeaway": "本方法通过设计复杂的多阶段推理流水线，实现了对大规模测试样本的高效筛选和多模型融合，尤重视模型家族内的‘兄弟模型’之间判断，通过调整概率增益和样式投票机制来修正决策，提升了细粒度分类结果的准确性。这对资源有限环境下的多分类任务尤其有借鉴意义。",
+      "takeawayEN": "This approach uses a complex multi-stage inference pipeline to efficiently select and ensemble predictions on large test sets, emphasizing judgments among sibling models within the same family by adjusting likelihood gains and style votes to refine decisions. It significantly improves fine-grained classification accuracy and serves as a valuable reference for multi-class tasks under resource constraints.",
       "tags": [
-        "StandardScaler",
-        "LogisticRegression",
-        "predict_proba"
+        "Ensemble",
+        "Likelihood Re-scoring",
+        "Style Features",
+        "Two-stage Inference",
+        "Sibling Agreement Rule"
       ],
       "steps": [
         {
-          "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
-          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
-          "reference": "Cell 14",
+          "title": "输入与初步模型元数据准备",
+          "titleEN": "Input and Initial Model Metadata Preparation",
+          "body": "读取测试文本数据，确保文本列完整且无缺失。加载众多基模型和相关权重，包括分布在多个目录的模型快照、标记器和辅助数据。此步骤保证后续多模型评估的基础数据准备完整且一致。",
+          "bodyEN": "Load the test text data ensuring the targeted text column is complete and non-null. Load numerous base models and relevant weights from various mounted directories and snapshots, including tokenizers and auxiliary files. This step ensures the foundational data for subsequent multi-model evaluation is complete and consistent.",
+          "reference": "Cell 8",
           "source": 0
         },
         {
-          "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
-          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
-          "reference": "Cell 14",
+          "title": "两阶段分批GPU推理与特征提取",
+          "titleEN": "Two-stage Pipelined GPU Inference and Feature Extraction",
+          "body": "利用设计好的调度器(z像 pipe.py)将测试文本分成若干批次，在两个GPU上并行载入和推理。先运行大型模型（如Qwen3-8B）的隐藏状态提取，再进行主干模型推理。特殊设计的推理模块（例如 gsq_infer.py 和 gsq_infer_model.py）确保推理效率和内存利用最大化。推理得到文本级别的特征向量和得分，用作后续融合的输入。",
+          "bodyEN": "Use a customized scheduler (e.g., pipe.py) to split test texts into batches, performing parallel loading and inference on two GPUs. Large models like Qwen3-8B produce hidden states first, followed by core model inference. Specialized inference modules (gsq_infer.py and gsq_infer_model.py) ensure maximal inference efficiency and memory utilization. The resulting text-level feature vectors and scores serve as inputs to subsequent ensemble steps.",
+          "reference": "Cell 15",
           "source": 0
         },
         {
-          "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
-          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
-          "reference": "Cell 14",
+          "title": "核心投票与风格特征结合预测",
+          "titleEN": "Core Voting and Integration of Style Features in Prediction",
+          "body": "采用预训练的支持向量机池（SVC, TFIDF等）结合对文本不同视角转换的统计视图，产生多个投票。虽然部分投票权重设置为0用于测试，整体通过对风格和统计特征的捕获，辅助判别模型族。主干权重融合了各种风格gram和文本特征来源的加权结果，形成强集成预测得分。",
+          "bodyEN": "Use a pretrained pool of support vector classifiers (SVC, TFIDF, etc.) over different views of text (shape and function words) to produce multiple votes. Some votes are weighted zero in the blend for testing but still used for early error detection. Overall, combining stylistic and statistical features aids family-level discrimination. Core weights blend multiple stylegram and textual feature sources into a strong ensemble prediction score.",
+          "reference": "Cell 23",
+          "source": 0
+        },
+        {
+          "title": "兄弟模型间的后验决策规则应用",
+          "titleEN": "Application of Posterior Decision Rules Among Sibling Models",
+          "body": "针对同一模型家族中的‘兄弟模型’，通过计算它们在执行系列推理和概率修正后的对数概率差异，设计特定阈值规则（log(2)限制）判定是否转换预测类别。使用fable模型的得分增益作为调整依据，防止对‘claude-fable-5’的误判。结合风格投票的顶部候选，确保后一致性，提升家族内模型细节区分准确率。",
+          "bodyEN": "For sibling models within the same family, compute log-probability differences after staged inference and likelihood adjustments, applying threshold rules (e.g., log(2)) to decide whether to switch predictions. Use score gains for the ‘claude-fable-5’ model as a safeguard against misclassification. Incorporate style vote top candidates to ensure consensus, improving fine-grained differentiation within the model family.",
+          "reference": "Cell 52",
+          "source": 0
+        },
+        {
+          "title": "分级测试样本调度与部分覆盖机制",
+          "titleEN": "Hierarchical Test Sample Scheduling and Partial Coverage Mechanism",
+          "body": "由于资源约束，大模型无法全量评分测试集。通过对比glm和glm-flash概率，预选排名靠前的文本进行重点计算。使用多阶段流水线(run_pipeline.py和v1_stage.py)，每模型设定硬时间预算，若超时则优先保持已完成部分的预测并调整权重。该策略保证了资源有效利用和评分覆盖，提升整体分类效果。",
+          "bodyEN": "Due to resource constraints, large models cannot process the entire test set. By comparing probabilities between glm and glm-flash models, the top-ranked texts are selectively re-scored. Utilizing multi-stage pipelines (run_pipeline.py and v1_stage.py), each model has a hard time budget; if exceeded, partial results are retained and weights adjusted accordingly. This strategy ensures resource efficiency and coverage, improving overall classification performance.",
+          "reference": "Cell 45",
           "source": 0
         }
       ],
-      "readingMode": "code",
-      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:46:01Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记提供了可核查的方法：以似然差更新同族易混淆标签的判定规则（fable_return、sibling_agreement），以及按预测质量排序并限时预算的 GLM 似然覆盖策略；另有可复用的 GSQ 推理与分片加载代码、流水线调度器及融合权重说明，能够追踪建模、推理与优化决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-4.1-mini"
+        }
+      },
+      "titleEN": "NTL 720 Sibling Odds Method Analysis",
+      "exercise": {
+        "zh": "尝试基于给定的两阶段推理框架，实现对部分测试数据优先分配资源的策略，并设计简单的兄弟模型后验决策规则，观察其对准确率的提升。",
+        "en": "Try to implement a resource prioritization strategy for partial test data based on the given two-stage inference framework, and design a simple posterior decision rule among sibling models. Observe the impact on accuracy improvement."
+      }
     },
     {
       "kernelID": 146883504,
@@ -5533,15 +5617,79 @@
           "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
         }
       ],
-      "title": "2nd Place Solution",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "第二名方案—基于时序三维检测与图结构跟踪的细胞定位与追踪",
+      "summary": "本方案针对在三维显微镜时序图像中定位和跟踪细胞的任务。关键难点在于细胞信号微弱且稀疏，注释不完整，以及跨帧时序信息的有效利用。作者提出结合多帧时序上下文的3D U-Net检测器，输出细胞中心、位置偏移和运动估计，并基于图结构进行候选细胞选择、时序链接和分裂判定。同时，采用合成弱信号细胞增强训练，保留弱探测候选直到通过轨迹连贯性判断其有效性。在后处理阶段利用未用候选恢复遗漏轨迹，且无需重新运行检测器，有效提升检测与跟踪性能。实验表明该管线在私有排行榜取得0.970分，具备稳定的跨嵌合体适应能力。",
+      "takeaway": "关键在于结合时序上下文的稳定三维检测，同时设计图结构追踪以充分利用运动与链接信息。训练中加入合成弱细胞以增强模型对低信号单元的识别能力。重要创新是推迟丢弃弱探测结果，通过轨迹连贯性判断其有效性并进行恢复，无需重新检测器，提升检测召回和整体分数。实验证明，仅在特定采集条件下使用此恢复策略效果最佳，且扩展检测或修复操作需谨慎以免引入误差。",
       "tags": [
-        "Writeup"
+        "3D U-Net",
+        "Temporal Context",
+        "Graph-Based Tracking",
+        "Synthetic Data Augmentation",
+        "Post-Processing Recovery"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "d3a1b17fe25f02cf46e610470aef9ba18e536d29315ae5da13f6a3e156ff9f01"
+      "steps": [
+        {
+          "title": "输入与预处理",
+          "titleEN": "Input and Preprocessing",
+          "body": "输入为64×256×256三维显微镜图像序列。首先对每帧图像进行强度归一化，并在空间维度上进行1×4×4的块平均下采样，令输入形状变为64×64×64，满足体素的各向同性（voxel spacing均匀）。利用原始高分辨率图像保留后续验证与精修所需信息。",
+          "bodyEN": "The input consists of 64×256×256 3D microscopy volume sequences. Each frame undergoes intensity normalization and then downsampling via 1×4×4 voxel block averaging in Z×Y×X order, resulting in isotropic voxel size and an input shape of 64×64×64. Original high-resolution images are retained for later verification and refinement.",
+          "reference": "## 3. Detection with temporal context",
+          "source": 0
+        },
+        {
+          "title": "基于多帧时序上下文的三维检测",
+          "titleEN": "3D Detection with Multi-Frame Temporal Context",
+          "body": "采用残差3D U-Net网络，以相邻三帧（t−1, t, t+1）作为输入通道，形状为3×64×64×64。模型预测细胞中心热图、亚体素级位置偏移、上一帧运动向量及其不确定度，以及图像描述符用于时间链接。辅助检测器使用更多帧的时序信息或其他模型赋能探测多样性和鲁棒性。",
+          "bodyEN": "A residual 3D U-Net takes three consecutive frames (t−1, t, t+1) as input channels (shape 3×64×64×64). The model outputs cell center heatmaps, sub-voxel spatial offsets, backward motion vectors with uncertainties, and image descriptors to assist temporal linking. Auxiliary detectors employ more frames or alternative models to enhance detection diversity and robustness.",
+          "reference": "## 3. Detection with temporal context",
+          "source": 0
+        },
+        {
+          "title": "合成弱细胞增强及监督设计",
+          "titleEN": "Synthetic Faint Cell Augmentation and Supervision Design",
+          "body": "针对稀疏标注及弱信号细胞，采用合成数据增强，将真实标注的细胞轨迹提取后进行信号衰减与模糊处理，插入训练影像的不同区域以形成弱细胞样本，且保持数据分组一致。损失函数设计排除未知区域，分开归一化细胞和背景损失，降低伪负样本影响，提升弱细胞识别能力。",
+          "bodyEN": "To handle sparse annotations and faint cells, synthetic augmentation extracts short isolated cell tracks, dims and blurs them along depth, and blends them into other regions within the same movie, creating weak cell samples while preserving training splits. Loss functions exclude unknown regions and normalize cell and background losses separately to reduce false negatives and enhance faint cell detection.",
+          "reference": "### 3.1. Sparse supervision and synthetic faint cells",
+          "source": 0
+        },
+        {
+          "title": "图结构跟踪及细胞分裂识别",
+          "titleEN": "Graph-Based Tracking and Division Scoring",
+          "body": "跟踪模块先通过LightGBM模型估计每帧的细胞数，并根据检测置信度及空间约束选择候选细胞，防止重复。利用预测的运动向量提出后继候选，并通过学习链接评分类别特征（距离、运动一致性等）解析前后帧关联。分裂判别器基于几何、外观和时序上下文评估父细胞与两个子细胞，辅助构建合理细胞分裂轨迹。辅助手段包括不同模型生成的候选补充和链接多模型共识，进一步修复图结构。",
+          "bodyEN": "The tracking module uses LightGBM to estimate the number of cells per frame and selects candidates balancing detection confidence and spatial distinctness, suppressing duplicates. Predicted backward motion guides candidate predecessor selection, with learned scorers evaluating link features such as distance and motion consistency to resolve temporal associations. A division scorer evaluates candidate parent-daughter triplets based on geometry, appearance, and temporal context. Auxiliary models provide missing path candidates and consensus on links and divisions to refine the graph.",
+          "reference": "## 4. From candidates to tracks and divisions",
+          "source": 0
+        },
+        {
+          "title": "基于未用检测的细胞轨迹恢复与边界清理",
+          "titleEN": "Recovery of Faint Tracks from Unused Detections and Border Cleanup",
+          "body": "检测器输出细胞候选多于跟踪保留。V533方案针对采集组acq_01限制下游，复查未用但排位较高且距离现有轨迹较远超过4.5μm的候选，构建至少连续九帧的移动路径（位置变动≤5μm），并基于原始影像中心与背景对比度阈值（≥0.1）确认有效。恢复路径要求与现有轨迹近邻（≤8μm），可附着至轨迹端点扩展或作为新轨迹独立存在。该过程无需重新运行检测器，无新增标注，无新训练。另有对x/y边界1.5像素内预测及其链路的清理以减少边界伪影。",
+          "bodyEN": "The detector outputs more candidates than the tracker retains. V533 revisits unused, high-ranked candidates more than 4.5 μm from existing predictions (restricted to acquisition group acq_01), links them into persistent paths spanning nine or more consecutive frames with position shifts ≤5 μm per frame, and verifies path validity by median center-to-background contrast ≥0.1 on original images. Candidate paths must be within 8 μm proximity of existing tracks to propose attachments or remain separate if unattached. This recovery does not rerun the detector, access annotations, or retrain models. Additionally, predictions within 1.5 pixels near the x/y frame boundary are removed to reduce boundary artifacts.",
+          "reference": "## 5. Recovering faint tracks without another detector pass",
+          "source": 0
+        }
+      ],
+      "fingerprint": "d3a1b17fe25f02cf46e610470aef9ba18e536d29315ae5da13f6a3e156ff9f01",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:46:01Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该方案包含可复用的具体方法：3D U-Net 结合时序上下文检测、合成暗淡细胞增广、LightGBM 候选选择与图追踪/分裂评分、基于未用候选的弱轨迹恢复及图像证据校验、按图像条件聚类的分组验证与消融。读者可追踪检测、追踪、恢复和验证等决策链，符合可解释步骤要求。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-4.1-mini"
+        }
+      },
+      "titleEN": "2nd Place Solution: Temporal 3D Detection and Graph-Based Cell Tracking",
+      "summaryEN": "This solution addresses the task of locating and tracking cells in temporal 3D microscopy images. The main challenges include weak and sparse cell signals, incomplete annotations, and effective utilization of temporal information across frames. The author uses a multi-frame 3D U-Net detector to estimate cell centers, position offsets, and motion, followed by graph-based candidate selection, temporal linking, and division scoring. Synthetic faint cells are augmented during training. Weak detection evidence is preserved until validated through trajectory coherence. A late recovery step revisits unused candidates without rerunning detection to restore missing tracks. Experiments show the pipeline achieves 0.970 on the private leaderboard with robustness across embryo variations.",
+      "takeawayEN": "The key lies in robust temporal 3D detection combined with graph-based tracking that leverages motion and linking cues. Augmenting training with synthetic faint cells improves detection of low-signal units. A critical innovation is delaying discarding weak detections and validating them through trajectory coherence to recover missed tracks without rerunning the detector, improving recall and overall score. This recovery strategy works best under specific acquisition conditions. Careful balance is necessary when extending detection or repair steps to avoid introducing errors.",
+      "exercise": {
+        "zh": "1. 尝试在单一3D U-Net模型中引入相邻多帧输出来提升检测准确性；\n2. 实施合成数据增强，将真实细胞轨迹提取后进行衰减与模糊处理，插入训练样本，以提升模型对弱信号细胞的识别能力；\n3. 基于检测器输出的候选点构建时序图，设计评分函数进行轨迹链接和细胞分裂识别；\n4. 实现一个后处理步骤，利用未被跟踪选中但置信较高的检测点，根据时间和空间连贯性恢复遗漏的轨迹。",
+        "en": "1. Experiment with incorporating multiple adjacent frames as input channels in a 3D U-Net model to enhance detection accuracy;\n2. Implement synthetic augmentation by extracting real cell trajectories, dimming and blurring them, and inserting into training samples to improve recognition of faint cells;\n3. Construct a temporal graph from detector candidate points, designing scoring functions for plausible track linking and cell division identification;\n4. Develop a post-processing step that revisits unused high-confidence detections and recovers missed tracks based on temporal and spatial continuity."
+      }
     },
     {
       "id": "w-116073",
@@ -5633,15 +5781,79 @@
           "url": "https://www.kaggle.com/competitions/playground-series-s6e9/leaderboard"
         }
       ],
-      "title": "2nd Place Solution",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "第二名方案解析",
+      "summary": "本方案针对预测电动车购买倾向的二分类任务，面对庞大的数据规模和潜在的生成器数据特性，设计了严格的验证机制和多层堆叠模型。采用TabPFN-3.5模型在完整上下文中训练，结合基于生成器的无标签似然比特征（LLR）和多模型堆叠，最后通过精确计算的AUC直接优化目标融合多个模型预测结果。作者着重强调了验证优先、避免过拟合公共排行榜的策略，并利用生成模型的概率特性提取辅助特征，取得了私有排行榜第二名的成绩。",
+      "takeaway": "1. 严格的嵌套交叉验证和公私分数差异分析是防止过拟合公榜的关键。2. 利用生成数据的潜在采样机制构造无标签的LLR特征，有助于提升模型性能。3. TabPFN-3.5能通过完整上下文训练显著提高AUC，且模型性能与上下文大小呈线性提升关系。4. 直接以近似全局AUC为目标的线性组合优化，有效提升最终预测性能。",
       "tags": [
-        "Writeup"
+        "TabPFN",
+        "Generator-surrogate LLR",
+        "Nested Cross-Validation",
+        "AUC Direct Optimization",
+        "Model Stacking"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "049045d5f12b82b5a2687bb0b3674e17bb0bc829c8964b9392ceefe41a845c1c"
+      "steps": [
+        {
+          "title": "任务及数据概述",
+          "titleEN": "Task and Data Overview",
+          "body": "任务是基于表格的13个特征（7数值，6类别），预测电动车购买倾向的二分类问题。训练集包含668,665行数据，测试集286,571行，且数据由合成生成器产生，存在内在的生成器特征，导致公私榜分数差异明显。数据中正例比例17.46%，无训练测试分布漂移，且竞赛提供了原始小规模真实数据集用于分析生成规则。",
+          "bodyEN": "The task is a tabular binary classification to predict electric vehicle purchase intent using 13 features (7 numeric, 6 categorical). The training set has 668,665 rows, test set 286,571 rows. The data is synthesized from a generator, leading to intrinsic generator features and notable public-private leaderboard score gaps. The positive rate is 17.46%, no train-test distribution shift, and original smaller real data (10k rows) is provided for inspecting the generating formula.",
+          "reference": "## Data in brief",
+          "source": 0
+        },
+        {
+          "title": "验证策略与数据分割",
+          "titleEN": "Validation Strategy and Data Splitting",
+          "body": "采用5折嵌套交叉验证，严格定义\"诚实\"的验证规则，不直接利用公共排行榜作为选择标准。使用固定折拆分，并留出133,733行为封存持出集只在最终训练时纳入。预注册候选模型和结果，所有模型必须通过严格的增益门槛才能进入最终验证。通过对比公私分表现，发现公榜相关度不及嵌套交叉验证的分数，避免了过拟合公榜。",
+          "bodyEN": "Utilized 5-fold nested cross-validation with strict 'honest' validation policies, avoiding use of public leaderboard for model selection. Fixed folds used, with 133,733 rows sealed holdout set only used in final refit. Candidates and their results were pre-registered; models had to meet strict gain thresholds for advancement. Comparison shows private and nested validation scores highly correlated but public scores less so, preventing leaderboard overfitting.",
+          "reference": "## 1. Validation first",
+          "source": 0
+        },
+        {
+          "title": "基于生成器的无标签似然比特征构造",
+          "titleEN": "Generator Surrogate Label-Free LLR Feature Construction",
+          "body": "假设训练数据来自语言模型微调生成的样本，作者使用distilgpt2微调仅使用原始10,000行训练样本（不含竞赛标签），通过计算“Will_Buy_EV是Yes”与“No”条件下样本的生成对数似然之差，生成标注无关的似然比特征（LLR）。LLR在单模型和堆叠中均显著提升性能，成为重要辅助特征。采用多种微调方案平均进一步增加效果，且作为输入特征融入带来的收益大于直接拼接作为普通特征。",
+          "bodyEN": "Assuming data comes from a fine-tuned LM generator, the authors fine-tuned distilgpt2 only on the original 10k rows without competition labels. They computed the log-likelihood ratio (LLR) of a row under conditions “Will_Buy_EV=Yes” vs “No” across 4 random column orderings. This label-free surrogate LLR feature significantly improved single and stacked models, serving as important auxiliary inputs. Averaging multiple fine-tuned variants further increased gain. Feeding LLR as input rather than raw column yielded better results.",
+          "reference": "## 4. Generator-surrogate LLR features",
+          "source": 0
+        },
+        {
+          "title": "TabPFN-3.5大上下文训练及效益",
+          "titleEN": "TabPFN-3.5 Training with Full Context and Benefits",
+          "body": "使用TabPFN-3.5模型，针对每折在剩余约428,000条完整上下文中训练，测试阶段使用全部668,665行数据。该方法在不做上下文子采样的情况下，随着上下文量翻倍AUC持续以约+18.6u的幅度线性提升，未见饱和值。基于此，该技术实现了高效且优异的单模型性能，并对最终堆叠贡献显著。上下文大小对性能贡献远大于模型推理相关超参数调整。",
+          "bodyEN": "The TabPFN-3.5 model was trained for each fold on the full remaining ~428k context rows, and during test on all 668,665 labeled rows. Without any context subsampling, AUC rose approximately +18.6 units per doubling of context size, showing no saturation. This led to highly effective single-model performance and significant boosting effect in stacking. Context size impact outweighed inference parameter tuning.",
+          "reference": "## 3. TabPFN-3.5 at full context",
+          "source": 0
+        },
+        {
+          "title": "基于近似全对偶AUC的层级融合优化",
+          "titleEN": "Level-3 Blend Optimization via Smoothed Pairwise AUC",
+          "body": "最终层融合采用非负权重、权重和为1的线性组合，直接最小化由logit排名分组成的平滑近似全对偶AUC损失。正负样本对数量巨大（约2.6e10），计算用FFT和插值直方图实现高效准确求解。该方法较基于对数损失的融合提升+1.62u，并得到严格嵌套验证通过，且提升主要源自减少AUC优化目标的偏差，说明直接优化对应指标比间接优化更有效。",
+          "bodyEN": "The level-3 ensemble used a non-negative linear weight combination summing to 1, minimizing a smoothed pairwise AUC loss defined on rank-logits. The extremely large number of positive-negative pairs (~2.6e10) is handled exactly via FFT convolution and linear interpolation histograms. This achieved +1.62u gain over the log-loss based stacking, passed strict nested cross-validation. Results show direct AUC objective optimization reduces metric bias better than indirect log-loss approaches.",
+          "reference": "## 5. The AUC-direct level-3 blend",
+          "source": 0
+        }
+      ],
+      "fingerprint": "049045d5f12b82b5a2687bb0b3674e17bb0bc829c8964b9392ceefe41a845c1c",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:46:01Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该方案给出了可复现的建模、验证与优化细节：预注册的嵌套交叉验证与门控协议、TabPFN全上下文使用及上下文规模规律、GReaT式LLR替代特征构造，以及用直方图+FFT精确计算成对AUC目标的第三层混合代码，均包含可检验的方法与代码，远超结果公告。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-4.1-mini"
+        }
+      },
+      "titleEN": "2nd Place Solution Analysis",
+      "summaryEN": "This solution addresses the binary classification task of predicting electric vehicle purchase intent, handling large-scale data and features generated by a synthetic data generator. A strict validation regimen and multi-level model stacking are used. TabPFN-3.5 is trained with the full context, combined with generator-based label-free log-likelihood ratio (LLR) features, and multiple models are stacked and blended via an exact AUC-optimized objective. Emphasizing validation-first and avoiding public leaderboard overfitting, the method leverages generator probability approximations for auxiliary features, resulting in a second-place finish on the private leaderboard.",
+      "takeawayEN": "1. Strict nested cross-validation and careful analysis of public-private leaderboard score discrepancies are essential to avoid overfitting public leaderboard. 2. Leveraging generator-based label-free LLR features improves model performance. 3. Training TabPFN-3.5 with full context substantially boosts AUC, showing a log-linear relationship with context size. 4. Directly optimizing a smoothed global AUC objective for ensemble weights effectively enhances the final predictions.",
+      "exercise": {
+        "zh": "尝试使用TabPFN模型，基于完整上下文数据进行训练，并观察不同上下文规模对AUC的影响。然后使用distilgpt2微调生成LLR特征，作为模型额外输入，比较有无LLR时模型性能的区别。最后，设计一个包含非负权重和权重和约束的线性融合，使用FFT高效计算平滑AUC损失进行权重优化，完成模型融合。",
+        "en": "Try training TabPFN models using full context data and observe how different context sizes affect AUC. Then fine-tune distilgpt2 to generate LLR features as auxiliary inputs, comparing model performance with and without LLR. Finally, implement a linear blend with non-negative weights summing to one, optimizing weights using FFT-based efficient computation of smoothed AUC loss for ensemble combination."
+      }
     },
     {
       "id": "w-116088",
