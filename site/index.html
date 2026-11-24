@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#174d3c">
+    <meta name="theme-color" content="#f6f8f4">
     <meta name="description" content="浏览 Kaggle 竞赛动态、阅读双语获奖方案，跟踪自己的复现进度。">
     <title>KaggleGoose · 竞赛动态</title>
     <link rel="icon" href="./assets/goose.png">
-    <link rel="stylesheet" href="./assets/site.css">
-    <script type="module" src="./assets/app.js"></script>
+    <script src="./assets/theme.js"></script>
+    <link rel="stylesheet" href="./assets/site.css?v=2">
+    <script type="module" src="./assets/app.js?v=2"></script>
   </head>
   <body>
     <a class="skip" href="#content">跳到内容</a>
@@ -17,7 +18,21 @@
         <a class="brand" href="#/feed"><img src="./assets/goose.png" alt="" width="36" height="36"><span
           >KaggleGoose</span></a>
         <nav id="nav" aria-label="主导航"></nav>
-        <button id="language" class="lang" type="button" aria-label="Switch to English">English</button>
+        <div class="mast-actions">
+          <label class="select-wrap theme-picker">
+            <svg viewBox="0 0 24 24" class="icon theme-glyph" aria-hidden="true">
+              <circle cx="12" cy="12" r="8.5" />
+              <path fill="currentColor" d="M12 3.5a8.5 8.5 0 0 1 0 17z" />
+            </svg>
+            <select id="theme" aria-label="外观主题">
+              <option value="system">跟随系统</option>
+              <option value="light">浅色</option>
+              <option value="dark">暗色</option>
+            </select>
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </label>
+          <button id="language" class="lang" type="button" aria-label="Switch to English">English</button>
+        </div>
       </div>
     </header>
     <main id="content" class="shell" tabindex="-1"><p role="status">正在载入竞赛目录…</p></main>

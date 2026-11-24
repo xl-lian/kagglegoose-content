@@ -113,6 +113,12 @@ function chrome(page) {
   const lang = document.querySelector("#language");
   lang.innerHTML = icon("globe") + tr("English", "中文");
   lang.setAttribute("aria-label", tr("Switch to English", "切换到中文"));
+  const theme = document.querySelector("#theme");
+  if (theme) {
+    theme.setAttribute("aria-label", tr("外观主题", "Appearance"));
+    const labels = { system: tr("跟随系统", "System"), light: tr("浅色", "Light"), dark: tr("暗色", "Dark") };
+    for (const option of theme.options) option.textContent = labels[option.value];
+  }
   document.querySelector(".skip").textContent = tr("跳到内容", "Skip to content");
   document.querySelector("#catalog-link").textContent = tr("公开内容目录", "Public catalog");
 }
