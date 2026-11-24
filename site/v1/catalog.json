@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-24T03:34:41Z",
+  "updated": "2026-11-24T03:38:17Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -4023,41 +4023,79 @@
           "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
         }
       ],
-      "title": "ntl fork rj0720 sibodds",
-      "summary": "从源码可直接定位 StandardScaler、LogisticRegression、predict_proba 的调用。下面按原始单元格跟踪数据、模型或评分过程，榜单成绩属于完整提交。",
-      "summaryEN": "The source contains calls to StandardScaler, LogisticRegression, predict_proba. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
-      "takeaway": "先在列出的单元格确认输入、输出和数据划分，再用同一验证集测试一次单项修改。",
-      "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
+      "title": "用同族似然概率差修正集成投票：名称分类竞赛中的选择性重打分",
+      "summary": "任务是对一段生成文本判断其来自 18 个候选语言模型中的哪一个，评价指标为 Balanced Accuracy。作者的整套流程由多个读取器（风格、语法、编码器、LoRA 等）加权融合得到基础预测，再选择性抽取一部分测试文本，用 GLM 系列模型的似然进行重打分。但 GLM 似然阶段受时间预算限制，只能读取测试集的一部分，因此难点在于“读哪些行、如何用有限预算修正最弱的类”。作者观察到 claude-fable-5、glm-5.3、glm-5.3-flash 三类召回明显偏低，于是在预算不变的情况下改变排队顺序，并加入同族（sibling）决策规则，只把高置信、经似然与风格双重支持的少数行改判。",
+      "summaryEN": "The task is to identify which of 18 candidate language models produced a passage, scored by Balanced Accuracy. The author's pipeline blends several readers (stylometry, n-gram style, encoders, LoRA heads) into a base prediction, then selectively re-scores a subset of test rows with GLM likelihood. Because the likelihood stage can only cover part of the test set within its time budget, the difficulty is choosing which rows to read and how to use that limited budget on the weakest classes. The author notes that claude-fable-5, glm-5.3 and glm-5.3-flash have low recall, so the budget's ranking is reordered and sibling decision rules flip only a few high-confidence rows supported by both likelihood and style heads.",
+      "takeaway": "在有限推理预算下，改变“读哪些行”的排序和加入严格的门控规则，比扩大预算更能提升弱类召回。",
+      "takeawayEN": "Under a fixed inference budget, reordering which rows get read plus strict gating rules can improve weak-class recall more than enlarging the budget.",
       "tags": [
-        "StandardScaler",
-        "LogisticRegression",
-        "predict_proba"
+        "ensemble blending",
+        "likelihood re-scoring",
+        "sibling-family decision rules",
+        "budgeted selective inference",
+        "grouped cross-validation"
       ],
       "steps": [
         {
-          "title": "特征处理",
-          "body": "源码在这里调用 StandardScaler。阅读时可以这样核查：记录训练折拟合的参数，使用同一组参数变换验证折。检查变换后数值范围或保留维数，再比较验证误差。",
-          "bodyEN": "The source calls StandardScaler here. Reading exercise: Record the transformation fitted on training data and reuse it on validation. Inspect the resulting scale or dimension before comparing holdout error.",
-          "reference": "Cell 14",
+          "title": "用分组交叉验证定位弱类",
+          "titleEN": "Locate weak classes via grouped cross-validation",
+          "body": "作者在六个已发布读取器上按 prompt 分组做 out-of-fold 评估，发现 claude-fable-5、glm-5.3、glm-5.3-flash 的召回分别只有 0.248、0.300、0.320，而 18 类平均为 0.550。这一诊断决定了后续只能在少数类上做文章，而不是全面重打分。",
+          "bodyEN": "The author runs out-of-fold evaluation of the six shipped readers with prompt-grouped folds and finds that claude-fable-5, glm-5.3 and glm-5.3-flash recall only 0.248, 0.300 and 0.320 against a mean of 0.550 over all eighteen classes. This diagnosis justifies targeting a few classes rather than re-scoring everything.",
+          "reference": "Cell 4",
           "source": 0
         },
         {
-          "title": "模型实现",
-          "body": "源码在这里调用 LogisticRegression。阅读时可以这样核查：查看正则化强度与输入尺度。在相同划分上对比两组强度，检查系数大小与验证误差是否同步变化。",
-          "bodyEN": "The source calls LogisticRegression here. Reading exercise: Inspect regularization strength and feature scale. Compare two strengths on a fixed split and see how coefficient magnitudes and validation error change.",
-          "reference": "Cell 14",
+          "title": "在预算内重排待读行的优先级",
+          "titleEN": "Reorder rows within the same budget",
+          "body": "GLM 似然阶段在时间预算内只能读取部分测试文本。作者保持预算不变，只在排序分数上加入 0.35 * min(fable_mass, mass)，使集成已经偏向 Fable 的段落最多提前 1.35 倍。输入是基础融合概率，操作是改排序，目的是把有限读取名额优先给最可能被修正的类。",
+          "bodyEN": "The GLM likelihood stage can only read part of the test set within its budget. The author keeps the budget fixed and adds 0.35 * min(fable_mass, mass) to the ranking score, pushing passages the blend already leans Fable on up by at most 1.35x. The input is the blended mass, the operation is re-ranking, and the goal is to spend limited reads on the rows most likely to need correction.",
+          "reference": "Cell 4",
           "source": 0
         },
         {
-          "title": "推理与评分",
-          "body": "源码在这里调用 predict_proba。阅读时可以这样核查：跟踪一行输出，核对类别顺序与提交列。观察高置信错误和低置信正确样本，检查概率是否需要校准。",
-          "bodyEN": "The source calls predict_proba here. Reading exercise: Trace one output row and align class order with submission columns. Inspect confidently wrong examples and weakly correct ones when evaluating calibration.",
-          "reference": "Cell 14",
+          "title": "用似然概率差门控改判",
+          "titleEN": "Gate flips on likelihood-margin change",
+          "body": "fable_return 规则比较重打分前后 Fable 相对 GLM 两类的边际：只有基础预测原本落在 GLM、重打分后转向 Fable、边际提升至少 0.30 且最终边际至少 0.25 时才改判。这避免似然噪声单独驱动标签，但阈值是对训练数据设定的经验值。",
+          "bodyEN": "The fable_return rule compares Fable's margin over the two GLM classes before and after re-scoring: a flip requires the base prediction to be a GLM class, the post-scoring argmax to be Fable, a margin gain of at least 0.30, and a final margin of at least 0.25. This prevents likelihood noise from driving labels alone, though the thresholds are empirical values fit on training data.",
+          "reference": "Cell 52",
+          "source": 0
+        },
+        {
+          "title": "要求似然赢家与风格头同族一致",
+          "titleEN": "Require sibling agreement with the style head",
+          "body": "sibling_agreement 进一步约束：似然改判后的赢家必须是风格头的前两名之一，似然改判前的赢家与它同族，族属于 claude/gpt/gemini，且风格头前两名概率比不超过 log 2，同时风格头的赢家也指向它。输入是原预测、似然后预测与风格分数，操作是多重条件合取，目的是只接受高置信的少数改判，局限是规则高度手工化且依赖阈值。",
+          "bodyEN": "sibling_agreement further requires the likelihood winner to be the style head's runner-up, the pre-flip winner to be in the same family, the family to be one of claude/gpt/gemini, the top-two style scores to be within log 2, and the style winner to point at the same label. Inputs are the original prediction, post-likelihood prediction and style scores; the operation is a conjunction of conditions to accept only a few high-confidence flips; the limitation is that the rules are heavily hand-crafted and threshold-dependent.",
+          "reference": "Cell 52",
+          "source": 0
+        },
+        {
+          "title": "提高部分覆盖并保持失败可回退",
+          "titleEN": "Price partial coverage and keep a fallback",
+          "body": "作者基于训练 OOF 估计部分覆盖的收益（15% 文本 +0.030，20% +0.0315，全覆盖 +0.029），说明饱和早于全覆盖。运行阶段设置最小时长/最少文本阈值，预算不够就保留原提交，读取过程与计算重叠。这解释了为何“少读但读对”比全读更划算，但收益数字来自训练集估计，不是提交端保证。",
+          "bodyEN": "The author estimates the gain of partial coverage on training OOF (15% of texts +0.030, 20% +0.0315, full coverage +0.029), showing saturation before full coverage. The run stage sets minimum-time and minimum-text thresholds and keeps the original submission if budgets fall short, overlapping reads with compute. This explains why reading fewer but better-chosen rows can pay off, though the gain figures are training estimates, not submission guarantees.",
+          "reference": "Cell 45",
           "source": 0
         }
       ],
-      "readingMode": "code",
-      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e"
+      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:38:17Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "笔记本包含可核验的具体方法：Cell 52 给出基于似然概率的判定规则（claude-fable 回归条件、兄弟模型一致性投票），Cell 45 描述按 S10 概率排序的部分覆盖选择策略与时间预算，Cell 37 展示多个读者模型的具体权重融合，Cell 26/30 有 GSQ 推理实现。这些内容可让读者追踪选择、推理与融合决策，非单纯结果宣告或空包装。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        }
+      },
+      "titleEN": "Sibling-Odds Corrections for Ensemble Votes in Name That LLM",
+      "exercise": {
+        "zh": "在你自己的一组 prompt 分组 OOF 预测上复现作者的诊断：计算每一类的召回，找出低于均值 0.55 的两三个类；然后保持重打分预算比例不变，仅改变待重打分行的排序（例如加入对 Fable 的偏好项），在 OOF 上比较修正前后的该类召回与整体 Balanced Accuracy，确认改判是否来自门控规则而非排序噪声。",
+        "en": "On your own prompt-grouped OOF predictions, reproduce the diagnosis: compute per-class recall and find the two or three classes below the 0.55 mean. Then keep the re-scoring coverage ratio fixed and only change the ranking of rows sent to re-scoring (e.g. add a Fable preference term), comparing per-class recall and overall Balanced Accuracy before and after, to check whether flips come from the gating rules rather than ranking noise."
+      }
     },
     {
       "kernelID": 146886831,
@@ -5636,7 +5674,16 @@
       ],
       "steps": [],
       "awaitingExplanation": true,
-      "fingerprint": "ce270abff417eb9cdaf69b3d18896f8b8c2e2d6934e052fdef1f9864c504bb91"
+      "fingerprint": "ce270abff417eb9cdaf69b3d18896f8b8c2e2d6934e052fdef1f9864c504bb91",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:38:17Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该文可追溯地记录了多层可复用方法：对精确值与多级取整收入做折外目标编码、用GLM logit作为offset由LightGBM学习残差的堆叠结构、将概率裁剪转logit后做L2逻辑回归堆叠，以及软伪标签和BPE收入token分组特征；还给出相同5折划分、逐步CV对比和验证局限，属于可检查的建模与验证决策，而非仅公布名次。",
+        "status": "selected"
+      }
     },
     {
       "id": "w-116198",
@@ -5793,15 +5840,63 @@
           "url": "https://www.kaggle.com/competitions/kaggriculture/leaderboard"
         }
       ],
-      "title": "[3rd place] All Medalists Who BC'd on Our Records MUST Vote!",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "铜牌方案解析：BC 预训练、PPO 自对弈与推理时后处理",
+      "summary": "该方案针对一个双人农场模拟游戏，目标是最大化最终资金以获胜。难点在于奖励稀疏（仅最终胜负）、每步决策多（31个）、市场共享导致策略依赖对手。方法动机：先通过行为克隆（BC）从顶尖队伍回放中学习基础策略，再使用 PPO 自对弈强化，并在推理时加入基于规则的后处理以修复无效动作和利用市场机制。",
+      "takeaway": "在长时程、稀疏奖励的竞争环境中，结合模仿学习与自对弈强化学习，并在推理时谨慎加入仅修复确定无效动作的规则，能显著提升胜率。",
       "tags": [
-        "Writeup"
+        "Behavior Cloning",
+        "PPO",
+        "Self-play",
+        "Transformer",
+        "Rule-based Post-processing"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
-      "fingerprint": "746f5eaf892ea5355ebe77c26aefc050b04f27d1c7adbb328244bc54181b0fb6"
+      "steps": [
+        {
+          "title": "数据收集与行为克隆预训练",
+          "titleEN": "Data Collection and Behavior Cloning Pretraining",
+          "body": "作者从顶尖队伍的回放中提取状态-动作对，训练一个 Transformer 策略网络来模仿教师动作。输入包括棋盘、单位、商店等 token，输出每个单位的移动和市场订单。通过加权损失（如对购买土地动作加权）和教师嵌入，模型学会了基础策略，为后续 PPO 提供起点。",
+          "bodyEN": "Authors extracted state-action pairs from top teams' replays to train a Transformer policy network to imitate teacher moves. Input includes board, units, shops as tokens; output is unit moves and market orders. Using weighted loss (e.g., weight 20 for BUY_LAND) and teacher embeddings, the model learns a base policy, providing a starting point for PPO.",
+          "reference": "6.1 How BC and PPO learn",
+          "source": 0
+        },
+        {
+          "title": "PPO 自对弈训练",
+          "titleEN": "PPO Self-play Training",
+          "body": "在 BC 预训练的基础上，使用 PPO 进行自对弈训练。奖励仅为最终胜负（±1），采用非对称批评家（antisymmetric critic）和逐决策裁剪（clip per decision）来稳定训练。通过异步演员-学习器架构和大规模并行，模型在数千代中进化，胜率显著提升。",
+          "bodyEN": "Building on BC pretraining, PPO is used for self-play training. Reward is only final win/loss (±1), with an antisymmetric critic and per-decision clipping to stabilize training. Using asynchronous actors-learners and large-scale parallelism, the model evolves over thousands of generations, significantly improving win rate.",
+          "reference": "6.2 PPO",
+          "source": 0
+        },
+        {
+          "title": "推理时后处理",
+          "titleEN": "Inference-time Post-processing",
+          "body": "在推理阶段，作者加入规则来修复确定无效的动作（如无效的 CARE、谷仓溢出销售等），并加入特定规则（如购买瓜种子）。这些规则不影响模型权重，仅对动作进行后处理，从而将胜率从 74.2% 提升至 87.8%。",
+          "bodyEN": "At inference, rules are added to fix certainly wasted moves (e.g., ineffective CARE, barn overflow selling) and specific rules (e.g., buying melon seeds). These rules do not affect model weights, only post-process actions, raising win rate from 74.2% to 87.8%.",
+          "reference": "7.2 Fixing only moves that certainly have no effect",
+          "source": 0
+        }
+      ],
+      "fingerprint": "746f5eaf892ea5355ebe77c26aefc050b04f27d1c7adbb328244bc54181b0fb6",
+      "llmReview": {
+        "lastAttempt": "2026-11-24T03:38:17Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该文详细披露了可复用的建模与优化方法：BC + 异步 PPO 训练流程、按决策裁剪的 PPO、反对称 critic、训练时干预将改写动作记为策略自身动作、以及基于官方规则的推理后处理与配对种子 A/B 评测。方法可逐步追溯，含具体公式、超参数与消融数据，非空泛结果宣告。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        }
+      },
+      "titleEN": "Bronze Medal Solution Analysis: BC Pretraining, PPO Self-play, and Inference-time Post-processing",
+      "summaryEN": "This solution targets a two-player farm simulation game, aiming to maximize final money to win. Challenges include sparse reward (only final win/loss), many decisions per step (31), and a shared market making strategies opponent-dependent. Motivation: first learn a base policy via behavior cloning (BC) from top teams' replays, then strengthen with PPO self-play, and add rule-based post-processing at inference to fix wasted moves and exploit market mechanisms.",
+      "takeawayEN": "In long-horizon, sparse-reward competitive environments, combining imitation learning with self-play reinforcement learning, and carefully adding inference-time rules that only fix certainly wasted moves, can significantly improve win rate.",
+      "exercise": {
+        "zh": "在类似的长时程游戏环境中，先使用专家回放训练一个模仿学习策略，然后实现 PPO 自对弈，并尝试在推理时加入一个仅修复确定无效动作的规则，测量其对胜率的影响。",
+        "en": "In a similar long-horizon game environment, first train an imitation learning policy from expert replays, then implement PPO self-play, and try adding an inference-time rule that only fixes certainly wasted moves, measuring its impact on win rate."
+      }
     },
     {
       "id": "w-121338",
