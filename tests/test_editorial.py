@@ -6,7 +6,16 @@ import unittest
 from unittest.mock import Mock, patch
 from urllib.error import HTTPError
 
-from editorial import Editor, providers, enrich, cited, request_json, SCREEN
+from editorial import (
+    Editor,
+    providers,
+    enrich,
+    cited,
+    request_json,
+    SCREEN,
+    bind_references,
+    source_blocks,
+)
 from refresh import sync_one
 
 RAW = "Cell 1:\ntrain = GroupKFold(5)\nCell 2:\nmodel.fit(train)"
@@ -138,13 +147,32 @@ class EditorialTests(unittest.TestCase):
                 opener.return_value.open.return_value.__enter__.return_value.read.return_value = (
                     b'{"choices":[{"message":{"content":"{}"}}]}'
                 )
-                self.assertEqual(request_json(provider, SCREEN, {}, 600), {})
+                self.assertEqual(
+                    request_json(
+                        provider, SCREEN, {"source": RAW, "type": "notebook"}, 600
+                    ),
+                    {},
+                )
                 req = opener.return_value.open.call_args.args[0]
                 self.assertEqual(req.full_url, provider.base + "/chat/completions")
                 self.assertEqual(
                     req.get_header("Authorization"), "Bearer " + provider.key
                 )
                 self.assertNotIn(provider.key.encode(), req.data)
+
+    def test_server_binds_real_source_blocks(self):
+        blocks = source_blocks(RAW, True)
+        selected = bind_references({"selected": True, "evidenceID": 2}, blocks, True)
+        self.assertEqual(selected["reference"], "Cell 2")
+        self.assertTrue(cited(selected, RAW, True))
+        with self.assertRaises(ValueError):
+            bind_references({"steps": [{"evidenceID": 200}]}, blocks, False)
+        writeup = (
+            "## Validation\nFit models on held-out groups.\n## Results\nReported AUC."
+        )
+        blocks = source_blocks(writeup, False)
+        result = bind_references({"steps": [{"evidenceID": 1}]}, blocks, False)
+        self.assertTrue(cited(result["steps"][0], writeup, False))
 
     def test_recent_writeup_changes_reenter_queue(self):
         c = dict(
