@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-25T18:15:08Z",
+  "updated": "2026-11-26T02:31:54Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -748,10 +748,10 @@
       "published": "2022-12-15T17:53:54.260Z",
       "evidence": {
         "kind": "public",
-        "rank": 25,
-        "teams": 3638,
+        "rank": 26,
+        "teams": 3627,
         "score": "11602.83535",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -801,10 +801,10 @@
       "published": "2023-01-05T04:03:14.847Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -835,10 +835,10 @@
       "published": "2023-02-02T14:51:07.413Z",
       "evidence": {
         "kind": "public",
-        "rank": 114,
-        "teams": 2205,
+        "rank": 115,
+        "teams": 2210,
         "score": "0.81669",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -889,10 +889,10 @@
       "published": "2023-03-08T01:49:39.557Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -924,10 +924,10 @@
       "published": "2023-04-18T14:16:04.713Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -959,10 +959,10 @@
       "published": "2023-05-28T18:51:58.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 27,
-        "teams": 3638,
+        "rank": 28,
+        "teams": 3627,
         "score": "11671.53164",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1012,9 +1012,9 @@
       "evidence": {
         "kind": "public",
         "rank": 117,
-        "teams": 2205,
+        "teams": 2210,
         "score": "0.81622",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1072,10 +1072,10 @@
       "published": "2023-07-21T08:13:50.863Z",
       "evidence": {
         "kind": "public",
-        "rank": 114,
-        "teams": 2205,
+        "rank": 115,
+        "teams": 2210,
         "score": "0.81669",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1134,9 +1134,9 @@
       "evidence": {
         "kind": "public",
         "rank": 116,
-        "teams": 2205,
+        "teams": 2210,
         "score": "0.81646",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1194,9 +1194,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1351,
+        "teams": 1361,
         "score": "1",
-        "checked": "2026-11-25T03:14:02Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1217,7 +1217,7 @@
       "steps": [],
       "fingerprint": "5c97b87046d7eb8504010e3f31cfbecb5e042299c63eecc3b58ef62cb883f985",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 4552907,
       "originalTitle": "MNIST: CNN + External data = Perfect score"
     },
@@ -1229,10 +1229,10 @@
       "published": "2024-03-26T14:46:44.880Z",
       "evidence": {
         "kind": "public",
-        "rank": 114,
-        "teams": 2205,
+        "rank": 115,
+        "teams": 2210,
         "score": "0.81669",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1298,10 +1298,10 @@
       "published": "2024-06-12T06:46:18.243Z",
       "evidence": {
         "kind": "public",
-        "rank": 105,
-        "teams": 2205,
+        "rank": 106,
+        "teams": 2210,
         "score": "0.81903",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1355,7 +1355,7 @@
         "rank": 6,
         "teams": 71,
         "score": "0.97956",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1388,9 +1388,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1351,
+        "teams": 1361,
         "score": "1",
-        "checked": "2026-11-25T03:14:02Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1411,7 +1411,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
-      "stale": true
+      "stale": false
     },
     {
       "id": "k-25668838",
@@ -1421,9 +1421,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1359,
+        "teams": 1361,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1458,9 +1458,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1495,7 +1495,7 @@
         "rank": 5,
         "teams": 71,
         "score": "0.98084",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1530,7 +1530,7 @@
         "rank": 2,
         "teams": 71,
         "score": "0.98222",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1562,10 +1562,10 @@
       "published": "2025-12-13T23:41:58.407Z",
       "evidence": {
         "kind": "public",
-        "rank": 35,
-        "teams": 3638,
+        "rank": 36,
+        "teams": 3627,
         "score": "11911.65105",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1631,10 +1631,10 @@
       "published": "2025-12-14T00:52:54.230Z",
       "evidence": {
         "kind": "public",
-        "rank": 23,
-        "teams": 3638,
+        "rank": 24,
+        "teams": 3627,
         "score": "11572.97803",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1692,10 +1692,10 @@
       "published": "2026-01-13T02:48:43.897Z",
       "evidence": {
         "kind": "public",
-        "rank": 63,
-        "teams": 3638,
+        "rank": 64,
+        "teams": 3627,
         "score": "12329.79076",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1727,9 +1727,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1788,10 +1788,10 @@
       "published": "2026-02-28T17:33:51.607Z",
       "evidence": {
         "kind": "public",
-        "rank": 33,
-        "teams": 3638,
+        "rank": 34,
+        "teams": 3627,
         "score": "11849.04818",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1850,9 +1850,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1885,9 +1885,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 3638,
+        "teams": 3627,
         "score": "0",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1920,9 +1920,9 @@
       "evidence": {
         "kind": "public",
         "rank": 166,
-        "teams": 6729,
+        "teams": 6777,
         "score": "0.2",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1955,9 +1955,9 @@
       "evidence": {
         "kind": "public",
         "rank": 166,
-        "teams": 6729,
+        "teams": 6777,
         "score": "0.2",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -1990,9 +1990,9 @@
       "evidence": {
         "kind": "public",
         "rank": 166,
-        "teams": 6729,
+        "teams": 6777,
         "score": "0.2",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2024,9 +2024,9 @@
       "evidence": {
         "kind": "public",
         "rank": 24,
-        "teams": 325,
+        "teams": 326,
         "score": "0.82756",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2077,9 +2077,9 @@
       "evidence": {
         "kind": "public",
         "rank": 21,
-        "teams": 325,
+        "teams": 326,
         "score": "0.82728",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2130,9 +2130,9 @@
       "evidence": {
         "kind": "public",
         "rank": 19,
-        "teams": 325,
+        "teams": 326,
         "score": "0.82685",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2183,10 +2183,10 @@
       "published": "2026-11-17T23:46:36.413Z",
       "evidence": {
         "kind": "public",
-        "rank": 111,
-        "teams": 3638,
+        "rank": 112,
+        "teams": 3627,
         "score": "12675.54135",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2243,10 +2243,10 @@
       "published": "2026-11-21T14:08:23.313Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 3128,
+        "rank": 278,
+        "teams": 3154,
         "score": "0.95547",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2295,10 +2295,10 @@
       "published": "2026-11-21T14:15:33.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 267,
-        "teams": 3128,
+        "rank": 278,
+        "teams": 3154,
         "score": "0.95547",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2383,10 +2383,10 @@
       "published": "2026-11-22T22:01:24.317Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 7085,
+        "rank": 384,
+        "teams": 7114,
         "score": "0.721",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2452,10 +2452,10 @@
       "published": "2026-11-23T07:16:52.243Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2513,10 +2513,10 @@
       "published": "2026-11-23T07:38:27.223Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2574,10 +2574,10 @@
       "published": "2026-11-23T10:45:50.647Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2810,10 +2810,10 @@
       "published": "2026-11-23T13:03:48.513Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2880,10 +2880,10 @@
       "published": "2026-11-23T16:07:50.540Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2915,10 +2915,10 @@
       "published": "2026-11-23T16:42:15.797Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2950,10 +2950,10 @@
       "published": "2026-11-24T00:24:32.640Z",
       "evidence": {
         "kind": "public",
-        "rank": 166,
-        "teams": 7085,
+        "rank": 295,
+        "teams": 7114,
         "score": "0.722",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -2985,10 +2985,10 @@
       "published": "2026-11-24T00:44:10.617Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3020,10 +3020,10 @@
       "published": "2026-11-24T00:56:44.947Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3066,10 +3066,10 @@
       "published": "2026-11-24T01:52:56.947Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3272,10 +3272,10 @@
       "published": "2026-11-24T03:14:47.203Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3307,10 +3307,10 @@
       "published": "2026-11-24T04:33:32.900Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3342,10 +3342,10 @@
       "published": "2026-11-24T06:34:33.583Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3377,10 +3377,10 @@
       "published": "2026-11-24T07:19:25.697Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3412,10 +3412,10 @@
       "published": "2026-11-24T07:43:27.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3447,10 +3447,10 @@
       "published": "2026-11-24T07:58:47.927Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3482,10 +3482,10 @@
       "published": "2026-11-24T07:59:00.010Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3517,10 +3517,10 @@
       "published": "2026-11-24T09:48:35.163Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3552,10 +3552,10 @@
       "published": "2026-11-24T10:56:31.117Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3587,10 +3587,10 @@
       "published": "2026-11-24T11:32:41.183Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3622,10 +3622,10 @@
       "published": "2026-11-24T11:48:14.380Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3657,10 +3657,10 @@
       "published": "2026-11-24T12:53:18.453Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 7085,
+        "rank": 384,
+        "teams": 7114,
         "score": "0.721",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3692,10 +3692,10 @@
       "published": "2026-11-24T13:04:01.030Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3727,10 +3727,10 @@
       "published": "2026-11-24T13:42:55.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3750,7 +3750,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "e3b4a3723eba70f5c27819bc053bc1950a39ae3b89e77ec6a9004399bc837d8b"
+      "fingerprint": "e3b4a3723eba70f5c27819bc053bc1950a39ae3b89e77ec6a9004399bc837d8b",
+      "stale": false
     },
     {
       "kernelID": 147131226,
@@ -3761,10 +3762,10 @@
       "published": "2026-11-24T14:01:42.453Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -3796,10 +3797,10 @@
       "published": "2026-11-24T14:10:48.290Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4078,10 +4079,10 @@
       "published": "2026-11-24T18:09:25.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4245,10 +4246,10 @@
       "published": "2026-11-24T18:39:26.333Z",
       "evidence": {
         "kind": "public",
-        "rank": 376,
-        "teams": 7085,
+        "rank": 509,
+        "teams": 7114,
         "score": "0.72",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4415,10 +4416,10 @@
       "published": "2026-11-24T19:04:00.350Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4438,7 +4439,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "1df72e59a5066a2445c909a559072ebc3438f65ac911a06a256351fd1c96ad99"
+      "fingerprint": "1df72e59a5066a2445c909a559072ebc3438f65ac911a06a256351fd1c96ad99",
+      "stale": false
     },
     {
       "kernelID": 147202129,
@@ -4449,10 +4451,10 @@
       "published": "2026-11-24T20:09:10.670Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4472,7 +4474,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "cd59777f7c4bd3f6dcac133228d4890efe18c5bcd7c5e7497afca86291d2be19"
+      "fingerprint": "cd59777f7c4bd3f6dcac133228d4890efe18c5bcd7c5e7497afca86291d2be19",
+      "stale": false
     },
     {
       "kernelID": 147227401,
@@ -4483,10 +4486,10 @@
       "published": "2026-11-24T22:43:33.473Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 7085,
+        "rank": 384,
+        "teams": 7114,
         "score": "0.721",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4506,7 +4509,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726"
+      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
+      "stale": false
     },
     {
       "kernelID": 147234118,
@@ -4517,10 +4521,10 @@
       "published": "2026-11-24T23:37:55.283Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4540,7 +4544,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "e9e96486e1dbc50c0d9ae5431840e1f0375b8068cbc0e2c44e99cce1be4b7d9f"
+      "fingerprint": "e9e96486e1dbc50c0d9ae5431840e1f0375b8068cbc0e2c44e99cce1be4b7d9f",
+      "stale": false
     },
     {
       "kernelID": 147159230,
@@ -4551,10 +4556,10 @@
       "published": "2026-11-24T23:59:47.033Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4574,7 +4579,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "9e90e17216370682d36261577771a99930e5c6e1f3673ebc585de74968b76ef3"
+      "fingerprint": "9e90e17216370682d36261577771a99930e5c6e1f3673ebc585de74968b76ef3",
+      "stale": false
     },
     {
       "kernelID": 147254514,
@@ -4585,10 +4591,10 @@
       "published": "2026-11-25T01:58:59.130Z",
       "evidence": {
         "kind": "public",
-        "rank": 166,
-        "teams": 7085,
+        "rank": 295,
+        "teams": 7114,
         "score": "0.722",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4608,7 +4614,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726"
+      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
+      "stale": false
     },
     {
       "kernelID": 147255661,
@@ -4619,10 +4626,10 @@
       "published": "2026-11-25T02:06:37.680Z",
       "evidence": {
         "kind": "public",
-        "rank": 259,
-        "teams": 7085,
+        "rank": 384,
+        "teams": 7114,
         "score": "0.721",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4642,7 +4649,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223"
+      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223",
+      "stale": false
     },
     {
       "kernelID": 147265356,
@@ -4653,10 +4661,10 @@
       "published": "2026-11-25T03:10:41.383Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4676,7 +4684,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "3ee1d7ce53fb12dff515950fe38fbea6f72447619d59a231cc65b8809ac00d23"
+      "fingerprint": "3ee1d7ce53fb12dff515950fe38fbea6f72447619d59a231cc65b8809ac00d23",
+      "stale": false
     },
     {
       "kernelID": 147265398,
@@ -4687,10 +4696,10 @@
       "published": "2026-11-25T03:10:57.947Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4710,7 +4719,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "ba859fa2f0f5b04421b0688777655a605639478575df277933d0a2246663c9c1"
+      "fingerprint": "ba859fa2f0f5b04421b0688777655a605639478575df277933d0a2246663c9c1",
+      "stale": false
     },
     {
       "kernelID": 147266407,
@@ -4721,10 +4731,10 @@
       "published": "2026-11-25T03:16:58.157Z",
       "evidence": {
         "kind": "public",
-        "rank": 166,
-        "teams": 7085,
+        "rank": 295,
+        "teams": 7114,
         "score": "0.722",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4744,7 +4754,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726"
+      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
+      "stale": false
     },
     {
       "kernelID": 147266784,
@@ -4755,10 +4766,10 @@
       "published": "2026-11-25T03:19:05.310Z",
       "evidence": {
         "kind": "public",
-        "rank": 119,
-        "teams": 5986,
+        "rank": 128,
+        "teams": 6018,
         "score": "0.509",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4778,33 +4789,34 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "51798d7527a77ac9a5acea9d13f5bdbcba1cb4d49ed2a966076fd01993944668"
+      "fingerprint": "51798d7527a77ac9a5acea9d13f5bdbcba1cb4d49ed2a966076fd01993944668",
+      "stale": false
     },
     {
-      "kernelID": 147304620,
-      "id": "k-373828547",
-      "competitionID": "google-verifiable-quantum-circuit-compilation",
-      "originalTitle": "QCC | V17 Loaders and Our Refit | LB 33.21180",
-      "author": "Cristiano",
-      "published": "2026-11-25T06:59:50.127Z",
+      "kernelID": 147366674,
+      "id": "k-373949070",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl af24",
+      "author": "Soren",
+      "published": "2026-11-25T12:31:15.730Z",
       "evidence": {
         "kind": "public",
-        "rank": 296,
-        "teams": 3725,
-        "score": "33.2118",
-        "checked": "2026-11-25T18:15:08Z"
+        "rank": 384,
+        "teams": 7114,
+        "score": "0.721",
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
           "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/zhuangbility/qcc-v17-loaders-and-our-refit-lb-33-21180?scriptVersionId=373828547"
+          "url": "https://www.kaggle.com/code/huanansu/ntl-af24?scriptVersionId=373949070"
         },
         {
           "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard"
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
         }
       ],
-      "title": "QCC | V17 Loaders and Our Refit | LB 33.21180",
+      "title": "ntl af24",
       "summary": "本版本已通过公开榜成绩核验。",
       "takeaway": "打开固定版本，对照输入、特征和提交代码。",
       "steps": [],
@@ -4812,7 +4824,7 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "c2ef3712bc9a38221c8093cc745ae53ef4be486876e04cbbceeb3401a7a2b0d2"
+      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223"
     },
     {
       "kernelID": 147368510,
@@ -4823,10 +4835,10 @@
       "published": "2026-11-25T12:41:44.053Z",
       "evidence": {
         "kind": "public",
-        "rank": 128,
-        "teams": 3725,
+        "rank": 364,
+        "teams": 3741,
         "score": "33.24213",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4857,7 +4869,144 @@
         "status": "skipped"
       },
       "summaryEN": "The result is verified. The original source is indexed.",
-      "takeawayEN": "Open the original source for the author's material."
+      "takeawayEN": "Open the original source for the author's material.",
+      "stale": false
+    },
+    {
+      "kernelID": 147371878,
+      "id": "k-373959648",
+      "competitionID": "name-that-llm",
+      "originalTitle": "Name That LLM 0.724 PB115 Dual GLM",
+      "author": "KenGia",
+      "published": "2026-11-25T12:59:57.410Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 384,
+        "teams": 7114,
+        "score": "0.721",
+        "checked": "2026-11-26T02:31:54Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/kengia/name-that-llm-0-724-pb115-dual-glm?scriptVersionId=373959648"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "Name That LLM 0.724 PB115 Dual GLM",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223"
+    },
+    {
+      "kernelID": 147376692,
+      "id": "k-373969417",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl fork lb0724 pb115",
+      "author": "Mugundhan Y",
+      "published": "2026-11-25T13:27:26.980Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 208,
+        "teams": 7114,
+        "score": "0.723",
+        "checked": "2026-11-26T02:31:54Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-lb0724-pb115?scriptVersionId=373969417"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl fork lb0724 pb115",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "8686d5942bdcdbaa02dd2b19b520c9143ba2d785c0625ccc6caaabfc6f6fe702"
+    },
+    {
+      "kernelID": 147376712,
+      "id": "k-373969456",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl fork lv0724 pb115sib",
+      "author": "Mugundhan Y",
+      "published": "2026-11-25T13:27:34.547Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 384,
+        "teams": 7114,
+        "score": "0.721",
+        "checked": "2026-11-26T02:31:54Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-lv0724-pb115sib?scriptVersionId=373969456"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl fork lv0724 pb115sib",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223"
+    },
+    {
+      "kernelID": 147380426,
+      "id": "k-373976691",
+      "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0724 PB115 repro",
+      "author": "feiyu26",
+      "published": "2026-11-25T13:46:51.200Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 208,
+        "teams": 7114,
+        "score": "0.723",
+        "checked": "2026-11-26T02:31:54Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/feiyu26/ntl-0724-pb115-repro?scriptVersionId=373976691"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL 0724 PB115 repro",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "ab3ceebce4b404a5afec2b8fba15822bc2ebb38395d36d1ecf5a41d4221307c5"
     },
     {
       "kernelID": 147389028,
@@ -4868,10 +5017,10 @@
       "published": "2026-11-25T14:28:47.403Z",
       "evidence": {
         "kind": "public",
-        "rank": 128,
-        "teams": 3725,
+        "rank": 364,
+        "teams": 3741,
         "score": "33.24213",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4900,33 +5049,276 @@
         },
         "reason": "该笔记包含可复用的具体方法：利用零振幅“死字”旋转角重新合成以缩短装载器，并在固定电路上对W/H2_I系数做重新优化，且用未修改的官方verifier在10个salt下验证并给出哈希钉扎和评分复算脚本，读者可追溯验证与优化决策。",
         "status": "selected"
-      }
+      },
+      "stale": false
     },
     {
-      "kernelID": 147392387,
-      "id": "k-373999921",
-      "competitionID": "google-verifiable-quantum-circuit-compilation",
-      "originalTitle": "VQCC 33.21180 verified public set",
-      "author": "Ghazaros Barseghyan",
-      "published": "2026-11-25T14:46:14.867Z",
+      "kernelID": 147393879,
+      "id": "k-374022022",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl 720 v8c wemm",
+      "author": "star",
+      "published": "2026-11-25T15:44:54.277Z",
       "evidence": {
         "kind": "public",
-        "rank": 296,
-        "teams": 3725,
-        "score": "33.2118",
-        "checked": "2026-11-25T18:15:08Z"
+        "rank": 509,
+        "teams": 7114,
+        "score": "0.72",
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
           "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/ghazarosbarseghyan91/vqcc-33-21180-verified-public-set?scriptVersionId=373999921"
+          "url": "https://www.kaggle.com/code/star231/ntl-720-v8c-wemm?scriptVersionId=374022022"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "从文本识别生成模型：按预算复评分，用门槛控制改判",
+      "summary": "任务是仅根据生成文本，从十八个语言模型中识别其来源，评价指标是平衡准确率。按提示词分组的折外评估显示，基础集成对 Fable 和两个 GLM 类别的召回率明显低于全类平均。由于逐文本计算 GLM 似然开销较大，作者优先复评最值得检查的样本，并用逻辑回归把似然特征转成分类信号。最终的改判规则并不直接接受似然预测：GLM 改判为 Fable 要通过双重分差门槛，同家族改判则要求候选足够接近且得到风格头支持。",
+      "takeaway": "把额外推理拆成两个可分别检验的问题：固定预算下先复评哪些样本，以及拿到新证据后哪些样本值得改判。",
+      "steps": [
+        {
+          "title": "在正式评分重跑中计算 WeMM 成员分数",
+          "titleEN": "Compute WeMM Member Scores During the Scoring Rerun",
+          "body": "这段代码面向完整的 4,000 行 `test.csv`，只在非 `FAST_COMMIT` 分支执行。它查找 WeMM-4B 工作脚本、模型资产和基础模型配置，并检查基础模型已挂载。配置为 `V8_FOLDS = '0,1'`，使用 5 折中的 2 折，并设置 `V8_W = 0.20`。",
+          "bodyEN": "This code targets the full 4,000-row `test.csv` and runs only outside `FAST_COMMIT`. It locates the WeMM-4B worker, model assets, and base model configuration, and checks that the base model is attached. It sets `V8_FOLDS = '0,1'` to use 2 of 5 folds and sets `V8_W = 0.20`.",
+          "reference": "Cell 49",
+          "why": "作者用较少的折来降低评分重跑的开销，并注明该成员只用官方训练集训练。",
+          "whyEN": "The author uses fewer folds to reduce scoring-rerun cost and notes that this member was trained only on the official training data.",
+          "limit": "需要挂载对应的脚本、资产和基础模型；`FAST_COMMIT` 不运行这段代码。原文没有报告该权重或选用这两折对准确率的独立收益。",
+          "limitEN": "The worker, assets, and base model must be attached; `FAST_COMMIT` does not execute this block. The source does not isolate the accuracy benefit of this weight or of using these two folds.",
+          "source": 0
+        },
+        {
+          "title": "固定预算，提高 Fable 候选的复评优先级",
+          "titleEN": "Raise Fable Candidates in the Rescoring Queue Without Increasing the Budget",
+          "body": "输入是基础集成给出的混合概率质量 `mass` 和 Fable 的概率质量 `fable_mass`。原排序只按 `mass` 排，新排序在它上面加 `0.35 * min(fable_mass, mass)`。这一项最多把排序分数提高到原来的 `1.35x`，不改变似然阶段的预算。",
+          "bodyEN": "The inputs are the base ensemble's blended probability mass `mass` and the Fable probability mass `fable_mass`. The old ranking uses `mass` alone, while the new ranking adds `0.35 * min(fable_mass, mass)`. This term raises the ranking score by at most `1.35x` without changing the likelihood-stage budget.",
+          "reference": "Cell 4",
+          "why": "似然阶段只能读取部分测试文本。作者让基础集成已经偏向 Fable 的文本更容易进入队列前部，以针对这个低召回类别。",
+          "whyEN": "The likelihood stage can read only a fraction of the test passages. The author moves passages the base ensemble already leans toward calling Fable up the queue to target this low-recall class.",
+          "limit": "加成改变的是复评顺序，不是最终类别。原文没有单独报告这项排序加成的折外收益。",
+          "limitEN": "The bonus changes the rescoring order, not the final label. The source does not report a separate out-of-fold gain for this ranking bonus.",
+          "source": 0
+        },
+        {
+          "title": "按剩余时间只复评队列前部",
+          "titleEN": "Rescore Only the Head of the Queue Within the Remaining Time",
+          "body": "V1 阶段读取 S10 写出的预测和 `final-logits.npz`，按 `--select-classes` 指定的两个 GLM 类别的概率质量为文本排序。它从队列前端取剩余时间允许处理的样本，覆盖率不超过 `--max-cover`。如果能处理的文本少于 `--min-texts`，就停止复评并保留 S10 的预测。",
+          "bodyEN": "The V1 stage reads S10's predictions and `final-logits.npz`, then ranks passages by the probability mass of the two GLM classes specified by `--select-classes`. It takes as many passages from the head of the queue as the remaining time allows, subject to `--max-cover`. If fewer passages than `--min-texts` fit, it stops rescoring and keeps S10's predictions.",
+          "reference": "Cell 45",
+          "why": "原文指出，S10 之后剩余的时间不足以对全量测试集做似然评分，而该成员的收益几乎都来自区分 `glm-5.3` 和 `glm-5.3-flash`。",
+          "whyEN": "The source says there is not enough time after S10 to score the full test set and that nearly all of this member's gain comes from distinguishing `glm-5.3` from `glm-5.3-flash`.",
+          "limit": "实际覆盖率受剩余时间和覆盖上限共同约束。训练集上的折外覆盖率对照不保证测试集上也有相同的收益。",
+          "limitEN": "Actual coverage depends on both the remaining time and the coverage cap. The out-of-fold coverage comparison on training data does not guarantee the same gains on test data.",
+          "source": 0
+        },
+        {
+          "title": "用导出的逻辑回归读取 GLM 似然特征",
+          "titleEN": "Apply Exported Logistic Regression to GLM Likelihood Features",
+          "body": "对已评分的文本，似然成员用 NumPy 执行导出的逻辑回归。模型 JSON 可以通过 `prefix`、`user_template` 和 `prefix_rows` 指定计算特征时使用的 GLM 前缀、逐文本用户轮模板及前缀行数。没有这些字段时，回退到 S12 的前缀和 13 行设置。",
+          "bodyEN": "For scored passages, the likelihood member runs an exported logistic regression in NumPy. The model JSON can specify the GLM prefix, per-passage user-turn template, and prefix row count used to compute the features through `prefix`, `user_template`, and `prefix_rows`. When those fields are absent, it falls back to the S12 prefix and 13 rows.",
+          "reference": "Cell 45",
+          "why": "把前缀设置随模型一起保存，能让推理沿用计算似然特征时的输入格式，同时兼容没有这些字段的旧模型。",
+          "whyEN": "Keeping the prefix settings with the model lets inference reuse the input format used to compute likelihood features while remaining compatible with older models that lack those fields.",
+          "limit": "复现时应核对前缀和模板是否与模型资产匹配，不应把 13 行当成所有模型的固定值。原文没有单独验证不同前缀设置的收益。",
+          "limitEN": "Check that the prefix and template match the model assets rather than treating 13 rows as universal. The source does not isolate the benefit of different prefix settings.",
+          "source": 0
+        },
+        {
+          "title": "为 GLM 改判 Fable 设置两道分差门槛",
+          "titleEN": "Require Two Margin Thresholds for a GLM-to-Fable Switch",
+          "body": "`fable_return` 接收基础分数 `base`、更新后分数 `post` 和类别列表。它分别计算 `before` 和 `after`，即 `claude-fable-5` 的分数减去两个 GLM 类别中较高的分数。只有基础首选是 GLM、更新后首选是 Fable，且 `after - before >= .30` 和 `after >= .25` 同时成立时，才允许这类改判。",
+          "bodyEN": "`fable_return` takes base scores `base`, updated scores `post`, and the label list. It computes `before` and `after` as the score for `claude-fable-5` minus the higher score of the two GLM classes. It allows the switch only if the base winner is a GLM class, the updated winner is Fable, and both `after - before >= .30` and `after >= .25` hold.",
+          "reference": "Cell 53",
+          "why": "仅仅换了首选还不够：两道门槛要求 Fable 相对 GLM 的分差既有足够大的改善，也有足够大的最终领先。",
+          "whyEN": "A change of winner is not enough: the two thresholds require both a sufficiently large improvement in Fable's margin over GLM and a sufficiently large final lead.",
+          "limit": "这条规则只允许从两个指定 GLM 类别改判为 `claude-fable-5`。原文没有单独验证两个门槛的收益。",
+          "limitEN": "This rule only permits switches from the two specified GLM classes to `claude-fable-5`. The source does not separately validate the benefit of the two thresholds.",
+          "source": 0
+        },
+        {
+          "title": "仅在接近且有风格证据的同家族候选之间改判",
+          "titleEN": "Switch Only Between Close Sibling Candidates With Style-Head Support",
+          "body": "`sibling_agreement` 使用原预测、似然投票、细化后的前两名分数以及风格头的选择。它要求似然投票不同于原预测，且指向细化排名的第二名；前两名必须属于同一个家族，家族限于 `claude`、`gpt` 和 `gemini`。细化排名的第一名与第二名的分差还必须不超过 `np.log(2.)`，且 `style_winners[row,vote]` 必须等于 `vote`。",
+          "bodyEN": "`sibling_agreement` uses the original prediction, the likelihood vote, the top two refined scores, and the style head's choice. The likelihood vote must differ from the original prediction and point to the refined runner-up, and the top two refined labels must belong to the same family, restricted to `claude`, `gpt`, and `gemini`. The refined winner-to-runner-up gap must be at most `np.log(2.)`, and `style_winners[row,vote]` must equal `vote`.",
+          "reference": "Cell 53",
+          "why": "作者把同家族改判限制在原本就难以区分的候选上，并要求风格头支持似然投票。",
+          "whyEN": "The author restricts within-family switches to candidates that are already close and requires the style head to support the likelihood vote.",
+          "limit": "门槛作用于 `refined` 分数差，不应直接套用到概率差；风格头也必须按同一行和类别索引对齐。原文未单独量化这条规则的收益。",
+          "limitEN": "The threshold applies to the gap in `refined` scores, not directly to a probability gap, and the style head must use aligned row and label indices. The source does not quantify the rule's standalone benefit.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "模型集成",
+        "预算约束下的似然复评分",
+        "逻辑回归",
+        "分差门控",
+        "LoRA"
+      ],
+      "fingerprint": "ed6a65c7565e8daad37edde7deb0157d11de567db8d49e5de5b367ff2e9c7b65",
+      "llmReview": {
+        "lastAttempt": "2026-11-26T02:31:54Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记给出了可复用的集成方法：按类条件概率/似然比排队选择性打分、同族兄弟类别的决策规则（含可检视的 numpy 阈值实现）以及 WeMM 成员的分折推理与权重融合，读者可据此追溯选择与融合决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "Identify the Generating Model from Text: Budgeted Rescoring and Guarded Overrides",
+      "summaryEN": "The task is to identify which of eighteen language models generated a passage using only the text, with balanced accuracy as the evaluation metric. Prompt-grouped out-of-fold evaluation showed that the base ensemble had substantially lower recall for Fable and the two GLM classes than the mean across all classes. Because computing GLM likelihoods for each passage is expensive, the author prioritizes rows for rescoring and uses logistic regression to turn likelihood features into a classification signal. The decision rules do not accept the likelihood prediction outright: switching from GLM to Fable requires passing two margin thresholds, while a within-family switch requires a close contest and agreement from the style head.",
+      "takeawayEN": "Separate extra inference into two questions you can test independently: which rows to rescore under a fixed budget, and which predictions to change once you have new evidence.",
+      "exercise": {
+        "zh": "用按提示词分组的折外预测做一次固定预算对照：分别按 `mass` 和 `mass + 0.35 * min(fable_mass, mass)` 排序，每种排序选择相同数量的文本复评，并保持似然模型和改判规则不变。记录两种队列选中的真实 Fable 和 GLM 样本数，再比较三个类别的召回率与整体平衡准确率，区分「选到了更多目标样本」和「最终改对了更多样本」。",
+        "en": "Run a fixed-budget comparison on prompt-grouped out-of-fold predictions: rank rows by `mass` and by `mass + 0.35 * min(fable_mass, mass)`, rescore the same number of passages under each ranking, and keep the likelihood model and override rules fixed. Count the true Fable and GLM passages selected by each queue, then compare recall for the three classes and overall balanced accuracy to distinguish selecting more target passages from correcting more predictions."
+      },
+      "findings": [
+        {
+          "claim": "`claude-fable-5`、`glm-5.3` 和 `glm-5.3-flash` 的折外召回率分别为 0.248、0.300 和 0.320，均低于十八个类别的平均召回率 0.550。",
+          "claimEN": "Out-of-fold recall for `claude-fable-5`, `glm-5.3`, and `glm-5.3-flash` was 0.248, 0.300, and 0.320, respectively, all below the eighteen-class mean recall of 0.550.",
+          "setup": "使用同一次包含六个阅读器的折外运行，对照三个类别的逐类召回率与十八类平均召回率；折按提示词分组。",
+          "setupEN": "The three per-class recalls and the eighteen-class mean come from the same out-of-fold run of the six readers, with folds grouped by prompt.",
+          "reference": "Cell 4",
+          "source": 0,
+          "caveat": "原文未给出折数、随机种子、逐类样本量或误差估计。",
+          "caveatEN": "The source does not report the fold count, random seeds, per-class sample sizes, or uncertainty estimates.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Recall",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "claude-fable-5",
+                "en": "claude-fable-5"
+              },
+              {
+                "zh": "glm-5.3",
+                "en": "glm-5.3"
+              },
+              {
+                "zh": "glm-5.3-flash",
+                "en": "glm-5.3-flash"
+              },
+              {
+                "zh": "十八类平均",
+                "en": "Eighteen-class mean"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "折外召回率",
+                  "en": "OOF recall"
+                },
+                "values": [
+                  {
+                    "text": "0.248",
+                    "value": 0.248
+                  },
+                  {
+                    "text": "0.300",
+                    "value": 0.3
+                  },
+                  {
+                    "text": "0.320",
+                    "value": 0.32
+                  },
+                  {
+                    "text": "0.550",
+                    "value": 0.55
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "在报告的训练集折外对照中，复评 15 % 的文本带来 +0.030，复评 20 % 带来 +0.0315，全量复评带来 +0.029。三档中，20 % 覆盖的增益最大。",
+          "claimEN": "In the reported training-set out-of-fold comparison, rescoring 15 % of passages gave +0.030, rescoring 20 % gave +0.0315, and rescoring all passages gave +0.029. The 20 % setting had the largest gain of the three.",
+          "setup": "在 S10 之后的 GLM 似然阶段，比较按两个 GLM 类别的概率质量排序后复评队列前 15 %、前 20 % 和全部文本的结果。",
+          "setupEN": "For the post-S10 GLM likelihood stage, the comparison uses the top 15 %, the top 20 %, and all passages from the queue ranked by probability mass for the two GLM classes.",
+          "reference": "Cell 45",
+          "source": 0,
+          "caveat": "原文未提供这项对照的折数、种子或误差估计，因此不能判断三档之间的差异是否稳定。",
+          "caveatEN": "The source does not provide fold counts, seeds, or uncertainty estimates for this comparison, so it does not establish whether the differences are stable.",
+          "chart": {
+            "kind": "line",
+            "unit": "OOF score gain",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "15 % 覆盖",
+                "en": "15 % coverage"
+              },
+              {
+                "zh": "20 % 覆盖",
+                "en": "20 % coverage"
+              },
+              {
+                "zh": "全量覆盖",
+                "en": "Full coverage"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "折外分数增益",
+                  "en": "OOF score gain"
+                },
+                "values": [
+                  {
+                    "text": "+0.030",
+                    "value": 0.03
+                  },
+                  {
+                    "text": "+0.0315",
+                    "value": 0.0315
+                  },
+                  {
+                    "text": "+0.029",
+                    "value": 0.029
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kernelID": 147423045,
+      "id": "k-374059971",
+      "competitionID": "google-verifiable-quantum-circuit-compilation",
+      "originalTitle": "VQCC 33.24213 verified public set",
+      "author": "Ghazaros Barseghyan",
+      "published": "2026-11-25T17:28:49.427Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 364,
+        "teams": 3741,
+        "score": "33.24213",
+        "checked": "2026-11-26T02:31:54Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/ghazarosbarseghyan91/vqcc-33-24213-verified-public-set?scriptVersionId=374059971"
         },
         {
           "title": "公开排行榜",
           "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard"
         }
       ],
-      "title": "VQCC 33.21180 verified public set",
+      "title": "VQCC 33.24213 verified public set",
       "summary": "成绩已核验，原文保留在索引中。",
       "takeaway": "打开原文查看作者提交的资料。",
       "steps": [],
@@ -4934,14 +5326,14 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "b7a000ed9ebc1ce9e4172adc80952d99d7784f2e5f02377188d4d710310c0bff",
+      "fingerprint": "5ecd739818f73aeedb1127cb65be66a5a746a34dd36ee9cdde6f1a1ba7a73499",
       "llmReview": {
-        "lastAttempt": "2026-11-25T18:15:08Z",
+        "lastAttempt": "2026-11-26T02:31:54Z",
         "screenedBy": {
           "provider": "deepseek",
           "model": "deepseek-v4-flash"
         },
-        "reason": "该笔记本仅作为导入的外部提交包的包装器：它通过哈希查找已提交的 submission.zip、解压、运行官方验证器，并重新打包。它没有展示可复用的建模、优化或电路编译方法；量子方案本身是不透明导入的二进制文件（.kmb/.npz）。",
+        "reason": "该笔记本仅通过哈希校验和调用导入的验证器重放他人提交，没有可复用、可解释的建模或优化方法，属于不透明导入提交。",
         "status": "skipped"
       },
       "summaryEN": "The result is verified. The original source is indexed.",
@@ -4957,9 +5349,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11133,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -4990,9 +5382,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1359,
+        "teams": 1361,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5062,7 +5454,7 @@
         "rank": 5,
         "teams": 71,
         "score": "0.98035",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5095,9 +5487,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5128,9 +5520,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1359,
+        "teams": 1361,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5197,10 +5589,10 @@
       "published": "2020-10-31T05:48:20Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5265,10 +5657,10 @@
       "published": "2021-02-25T22:49:23.013Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5299,9 +5691,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11133,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5336,9 +5728,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5370,10 +5762,10 @@
       "published": "2021-05-10T03:45:17.967Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5404,9 +5796,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11133,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5440,10 +5832,10 @@
       "published": "2021-09-12T18:41:03.377Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5475,10 +5867,10 @@
       "published": "2021-09-16T12:43:10.550Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5511,9 +5903,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11133,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5563,10 +5955,10 @@
       "published": "2021-09-18T08:12:32.910Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5597,9 +5989,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11133,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5675,7 +6067,7 @@
       ],
       "readingMode": "code",
       "fingerprint": "f3e31b9e3c0e72fe5b4926ca94d937ebe70a08086751e014f3100c8ef7ec51b4",
-      "stale": false
+      "stale": true
     },
     {
       "kernelID": 21003177,
@@ -5687,9 +6079,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11153,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-24T09:56:25Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5710,7 +6102,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "19181a57fb46f0a2ab06b1919dd64fca7a25bc8461329a29fa1e951767449533",
-      "stale": true
+      "stale": false
     },
     {
       "id": "k-78027906",
@@ -5743,7 +6135,7 @@
       "steps": [],
       "fingerprint": "ae0ace7ca26543c71822718f42952191deab8626de508f97c6fd8f0b00f631dc",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 21526318,
       "originalTitle": "Titanic - Machine Learning from Disaster"
     },
@@ -5756,10 +6148,10 @@
       "published": "2021-10-26T06:00:00.540Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5792,9 +6184,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 672,
+        "teams": 671,
         "score": "1",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5858,9 +6250,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11153,
+        "teams": 11089,
         "score": "1",
-        "checked": "2026-11-24T09:56:25Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -5881,7 +6273,7 @@
       "steps": [],
       "fingerprint": "47cc6be3145212da2166a6cb0425fcc8b790ceac0a35101a090ae23dde5ce461",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 22548626,
       "originalTitle": " Auto EDA "
     },
@@ -5949,7 +6341,7 @@
       "steps": [],
       "fingerprint": "161b17174a8c75cb1bad7b5bc2e871bd342cd2e9c38a2005c7e87b78391b7e5a",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 24208582,
       "originalTitle": "※ Titanic - Real 1.0"
     },
@@ -5961,10 +6353,10 @@
       "published": "2022-05-29T07:03:03.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 56,
-        "teams": 4716,
+        "rank": 57,
+        "teams": 4711,
         "score": "0.00044",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6273,6 +6665,9 @@
       "exercise": {
         "zh": "把一段声景的时间轴与模型输出对齐，选一个高置信鸟鸣段和一个背景噪声段听一遍。伪标签来自模型本身，可能把噪声也当成鸟。固定训练轮数和验证录音，只改变是否加入伪标签；同时检查安静段误报与各物种 AUC。",
         "en": "Align a soundscape with the model’s time-indexed predictions. Listen to one confident call and one background segment. Pseudo-labels come from a model that can mistake noise for a bird. Hold training epochs and validation recordings fixed, toggle pseudo-labels, and track quiet-segment false positives alongside per-species AUC."
+      },
+      "llmReview": {
+        "lastDeepen": "2026-11-26T02:31:54Z"
       }
     },
     {
@@ -6286,7 +6681,7 @@
         "rank": 3,
         "teams": 3947,
         "score": "0.96714",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6298,16 +6693,232 @@
           "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard"
         }
       ],
-      "title": "3rd Place Solution",
-      "summary": "获奖队伍已公开赛后复盘，最终名次已与队伍记录核对。",
-      "takeaway": "先阅读作者的验证设计与模型选择，再对照最终成绩。",
+      "title": "从稀疏标注到谱系图：三维细胞检测与跟踪",
+      "summary": "这项任务要求在三维时序图像中定位细胞中心，并恢复细胞的连续轨迹与分裂关系。训练标注只覆盖约 2.8% 的细胞，因此未标注的可见细胞不能直接当作背景。作者用候选中心掩蔽不确定背景，集成检测热图，再用三维位移场补偿运动，为跨帧匹配和分裂识别提供依据。最后，作者校准候选分数，在谱系图中联合选择普通连接和分裂事件，避免先固定普通连接而占用正确的子细胞。",
+      "takeaway": "把未标注的细胞与真正的负样本区分开，并让普通连接与分裂事件在同一张图里竞争。解读消融时，A3 的增益应归于同时引入的一组改动，而不是某个单独模块。",
       "tags": [
-        "Writeup"
+        "Difference of Gaussians",
+        "Heatmap Ensembling",
+        "Dense Flow",
+        "Learned Cell Matching",
+        "Lineage Graph Optimization"
       ],
-      "steps": [],
-      "awaitingExplanation": true,
+      "steps": [
+        {
+          "title": "用 DoG 掩蔽不确定背景",
+          "titleEN": "Mask Uncertain Background with DoG",
+          "body": "以已标注的细胞中心为输入，在每个中心放置标准差为 2 µm 的高斯，生成目标热图。用低阈值的高斯差分（DoG）从图像中提取候选中心，并将未匹配候选中心周围 6 µm 内的区域排除在损失之外。距离已标注中心 2 µm 以内的候选视为重复，不生成排除区域。即使标注中心周围的正样本区域与排除区域重叠，也保留正样本监督。",
+          "bodyEN": "Use the annotated cell centers to build a target heatmap, placing a Gaussian with a standard deviation of 2 µm at each center. Extract candidate centers from the images with a low-threshold Difference of Gaussians (DoG) detector and exclude regions within 6 µm of unmatched candidates from the loss. Treat candidates within 2 µm of an annotated center as duplicates that do not create exclusion regions. Keep positive regions supervised even when they overlap an exclusion region.",
+          "reference": "### Training with sparse annotations",
+          "why": "直接对稀疏热图计算 MSE 会训练模型在未标注细胞处输出零；掩蔽让这些位置不再被当作确定的负样本。",
+          "whyEN": "Applying MSE directly to the sparse heatmap would train the model to predict zero at unlabeled cells. Masking keeps these locations from being treated as definite negatives.",
+          "limit": "DoG 候选只用于掩蔽，不是正样本伪标签。原文未给出 DoG 的具体阈值，也未单独量化掩蔽收益。",
+          "limitEN": "DoG candidates are used only for masking, not as positive pseudo-labels. The write-up gives neither the exact DoG threshold nor an isolated measurement of the masking benefit.",
+          "source": 0
+        },
+        {
+          "title": "估计连续帧之间的三维位移场",
+          "titleEN": "Estimate 3D Displacement Between Consecutive Frames",
+          "body": "输入相邻的两帧三维图像，按 `(z, y, x) = (1, 4, 4)` 下采样，得到间距为 1.625 µm 的各向同性网格。小型三维编码器—解码器通过局部相关性和 soft-argmax 得到初始位移，再用残差预测细化；编码器通道数为 32、64、128，不使用归一化层。在真实图像对上，训练结合变形后的图像与局部特征一致性、前后向一致性和平滑损失。在通过已知平移和平滑形变生成的合成图像对上，直接监督位移。",
+          "bodyEN": "Take two consecutive 3D images and downsample by `(z, y, x) = (1, 4, 4)` to obtain an isotropic grid with 1.625 µm spacing. A small 3D encoder-decoder uses local correlation and soft-argmax for an initial displacement, then refines it with a residual prediction; the encoder uses 32, 64, and 128 channels without normalization layers. On real pairs, training combines warped image and local feature consistency, forward-backward consistency, and smoothness losses. On synthetic pairs generated with known translations and smooth deformations, supervise displacement directly.",
+          "reference": "### A1: Dense flow",
+          "why": "细胞既有个体运动，也有集体运动；位移场为每个细胞提供下一帧位置的估计。",
+          "whyEN": "Cells move both individually and collectively, so the displacement field estimates where each cell will be in the next frame.",
+          "limit": "标注连接用于端点误差评估和检查点选择，不进入训练损失。复现时应区分下采样网格和原始体素网格。",
+          "limitEN": "Annotated links are used for endpoint-error evaluation and checkpoint selection, not in the training loss. Keep the downsampled grid distinct from the original voxel grid when reproducing the method.",
+          "source": 0
+        },
+        {
+          "title": "用学习式匹配筛选跨帧候选",
+          "titleEN": "Filter Cross-Frame Candidates with Learned Matching",
+          "body": "训练时，以能与标注细胞匹配的检测点为锚点，用标注边构造双向交叉熵的目标。未标注细胞仍参与候选竞争，但不因缺少标注就被当作无匹配目标。对分裂母细胞，分别为每个子细胞构造目标，并从该目标的负样本集合中排除另一个子细胞。筛选普通连接时，保留匹配器概率前五且运动补偿后距离不超过 12 µm 的候选，并将排名、正反向概率及相对竞争候选的分数差传给下一阶段。",
+          "bodyEN": "During training, use detections matched to annotated cells as anchors and annotated edges as targets for bidirectional cross-entropy. Unlabeled cells remain competing candidates, but missing annotation does not make them null targets. For a dividing parent, build a target for each daughter and exclude the other daughter from its negative set. For ordinary links, retain candidates among the matcher's top five probabilities whose motion-compensated distance is at most 12 µm, and pass their ranks, forward and reverse probabilities, and margins over competing candidates to the next stage.",
+          "reference": "### A2: Cell matching",
+          "why": "这一步缩小跨帧候选范围，同时避免把未标注的连接当作无匹配，或把真实的另一个子细胞当作负样本。",
+          "whyEN": "This narrows the cross-frame candidate set without treating unlabeled links as null matches or penalizing the other true daughter as a negative.",
+          "limit": "候选筛选不是最终连边。A2 同时改变了筛选策略和匹配打分，原文未报告两者各自的收益。",
+          "limitEN": "Candidate filtering does not select the final links. A2 changes both filtering and matching scores, and the write-up does not isolate their individual effects.",
+          "source": 0
+        },
+        {
+          "title": "结合原始与对齐图像识别分裂母细胞",
+          "titleEN": "Identify Dividing Parents from Original and Aligned Images",
+          "body": "对时间 t 的检测细胞，主母细胞模型使用三个时间点的三维图像。将相邻帧对齐到中央帧，同时保留相邻帧的原始图像。输入顺序为：原始 t−1、对齐到 t 的 t−1、t、对齐到 t 的 t+1、原始 t+1。模型预测该细胞是否会在下一帧分裂为两个子细胞；其输出与匹配分数及子细胞几何信息结合，由图优化选择具体连接。",
+          "bodyEN": "For a detected cell at time t, the main parent model uses 3D images from three time points. Align the neighboring frames to the central frame while retaining the original neighboring images. The input order is original t−1, t−1 aligned to t, t, t+1 aligned to t, and original t+1. The model predicts whether the cell will split into two daughters in the next frame; its output is combined with matching scores and daughter geometry, and graph optimization selects the actual connections.",
+          "reference": "## 5. Division Identification (A3)",
+          "why": "普通运动和分裂都会改变局部外观；对齐有助于区分二者，而保留原始图像是因为单个位移场不能完整表示一对二分裂。",
+          "whyEN": "Both ordinary motion and division change local appearance. Alignment helps distinguish them, while original images are retained because a single displacement field cannot fully represent a one-to-two split.",
+          "limit": "母细胞分数不是对子细胞组合的最终判定。原文未单独量化加入对齐图像的收益。",
+          "limitEN": "The parent score does not determine the final daughter pair. The write-up does not isolate the benefit of adding aligned images.",
+          "source": 0
+        },
+        {
+          "title": "在谱系图中联合选择连边与分裂",
+          "titleEN": "Select Links and Divisions Jointly in the Lineage Graph",
+          "body": "以候选节点、普通连接和分裂事件为输入，联合决定保留哪些节点、普通连接和子细胞对。每个细胞最多有一个母细胞，也最多有一个出向事件，即普通连接或分裂。选择分裂时必须同时选中两个子细胞，并要求分裂母细胞有一条普通入边、每个子细胞有一条普通出边。子细胞不能在紧接着的下一帧转换中再次分裂。",
+          "bodyEN": "Given candidate nodes, ordinary links, and division events, jointly choose which nodes, ordinary links, and daughter pairs to retain. Each cell has at most one parent and at most one outgoing event, either an ordinary link or a division. Selecting a division requires selecting both daughters together, with an ordinary incoming link for the dividing parent and an ordinary outgoing link for each daughter. A daughter cannot divide again at the immediately following frame boundary.",
+          "reference": "### Selecting links and divisions jointly",
+          "why": "如果先固定普通连接，正确的子细胞可能被分给另一个母细胞，使有效分裂无法加入；联合优化让两类事件同时竞争。",
+          "whyEN": "Fixing ordinary links first can assign a true daughter to another parent and block a valid division. Joint optimization lets both event types compete at the same time.",
+          "limit": "对分裂前后轨迹的要求依赖本数据集的时间分辨率。原文未将联合优化从分裂建模、校准等同时发生的改动中单独拆开验证。",
+          "limitEN": "The track requirements around divisions depend on this dataset's temporal resolution. The write-up does not isolate joint optimization from the concurrent introduction of division modeling, calibration, and other changes.",
+          "source": 0
+        },
+        {
+          "title": "固定谱系连接，仿射细化检测坐标",
+          "titleEN": "Refine Detection Coordinates with Affine Motion While Holding Links Fixed",
+          "body": "输入已有谱系图及检测坐标，保持图连接不变。对每对相邻帧，用普通连接拟合根据位置预测位移的仿射模型。用二次优化在运动一致性与贴近原坐标之间权衡，并用经校准的条件正确概率为连接加权。固定分裂母细胞、子细胞、缺口端点及插值节点；其余细化坐标取整到体素，拒绝越界或导致同帧坐标碰撞的改动。",
+          "bodyEN": "Start with the existing lineage graph and detection coordinates, and keep graph connections fixed. For each pair of consecutive frames, fit an affine model on ordinary links to predict displacement from position. Use quadratic optimization to balance motion consistency against staying close to the original coordinates, weighting links by their calibrated conditional probabilities of being correct. Hold dividing parents, daughters, gap endpoints, and interpolated nodes fixed; round other refined positions to integer voxel coordinates and reject changes that go out of bounds or cause within-frame coordinate collisions.",
+          "reference": "### A6: Affine refinement of detected coordinates",
+          "why": "即使连边正确，定位抖动仍可能影响与标注点的匹配；这一步在不改拓扑的情况下细化位置。",
+          "whyEN": "Even with correct links, localization jitter can affect matching to ground-truth points. This step refines locations without changing graph topology.",
+          "limit": "拟合依赖已有的普通连接，不能修正错误连边，也不改变节点数量。",
+          "limitEN": "The fit depends on existing ordinary links. It cannot correct wrong links and does not change the node count.",
+          "source": 0
+        }
+      ],
       "fingerprint": "eeca4b5dee0fc44f409bf93e74e096398dc69fbed1beb5db34a39f159bef1cfe",
-      "stale": false
+      "stale": false,
+      "llmReview": {
+        "lastAttempt": "2026-11-26T02:31:54Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该方案详述了可复用的细胞检测、密集光流、匹配与分裂识别及联合图优化的多阶段流程，并提供了稀疏标注下的损失掩码策略、候选校准与消融表，读者可据此追溯建模与验证决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "From Sparse Annotations to Lineage Graphs: 3D Cell Detection and Tracking",
+      "summaryEN": "The task is to locate cell centers in time-lapse 3D images and reconstruct both continuous tracks and cell divisions. Training annotations cover only about 2.8% of cells, so visible but unlabeled cells cannot simply be treated as background. The authors used candidate centers to mask uncertain background, ensembled detection heatmaps, and estimated a 3D displacement field to support motion-compensated matching and division recognition. Finally, they calibrated candidate scores and selected ordinary links and divisions jointly in a lineage graph so that fixing ordinary links first would not claim the correct daughters.",
+      "takeawayEN": "Distinguish unlabeled cells from true negatives, and let ordinary links and divisions compete in the same graph. When interpreting the ablation, attribute the A3 gain to the bundle of changes introduced together, not to a single module.",
+      "exercise": {
+        "zh": "用同一批折外检测复现 A0 和 A1。固定 7 µm 距离门限、视频划分和评分实现；A0 只做漂移校正，A1 先用流场移动源坐标，再估计残余漂移。分别记录调整后边 Jaccard，并抽查两种方法选出不同连接的帧对：确认位移与距离计算使用一致的坐标单位，再观察流场是否纠正了集体漂移未能解释的局部运动。",
+        "en": "Reproduce A0 and A1 with the same out-of-fold detections. Keep the 7 µm distance gate, video folds, and scoring implementation fixed. Apply drift correction alone in A0; in A1, move the source coordinates with the flow field before estimating residual drift. Record adjusted edge Jaccard for each run and inspect frame pairs where the selected links differ. Check that displacement and distance use consistent coordinate units, then see whether flow corrects local motion that collective drift cannot explain."
+      },
+      "findings": [
+        {
+          "claim": "加入稠密流后，总分从 0.890211 升至 0.901919；再加入匹配器的候选筛选与打分，总分为 0.901953。三个配置都不预测分支。",
+          "claimEN": "Adding dense flow raised the total score from 0.890211 to 0.901919. Adding matcher-based filtering and scoring brought it to 0.901953. None of the three configurations predicts branches.",
+          "setup": "比较 A0 的漂移校正加匈牙利分配、A1 加入稠密流运动补偿，以及 A2 加入匹配器候选筛选与对应打分。固定初始折外检测、视频、折划分和评分实现。",
+          "setupEN": "Compare A0 with drift-corrected Hungarian assignment, A1 adding dense-flow motion compensation, and A2 adding matcher-based candidate filtering and correspondence scores. The starting out-of-fold detections, videos, folds, and scoring implementation are fixed.",
+          "reference": "## 8. Submission and Results",
+          "source": 0,
+          "caveat": "按视频做五折验证，共 199 个训练视频；同一胚胎的裁剪可能跨折重叠。",
+          "caveatEN": "Five-fold video-level validation covers 199 training videos; crops from the same embryo can overlap across folds.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Total score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "A0：漂移校正",
+                "en": "A0: Drift correction"
+              },
+              {
+                "zh": "A1：加入稠密流",
+                "en": "A1: Add dense flow"
+              },
+              {
+                "zh": "A2：加入学习式匹配",
+                "en": "A2: Add learned matching"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "总分",
+                  "en": "Total score"
+                },
+                "values": [
+                  {
+                    "text": "0.890211",
+                    "value": 0.890211
+                  },
+                  {
+                    "text": "0.901919",
+                    "value": 0.901919
+                  },
+                  {
+                    "text": "0.901953",
+                    "value": 0.901953
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "联合优化后的 A3 总分为 0.964493，逐步加入后处理后，A7 达到 0.977801。删除短组件时，总分上升，但分裂 Jaccard 从 0.534759 降至 0.531915。",
+          "claimEN": "A3 scored 0.964493 after joint optimization, and the successive post-processing steps brought A7 to 0.977801. Removing short components increased the total score but reduced Division Jaccard from 0.534759 to 0.531915.",
+          "setup": "以 A3 的分裂建模、校准和联合优化配置为起点，依次加入缺口补全、删除少于六个节点的组件、细化检测坐标和细化插值坐标。各配置使用相同的初始折外检测、视频、折划分和评分实现，但可保留、插入或移动不同节点。",
+          "setupEN": "Start from A3 with division modeling, calibration, and joint optimization, then successively add gap closing, removal of components with fewer than six nodes, detected-coordinate refinement, and interpolated-coordinate refinement. The configurations share the same starting out-of-fold detections, videos, folds, and scoring implementation, but can retain, insert, or move different nodes.",
+          "reference": "## 8. Submission and Results",
+          "source": 0,
+          "caveat": "按视频做五折验证，共 199 个训练视频。改动是累加的，表中未报告标准误。",
+          "caveatEN": "Five-fold video-level validation covers 199 training videos. Changes are cumulative, and the table reports no standard errors.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Total score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "A3：联合优化",
+                "en": "A3: Joint optimization"
+              },
+              {
+                "zh": "A4：补全缺口",
+                "en": "A4: Close gaps"
+              },
+              {
+                "zh": "A5：删除短组件",
+                "en": "A5: Remove short components"
+              },
+              {
+                "zh": "A6：细化检测坐标",
+                "en": "A6: Refine detected coordinates"
+              },
+              {
+                "zh": "A7：细化插值坐标",
+                "en": "A7: Refine interpolated coordinates"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "总分",
+                  "en": "Total score"
+                },
+                "values": [
+                  {
+                    "text": "0.964493",
+                    "value": 0.964493
+                  },
+                  {
+                    "text": "0.969587",
+                    "value": 0.969587
+                  },
+                  {
+                    "text": "0.971297",
+                    "value": 0.971297
+                  },
+                  {
+                    "text": "0.977151",
+                    "value": 0.977151
+                  },
+                  {
+                    "text": "0.977801",
+                    "value": 0.977801
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "w-116017",
@@ -6320,7 +6931,7 @@
         "rank": 2,
         "teams": 3947,
         "score": "0.97041",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6346,42 +6957,62 @@
         {
           "title": "输入与预处理",
           "titleEN": "Input and Preprocessing",
-          "body": "输入为64×256×256三维显微镜图像序列。首先对每帧图像进行强度归一化，并在空间维度上进行1×4×4的块平均下采样，令输入形状变为64×64×64，满足体素的各向同性（voxel spacing均匀）。利用原始高分辨率图像保留后续验证与精修所需信息。",
-          "bodyEN": "The input consists of 64×256×256 3D microscopy volume sequences. Each frame undergoes intensity normalization and then downsampling via 1×4×4 voxel block averaging in Z×Y×X order, resulting in isotropic voxel size and an input shape of 64×64×64. Original high-resolution images are retained for later verification and refinement.",
+          "body": "输入是随时间采集的三维显微图像，每帧的体积形状为 64 × 256 × 256，轴顺序为 Z × Y × X。对每帧做强度归一化，再对 1 × 4 × 4 的体素块取平均，保留全部 64 个深度平面，得到 64 × 64 × 64 的检测输入。体素间距从 1.625 × 0.40625 × 0.40625 μm 变为 1.625 × 1.625 × 1.625 μm，检测器处理完整的下采样体积。预测的位置偏移先在粗网格内细化细胞中心，再将坐标映射回原图；原分辨率图像保留供后续核验。",
+          "bodyEN": "The input is a time series of 3D microscopy images, with each frame shaped 64 × 256 × 256 in Z × Y × X order. Normalize each frame's intensity and average 1 × 4 × 4 voxel blocks, retaining all 64 depth planes to produce a 64 × 64 × 64 detector input. Voxel spacing changes from 1.625 × 0.40625 × 0.40625 μm to 1.625 × 1.625 × 1.625 μm, and the detector processes the entire downsampled volume. Predicted offsets refine cell centers within the coarse grid before mapping them back to the source image, which remains available at its original resolution for later checks.",
           "reference": "## 3. Detection with temporal context",
-          "source": 0
+          "source": 0,
+          "why": "只缩减 X 和 Y 轴，使检测输入达到各向同性间距，同时保留所有深度平面。位置偏移则让中心坐标不必局限在粗网格的格点上。",
+          "whyEN": "Reducing only X and Y gives the detector isotropic spacing while preserving every depth plane. Position offsets let the predicted centers fall between coarse-grid points.",
+          "limit": "复现时不要把 1 × 4 × 4 的平均操作用错轴，也不要混用粗网格坐标、原图像素坐标和物理距离。原文没有单独验证这一预处理的收益。",
+          "limitEN": "Apply the 1 × 4 × 4 averaging on the stated axes, and keep coarse-grid coordinates, source-image pixel coordinates, and physical distances distinct. The write-up does not isolate the benefit of this preprocessing."
         },
         {
           "title": "基于多帧时序上下文的三维检测",
           "titleEN": "3D Detection with Multi-Frame Temporal Context",
-          "body": "采用残差3D U-Net网络，以相邻三帧（t−1, t, t+1）作为输入通道，形状为3×64×64×64。模型预测细胞中心热图、亚体素级位置偏移、上一帧运动向量及其不确定度，以及图像描述符用于时间链接。辅助检测器使用更多帧的时序信息或其他模型赋能探测多样性和鲁棒性。",
-          "bodyEN": "A residual 3D U-Net takes three consecutive frames (t−1, t, t+1) as input channels (shape 3×64×64×64). The model outputs cell center heatmaps, sub-voxel spatial offsets, backward motion vectors with uncertainties, and image descriptors to assist temporal linking. Auxiliary detectors employ more frames or alternative models to enhance detection diversity and robustness.",
+          "body": "主检测器是残差 3D U-Net，接收 t−1、t 和 t+1 的下采样体积，输入形状为 3 × 64 × 64 × 64。它输出细胞中心热图、亚体素位置偏移、带不确定性的反向运动预测，以及用于链接的图像描述子。辅助检测器 V24 也使用三帧上下文，V38 和 V39 则使用五帧。",
+          "bodyEN": "The primary detector is a residual 3D U-Net that takes downsampled volumes at t−1, t, and t+1, with an input shape of 3 × 64 × 64 × 64. It outputs a cell-center heatmap, sub-voxel position offsets, backward motion with uncertainty, and image descriptors for linking. The auxiliary detector V24 also uses three-frame context, while V38 and V39 use five frames.",
           "reference": "## 3. Detection with temporal context",
-          "source": 0
+          "source": 0,
+          "why": "相邻帧既为当前帧的细胞定位提供时序上下文，也让检测器能输出供跟踪器查找前驱的反向运动线索。",
+          "whyEN": "Neighboring frames provide temporal context for locating cells in the current frame and let the detector estimate backward motion that the tracker can use to find predecessors.",
+          "limit": "主检测器需要 t+1，不能原样用于仅能访问当前帧和历史帧的推理。原文没有单独量化时序上下文的收益，也没有在其他条件相同的情况下比较三帧与五帧。",
+          "limitEN": "The primary detector requires t+1, so it cannot run unchanged when only current and past frames are available. The write-up does not isolate the gain from temporal context or compare three-frame and five-frame inputs with other conditions held fixed."
         },
         {
           "title": "合成弱细胞增强及监督设计",
           "titleEN": "Synthetic Faint Cell Augmentation and Supervision Design",
-          "body": "针对稀疏标注及弱信号细胞，采用合成数据增强，将真实标注的细胞轨迹提取后进行信号衰减与模糊处理，插入训练影像的不同区域以形成弱细胞样本，且保持数据分组一致。损失函数设计排除未知区域，分开归一化细胞和背景损失，降低伪负样本影响，提升弱细胞识别能力。",
-          "bodyEN": "To handle sparse annotations and faint cells, synthetic augmentation extracts short isolated cell tracks, dims and blurs them along depth, and blends them into other regions within the same movie, creating weak cell samples while preserving training splits. Loss functions exclude unknown regions and normalize cell and background losses separately to reduce false negatives and enhance faint cell detection.",
+          "body": "训练时将区域分为已标注细胞、依据图像证据识别的背景和未知区域；热图损失忽略未知区域，细胞与背景损失分别归一化。位置和运动损失使用已有的标注目标，监督掩码在亮度增强前生成。从训练影片中提取已标注的孤立真实细胞短轨迹，扣除局部背景，将细胞信号调暗并沿深度方向模糊，再混入同一影片的另一区域。每条插入轨迹持续 5–15 帧，并将位置和链接加入标注。主检测器 V21 每个训练样本使用两种合成变体，辅助检测器 V24 使用四种，之后仅用真实数据微调两个 epoch；两组各有五个模型，每折一个。",
+          "bodyEN": "Training distinguishes annotated cells, background identified from image evidence, and unknown regions; the heatmap loss ignores unknown regions and normalizes cell and background losses separately. Position and motion losses use available annotated targets, and supervision masks are generated before brightness augmentation. Extract short annotated tracks of isolated real cells, subtract their local background, dim and blur the cell signal along depth, then blend it into another region of the same training movie. Each inserted track lasts 5–15 frames, and its positions and links are added to the labels. V21 uses two synthetic variants per training sample, while V24 uses four followed by two epochs of fine-tuning on real data only; each bank has five models, one per fold.",
           "reference": "### 3.1. Sparse supervision and synthetic faint cells",
-          "source": 0
+          "source": 0,
+          "why": "忽略未知区域可避免把漏标细胞直接当作负样本；先生成掩码可避免未标注细胞因亮度增强而被误判为背景。合成轨迹补充带位置和链接标注的弱细胞，同片取材则让供体和宿主留在同一折。",
+          "whyEN": "Ignoring unknown regions prevents missing annotations from automatically becoming negatives, and generating masks first keeps artificially darkened, unannotated cells from becoming background targets. Synthetic tracks add faint examples with position and link labels, while using the same movie keeps donor and host in the same fold.",
+          "limit": "合成增强只用于训练，推理时的弱轨迹恢复复用现有检测结果。原文评估了更换检测器组后的整套流程，但没有单独验证掩码设置或每个合成操作的收益。",
+          "limitEN": "Synthetic augmentation is used only in training; faint-track recovery at inference reuses existing detections. The write-up evaluates detector-bank replacements in the full pipeline but does not isolate the effects of the masking choices or individual synthesis operations."
         },
         {
           "title": "图结构跟踪及细胞分裂识别",
           "titleEN": "Graph-Based Tracking and Division Scoring",
-          "body": "跟踪模块先通过LightGBM模型估计每帧的细胞数，并根据检测置信度及空间约束选择候选细胞，防止重复。利用预测的运动向量提出后继候选，并通过学习链接评分类别特征（距离、运动一致性等）解析前后帧关联。分裂判别器基于几何、外观和时序上下文评估父细胞与两个子细胞，辅助构建合理细胞分裂轨迹。辅助手段包括不同模型生成的候选补充和链接多模型共识，进一步修复图结构。",
-          "bodyEN": "The tracking module uses LightGBM to estimate the number of cells per frame and selects candidates balancing detection confidence and spatial distinctness, suppressing duplicates. Predicted backward motion guides candidate predecessor selection, with learned scorers evaluating link features such as distance and motion consistency to resolve temporal associations. A division scorer evaluates candidate parent-daughter triplets based on geometry, appearance, and temporal context. Auxiliary models provide missing path candidates and consensus on links and divisions to refine the graph.",
+          "body": "跟踪以检测候选和运动预测为输入，由学习得到的计数估计器给出每帧大致保留数量。两个 LightGBM 专用模型分别估计信号微弱程度和候选为细胞的可能性，通过有界排序调整补入空间上分开的候选，同时保留原候选池；跟踪器结合检测置信度和前后帧的潜在链接抑制近邻重复。反向运动用于提出上一帧的前驱，链接评分器结合距离、运动、检测证据和轨迹上下文消解竞争，使普通延续最多有一个前驱和一个后继。分裂评分器结合几何、外观、时序上下文和已有轨迹指派，评估一个母细胞与两个候选子细胞。辅助轨迹为缺失路径和链接或分裂决策提供证据，图像与运动检查可修补单帧缺口；随后按固定顺序过滤不可靠的片段和末端，V507 再细化位置并在每部影片中最多移除一条被高置信度判为错误的分裂链接。",
+          "bodyEN": "Tracking starts from the detection candidates and motion predictions, with a learned count estimator setting an approximate number of cells to keep per frame. Two LightGBM specialists estimate dimness and cell likelihood and use bounded ranking adjustments to add spatially distinct candidates without discarding the original pool; the tracker weighs detection confidence and possible links in both directions to suppress nearby duplicates. Backward motion proposes predecessors in the previous frame, and learned link scorers use distance, motion, detection evidence, and track context to resolve competition so ordinary continuations have at most one predecessor and one successor. A separate division scorer evaluates a parent and two potential daughters using geometry, appearance, temporal context, and competition with existing track assignments. Auxiliary tracks support missing paths and link or division decisions, image and motion checks can bridge one-frame gaps, and unreliable fragments and endings are filtered in a fixed order; V507 then refines positions and removes at most one high-confidence false division link per movie.",
           "reference": "## 4. From candidates to tracks and divisions",
-          "source": 0
+          "source": 0,
+          "why": "候选选择不只看单帧亮度：沿合理路径持续出现的弱候选也能与较亮但孤立的候选竞争。分裂另行评分，是因为潜在子细胞可能已被指派给另一条轨迹。",
+          "whyEN": "Selection does not rely on single-frame brightness alone: a dim candidate on a coherent path can compete with a brighter isolated candidate. Divisions are scored separately because a potential daughter may already be assigned to another track.",
+          "limit": "普通延续的一对一约束不能直接套到分裂上。原文报告了部分修补实验，但没有把计数估计、候选排序和链接评分的收益逐项分离。",
+          "limitEN": "The one-to-one constraint for ordinary continuations should not be applied directly to divisions. The write-up reports some repair experiments but does not separately measure the gains from count estimation, candidate ranking, and link scoring."
         },
         {
           "title": "基于未用检测的细胞轨迹恢复与边界清理",
           "titleEN": "Recovery of Faint Tracks from Unused Detections and Border Cleanup",
-          "body": "检测器输出细胞候选多于跟踪保留。V533方案针对采集组acq_01限制下游，复查未用但排位较高且距离现有轨迹较远超过4.5μm的候选，构建至少连续九帧的移动路径（位置变动≤5μm），并基于原始影像中心与背景对比度阈值（≥0.1）确认有效。恢复路径要求与现有轨迹近邻（≤8μm），可附着至轨迹端点扩展或作为新轨迹独立存在。该过程无需重新运行检测器，无新增标注，无新训练。另有对x/y边界1.5像素内预测及其链路的清理以减少边界伪影。",
-          "bodyEN": "The detector outputs more candidates than the tracker retains. V533 revisits unused, high-ranked candidates more than 4.5 μm from existing predictions (restricted to acquisition group acq_01), links them into persistent paths spanning nine or more consecutive frames with position shifts ≤5 μm per frame, and verifies path validity by median center-to-background contrast ≥0.1 on original images. Candidate paths must be within 8 μm proximity of existing tracks to propose attachments or remain separate if unattached. This recovery does not rerun the detector, access annotations, or retrain models. Additionally, predictions within 1.5 pixels near the x/y frame boundary are removed to reduce boundary artifacts.",
+          "body": "V533 仅在 acq_01 影片中从已保存的检测输出中恢复轨迹：选取排名尚可、与同帧任何现有预测相距超过 4.5 μm 的未用候选，并对近邻候选去重。按相邻帧连接候选，允许每步移动至多 5 μm，要求至少连续九帧且每帧有一个检测。用原分辨率图像比较中心小区域与周围背景，要求路径的中心减背景对比度中位数在归一化强度尺度上超过 0.1，并且至少一帧与某个现有细胞相距不超过 8 μm。合格路径按长度降序处理，尽可能接到相邻帧中 5 μm 内的轨迹起点或终点；若拟议连接会给现有细胞增加额外的母细胞或延续链接，则丢弃该路径，没有拟议连接的合格路径可独立保留。另在所有影片中，删除距每帧非零图像区域的 x/y 包围盒边界不超过 1.5 个原图像素（约 0.61 μm）的预测及其关联链接。",
+          "bodyEN": "V533 recovers tracks only in acq_01 movies, starting from reasonably high-ranked unused detections more than 4.5 μm from every existing prediction in the same frame and thinning nearby candidates. Link candidates in consecutive frames with up to 5 μm of movement per step, requiring at least nine consecutive detections, one per frame. In the original-resolution images, require the median center-minus-background contrast along the path to exceed 0.1 on the normalized intensity scale, and require the path to come within 8 μm of an existing cell in at least one frame. Process qualifying paths longest first and, where possible, attach them to a track start or end within 5 μm in the adjacent frame; discard paths whose proposed attachment would give an existing cell an extra parent or continuation, while allowing qualifying paths with no proposed attachment to remain separate. In all movies, separately remove predictions within 1.5 source-image pixels, about 0.61 μm, of each frame's nonzero-image x/y bounding box, along with their incident links.",
           "reference": "## 5. Recovering faint tracks without another detector pass",
-          "source": 0
+          "source": 0,
+          "why": "单帧中说服力不足的弱候选可借助连续轨迹和原图对比度得到复核，不必再运行检测器。边界清理是独立操作，可以单独检查其得分变化和正确链接损失。",
+          "whyEN": "A faint candidate that is unconvincing in one frame can be checked through track persistence and contrast in the source images without rerunning the detector. Keeping border cleanup separate makes it possible to examine its score change and loss of correct links independently.",
+          "limit": "恢复只能使用检测器已输出的候选；推理时不读取标注、不重跑检测器，也不拟合新模型。阈值由验证结果选定，恢复仅用于 acq_01，而边界清理用于所有影片；边界以每帧非零区域为准，不是整幅图像的外框。",
+          "limitEN": "Recovery is limited to candidates already emitted by the detector; inference does not read annotations, rerun the detector, or fit a new model. Thresholds were selected using validation results. Recovery applies only to acq_01, while cleanup applies to all movies and uses each frame's nonzero-region boundary rather than the full image border."
         }
       ],
       "fingerprint": "d3a1b17fe25f02cf46e610470aef9ba18e536d29315ae5da13f6a3e156ff9f01",
@@ -6396,6 +7027,11 @@
         "writtenBy": {
           "provider": "openai",
           "model": "gpt-4.1-mini"
+        },
+        "lastDeepen": "2026-11-26T02:31:54Z",
+        "deepenedBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
         }
       },
       "titleEN": "2nd Place Solution: Temporal 3D Detection and Graph-Based Cell Tracking",
@@ -6405,7 +7041,154 @@
         "zh": "1. 尝试在单一3D U-Net模型中引入相邻多帧输出来提升检测准确性；\n2. 实施合成数据增强，将真实细胞轨迹提取后进行衰减与模糊处理，插入训练样本，以提升模型对弱信号细胞的识别能力；\n3. 基于检测器输出的候选点构建时序图，设计评分函数进行轨迹链接和细胞分裂识别；\n4. 实现一个后处理步骤，利用未被跟踪选中但置信较高的检测点，根据时间和空间连贯性恢复遗漏的轨迹。",
         "en": "1. Experiment with incorporating multiple adjacent frames as input channels in a 3D U-Net model to enhance detection accuracy;\n2. Implement synthetic augmentation by extracting real cell trajectories, dimming and blurring them, and inserting into training samples to improve recognition of faint cells;\n3. Construct a temporal graph from detector candidate points, designing scoring functions for plausible track linking and cell division identification;\n4. Develop a post-processing step that revisits unused high-confidence detections and recovers missed tracks based on temporal and spatial continuity."
       },
-      "stale": false
+      "stale": false,
+      "findings": [
+        {
+          "claim": "从 V454 到 V507 再到 V533，CV 综合得分依次为 0.950602、0.951217 和 0.953024。相对 V507，V533 多找回 360 条正确边，同时多出 54 条错误边，分裂计数不变。",
+          "claimEN": "The combined CV score rose from 0.950602 for V454 to 0.951217 for V507 and 0.953024 for V533. Compared with V507, V533 recovered 360 more correct edges and added 54 false edges, with division counts unchanged.",
+          "setup": "比较同一批影片的已保存验证预测。三个版本共享检测器和核心跟踪器：V454 含单帧缺口修补，V507 加入位置细化和分裂链接纠正，V533 再加入弱轨迹恢复和边界清理。",
+          "setupEN": "The comparison used saved validation predictions for the same movies. The versions shared detectors and a core tracker: V454 included one-frame gap repair, V507 added position refinement and division-link correction, and V533 added faint-track recovery and border cleanup.",
+          "reference": "## 6. Results and ablations",
+          "source": 0,
+          "caveat": "比较覆盖同一批 199 部影片；五折验证按影片划分，两个胚胎都出现在训练和验证中，并未留出整个胚胎。",
+          "caveatEN": "The comparison covered the same 199 movies. The five folds were split by movie, with both embryos represented in training and validation rather than holding out an entire embryo.",
+          "chart": {
+            "kind": "bar",
+            "unit": "CV",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "V454：核心流程与缺口修补",
+                "en": "V454: Core with gap repair"
+              },
+              {
+                "zh": "V507：位置与分裂纠正",
+                "en": "V507: Position and division correction"
+              },
+              {
+                "zh": "V533：弱轨迹恢复与边界清理",
+                "en": "V533: Faint-track recovery and border cleanup"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "综合得分",
+                  "en": "Combined score"
+                },
+                "values": [
+                  {
+                    "text": "0.950602",
+                    "value": 0.950602
+                  },
+                  {
+                    "text": "0.951217",
+                    "value": 0.951217
+                  },
+                  {
+                    "text": "0.953024",
+                    "value": 0.953024
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "改为用四折选择恢复设置、在第五折应用后，估计的仅恢复收益从 0.001442 降至 0.001048。逐片评估中，80 部 acq_01 影片仅有 20 部对总分作出正贡献，另外 60 部作出负贡献。",
+          "claimEN": "Selecting recovery settings on four folds and applying them to the fifth reduced the estimated recovery-only gain from 0.001442 to 0.001048. In the movie-by-movie evaluation, 20 of the 80 acq_01 movies contributed positively to the overall score and 60 contributed negatively.",
+          "setup": "比较原先的仅恢复收益估计与按折分开选择设置和评估后的估计；两者都只衡量弱轨迹恢复，不包含边界清理。",
+          "setupEN": "The original recovery-only gain estimate was compared with an estimate that separated setting selection from evaluation by fold. Both estimates concerned faint-track recovery without border cleanup.",
+          "reference": "## 6. Results and ablations",
+          "source": 0,
+          "caveat": "正贡献集中在少数影片：五部影片提供了全部正贡献的 57%。留出的是验证折，不是整个胚胎。",
+          "caveatEN": "The gains were concentrated: five movies supplied 57% of the positive contributions. The held-out unit was a validation fold, not an entire embryo.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Recovery-only CV gain",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "原估计",
+                "en": "Original estimate"
+              },
+              {
+                "zh": "四折选参、第五折评估",
+                "en": "Tune on four folds, evaluate on the fifth"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "仅恢复的 CV 收益",
+                  "en": "Recovery-only CV gain"
+                },
+                "values": [
+                  {
+                    "text": "0.001442",
+                    "value": 0.001442
+                  },
+                  {
+                    "text": "0.001048",
+                    "value": 0.001048
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "相对 V507，不限制修补次数的分裂修补找回了三个真实分裂，却新增九个错误分裂，使 CV 下降 0.000671。",
+          "claimEN": "Compared with V507, uncapped division repair recovered three true divisions but added nine false ones, lowering CV by 0.000671.",
+          "setup": "以 V507 为参照，评估不限制修补次数的版本；候选母细胞和子细胞由在外部显微图像数据上预训练的模型提出。原文未进一步列出固定的配置项。",
+          "setupEN": "V507 was the reference for an uncapped repair variant whose alternative parents and daughters were proposed by models pretrained on external microscopy data. The write-up does not list further configuration details held fixed.",
+          "reference": "## 7. What did not work as reliably",
+          "source": 0
+        },
+        {
+          "claim": "在 V533 验证结果中，acq_01 的标注细胞匹配比例为 94.27%，低于 acq_00 的 98.49%；标注分裂恢复比例也较低，分别为 34.1% 和 69.2%。",
+          "claimEN": "In V533 validation, acq_01 matched 94.27% of annotated cells versus 98.49% for acq_00. It also recovered a smaller share of annotated divisions, at 34.1% versus 69.2%.",
+          "setup": "使用同一 V533 流程的验证结果，按采集条件分组汇总影片计数，再计算两组的比例。",
+          "setupEN": "The comparison used validation predictions from the same V533 pipeline, pooling movie-level counts within each acquisition group before calculating percentages.",
+          "reference": "### 8.2. Faint and crowded regions remain difficult",
+          "source": 0,
+          "caveat": "这些比例按组汇总计数，而非对每部影片的比例等权平均；这是分组对照，不能据此确定单个漏检的原因。",
+          "caveatEN": "The percentages pool counts within each group rather than weighting each movie equally. This group comparison cannot establish the cause of an individual miss.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Annotated cells matched",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "acq_00",
+                "en": "acq_00"
+              },
+              {
+                "zh": "acq_01",
+                "en": "acq_01"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "标注细胞匹配比例",
+                  "en": "Annotated cells matched"
+                },
+                "values": [
+                  {
+                    "text": "98.49%",
+                    "value": 98.49
+                  },
+                  {
+                    "text": "94.27%",
+                    "value": 94.27
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "w-116073",
@@ -6418,7 +7201,7 @@
         "rank": 1,
         "teams": 3947,
         "score": "0.97759",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6485,7 +7268,7 @@
         "rank": 2,
         "teams": 3575,
         "score": "0.94588",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6583,7 +7366,7 @@
         "rank": 3,
         "teams": 3575,
         "score": "0.94584",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6626,7 +7409,7 @@
         "rank": 1,
         "teams": 3575,
         "score": "0.94602",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6758,7 +7541,7 @@
         "rank": 3,
         "teams": 10148,
         "score": "5580.3",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6840,7 +7623,7 @@
         "rank": 2,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6877,7 +7660,7 @@
         "rank": 1,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -6944,7 +7727,7 @@
         "rank": 3,
         "teams": 6299,
         "score": "0.959",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -7042,7 +7825,7 @@
         "rank": 1,
         "teams": 10148,
         "score": "5890.3",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -7109,7 +7892,7 @@
         "rank": 2,
         "teams": 10148,
         "score": "5823.4",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
@@ -7146,7 +7929,7 @@
         "rank": 1,
         "teams": 3734,
         "score": "0.96318",
-        "checked": "2026-11-25T18:15:08Z"
+        "checked": "2026-11-26T02:31:54Z"
       },
       "sources": [
         {
