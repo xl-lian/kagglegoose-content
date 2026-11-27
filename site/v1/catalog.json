@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-27T02:31:23Z",
+  "updated": "2026-11-27T17:41:50Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -748,10 +748,10 @@
       "published": "2022-12-15T17:53:54.260Z",
       "evidence": {
         "kind": "public",
-        "rank": 26,
-        "teams": 3621,
+        "rank": 28,
+        "teams": 3628,
         "score": "11602.83535",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -801,10 +801,10 @@
       "published": "2023-01-05T04:03:14.847Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -836,9 +836,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81669",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -889,10 +889,10 @@
       "published": "2023-03-08T01:49:39.557Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -924,10 +924,10 @@
       "published": "2023-04-18T14:16:04.713Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -959,10 +959,10 @@
       "published": "2023-05-28T18:51:58.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 28,
-        "teams": 3621,
+        "rank": 30,
+        "teams": 3628,
         "score": "11671.53164",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1012,9 +1012,9 @@
       "evidence": {
         "kind": "public",
         "rank": 123,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81622",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1073,9 +1073,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81669",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1134,9 +1134,9 @@
       "evidence": {
         "kind": "public",
         "rank": 122,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81646",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1194,9 +1194,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1357,
+        "teams": 1368,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1230,9 +1230,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81669",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1299,9 +1299,9 @@
       "evidence": {
         "kind": "public",
         "rank": 113,
-        "teams": 2217,
+        "teams": 2229,
         "score": "0.81903",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1353,9 +1353,9 @@
       "evidence": {
         "kind": "public",
         "rank": 6,
-        "teams": 72,
+        "teams": 74,
         "score": "0.97956",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1388,9 +1388,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1362,
+        "teams": 1368,
         "score": "1",
-        "checked": "2026-11-26T17:56:28Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1411,7 +1411,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
-      "stale": true
+      "stale": false
     },
     {
       "id": "k-25668838",
@@ -1421,9 +1421,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1357,
+        "teams": 1368,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1458,9 +1458,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1493,9 +1493,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 72,
+        "teams": 74,
         "score": "0.98084",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1528,9 +1528,9 @@
       "evidence": {
         "kind": "public",
         "rank": 2,
-        "teams": 72,
+        "teams": 74,
         "score": "0.98222",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1562,10 +1562,10 @@
       "published": "2025-12-13T23:41:58.407Z",
       "evidence": {
         "kind": "public",
-        "rank": 36,
-        "teams": 3621,
+        "rank": 38,
+        "teams": 3628,
         "score": "11911.65105",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1631,10 +1631,10 @@
       "published": "2025-12-14T00:52:54.230Z",
       "evidence": {
         "kind": "public",
-        "rank": 24,
-        "teams": 3621,
+        "rank": 25,
+        "teams": 3628,
         "score": "11572.97803",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1692,10 +1692,10 @@
       "published": "2026-01-13T02:48:43.897Z",
       "evidence": {
         "kind": "public",
-        "rank": 65,
-        "teams": 3621,
+        "rank": 67,
+        "teams": 3628,
         "score": "12329.79076",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1727,9 +1727,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1788,10 +1788,10 @@
       "published": "2026-02-28T17:33:51.607Z",
       "evidence": {
         "kind": "public",
-        "rank": 34,
-        "teams": 3621,
+        "rank": 36,
+        "teams": 3628,
         "score": "11849.04818",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1850,9 +1850,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1885,9 +1885,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 3621,
+        "teams": 3628,
         "score": "0",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1919,10 +1919,10 @@
       "published": "2026-10-14T05:33:06.430Z",
       "evidence": {
         "kind": "public",
-        "rank": 169,
-        "teams": 6896,
+        "rank": 170,
+        "teams": 6961,
         "score": "0.2",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1954,10 +1954,10 @@
       "published": "2026-10-22T08:09:30.777Z",
       "evidence": {
         "kind": "public",
-        "rank": 169,
-        "teams": 6896,
+        "rank": 170,
+        "teams": 6961,
         "score": "0.2",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -1989,10 +1989,10 @@
       "published": "2026-11-01T05:44:06.667Z",
       "evidence": {
         "kind": "public",
-        "rank": 169,
-        "teams": 6896,
+        "rank": 170,
+        "teams": 6961,
         "score": "0.2",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2023,10 +2023,10 @@
       "published": "2026-11-04T15:25:38.653Z",
       "evidence": {
         "kind": "public",
-        "rank": 26,
-        "teams": 324,
+        "rank": 27,
+        "teams": 328,
         "score": "0.82756",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2076,10 +2076,10 @@
       "published": "2026-11-05T16:58:12.900Z",
       "evidence": {
         "kind": "public",
-        "rank": 23,
-        "teams": 324,
+        "rank": 24,
+        "teams": 328,
         "score": "0.82728",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2129,10 +2129,10 @@
       "published": "2026-11-10T21:45:58.797Z",
       "evidence": {
         "kind": "public",
-        "rank": 21,
-        "teams": 324,
+        "rank": 22,
+        "teams": 328,
         "score": "0.82685",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2183,10 +2183,10 @@
       "published": "2026-11-17T23:46:36.413Z",
       "evidence": {
         "kind": "public",
-        "rank": 114,
-        "teams": 3621,
+        "rank": 117,
+        "teams": 3628,
         "score": "12675.54135",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2243,10 +2243,10 @@
       "published": "2026-11-21T14:08:23.313Z",
       "evidence": {
         "kind": "public",
-        "rank": 308,
-        "teams": 3283,
+        "rank": 325,
+        "teams": 3353,
         "score": "0.95547",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2295,10 +2295,10 @@
       "published": "2026-11-21T14:15:33.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 308,
-        "teams": 3283,
+        "rank": 325,
+        "teams": 3353,
         "score": "0.95547",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2377,108 +2377,6 @@
       "findings": []
     },
     {
-      "id": "k-372780350",
-      "competitionID": "name-that-llm",
-      "author": "RanJeet Gupta",
-      "published": "2026-11-22T22:01:24.317Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/ranjeet258/name-that-llm-sibling-odds?scriptVersionId=372780350"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "先判模型家族，再区分近亲模型",
-      "summary": "识别文本作者时，同家族模型容易混淆。这份公开方案用文本证据调整家族内部的相对概率，同时保留模型集成对家族的总体判断。",
-      "takeaway": "单独检查同家族错分样本。对照修正前后的混淆矩阵，观察家族内调整是否引入了新错误。",
-      "tags": [
-        "文本分类",
-        "概率校准"
-      ],
-      "steps": [
-        {
-          "title": "识别误差来源",
-          "body": "这一版本关注同一模型家族内接近的判定。作者在开头链接了基线版本，便于对照新增逻辑。",
-          "reference": "Cell 1",
-          "source": 0,
-          "bodyEN": "This version focuses on close decisions between related models. The opening cell links a baseline to isolate the new logic."
-        },
-        {
-          "title": "修正局部概率",
-          "body": "Sibling residual 模块在融合后的 log 概率上工作。它提取标点及常见词等特征，在同一家族内重分配概率。",
-          "reference": "Cell 14",
-          "source": 0,
-          "bodyEN": "The sibling-residual module operates on ensembled log probabilities. Features such as punctuation and frequent words redistribute probability within a family."
-        },
-        {
-          "title": "核查产物",
-          "body": "最后读取验证记录，检查结果非空且列为 id 与 model，再保存散列。它验证文件结构；单独模块的得分收益仍需对照实验。",
-          "reference": "Cell 56",
-          "source": 0,
-          "bodyEN": "The final cell checks validation records, nonempty output and the id and model columns, then saves a digest. Isolating the module’s effect on score requires an ablation."
-        }
-      ],
-      "fingerprint": "593c8c8b09e405bf3ed77c59429a9bb9a7ea7475cf0711d57e207e168330074e",
-      "originalTitle": "Name That LLM | Sibling Odds",
-      "stale": false,
-      "kernelID": 146733174,
-      "titleEN": "Identify the model family, then distinguish its closest relatives",
-      "summaryEN": "The public notebook refines probabilities among related language models using clues in the text. It preserves the ensemble’s overall estimate for the family while reallocating probability within it.",
-      "takeawayEN": "Inspect confusions within the same family. Compare confusion matrices before and after the adjustment to detect regressions.",
-      "exercise": {
-        "zh": "给同一段文本列出修改前后概率最高的三个模型，先把同家族概率求和，再看家族内谁排第一。如果选对家族仍分错具体模型，可抽查标点与常用词；若连家族都错了，则应回查基础分类器。",
-        "en": "For one passage, list the top three models before and after correction. Sum probabilities by family first, then inspect the winner within that family. A wrong sibling points you toward the text features. A wrong family points back to the baseline classifier."
-      },
-      "llmReview": {
-        "lastDeepen": "2026-11-24T09:56:25Z"
-      }
-    },
-    {
-      "kernelID": 146999905,
-      "id": "k-373265187",
-      "competitionID": "name-that-llm",
-      "originalTitle": "NTL Kiro v66 PB115 Hybrid Apex",
-      "author": "LumiBee",
-      "published": "2026-11-24T00:24:32.640Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 640,
-        "teams": 7203,
-        "score": "0.722",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/lumibee/ntl-kiro-v66-pb115-hybrid-apex?scriptVersionId=373265187"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "NTL Kiro v66 PB115 Hybrid Apex",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
-      "stale": false
-    },
-    {
       "kernelID": 147055526,
       "id": "k-373365770",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -2487,10 +2385,10 @@
       "published": "2026-11-24T06:34:33.583Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2522,10 +2420,10 @@
       "published": "2026-11-24T07:19:25.697Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2557,10 +2455,10 @@
       "published": "2026-11-24T07:43:27.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2592,10 +2490,10 @@
       "published": "2026-11-24T07:59:00.010Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2627,10 +2525,10 @@
       "published": "2026-11-24T09:48:35.163Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2662,10 +2560,10 @@
       "published": "2026-11-24T11:32:41.183Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2697,10 +2595,10 @@
       "published": "2026-11-24T11:48:14.380Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2724,41 +2622,6 @@
       "stale": false
     },
     {
-      "kernelID": 147124562,
-      "id": "k-373502569",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl r721",
-      "author": "Soren",
-      "published": "2026-11-24T12:53:18.453Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/huanansu/ntl-r721?scriptVersionId=373502569"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl r721",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "09683dc47e559d638f6a3f24817c18da39892dcda309b21ec5627c4ab307906e",
-      "stale": false
-    },
-    {
       "kernelID": 147126835,
       "id": "k-373506825",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -2767,10 +2630,10 @@
       "published": "2026-11-24T13:04:01.030Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2802,10 +2665,10 @@
       "published": "2026-11-24T13:42:55.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2837,10 +2700,10 @@
       "published": "2026-11-24T14:01:42.453Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -2872,10 +2735,10 @@
       "published": "2026-11-24T14:10:48.290Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3154,10 +3017,10 @@
       "published": "2026-11-24T16:32:57.510Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3177,7 +3040,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "2e9f592ffc5166c9183261a5074df64b570d9e3fa8fe2ebabf33477f3268ac27"
+      "fingerprint": "2e9f592ffc5166c9183261a5074df64b570d9e3fa8fe2ebabf33477f3268ac27",
+      "stale": false
     },
     {
       "kernelID": 147182830,
@@ -3188,10 +3052,10 @@
       "published": "2026-11-24T18:09:25.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3355,10 +3219,10 @@
       "published": "2026-11-24T19:04:00.350Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3390,10 +3254,10 @@
       "published": "2026-11-24T20:09:10.670Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3417,41 +3281,6 @@
       "stale": false
     },
     {
-      "kernelID": 147227401,
-      "id": "k-373695158",
-      "competitionID": "name-that-llm",
-      "originalTitle": "NTL lumi v66 hybrid (verbatim fork)",
-      "author": "lbjyang",
-      "published": "2026-11-24T22:43:33.473Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/lbjyang/ntl-lumi-v66-hybrid-verbatim-fork?scriptVersionId=373695158"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "NTL lumi v66 hybrid (verbatim fork)",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
-      "stale": false
-    },
-    {
       "kernelID": 147234118,
       "id": "k-373706338",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -3460,10 +3289,10 @@
       "published": "2026-11-24T23:37:55.283Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3495,10 +3324,10 @@
       "published": "2026-11-24T23:59:47.033Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3522,76 +3351,6 @@
       "stale": false
     },
     {
-      "kernelID": 147254514,
-      "id": "k-373739164",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl kiro",
-      "author": "Soren",
-      "published": "2026-11-25T01:58:59.130Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 640,
-        "teams": 7203,
-        "score": "0.722",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/huanansu/ntl-kiro?scriptVersionId=373739164"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl kiro",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
-      "stale": false
-    },
-    {
-      "kernelID": 147255661,
-      "id": "k-373741060",
-      "competitionID": "name-that-llm",
-      "originalTitle": "fork 0 720 sibling odds qwen3 8 27b gsq3",
-      "author": "Siyuan Chen",
-      "published": "2026-11-25T02:06:37.680Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/gloriachen0816/fork-0-720-sibling-odds-qwen3-8-27b-gsq3?scriptVersionId=373741060"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "fork 0 720 sibling odds qwen3 8 27b gsq3",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223",
-      "stale": false
-    },
-    {
       "kernelID": 147265356,
       "id": "k-373757891",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -3600,10 +3359,10 @@
       "published": "2026-11-25T03:10:41.383Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3635,10 +3394,10 @@
       "published": "2026-11-25T03:10:57.947Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3662,41 +3421,6 @@
       "stale": false
     },
     {
-      "kernelID": 147266407,
-      "id": "k-373759710",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl-0721-pb115-hybrid",
-      "author": "hc luo",
-      "published": "2026-11-25T03:16:58.157Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 640,
-        "teams": 7203,
-        "score": "0.722",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/hcluo8888/ntl-0721-pb115-hybrid?scriptVersionId=373759710"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl-0721-pb115-hybrid",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "97a75b3d00d68b790aa0a9239e93fed749f40b5ca0a5a892a02cb956b3c2d726",
-      "stale": false
-    },
-    {
       "kernelID": 147266784,
       "id": "k-373760343",
       "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
@@ -3705,10 +3429,10 @@
       "published": "2026-11-25T03:19:05.310Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3732,76 +3456,6 @@
       "stale": false
     },
     {
-      "kernelID": 147366674,
-      "id": "k-373949070",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl af24",
-      "author": "Soren",
-      "published": "2026-11-25T12:31:15.730Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/huanansu/ntl-af24?scriptVersionId=373949070"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl af24",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223",
-      "stale": false
-    },
-    {
-      "kernelID": 147371878,
-      "id": "k-373959648",
-      "competitionID": "name-that-llm",
-      "originalTitle": "Name That LLM 0.724 PB115 Dual GLM",
-      "author": "KenGia",
-      "published": "2026-11-25T12:59:57.410Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/kengia/name-that-llm-0-724-pb115-dual-glm?scriptVersionId=373959648"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "Name That LLM 0.724 PB115 Dual GLM",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223",
-      "stale": false
-    },
-    {
       "kernelID": 147376692,
       "id": "k-373969417",
       "competitionID": "name-that-llm",
@@ -3810,10 +3464,10 @@
       "published": "2026-11-25T13:27:26.980Z",
       "evidence": {
         "kind": "public",
-        "rank": 569,
-        "teams": 7203,
+        "rank": 722,
+        "teams": 7262,
         "score": "0.723",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3837,41 +3491,6 @@
       "stale": false
     },
     {
-      "kernelID": 147376712,
-      "id": "k-373969456",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl fork lv0724 pb115sib",
-      "author": "Mugundhan Y",
-      "published": "2026-11-25T13:27:34.547Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 704,
-        "teams": 7203,
-        "score": "0.721",
-        "checked": "2026-11-27T02:31:23Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-lv0724-pb115sib?scriptVersionId=373969456"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl fork lv0724 pb115sib",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "f5b0c00cc81b9cb85b241b5f3673352af0c3093e04edf8c2adea9a6ca9d1a223",
-      "stale": false
-    },
-    {
       "kernelID": 147380426,
       "id": "k-373976691",
       "competitionID": "name-that-llm",
@@ -3880,10 +3499,10 @@
       "published": "2026-11-25T13:46:51.200Z",
       "evidence": {
         "kind": "public",
-        "rank": 429,
-        "teams": 7203,
+        "rank": 626,
+        "teams": 7262,
         "score": "0.724",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3915,10 +3534,10 @@
       "published": "2026-11-25T22:03:11.720Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3950,10 +3569,10 @@
       "published": "2026-11-26T03:38:16.060Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -3985,10 +3604,10 @@
       "published": "2026-11-26T03:52:31.063Z",
       "evidence": {
         "kind": "public",
-        "rank": 429,
-        "teams": 7203,
+        "rank": 626,
+        "teams": 7262,
         "score": "0.724",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4020,10 +3639,10 @@
       "published": "2026-11-26T03:57:20.670Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4055,10 +3674,10 @@
       "published": "2026-11-26T04:02:03.157Z",
       "evidence": {
         "kind": "public",
-        "rank": 429,
-        "teams": 7203,
+        "rank": 626,
+        "teams": 7262,
         "score": "0.724",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4090,10 +3709,10 @@
       "published": "2026-11-26T04:11:57.190Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4125,10 +3744,10 @@
       "published": "2026-11-26T04:12:03.333Z",
       "evidence": {
         "kind": "public",
-        "rank": 429,
-        "teams": 7203,
+        "rank": 626,
+        "teams": 7262,
         "score": "0.724",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4160,10 +3779,10 @@
       "published": "2026-11-26T04:55:09.090Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4310,10 +3929,10 @@
       "published": "2026-11-26T05:03:05.123Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4429,10 +4048,10 @@
       "published": "2026-11-26T08:16:02.360Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4475,10 +4094,10 @@
       "published": "2026-11-26T09:54:27.953Z",
       "evidence": {
         "kind": "public",
-        "rank": 134,
-        "teams": 7203,
+        "rank": 306,
+        "teams": 7262,
         "score": "0.727",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4498,7 +4117,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "d8da675e3cee1309ed65181b6df053e5f49c23be9b864e33bf058120a4145e76"
+      "fingerprint": "d8da675e3cee1309ed65181b6df053e5f49c23be9b864e33bf058120a4145e76",
+      "stale": false
     },
     {
       "kernelID": 147579944,
@@ -4509,10 +4129,10 @@
       "published": "2026-11-26T10:22:07.120Z",
       "evidence": {
         "kind": "public",
-        "rank": 134,
-        "teams": 7203,
+        "rank": 306,
+        "teams": 7262,
         "score": "0.727",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4532,7 +4152,42 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "d8da675e3cee1309ed65181b6df053e5f49c23be9b864e33bf058120a4145e76"
+      "fingerprint": "d8da675e3cee1309ed65181b6df053e5f49c23be9b864e33bf058120a4145e76",
+      "stale": false
+    },
+    {
+      "kernelID": 147595333,
+      "id": "k-374377103",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl fork ar0728 lineup",
+      "author": "Mugundhan Y",
+      "published": "2026-11-26T11:51:55.627Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 215,
+        "teams": 7262,
+        "score": "0.728",
+        "checked": "2026-11-27T17:41:50Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-ar0728-lineup?scriptVersionId=374377103"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl fork ar0728 lineup",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "23988e293d66b5fd6b95d61b9bde7c189b4561bb5648455ba0b198df55ecfd52"
     },
     {
       "kernelID": 147615375,
@@ -4543,10 +4198,10 @@
       "published": "2026-11-26T13:43:04.997Z",
       "evidence": {
         "kind": "public",
-        "rank": 211,
-        "teams": 7203,
+        "rank": 410,
+        "teams": 7262,
         "score": "0.726",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4566,7 +4221,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "0cb0611a64159deedaf40f786c9377bf0ca8722a881cf85013f97906b02008a5"
+      "fingerprint": "0cb0611a64159deedaf40f786c9377bf0ca8722a881cf85013f97906b02008a5",
+      "stale": false
     },
     {
       "kernelID": 147615521,
@@ -4577,10 +4233,10 @@
       "published": "2026-11-26T13:43:49.437Z",
       "evidence": {
         "kind": "public",
-        "rank": 211,
-        "teams": 7203,
+        "rank": 410,
+        "teams": 7262,
         "score": "0.726",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4600,7 +4256,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "403a2551aae73e5f1b7c0bf5293ad672bd7887345bcbcf2a714c4ddff214c898"
+      "fingerprint": "403a2551aae73e5f1b7c0bf5293ad672bd7887345bcbcf2a714c4ddff214c898",
+      "stale": false
     },
     {
       "kernelID": 147626956,
@@ -4611,10 +4268,10 @@
       "published": "2026-11-26T14:44:53.823Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4634,7 +4291,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "3ecea20c8a472784342036a9af7b0945196c017a60c539a8a9ff6e5919ab0427"
+      "fingerprint": "3ecea20c8a472784342036a9af7b0945196c017a60c539a8a9ff6e5919ab0427",
+      "stale": false
     },
     {
       "kernelID": 147626968,
@@ -4645,10 +4303,10 @@
       "published": "2026-11-26T14:45:00.133Z",
       "evidence": {
         "kind": "public",
-        "rank": 295,
-        "teams": 7203,
+        "rank": 508,
+        "teams": 7262,
         "score": "0.725",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4668,7 +4326,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "0973b64260e5edbd4f33e22daaf8bc8f4624a7846db98f76a33d869f3fd7410d"
+      "fingerprint": "0973b64260e5edbd4f33e22daaf8bc8f4624a7846db98f76a33d869f3fd7410d",
+      "stale": false
     },
     {
       "kernelID": 147657377,
@@ -4679,10 +4338,10 @@
       "published": "2026-11-26T17:34:39.103Z",
       "evidence": {
         "kind": "public",
-        "rank": 167,
-        "teams": 6083,
+        "rank": 192,
+        "teams": 6127,
         "score": "0.509",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4713,7 +4372,8 @@
         "status": "skipped"
       },
       "summaryEN": "The result is verified. The original source is indexed.",
-      "takeawayEN": "Open the original source for the author's material."
+      "takeawayEN": "Open the original source for the author's material.",
+      "stale": false
     },
     {
       "kernelID": 147663409,
@@ -4724,10 +4384,10 @@
       "published": "2026-11-26T18:13:03.247Z",
       "evidence": {
         "kind": "public",
-        "rank": 90,
-        "teams": 7203,
+        "rank": 215,
+        "teams": 7262,
         "score": "0.728",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -4871,7 +4531,8 @@
             ]
           }
         }
-      ]
+      ],
+      "stale": false
     },
     {
       "kernelID": 147666679,
@@ -4882,10 +4543,10 @@
       "published": "2026-11-26T18:32:50.393Z",
       "evidence": {
         "kind": "public",
-        "rank": 134,
-        "teams": 7203,
+        "rank": 306,
+        "teams": 7262,
         "score": "0.727",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5064,7 +4725,290 @@
             ]
           }
         }
+      ],
+      "stale": false
+    },
+    {
+      "kernelID": 147675385,
+      "id": "k-374532150",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl-k6-wsp-selfresearch",
+      "author": "Chenghao Ge",
+      "published": "2026-11-26T19:28:10.337Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 410,
+        "teams": 7262,
+        "score": "0.726",
+        "checked": "2026-11-27T17:41:50Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/chenghaoge2026/ntl-k6-wsp-selfresearch?scriptVersionId=374532150"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-k6-wsp-selfresearch",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "cab239060b91d4f21b6670f859144bc759ac3fa82721e4373d0423c1f25273bf"
+    },
+    {
+      "kernelID": 147754426,
+      "id": "k-374670555",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl 730 mirror",
+      "author": "star",
+      "published": "2026-11-27T04:39:45.817Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 215,
+        "teams": 7262,
+        "score": "0.728",
+        "checked": "2026-11-27T17:41:50Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/star231/ntl-730-mirror?scriptVersionId=374670555"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl 730 mirror",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "bc75439f0e7c9325a8a2c5761dcbfabea999d6d9c21a4de58ad0f86bfaac7df3"
+    },
+    {
+      "kernelID": 147759019,
+      "id": "k-374679179",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "[LB 0.51+]casmi2-kmax-1",
+      "author": "Koushik Rudra",
+      "published": "2026-11-27T05:07:30.543Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 147,
+        "teams": 6127,
+        "score": "0.51",
+        "checked": "2026-11-27T17:41:50Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/koushikrudra/lb-0-51-casmi2-kmax-1?scriptVersionId=374679179"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "从串联质谱到分子结构：候选融合、碎片重排与候选扩充",
+      "summary": "任务是根据串联质谱为复杂提取物中的小分子排列可能的二维化学结构。难点不只是区分分子式相同的异构体：如果真实结构不在候选池里，重排也无法找回它。笔记本先用神经倒数排名融合调整已有候选，再用碎片对峰的解释能力和实测谱库匹配提供不同的排序证据。虚拟衍生物层则补充原候选池之外的结构，学习式碎片重排只调整第 3 名及以后的候选，以保留已有前两名。",
+      "takeaway": "把候选覆盖与排序质量分开看：虚拟衍生物层能补入新结构，固定列表的重排只能改变已有候选的位置。评估时先检查真实结构是否在候选池中，再判断碎片或谱库证据是否把它排得更高。",
+      "steps": [
+        {
+          "title": "按名次分配神经融合权重",
+          "titleEN": "Set Neural Fusion Weights by Rank",
+          "body": "这一步使用基线候选排序和神经评分得到的候选名次。倒数排名项采用 `1/(k + rank)`，其中 `RRF_OFFSET = 3.0`。V1 在所有位置使用神经权重 `0.25`；笔记本选用的 `CUSTOM` 将首位权重设为 `0.25`，第 2–25 名权重设为 `0.75`，并以 `rescue=0` 关闭这一层的尾部候选补入。",
+          "bodyEN": "This step uses the baseline candidate ranking and the candidate ranks produced by the neural scorer. The reciprocal-rank term is `1/(k + rank)`, with `RRF_OFFSET = 3.0`. V1 uses a neural weight of `0.25` at all positions; the notebook selects `CUSTOM`, which uses `0.25` at rank 1 and `0.75` at ranks 2–25, with `rescue=0` disabling tail rescue in this layer.",
+          "reference": "Cell 1",
+          "why": "首位沿用 V1 的神经权重，而后续位置允许神经排序施加更大的影响。",
+          "whyEN": "The top slot retains V1's neural weight, while the neural ranking is given more influence over later positions.",
+          "limit": "原文给出配置和对应分数，但没有交代调权所用的验证划分，也没有单独验证提高第 2–25 名权重的收益。",
+          "limitEN": "The source gives configurations and associated scores but does not describe the validation split used to tune them or isolate the benefit of raising the weight at ranks 2–25.",
+          "source": 0
+        },
+        {
+          "title": "用碎片能解释的峰强度给候选打分",
+          "titleEN": "Score Candidates by the Peak Intensity Their Fragments Explain",
+          "body": "输入是候选 SMILES 和每个分子的多张 MS/MS 谱，包括峰的质荷比、强度及加合物信息。模块在重原子图上枚举最多 2 次断键产生的片段，再对片段质量加上 `-2..+3` 个氢的质量偏移和加合物允许的电荷载体，以 `0.005 Da` 容差匹配观测峰。每个峰按所需断键最少的解释计分，两次断键的权重为 `w2=0.6`，强度采用线性权重。每张谱的得分是计入权重后得到解释的峰强度占比，候选得分再对有峰的谱取平均。",
+          "bodyEN": "The inputs are candidate SMILES and the molecule's MS/MS spectra, including peak m/z, intensities, and adduct information. The module enumerates fragments from up to 2 bond cleavages in the heavy-atom graph, then applies hydrogen shifts of `-2..+3` and adduct-compatible charge carriers before matching peaks at a tolerance of `0.005 Da`. Each peak is credited using the explanation that requires the fewest cleavages, with `w2=0.6` for two cleavages and linear intensity weighting. The per-spectrum score is the credited share of peak intensity, and the candidate score is averaged across spectra with peaks.",
+          "reference": "Cell 7",
+          "why": "作者用候选结构能否解释实测碎片峰来补充已有排序，并降低需要更多断键才能解释的峰的权重。",
+          "whyEN": "The author supplements the existing ranking with evidence that a candidate can explain observed fragment peaks, giving less credit to explanations that require more cleavages.",
+          "limit": "无法解析的 SMILES 返回空分数。原文引用了同分子式异构体面板上的外部消融，但未单独验证该步骤在本笔记本完整流程中的收益。",
+          "limitEN": "Unparsable SMILES receive no score. The source cites an external ablation on a same-formula isomer panel but does not isolate this step's benefit in the full notebook pipeline.",
+          "source": 0
+        },
+        {
+          "title": "将满足条件的实测谱库命中提升至首位",
+          "titleEN": "Promote Qualifying Measured Library Hits to Rank 1",
+          "body": "这一步把测试 MS/MS 谱与外部实测参考谱比较。命中要求前体误差不超过 `10 ppm`、离子模式相同、平方根强度余弦相似度至少为 `0.85`，且至少匹配 4 个峰。满足条件的参考结构直接升到第 1 名，但当已有谱库匹配达到 `LIB_TAU` 时，保留现有排序。",
+          "bodyEN": "This step compares test MS/MS spectra with externally measured reference spectra. A hit requires a precursor error of at most `10 ppm`, the same ion mode, a square-root-intensity cosine similarity of at least `0.85`, and at least 4 matched peaks. A qualifying reference structure moves directly to rank 1, but the existing ranking is preserved when its library match reaches `LIB_TAU`.",
+          "reference": "Cell 16",
+          "why": "高置信度的实测参考谱命中可以直接支持首位结构；保护规则则避免覆盖已有的强谱库证据。",
+          "whyEN": "A high-confidence measured reference match can directly support a top-ranked structure, while the protection rule avoids overriding strong library evidence already in the pipeline.",
+          "limit": "该规则依赖可用的外部参考谱；发生异常时保留原提交。原文没有在相同条件下报告启用与关闭这一层的对照。",
+          "limitEN": "The rule depends on available external reference spectra and preserves the incoming submission on error. The source does not report a controlled comparison with this layer switched on and off.",
+          "source": 0
+        },
+        {
+          "title": "用预测指纹为虚拟衍生物打分并补入列表",
+          "titleEN": "Score and Insert Virtual Derivatives With Predicted Fingerprints",
+          "body": "这一层使用候选池结构的单步衍生物和预测指纹。笔记本将衍生物与预测指纹对照打分，再将候选合并到已有答案列表中。配置使用 `mode='score'`、`kmax=1`、`fill=[3, 8]`：每个分子最多一次按分数插入，其余候选进入指定补位区间。",
+          "bodyEN": "This layer uses single-step derivatives of candidate-pool structures and the predicted fingerprint. The notebook scores the derivatives against that fingerprint and merges candidates into the existing answer lists. The rule uses `mode='score'`, `kmax=1`, and `fill=[3, 8]`: at most one score-based insertion per molecule, with remaining candidates directed to the designated fill block.",
+          "reference": "Cell 24",
+          "why": "这一步扩大候选覆盖范围，同时限制每个分子按分数插入新候选的次数。",
+          "whyEN": "This step expands candidate coverage while limiting the number of score-based insertions per molecule.",
+          "limit": "正式评分重跑中，失败会保留原提交；在 12 个可见分子的提交检查中，失败会抛出异常。原文未单独报告 `kmax=1` 相对于其他取值的收益。",
+          "limitEN": "A failure during the scoring rerun preserves the incoming submission; a failure in the commit check on 12 visible molecules raises an exception. The source does not isolate the benefit of `kmax=1` relative to other values.",
+          "source": 0
+        },
+        {
+          "title": "锁定前两名，用 FRNet 重排其余候选",
+          "titleEN": "Lock the Top Two and Rerank the Remaining Candidates With FRNet",
+          "body": "输入是已有候选列表，碎片特征按列表计算，模型对同一批候选打分。模型权重使用竞赛训练谱图和真实结构训练，负例还来自公开结构数据库。分数在整张列表上做 z-score 标准化，未打分的候选取 `z=0`。第 1、2 名保持不变，第 3 名及以后按 `-rank + W * z` 稳定重排，不增删候选。",
+          "bodyEN": "The input is an existing candidate list; fragment features are computed per list, and models score the same candidate batch. Model weights are trained using competition training spectra and true structures, with additional negatives from public structure databases. Scores are z-standardized over the entire list, and unscored candidates receive `z=0`. Ranks 1 and 2 stay fixed, while ranks 3 onward are stably reordered by `-rank + W * z`, without adding or removing candidates.",
+          "reference": "Cell 19",
+          "why": "锁定前两名让学习式碎片分数只调整后续位置，避免后排候选覆盖已有的前两项预测。",
+          "whyEN": "Locking the top two lets the learned fragment scores refine later positions without displacing the incoming top-two predictions.",
+          "limit": "标准化使用完整列表，而不是只用允许重排的部分。评分失败时保留原列表；原文未给出锁定前两名相对于仅锁定首位的同条件分数对照。",
+          "limitEN": "Standardization uses the full list, not just the positions eligible for reranking. A scoring failure preserves the incoming list, and the source does not report a matched score comparison between locking the top two and locking only rank 1.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "Reciprocal Rank Fusion",
+        "MetFrag-lite",
+        "Spectral Library Matching",
+        "FRNet",
+        "Predicted Fingerprint Scoring"
+      ],
+      "fingerprint": "999ef0aa0bc36b6db489795e54c5e616f8abb3551c2f0cb4ee7e6cf8c5bdab6d",
+      "llmReview": {
+        "lastAttempt": "2026-11-27T17:41:50Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本提供多个可复用的可解释方法：基于键断裂的质谱碎片解释评分（MetFrag-lite）、光谱与候选结构的特征构建异构体重排模型、RRF神经融合与秩位合并策略，以及基于加合物模式的结构先验重排。每个步骤都有可追踪的建模/推理决策与参数，符合至少两个可解释步骤的要求。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "From Tandem Mass Spectra to Molecular Structures: Candidate Fusion, Fragment Reranking, and Candidate Expansion",
+      "summaryEN": "The task is to rank possible 2D structures for small molecules in complex extracts from their tandem mass spectra. The challenge is not just separating isomers with the same formula: reranking cannot recover a true structure that is missing from the candidate pool. The notebook first uses neural reciprocal-rank fusion to adjust existing candidates, then uses fragment explanations and measured library matches as distinct sources of ranking evidence. A virtual derivative tier expands the pool, while a learned fragment reranker changes only positions 3 and below to preserve the incoming top two.",
+      "takeawayEN": "Separate candidate coverage from ranking quality: the virtual derivative tier can add new structures, while fixed-list reranking can only move candidates already present. When evaluating, first check whether the true structure is in the pool, then ask whether fragment or library evidence moves it higher.",
+      "exercise": {
+        "zh": "在一个固定的有标签验证集上，缓存同一批基线候选和神经名次，关闭尾部补入及后处理，分别运行 V1 和 CUSTOM。按竞赛的平均精度均值计算两版分数，再统计两版首位候选不同的分子数。检查这些分子，区分首位变化与首位不变时的后排重排。",
+        "en": "On one fixed labeled validation set, cache the same baseline candidates and neural ranks, disable tail rescue and postprocessing, and run V1 and CUSTOM. Compute the competition's mean average precision for both versions and count molecules whose top candidate differs. Inspect those cases separately from cases where rank 1 stays fixed and only later positions change."
+      },
+      "findings": [
+        {
+          "claim": "配置注释将无神经项的 V0 记为 0.465，将统一神经权重的 V1 记为 0.466，并将分段权重的 CUSTOM 记为 0.477。",
+          "claimEN": "The configuration comments report 0.465 for V0 without a neural term, 0.466 for V1 with a uniform neural weight, and 0.477 for CUSTOM with rank-dependent weights.",
+          "setup": "V0 不使用神经项；V1 的神经权重统一为 0.25；CUSTOM 的首位权重为 0.25，第 2–25 名权重为 0.75，且关闭尾部补入。原文未说明三个分数的其余评测条件是否一致。",
+          "setupEN": "V0 uses no neural term; V1 uses a uniform neural weight of 0.25; CUSTOM uses 0.25 at rank 1 and 0.75 at ranks 2–25 with tail rescue disabled. The source does not state whether all other evaluation conditions were identical across the three scores.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "未给出评测划分、样本量、随机种子或误差估计。",
+          "caveatEN": "No evaluation split, sample size, random seed, or uncertainty estimate is given.",
+          "chart": {
+            "kind": "bar",
+            "unit": "报告分数 / Reported score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "V0：无神经项",
+                "en": "V0: No neural term"
+              },
+              {
+                "zh": "V1：统一权重",
+                "en": "V1: Uniform weight"
+              },
+              {
+                "zh": "CUSTOM：分段权重",
+                "en": "CUSTOM: Rank-dependent weights"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "配置注释中的分数",
+                  "en": "Scores in configuration comments"
+                },
+                "values": [
+                  {
+                    "text": "0.465",
+                    "value": 0.465
+                  },
+                  {
+                    "text": "0.466",
+                    "value": 0.466
+                  },
+                  {
+                    "text": "0.477",
+                    "value": 0.477
+                  }
+                ]
+              }
+            ]
+          }
+        }
       ]
+    },
+    {
+      "kernelID": 147857877,
+      "id": "k-374867235",
+      "competitionID": "google-verifiable-quantum-circuit-compilation",
+      "originalTitle": "QCC | Shorter Chemistry Loaders | LB 33.28959",
+      "author": "YALICKJ",
+      "published": "2026-11-27T14:24:51.240Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 73,
+        "teams": 3821,
+        "score": "33.28959",
+        "checked": "2026-11-27T17:41:50Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/yalickj/qcc-shorter-chemistry-loaders-lb-33-28959?scriptVersionId=374867235"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard"
+        }
+      ],
+      "title": "QCC | Shorter Chemistry Loaders | LB 33.28959",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "b3b6cdc75a26a441191364c8d873e8b202ccd4e58969cec7b0ed7358c7dc5530",
+      "llmReview": {
+        "lastAttempt": "2026-11-27T17:41:50Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本包含可复用的具体方法：化学加载器的可追踪重构（特征缓存、乘积与线性残差、用测量移除特征并给出电路布局）、对DQI门重写的位并行扫描与容错概率评估、权重再拟合，以及用官方验证器复现校验。多个步骤可让读者追溯建模、验证与优化决策，超出单纯结果声明。",
+        "status": "selected"
+      }
     },
     {
       "kernelID": 10864074,
@@ -5076,9 +5020,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11163,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5132,7 +5076,7 @@
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 11098601,
       "originalTitle": "Digit recognizer easy compare"
     },
@@ -5167,7 +5111,7 @@
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 11282263,
       "originalTitle": "mnist_vcv2"
     },
@@ -5181,9 +5125,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 72,
+        "teams": 74,
         "score": "0.98035",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5216,9 +5160,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5320,10 +5264,10 @@
       "published": "2020-10-31T05:48:20Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5390,10 +5334,10 @@
       "published": "2021-02-25T22:49:23.013Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5424,9 +5368,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11163,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5461,9 +5405,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5495,10 +5439,10 @@
       "published": "2021-05-10T03:45:17.967Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5529,9 +5473,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11163,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5565,10 +5509,10 @@
       "published": "2021-09-12T18:41:03.377Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5600,10 +5544,10 @@
       "published": "2021-09-16T12:43:10.550Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5677,7 +5621,7 @@
       "fingerprint": "63e2699ca6c5b62338efe58b09b96962d2726696f798499e2219351b488bda8c",
       "summaryEN": "The source contains calls to get_dummies, RandomForestClassifier. Follow the cited cells to trace the pipeline. The leaderboard score belongs to the complete submission.",
       "takeawayEN": "Trace inputs, outputs and data splits in the cited cells, then change one item on the same validation set.",
-      "stale": false
+      "stale": true
     },
     {
       "kernelID": 20617021,
@@ -5688,10 +5632,10 @@
       "published": "2021-09-18T08:12:32.910Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5722,9 +5666,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11163,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5759,9 +5703,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11163,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5868,7 +5812,7 @@
       "steps": [],
       "fingerprint": "ae0ace7ca26543c71822718f42952191deab8626de508f97c6fd8f0b00f631dc",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 21526318,
       "originalTitle": "Titanic - Machine Learning from Disaster"
     },
@@ -5881,10 +5825,10 @@
       "published": "2021-10-26T06:00:00.540Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -5917,9 +5861,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 677,
+        "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -6043,7 +5987,7 @@
       "steps": [],
       "fingerprint": "5c9a408e09c309b8ad9dcc75220ed789a10a0ae61ca00071326708b3b46e6ad8",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 23922643,
       "originalTitle": "notebook602c8b4de2"
     },
@@ -6078,7 +6022,7 @@
       "steps": [],
       "fingerprint": "161b17174a8c75cb1bad7b5bc2e871bd342cd2e9c38a2005c7e87b78391b7e5a",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 24208582,
       "originalTitle": "※ Titanic - Real 1.0"
     },
@@ -6090,10 +6034,10 @@
       "published": "2022-05-29T07:03:03.487Z",
       "evidence": {
         "kind": "public",
-        "rank": 60,
-        "teams": 4727,
+        "rank": 61,
+        "teams": 4720,
         "score": "0.00044",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -6418,7 +6362,7 @@
         "rank": 3,
         "teams": 3947,
         "score": "0.96714",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -6668,7 +6612,7 @@
         "rank": 2,
         "teams": 3947,
         "score": "0.97041",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -6938,7 +6882,7 @@
         "rank": 1,
         "teams": 3947,
         "score": "0.97759",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -7262,7 +7206,7 @@
         "rank": 2,
         "teams": 3575,
         "score": "0.94588",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -7615,7 +7559,7 @@
         "rank": 3,
         "teams": 3575,
         "score": "0.94584",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -7658,7 +7602,7 @@
         "rank": 1,
         "teams": 3575,
         "score": "0.94602",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -7990,7 +7934,7 @@
         "rank": 3,
         "teams": 10148,
         "score": "5580.3",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8073,7 +8017,7 @@
         "rank": 2,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8110,7 +8054,7 @@
         "rank": 1,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8134,26 +8078,38 @@
         {
           "title": "数据处理",
           "titleEN": "Training supervision",
-          "body": "团队从训练报告与图像得到各项异常的概率、感兴趣区域与切片病灶框，把这些监督信号区分开来。",
-          "bodyEN": "The team derived finding probabilities, regions of interest and per-slice lesion boxes from the available training material and used them as distinct supervision signals.",
+          "body": "4,407 个训练检查中，只有 58 个带有全部 12 项人工标签，但每个训练检查都有自由文本放射科报告。作者使用大语言模型智能体，将训练报告与影像转化为监督信号，为 12 项影像学征象分别生成存在概率。智能体还生成每项征象对应的解剖区域框（ROI），以及逐切片的病灶框。",
+          "bodyEN": "Only 58 of the 4,407 training studies have all 12 manual labels, but every training study has a free-text radiology report. The author used large language model agents to turn the training reports and images into supervision, producing a presence probability for each of the 12 findings. The agents also generated anatomical region-of-interest (ROI) boxes for the findings and per-slice lesion boxes.",
           "reference": "0. Overview",
-          "source": 0
+          "source": 0,
+          "why": "人工标签覆盖的训练检查太少，因此作者把生成训练监督作为主要任务：征象概率回答「是否存在」，解剖框和病灶框分别提供「去哪里看」和「病灶在哪里」的信息。",
+          "whyEN": "With manual labels available for so few training studies, the author treated supervision generation as the main task: probabilities indicate whether a finding is present, anatomical boxes indicate where to look, and lesion boxes indicate where the abnormality is.",
+          "limit": "测试检查没有报告，不能照搬训练集的报告辅助标注流程。智能体生成的标注不能视同人工金标准；概览没有量化三种监督信号各自的收益。",
+          "limitEN": "Test studies have no reports, so the report-assisted labeling workflow cannot be reused at test time. Agent-generated annotations are not equivalent to manual gold labels, and the overview does not quantify the separate benefit of each supervision signal."
         },
         {
           "title": "模型与训练",
           "titleEN": "Pooling inside a region",
-          "body": "ConvNeXt-T 编码每张切片。某项异常的区域框与特征格的重叠度决定初始权重，随后在框内学习注意力。",
-          "bodyEN": "ConvNeXt-T encodes slices. Overlap with a finding’s region box sets the initial pooling weights, then attention is learned within that box.",
+          "body": "模型以单个影像序列及其各征象的 ROI 框为输入，用 ConvNeXt-T 将每张切片编码成最后一层特征图。对每项征象，按特征单元与对应 ROI 的重叠量加权求均值，框的切片范围之外权重为零。框内注意力用零初始化的 1×1 卷积为每个单元、每项征象打分，将权重改为「重叠量 × exp(分数)」，再在框内归一化。每项征象用一个线性层读取自己的序列特征，最后对同一检查的各序列概率取平均。",
+          "bodyEN": "The model takes one imaging series and its finding-specific ROI boxes as input, and ConvNeXt-T encodes each slice into its final feature map. For each finding, it averages feature cells weighted by their overlap with the corresponding ROI, assigning zero weight outside the box's slice range. In-box attention uses a zero-initialized 1×1 convolution to score every cell for every finding, then sets each weight to overlap × exp(score) and normalizes within the box. One linear layer reads each finding's own series feature, and the study probability is the mean of its series probabilities.",
           "reference": "Using the ROIs: box pooling",
-          "source": 0
+          "source": 0,
+          "why": "按征象分别池化，让每个分类头读取对应解剖区域的特征，而不是整幅影像的统一平均。零初始化让训练从普通框池化开始，再学习框内哪些位置更值得关注。",
+          "whyEN": "Finding-specific pooling lets each classifier read features from the relevant anatomy rather than a single average over the whole image. Zero initialization starts training from plain box pooling and lets the model learn which locations inside the box deserve more weight.",
+          "limit": "注意力只能重分配框内权重，无法找回落在 ROI 外的特征，因此复现时要对齐特征图、框坐标与切片范围。原文报告了在已有框池化和裁剪的设置上加入框内注意力的收益，但没有验证它脱离这些组件时的效果。",
+          "limitEN": "Attention can only reweight features inside the ROI; it cannot recover features outside it, so feature maps, box coordinates, and slice ranges must stay aligned. The write-up reports the incremental benefit of adding in-box attention after box pooling and cropping, but does not test its effect without those components."
         },
         {
           "title": "验证设计",
           "titleEN": "Held-out studies",
-          "body": "作者按检查划分五折，单独保留 58 份金标准检查作为参照，并比较不同软标签上的折外 AUC。",
-          "bodyEN": "The author used five study-level folds, kept the 58 gold-labeled studies separate as a reference and compared out-of-fold AUC against different soft labels.",
+          "body": "按检查而不是按序列划分 5 折，避免同一检查的不同序列进入不同折。58 个带金标准标签的检查单独保留，作为参考。每次实验都用不同模型、不同标注协议等产生的多套标签计算 AUC。收集 20–30 个公开榜分数并分析相关性后，作者选择以折外预测相对于 Astra 软标签的 AUC 作为主要验证指标。",
+          "bodyEN": "Use a 5-fold split by study rather than by series, so series from the same study do not land in different folds. Keep the 58 gold-labeled studies separate as a reference. For each experiment, compute AUC against multiple label sets generated by different models or labeling protocols. After collecting 20–30 public leaderboard scores and analyzing correlations, the author chose AUC of the out-of-fold predictions against Astra soft labels as the primary validation metric.",
           "reference": "### Evaluation",
-          "source": 0
+          "source": 0,
+          "why": "可用的金标准检查很少，作者需要一个能在更多训练检查上比较实验的指标，因此用与公开榜成绩的相关性来选择代理验证指标。",
+          "whyEN": "With few gold-labeled studies available, the author needed a metric for comparing experiments across more training studies and used correlation with public leaderboard scores to choose a validation proxy.",
+          "limit": "Astra 软标签仍是代理目标，不是人工金标准。原文没有给出相关系数或不确定性，因此无法判断这一选择比其他候选指标可靠多少。",
+          "limitEN": "Astra soft labels are still a proxy, not manual ground truth. The write-up provides neither correlation coefficients nor uncertainty estimates, so it does not establish how much more reliable this choice was than the alternatives."
         }
       ],
       "fingerprint": "135b1645abe1a8476648e2b90f7e4ed4fcc309d76138a2b66c74b0ddf2b7062e",
@@ -8164,7 +8120,201 @@
         "zh": "挑一项异常，在同一份检查上对比区域框轻微偏移前后的预测。对多个序列分别打分再取平均，可检查一个错误区域是否拖累整份检查。文字报告只在训练端可用，本地推理也要遵守相同限制。",
         "en": "For one finding, shift its region box slightly and compare predictions on the same study. Inspect series scores before averaging to see whether one poor region dominates the result. Exclude reports during local inference just as at test time."
       },
-      "stale": false
+      "stale": false,
+      "llmReview": {
+        "lastDeepen": "2026-11-27T17:41:50Z",
+        "deepenedBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "findings": [
+        {
+          "claim": "改用最终采用的标注协议后，GPT-6 Luna 和 GPT-6.1 Sol 的对数损失都下降，分别从 0.555 到 0.465、从 0.492 到 0.350。但 Luna 的 AUC 从 0.904 降至 0.891，说明两种指标并未给出一致排序。",
+          "claimEN": "Switching to the adopted labeling protocol reduced log loss for both GPT-6 Luna and GPT-6.1 Sol, from 0.555 to 0.465 and from 0.492 to 0.350, respectively. Luna's AUC nevertheless fell from 0.904 to 0.891, so the two metrics did not rank the protocols consistently.",
+          "setup": "在相同的智能体标注框架下，对 58 个金标准检查进行评估；分别固定 Luna 和 Sol，比较原协议与最终采用的协议。",
+          "setupEN": "Use the same agent-labeling framework and evaluate on the 58 gold studies. Hold the model fixed in each comparison, contrasting the original and adopted protocols separately for Luna and Sol.",
+          "reference": "#### Models and protocols",
+          "source": 0,
+          "caveat": "只有 58 个金标准检查；原文未报告重复运行的变异或标准误。",
+          "caveatEN": "The evaluation used only 58 gold studies; run-to-run variability and standard errors were not reported.",
+          "chart": {
+            "kind": "bar",
+            "unit": "log loss",
+            "better": "lower",
+            "labels": [
+              {
+                "zh": "GPT-6 Luna",
+                "en": "GPT-6 Luna"
+              },
+              {
+                "zh": "GPT-6.1 Sol",
+                "en": "GPT-6.1 Sol"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "原协议",
+                  "en": "Original protocol"
+                },
+                "values": [
+                  {
+                    "text": "0.555",
+                    "value": 0.555
+                  },
+                  {
+                    "text": "0.492",
+                    "value": 0.492
+                  }
+                ]
+              },
+              {
+                "name": {
+                  "zh": "最终采用的协议",
+                  "en": "Adopted protocol"
+                },
+                "values": [
+                  {
+                    "text": "0.465",
+                    "value": 0.465
+                  },
+                  {
+                    "text": "0.350",
+                    "value": 0.35
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "加入折外学习的阅读指南后，对数损失从 0.329 降至 0.307，高置信错误从 35 个降至 19 个，AUC 保持在 0.936。在同一批检查上学习并应用指南时，对数损失为 0.300，但这不能当作折外收益。",
+          "claimEN": "Adding the out-of-fold reading guide reduced log loss from 0.329 to 0.307 and confident errors from 35 to 19, while AUC stayed at 0.936. Learning and applying the guide on the same studies yielded a log loss of 0.300, but that is not an out-of-fold gain.",
+          "setup": "在 58 个金标准检查上使用 `gpt-6-astra-medium` 和同一基础标注协议，对比不加指南、加入 5 折折外指南，以及在同一批检查上学习并应用指南。",
+          "setupEN": "On 58 gold studies, use `gpt-6-astra-medium` and the same base labeling protocol to compare no guide, a 5-fold out-of-fold guide, and a guide learned and applied on the same studies.",
+          "reference": "#### Trained guide",
+          "source": 0,
+          "caveat": "同批学习和评估的结果不能衡量泛化；折外比较也只有 58 个检查，原文未报告标准误。",
+          "caveatEN": "The same-study result does not measure generalization. The out-of-fold comparison also used only 58 studies, with no standard errors reported.",
+          "chart": {
+            "kind": "bar",
+            "unit": "log loss",
+            "better": "lower",
+            "labels": [
+              {
+                "zh": "无指南",
+                "en": "No guide"
+              },
+              {
+                "zh": "5 折折外指南",
+                "en": "5-fold out-of-fold guide"
+              },
+              {
+                "zh": "同批学习并应用",
+                "en": "Learned and applied on the same studies"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "对数损失",
+                  "en": "Log loss"
+                },
+                "values": [
+                  {
+                    "text": "0.329",
+                    "value": 0.329
+                  },
+                  {
+                    "text": "0.307",
+                    "value": 0.307
+                  },
+                  {
+                    "text": "0.300",
+                    "value": 0.3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "在逐项叠加组件的实验中，以 Astra 软标签为参照的折外宏平均 AUC 从基线的 0.8721 升到 0.8789。加入 ROI 框池化后为 0.8746；在进一步加入 ROI 裁剪的基础上，框内注意力将结果从 0.8756 提高到 0.8769。",
+          "claimEN": "In the cumulative ablation, out-of-fold macro AUC against Astra soft labels rose from 0.8721 at baseline to 0.8789. Adding ROI box pooling reached 0.8746; after also adding ROI cropping, in-box attention raised the score from 0.8756 to 0.8769.",
+          "setup": "固定 256 px 输入和 5 折折外评估，在 4,349 个检查上始终使用未校准的 Astra 软标签作为评估参照。从逐切片 ConvNeXt-T 基线开始，依次加入框池化、112 mm ROI 裁剪、框内注意力、训练标签温度校准，以及病灶头与报告头。",
+          "setupEN": "Keep the input at 256 px and use the same 5-fold out-of-fold evaluation on 4,349 studies, with uncalibrated Astra soft labels as the evaluation reference throughout. Starting from a per-slice ConvNeXt-T baseline, add box pooling, 112 mm ROI cropping, in-box attention, temperature calibration of training labels, and the lesion and report heads in sequence.",
+          "reference": "### Gains step by step",
+          "source": 0,
+          "caveat": "这些增益是在前序组件已启用的条件下测得的。两个辅助头同时加入，不能拆分各自贡献；原文未报告标准误。",
+          "caveatEN": "Each gain is measured with the preceding components already enabled. The two auxiliary heads were added together, so their individual contributions cannot be separated; no standard errors were reported.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Macro AUC (OOF, Astra soft labels)",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "仅 12 项标签",
+                "en": "12 labels only"
+              },
+              {
+                "zh": "+ ROI 框池化",
+                "en": "+ ROI box pooling"
+              },
+              {
+                "zh": "+ 112 mm ROI 裁剪",
+                "en": "+ 112 mm ROI crop"
+              },
+              {
+                "zh": "+ 框内注意力",
+                "en": "+ In-box attention"
+              },
+              {
+                "zh": "+ 标签温度校准",
+                "en": "+ Temperature-calibrated labels"
+              },
+              {
+                "zh": "+ 病灶头与报告头",
+                "en": "+ Lesion and report heads"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "软标签折外宏平均 AUC",
+                  "en": "OOF macro AUC against soft labels"
+                },
+                "values": [
+                  {
+                    "text": "0.8721",
+                    "value": 0.8721
+                  },
+                  {
+                    "text": "0.8746",
+                    "value": 0.8746
+                  },
+                  {
+                    "text": "0.8756",
+                    "value": 0.8756
+                  },
+                  {
+                    "text": "0.8769",
+                    "value": 0.8769
+                  },
+                  {
+                    "text": "0.8777",
+                    "value": 0.8777
+                  },
+                  {
+                    "text": "0.8789",
+                    "value": 0.8789
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "w-121422",
@@ -8177,7 +8327,7 @@
         "rank": 3,
         "teams": 6299,
         "score": "0.959",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8203,42 +8353,62 @@
         {
           "title": "用图像+报告构造12维连续软标签",
           "titleEN": "Construct 12 continuous soft targets from images plus reports",
-          "body": "输入是每个研究的 MRI 切片与多语言报告。操作：让 GPT-6 Astra 先看 MRI（PF 专科用同一平面/序列组最多 9 张 384px 采样切片的有序拼图），检查位置、严重度与范围，再与报告核对，输出 12 个连续目标；其他报告阅读器意见仅作佐证而非投票，接受的修改只改相关目标。学生模型在冻结快照上训练，看不到报告或阅读器解释。这样做的动机是报告可能漏报或描述低于竞赛阳性阈值的变化，纯文本标签会把图像级目标带偏。局限：这是模型辅助标注，可能引入系统性偏差，作者也未报告该步骤的独立消融。",
-          "bodyEN": "Inputs are each study's MRI slices and multilingual report. GPT-6 Astra first examines the MRI (for the PF specialist, ordered sheets of up to nine sampled 384-px slices from one plane/sequence group), checks location, severity and extent, then reconciles with the report to assign 12 continuous targets. Other report-reader opinions are supporting evidence, not votes, and accepted revisions change only the relevant targets. Student models train on frozen snapshots without reports or reader explanations. The motivation is that reports can omit findings or describe changes below the competition's positive threshold, so purely text-derived labels would misdirect an image-level target. Limitation: this is model-assisted annotation that may carry systematic bias, and no isolated ablation of this step is reported.",
+          "body": "将每项训练研究的 MRI 和报告交给 GPT-6 Astra，生成 12 个连续目标值，再由针对 PF OA、Lateral OA 和 Synovitis 的专门阅片器修订。以 PF OA 为例，每张有序阅片图板从同一平面和序列分组中抽取最多九张 384-px 切片。阅片器先看图像，核查位置、严重程度和范围，再与报告核对；其他报告阅片器的意见只作辅助证据，不作投票。采纳的修订只改动相应目标，学生模型使用冻结的标签快照训练，不读取报告或阅片解释。",
+          "bodyEN": "Feed the MRI and report for each training study to GPT-6 Astra to obtain 12 continuous targets, then use specialist readers to refine PF OA, Lateral OA, and Synovitis. For PF OA, each ordered contact sheet contains up to nine sampled 384-px slices from one plane and sequence group. The reader examines the images first, checks location, severity, and extent, and then reconciles the report; other report-reader opinions are supporting evidence, not votes. Accepted revisions change only the relevant targets, and student models train on frozen target snapshots without reading reports or reader explanations.",
           "reference": "1.1 Read the images, not just the diagnostic terms",
-          "source": 0
+          "source": 0,
+          "why": "报告可能漏记征象，也可能描述未达到竞赛阳性阈值的改变。把图像证据放在首位，是为了让训练监督更贴近图像诊断目标，而不是照搬报告措辞。",
+          "whyEN": "Reports can omit findings or describe changes below the competition's positive threshold. Putting image evidence first makes the supervision better aligned with the image-based target rather than with the wording of the report.",
+          "limit": "阅片器生成的是软监督，不是专家裁定标签。原文没有单独量化图像加报告相对于仅用报告的收益。",
+          "limitEN": "The reader outputs are soft supervision, not expert-adjudicated labels. The write-up does not isolate the benefit of using images plus reports over using reports alone."
         },
         {
           "title": "按发现修正标签并用分位数映射保留排序",
           "titleEN": "Refine labels per finding and preserve ordering via quantile mapping",
-          "body": "输入是 N 版本目标与专科读者的修正结果。操作：接受 Lateral OA 与 Synovitis 的专科排序后得到 R 版本；在每个被接受的修正子集内，用新排序选取旧目标的分位数，未修正条目保持不变。动机是新读者可能同时改变排序与概率尺度，分位数映射把两者分开，从而在保留新排序的同时限制尺度漂移。作者明确 R 是目标变换而非 ranking loss，且该映射只用于修正子集内部，不用于测试集预测。局限：它依赖读者对子集的排序质量，且 N 与 R 两版都进入模型池，混合效果未做单因素隔离。",
-          "bodyEN": "Inputs are the N targets and specialist revisions. After accepting specialist rankings for Lateral OA and Synovitis, version R is produced: within each accepted revision subset, ranks select quantiles of the previous targets while unrevised entries stay fixed. The motivation is that a new reader can change both ordering and probability scale; quantile mapping separates these effects, preserving the new ordering while limiting scale changes. The authors state R is a target transformation, not a ranking loss, and the mapping applies only inside revision subsets, not to test-set predictions. Limitation: it depends on the quality of the specialist ordering, and since both N and R enter the pool, their mixing is not isolated as a single-factor ablation.",
+          "body": "先将完成 PF OA 修订的目标集记为 N。构建 R 时，只对 Lateral OA 和 Synovitis 中被采纳的修订使用专门阅片器给出的排序。在各修订子集内，根据新名次选取旧目标值的对应分位数，未修订条目保持不变。N 和 R 都用于训练模型池中的成员；R 是目标变换，不是排序损失。",
+          "bodyEN": "Start with N, the target set refined for PF OA. To construct R, use specialist rankings only for accepted revisions to Lateral OA and Synovitis. Within each revised subset, use the new ranks to select corresponding quantiles of the previous targets, leaving unrevised entries unchanged. Both N and R are used to train members of the model pool; R is a target transformation, not a ranking loss.",
           "reference": "1.2 Preserve complementary targets",
-          "source": 0
+          "source": 0,
+          "why": "换用阅片器可能同时改变样本排序和目标值尺度。分位数映射保留新的排序，同时限制目标值尺度的变化。",
+          "whyEN": "A different reader may change both the ordering of cases and the scale of the target values. Quantile mapping preserves the new ordering while limiting changes in scale.",
+          "limit": "映射仅在各个已采纳修订的子集内进行，不应用于测试集预测。原文没有单独验证分位数映射本身的收益。",
+          "limitEN": "Apply the mapping only within each accepted revision subset, not to test-set predictions. The write-up does not isolate the benefit of quantile mapping itself."
         },
         {
           "title": "把膝部MRI读成2.5D窗口并聚合为研究级logits",
           "titleEN": "Read knee MRI as 2.5D windows and aggregate to study-level logits",
-          "body": "输入是五类采集组（矢状/冠状的流体敏感与非流体敏感、轴位）的切片。操作：按 DICOM 物理几何排序、标准化膝朝向、对缺失视图做掩码；约 140mm 视野缩放到 224/384/512px；每个 2.5D 窗口堆叠同一序列的三张相邻切片作为三通道输入，由 BiT ResNetV2-50、ConvNeXt-Small、DINOv3 ViT-B/16 或 CoAtNet 编码，再经类特定空间池化、全局平均池化与注意力 MIL 聚合成 12 个研究级 logits；代表性缓存按组分配 18/14/12/8/12 个中心位置共至多 64 个，缺失位置掩码。动机是在有限显存下同时利用层内局部结构与跨层上下文。局限：推理只覆盖缓存中的有效窗口，而非全部原始 DICOM 切片。",
-          "bodyEN": "Inputs are slices from five acquisition groups (sagittal/coronal fluid-sensitive and non-fluid-sensitive, and axial). Slices are sorted by DICOM physical geometry, knee orientation is standardized and missing views masked; a roughly 140 mm field of view is resized to 224/384/512 px. Each 2.5D window stacks three adjacent slices from one series as a three-channel input, encoded by BiT ResNetV2-50, ConvNeXt-Small, DINOv3 ViT-B/16 or CoAtNet, then aggregated into 12 study logits by class-specific spatial pooling, global average pooling and attention MIL. A representative cache allocates 18/14/12/8/12 center positions per group, up to 64, with missing positions masked. The motivation is to exploit both in-slice local structure and cross-slice context under limited memory. Limitation: inference covers valid cached windows, not every raw DICOM slice.",
+          "body": "按 DICOM 物理几何位置排序切片，统一膝部朝向，并对缺失视图做掩码。将约 140 mm 的视野缩放到 224、384 或 512 px；一套代表性缓存为矢状位液体敏感、矢状位非液体敏感、冠状位液体敏感、冠状位非液体敏感和轴位依次分配 18、14、12、8 和 12 个中心位置，合计最多 64 个，缺失位置做掩码。每个 2.5D 窗口堆叠同一序列中直接相邻的三张原始切片，由 BiT ResNetV2-50、ConvNeXt-Small、DINOv3 ViT-B/16 或 CoAtNet 编码。再用类别特定空间池化、全局平均池化和注意力多实例学习（MIL）将窗口证据汇聚为 12 个研究级 logits。",
+          "bodyEN": "Sort slices by DICOM physical geometry, standardize knee orientation, and mask missing views. Resize a roughly 140 mm field of view to 224, 384 or 512 px; a representative cache assigns 18, 14, 12, 8 and 12 center positions to sagittal fluid-sensitive, sagittal non-fluid-sensitive, coronal fluid-sensitive, coronal non-fluid-sensitive, and axial acquisitions, respectively, up to 64 in total, with missing positions masked. Each 2.5D window stacks three immediately adjacent source slices from the same series and is encoded by BiT ResNetV2-50, ConvNeXt-Small, DINOv3 ViT-B/16, or CoAtNet. Class-specific spatial pooling, global average pooling, and attention-based multiple-instance learning (MIL) aggregate window evidence into 12 study-level logits.",
           "reference": "2.1 Geometry and local context",
-          "source": 0
+          "source": 0,
+          "why": "相邻切片为单个窗口提供局部层间上下文，研究级聚合则将不同窗口和视图的证据汇入同一项研究的预测。",
+          "whyEN": "Adjacent slices give each window local through-plane context, while study-level aggregation combines evidence across windows and views into one prediction per study.",
+          "limit": "三张切片必须在同一原始序列内直接相邻，不能用缓存中相邻的采样中心替代。各检查点保留自己的预处理和采样设置，不能互换旧版与原生单次重采样流程；原文没有单独量化 2.5D 窗口的收益。",
+          "limitEN": "The three slices must be immediately adjacent in the original series, not merely neighboring sampled centers in the cache. Keep each checkpoint paired with its own preprocessing and sampling settings rather than swapping the legacy and native single-resampling pipelines. The write-up does not isolate the benefit of the 2.5D windows."
         },
         {
           "title": "可选深度注意力与OA耦合头",
           "titleEN": "Optional depth attention and OA-coupled head",
-          "body": "输入是同一序列内的窗口特征。操作：深度上下文（36 个成员中的 31 个）在序列内用 32 维投影、2×2 区域池化与 4 个注意力头交换特征，训练包保留序列块并以 32 个窗口为上限；OA 耦合（36 个中的 5 个）学习区域软骨等级，把累积序数预测转为分室最大值加学习残差，只修改三个 OA logits，其余九个不变，OAI 等级仅用于训练监督而耦合预测头在测试时仍生效。动机是让网络利用层间物理位置信息并对 OA 相关的三个发现建模序数结构。局限：这些是作者的配置选择，作者未将其作为单独消融报告收益，且“特征路径为示意而非实测注意力图”。",
-          "bodyEN": "Inputs are window features within a series. Depth context (31 of 36 members) exchanges features using 32-dimensional projections, 2x2 regional pooling and four attention heads within each series, with training bags preserving series blocks capped at 32 windows. OA coupling (5 of 36) learns regional cartilage grades, converting cumulative ordinal predictions into compartment-wise maxima plus learned residuals that modify only the three OA logits while the other nine stay unchanged; OAI grades supervise training only and the coupled head remains active at test time. The motivation is to use physical position between slices and to model ordinal structure for the three OA-related findings. Limitation: these are the authors' configuration choices, not isolated ablations, and figure features are 'schematic, not measured attention maps'.",
+          "body": "深度上下文用于 31/36 个成员，以窗口特征和物理位置为输入，在同一序列内使用 32 维投影、2×2 区域池化和四个注意力头交换信息，并保留残差连接。训练包保留序列块，最多包含 32 个窗口；推理则覆盖缓存中的所有有效窗口。OA 耦合头用于 5/36 个成员，训练时利用 OAI 分级学习区域软骨等级，再将累积序数预测转换为各间室的最大证据，并通过学习到的残差修正三个 OA logits。耦合头在推理时仍然启用，在 sigmoid 之前完成修正，其余九个 logits 不变。",
+          "bodyEN": "Depth context is used in 31/36 members and takes window features and physical positions as inputs, exchanging information within each series through 32-dimensional projections, 2×2 regional pooling, and four attention heads, with a residual connection. Training bags preserve series blocks and are capped at 32 windows, whereas inference covers all valid cached windows. The OA-coupled head is used in 5/36 members and learns regional cartilage grades from OAI supervision during training, then converts cumulative ordinal predictions into compartment-wise maxima and applies learned residuals to the three OA logits. The head stays active at inference and applies its corrections before sigmoid, leaving the other nine logits unchanged.",
           "reference": "2.2 Depth attention and OA coupling",
-          "source": 0
+          "source": 0,
+          "why": "深度注意力让同一序列的窗口交换超出局部三切片范围的信息；OA 耦合头则把区域软骨等级提供的间室证据直接用于 OA 预测。",
+          "whyEN": "Depth attention lets windows in the same series exchange information beyond the local three-slice span. The OA-coupled head uses compartment-level evidence from regional cartilage grades directly in the OA predictions.",
+          "limit": "推理覆盖所有有效缓存窗口，不等于逐张读取原始 DICOM；软骨分级也不是病灶框预测。OAI 分级只用于训练，原文没有分别验证深度注意力和 OA 耦合头各自的收益。",
+          "limitEN": "Covering all valid cached windows is not the same as processing every raw DICOM slice, and cartilage grading does not predict lesion boxes. OAI grades are used only for training, and the write-up does not isolate the benefit of either depth attention or the OA-coupled head."
         },
         {
           "title": "固定分组预算的概率融合与Gold58重训",
           "titleEN": "Group-budget probability fusion and Gold58 refits",
-          "body": "输入是各成员对 12 个发现的 sigmoid 概率。操作：基础预测 B[c] = 0.5·mean(Mature12) + 0.5·mean(Matrix20)，其余九个发现用 B[c]；三个弱发现用 P[c] = 0.5·B[c] + 0.5·mean(Expert8)；四个共享 checkpoint 只推理一次但保留两组贡献，得 12+20+8−4=36 个唯一模型，八个专家成员合计获得弱发现 58.33% 的展开权重；随后在冻结 G36 后将可匹配成员替换为含 58 个专家标签研究的重训版本（27 个重训+9 个原 checkpoint），分组与融合不变。动机是防止某架构的实验数或种子数自动决定其权重，并给弱发现额外专家支持。局限：作者自己指出 0.959 的三位小数既未确立 Gold 重训收益也未确立分组优势，且未用重训后的样本内分数重选成员；本方案是可复现的集成工程，而非单因素消融证据。",
-          "bodyEN": "Inputs are each member's sigmoid probabilities for 12 findings. The base prediction is B[c] = 0.5·mean(Mature12) + 0.5·mean(Matrix20), used for the other nine findings; the weak three use P[c] = 0.5·B[c] + 0.5·mean(Expert8). Four shared checkpoints are inferred once but keep contributions in both groups, giving 12+20+8-4 = 36 unique models, with the eight expert members receiving 58.33% of expanded weak-finding weight. After freezing G36, eligible members are replaced by refits including the 58 expert-labeled studies (27 refits + 9 original checkpoints) with grouping and fusion fixed. The motivation is to stop the number of experiments or seeds for one architecture from determining its share, and to give weak findings extra expert support. Limitation: the authors note the three-decimal 0.959 establishes neither a Gold-refit benefit nor a grouping advantage, and post-refit in-sample scores were not used to reselect members; this is reproducible ensemble engineering, not single-factor ablation evidence.",
+          "body": "对每个征象，先取各检查点经 sigmoid 得到的概率，分别计算 Mature12 和 Matrix20 的组内均值，再各乘 0.5 后相加得到基础预测 B。其余九项直接用 B；Lateral OA、PF OA 和 Synovitis 则将 B 与 Expert8 的组内均值各乘 0.5 后相加。Mature12 和 Expert8 共享四个检查点，这些检查点只推理一次，但在两个组中都参与计算。冻结方案后，加入 58 项专家标注研究重训可匹配的成员，保持配方、种子、输入处理和读出方式相同，最终使用 27 个重训检查点和 9 个原始检查点，组成员和融合规则不变。",
+          "bodyEN": "For each finding, take the sigmoid probabilities from the checkpoints, average within Mature12 and Matrix20, and give each group mean a weight of 0.5 to obtain the base prediction B. Use B directly for the other nine findings; for Lateral OA, PF OA, and Synovitis, give B and the Expert8 mean a weight of 0.5 each. Four checkpoints are shared by Mature12 and Expert8, so each is run once but contributes through both groups. After freezing the design, refit eligible members with the 58 expert-labeled studies, matching the recipe, seed, input processing, and readout, and use 27 refit checkpoints plus 9 originals without changing group membership or blending.",
           "reference": "4. G36-Gold: fixed group budgets, finding-specific support",
-          "source": 0
+          "source": 0,
+          "why": "Mature12 用成熟配方打底，Matrix20 在组内提供均衡的骨干覆盖，Expert8 只为三个较弱征象追加权重。固定组预算避免某类架构仅因实验或种子更多就自动获得更大权重。",
+          "whyEN": "Mature12 anchors the blend with established recipes, Matrix20 provides balanced backbone coverage within its branch, and Expert8 adds weight only for the three weaker findings. Fixed group budgets keep architectures with more experiments or seeds from automatically receiving more weight.",
+          "limit": "融合直接使用概率，不做百分位排名转换；Matrix20 组内均衡不代表整个集成均衡。Gold58 已参与开发，重训后的样本内预测只用于执行和一致性检查；原文在报告精度下未能确认分组或重训带来收益。",
+          "limitEN": "Blend probabilities directly without a percentile-rank conversion; balance within Matrix20 does not imply balance across the entire ensemble. Gold58 had already informed development, and post-refit in-sample predictions were used only for execution and parity checks. At the reported precision, the write-up does not establish a benefit from grouping or refitting."
         }
       ],
       "fingerprint": "ba26bdc32dc603d7639ad9a787bde31b6cbfdc7b74e7b6355bc47333fdcf010d",
@@ -8253,6 +8423,11 @@
         "writtenBy": {
           "provider": "deepseek",
           "model": "deepseek-v4-flash"
+        },
+        "lastDeepen": "2026-11-27T17:41:50Z",
+        "deepenedBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
         }
       },
       "titleEN": "From Report-Derived Soft Labels to 2.5D MRI Readers: Dissecting the 3rd-Place RSNA Knee Abnormality Solution",
@@ -8262,7 +8437,138 @@
         "zh": "在公开 Notebook 基础上做小规模对照：固定同一骨干与同一个 seed，仅改变监督构造，比较 (a) 仅用报告文本标签、(b) 图像+报告软标签 N、(c) 对单一发现应用分位数映射的 R 三种设置下的局部 AUC，并记录每种设置下有多少样本被修正；借此检验软标签与分位数映射是否真的带来提升，而不是直接照搬融合权重。",
         "en": "On top of the public notebook, run a small controlled comparison: fix the same backbone and seed and vary only supervision construction, comparing the local AUC of (a) report-text-only labels, (b) image+report soft targets (N), and (c) R with quantile mapping for a single finding, while logging how many samples were revised in each setting. This tests whether soft labels and quantile mapping actually help instead of copying the ensemble weights."
       },
-      "stale": false
+      "stale": false,
+      "findings": [
+        {
+          "claim": "使用全量 OAI 时，将适用单元的专家与教师目标混合比例从 70:30 改为 50:50，Gold58 AUC 从 0.9408 升至 0.9453。",
+          "claimEN": "With the full OAI pool, changing the expert-to-teacher target mix on applicable cells from 70:30 to 50:50 raised Gold58 AUC from 0.9408 to 0.9453.",
+          "setup": "对比 J-v3-all 与 J-kd50-all。两者均用 N 目标、每轮 9,440 个 OAI 膝、BiT-50 深度模型和固定第 25 轮 EMA；OAI 目标与权重处理随混合比例改变，依赖标签的偏移量也重新计算。",
+          "setupEN": "Compare J-v3-all with J-kd50-all. Both use N targets, 9,440 OAI knees per epoch, BiT-50 with depth context, and the fixed epoch-25 EMA checkpoint; the OAI target and weighting paths change with the mix, and label-dependent offsets are recomputed.",
+          "reference": "### 7.1 OAI targets and training recipes",
+          "source": 0,
+          "caveat": "固定种子 2026；Gold58 是反复使用的 58 项研究开发集，不是盲测集。",
+          "caveatEN": "Seed 2026 was fixed. Gold58 is a repeatedly used 58-study development set, not a blind test.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Gold58 AUC",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "专家:教师 70:30",
+                "en": "Expert:teacher 70:30"
+              },
+              {
+                "zh": "专家:教师 50:50",
+                "en": "Expert:teacher 50:50"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "全量 OAI",
+                  "en": "Full OAI pool"
+                },
+                "values": [
+                  {
+                    "text": "0.9408",
+                    "value": 0.9408
+                  },
+                  {
+                    "text": "0.9453",
+                    "value": 0.9453
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "在 70:30 混合比例下，将每轮 OAI 样本从 2,000 增至全量 9,440，Gold58 AUC 反而从 0.9446 降到 0.9408。",
+          "claimEN": "At a 70:30 mix, increasing the OAI sample from 2,000 per epoch to the full pool of 9,440 reduced Gold58 AUC from 0.9446 to 0.9408.",
+          "setup": "对比 J-v3 与 J-v3-all，保持 RSNA 的 N 目标、专家与教师比例、BiT-50 深度模型和固定第 25 轮 EMA 不变。",
+          "setupEN": "Compare J-v3 with J-v3-all, holding the RSNA N targets, expert-to-teacher ratio, BiT-50 depth model, and fixed epoch-25 EMA checkpoint constant.",
+          "reference": "### 7.1 OAI targets and training recipes",
+          "source": 0,
+          "caveat": "增加每轮数据量也增加了优化器更新次数，不能单独归因于数据量。两次运行均使用种子 2026，Gold58 是反复使用的开发集。",
+          "caveatEN": "The larger per-epoch sample also increased the number of optimizer updates, so the comparison does not isolate data volume. Both runs use seed 2026, and Gold58 is a repeatedly used development set.",
+          "chart": {
+            "kind": "line",
+            "unit": "Gold58 AUC",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "每轮 2,000 个 OAI 膝",
+                "en": "2,000 OAI knees per epoch"
+              },
+              {
+                "zh": "每轮 9,440 个 OAI 膝",
+                "en": "9,440 OAI knees per epoch"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "专家:教师 70:30",
+                  "en": "Expert:teacher 70:30"
+                },
+                "values": [
+                  {
+                    "text": "0.9446",
+                    "value": 0.9446
+                  },
+                  {
+                    "text": "0.9408",
+                    "value": 0.9408
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "加入辅助监督并在训练尾段停用 OAI 的 N3RK4-o18，在 Gold58 上取得 0.9523 AUC，高于 RK4 的 0.9505。",
+          "claimEN": "N3RK4-o18, which adds auxiliary supervision and removes OAI for the training tail, reached 0.9523 Gold58 AUC versus 0.9505 for RK4.",
+          "setup": "两者均使用 R 目标、50:50 的 OAI 目标混合比例、BiT-50 深度模型和固定第 25 轮 EMA。RK4 每轮使用 4,000 个 OAI 膝，N3RK4-o18 则只到第 18 轮使用这一预算，并增加辅助监督。",
+          "setupEN": "Both use R targets, a 50:50 OAI target mix, BiT-50 with depth context, and fixed epoch-25 EMA. RK4 uses 4,000 OAI knees per epoch, while N3RK4-o18 uses that budget only through epoch 18 and adds auxiliary supervision.",
+          "reference": "### 7.1 OAI targets and training recipes",
+          "source": 0,
+          "caveat": "辅助监督和停用 OAI 同时改变，不能分离两者的贡献。比较使用固定种子 2026，Gold58 不是盲测集。",
+          "caveatEN": "Auxiliary supervision and the OAI-free tail change together, so their contributions cannot be separated. The comparison uses fixed seed 2026, and Gold58 is not a blind test.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Gold58 AUC",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "RK4",
+                "en": "RK4"
+              },
+              {
+                "zh": "N3RK4-o18",
+                "en": "N3RK4-o18"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "开发集对照",
+                  "en": "Development-set comparison"
+                },
+                "values": [
+                  {
+                    "text": "0.9505",
+                    "value": 0.9505
+                  },
+                  {
+                    "text": "0.9523",
+                    "value": 0.9523
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "w-121866",
@@ -8275,7 +8581,7 @@
         "rank": 1,
         "teams": 10148,
         "score": "5890.3",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8329,7 +8635,10 @@
         "zh": "固定对手与开局，把目标策略出现的次数和整局胜率分开记录。模仿后目标动作更常见，可能只是学会了照做；若下一轮自博弈后同一对手上的胜率也上升，才有依据继续研究它在决策链中的价值。",
         "en": "Fix opponents and starting positions. Count the targeted behavior separately from game wins. Imitation can increase the frequency of an action without improving play. Evaluate it again after self-play to see whether the agent has learned when to use it."
       },
-      "stale": false
+      "stale": false,
+      "llmReview": {
+        "lastDeepen": "2026-11-27T17:41:50Z"
+      }
     },
     {
       "id": "w-121870",
@@ -8342,7 +8651,7 @@
         "rank": 2,
         "teams": 10148,
         "score": "5823.4",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
@@ -8379,7 +8688,7 @@
         "rank": 1,
         "teams": 3734,
         "score": "0.96318",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-27T17:41:50Z"
       },
       "sources": [
         {
