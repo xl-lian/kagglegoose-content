@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-27T17:41:50Z",
+  "updated": "2026-11-28T02:19:11Z",
   "competitions": [
     {
       "id": "arc-prize-2026-arc-agi-2",
@@ -749,9 +749,9 @@
       "evidence": {
         "kind": "public",
         "rank": 28,
-        "teams": 3628,
+        "teams": 3604,
         "score": "11602.83535",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -802,9 +802,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -836,9 +836,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81669",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -890,9 +890,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -925,9 +925,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -960,9 +960,9 @@
       "evidence": {
         "kind": "public",
         "rank": 30,
-        "teams": 3628,
+        "teams": 3604,
         "score": "11671.53164",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1012,9 +1012,9 @@
       "evidence": {
         "kind": "public",
         "rank": 123,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81622",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1073,9 +1073,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81669",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1134,9 +1134,9 @@
       "evidence": {
         "kind": "public",
         "rank": 122,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81646",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1194,9 +1194,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1368,
+        "teams": 1363,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1230,9 +1230,9 @@
       "evidence": {
         "kind": "public",
         "rank": 121,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81669",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1299,9 +1299,9 @@
       "evidence": {
         "kind": "public",
         "rank": 113,
-        "teams": 2229,
+        "teams": 2225,
         "score": "0.81903",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1353,9 +1353,9 @@
       "evidence": {
         "kind": "public",
         "rank": 6,
-        "teams": 74,
+        "teams": 75,
         "score": "0.97956",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1411,7 +1411,7 @@
       ],
       "awaitingExplanation": true,
       "fingerprint": "02820c27440abc5291ea74c43d47989384e1fb85051068746082629609391e97",
-      "stale": false
+      "stale": true
     },
     {
       "id": "k-25668838",
@@ -1444,7 +1444,7 @@
       "steps": [],
       "fingerprint": "24b5dd826ecc60503c68a93bb023837a8284f6d765ba3de604577ff48105c261",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 7204871,
       "originalTitle": "Data Recognizer - 100% score ..."
     },
@@ -1460,7 +1460,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1493,9 +1493,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 74,
+        "teams": 75,
         "score": "0.98084",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1528,9 +1528,9 @@
       "evidence": {
         "kind": "public",
         "rank": 2,
-        "teams": 74,
+        "teams": 75,
         "score": "0.98222",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1563,9 +1563,9 @@
       "evidence": {
         "kind": "public",
         "rank": 38,
-        "teams": 3628,
+        "teams": 3604,
         "score": "11911.65105",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1632,9 +1632,9 @@
       "evidence": {
         "kind": "public",
         "rank": 25,
-        "teams": 3628,
+        "teams": 3604,
         "score": "11572.97803",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1693,9 +1693,9 @@
       "evidence": {
         "kind": "public",
         "rank": 67,
-        "teams": 3628,
+        "teams": 3604,
         "score": "12329.79076",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1729,7 +1729,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1789,9 +1789,9 @@
       "evidence": {
         "kind": "public",
         "rank": 36,
-        "teams": 3628,
+        "teams": 3604,
         "score": "11849.04818",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1852,7 +1852,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1885,9 +1885,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 3628,
+        "teams": 3604,
         "score": "0",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1919,10 +1919,10 @@
       "published": "2026-10-14T05:33:06.430Z",
       "evidence": {
         "kind": "public",
-        "rank": 170,
-        "teams": 6961,
+        "rank": 172,
+        "teams": 6993,
         "score": "0.2",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1954,10 +1954,10 @@
       "published": "2026-10-22T08:09:30.777Z",
       "evidence": {
         "kind": "public",
-        "rank": 170,
-        "teams": 6961,
+        "rank": 172,
+        "teams": 6993,
         "score": "0.2",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -1989,10 +1989,10 @@
       "published": "2026-11-01T05:44:06.667Z",
       "evidence": {
         "kind": "public",
-        "rank": 170,
-        "teams": 6961,
+        "rank": 172,
+        "teams": 6993,
         "score": "0.2",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2023,10 +2023,10 @@
       "published": "2026-11-04T15:25:38.653Z",
       "evidence": {
         "kind": "public",
-        "rank": 27,
-        "teams": 328,
+        "rank": 29,
+        "teams": 327,
         "score": "0.82756",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2076,10 +2076,10 @@
       "published": "2026-11-05T16:58:12.900Z",
       "evidence": {
         "kind": "public",
-        "rank": 24,
-        "teams": 328,
+        "rank": 26,
+        "teams": 327,
         "score": "0.82728",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2129,10 +2129,10 @@
       "published": "2026-11-10T21:45:58.797Z",
       "evidence": {
         "kind": "public",
-        "rank": 22,
-        "teams": 328,
+        "rank": 23,
+        "teams": 327,
         "score": "0.82685",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2184,9 +2184,9 @@
       "evidence": {
         "kind": "public",
         "rank": 117,
-        "teams": 3628,
+        "teams": 3604,
         "score": "12675.54135",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2243,10 +2243,10 @@
       "published": "2026-11-21T14:08:23.313Z",
       "evidence": {
         "kind": "public",
-        "rank": 325,
-        "teams": 3353,
+        "rank": 336,
+        "teams": 3390,
         "score": "0.95547",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2295,10 +2295,10 @@
       "published": "2026-11-21T14:15:33.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 325,
-        "teams": 3353,
+        "rank": 336,
+        "teams": 3390,
         "score": "0.95547",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2385,10 +2385,10 @@
       "published": "2026-11-24T06:34:33.583Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2420,10 +2420,10 @@
       "published": "2026-11-24T07:19:25.697Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2455,10 +2455,10 @@
       "published": "2026-11-24T07:43:27.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2490,10 +2490,10 @@
       "published": "2026-11-24T07:59:00.010Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2525,10 +2525,10 @@
       "published": "2026-11-24T09:48:35.163Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2560,10 +2560,10 @@
       "published": "2026-11-24T11:32:41.183Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2595,10 +2595,10 @@
       "published": "2026-11-24T11:48:14.380Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2630,10 +2630,10 @@
       "published": "2026-11-24T13:04:01.030Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2665,10 +2665,10 @@
       "published": "2026-11-24T13:42:55.237Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2700,10 +2700,10 @@
       "published": "2026-11-24T14:01:42.453Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -2735,10 +2735,10 @@
       "published": "2026-11-24T14:10:48.290Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3017,10 +3017,10 @@
       "published": "2026-11-24T16:32:57.510Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3052,10 +3052,10 @@
       "published": "2026-11-24T18:09:25.447Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3219,10 +3219,10 @@
       "published": "2026-11-24T19:04:00.350Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3254,10 +3254,10 @@
       "published": "2026-11-24T20:09:10.670Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3289,10 +3289,10 @@
       "published": "2026-11-24T23:37:55.283Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3324,10 +3324,10 @@
       "published": "2026-11-24T23:59:47.033Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3359,10 +3359,10 @@
       "published": "2026-11-25T03:10:41.383Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3394,10 +3394,10 @@
       "published": "2026-11-25T03:10:57.947Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3429,10 +3429,10 @@
       "published": "2026-11-25T03:19:05.310Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3456,41 +3456,6 @@
       "stale": false
     },
     {
-      "kernelID": 147376692,
-      "id": "k-373969417",
-      "competitionID": "name-that-llm",
-      "originalTitle": "ntl fork lb0724 pb115",
-      "author": "Mugundhan Y",
-      "published": "2026-11-25T13:27:26.980Z",
-      "evidence": {
-        "kind": "public",
-        "rank": 722,
-        "teams": 7262,
-        "score": "0.723",
-        "checked": "2026-11-27T17:41:50Z"
-      },
-      "sources": [
-        {
-          "title": "已核验的 Notebook · v1",
-          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-lb0724-pb115?scriptVersionId=373969417"
-        },
-        {
-          "title": "公开排行榜",
-          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
-        }
-      ],
-      "title": "ntl fork lb0724 pb115",
-      "summary": "本版本已通过公开榜成绩核验。",
-      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
-      "steps": [],
-      "tags": [
-        "Notebook"
-      ],
-      "awaitingExplanation": true,
-      "fingerprint": "8686d5942bdcdbaa02dd2b19b520c9143ba2d785c0625ccc6caaabfc6f6fe702",
-      "stale": false
-    },
-    {
       "kernelID": 147380426,
       "id": "k-373976691",
       "competitionID": "name-that-llm",
@@ -3499,10 +3464,10 @@
       "published": "2026-11-25T13:46:51.200Z",
       "evidence": {
         "kind": "public",
-        "rank": 626,
-        "teams": 7262,
+        "rank": 713,
+        "teams": 7289,
         "score": "0.724",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3534,10 +3499,10 @@
       "published": "2026-11-25T22:03:11.720Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3569,10 +3534,10 @@
       "published": "2026-11-26T03:38:16.060Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3604,10 +3569,10 @@
       "published": "2026-11-26T03:52:31.063Z",
       "evidence": {
         "kind": "public",
-        "rank": 626,
-        "teams": 7262,
+        "rank": 713,
+        "teams": 7289,
         "score": "0.724",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3639,10 +3604,10 @@
       "published": "2026-11-26T03:57:20.670Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3674,10 +3639,10 @@
       "published": "2026-11-26T04:02:03.157Z",
       "evidence": {
         "kind": "public",
-        "rank": 626,
-        "teams": 7262,
+        "rank": 713,
+        "teams": 7289,
         "score": "0.724",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3709,10 +3674,10 @@
       "published": "2026-11-26T04:11:57.190Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3744,10 +3709,10 @@
       "published": "2026-11-26T04:12:03.333Z",
       "evidence": {
         "kind": "public",
-        "rank": 626,
-        "teams": 7262,
+        "rank": 713,
+        "teams": 7289,
         "score": "0.724",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3779,10 +3744,10 @@
       "published": "2026-11-26T04:55:09.090Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -3929,10 +3894,10 @@
       "published": "2026-11-26T05:03:05.123Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4048,10 +4013,10 @@
       "published": "2026-11-26T08:16:02.360Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4094,10 +4059,10 @@
       "published": "2026-11-26T09:54:27.953Z",
       "evidence": {
         "kind": "public",
-        "rank": 306,
-        "teams": 7262,
+        "rank": 433,
+        "teams": 7289,
         "score": "0.727",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4129,10 +4094,10 @@
       "published": "2026-11-26T10:22:07.120Z",
       "evidence": {
         "kind": "public",
-        "rank": 306,
-        "teams": 7262,
+        "rank": 433,
+        "teams": 7289,
         "score": "0.727",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4164,10 +4129,10 @@
       "published": "2026-11-26T11:51:55.627Z",
       "evidence": {
         "kind": "public",
-        "rank": 215,
-        "teams": 7262,
+        "rank": 330,
+        "teams": 7289,
         "score": "0.728",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4187,7 +4152,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "23988e293d66b5fd6b95d61b9bde7c189b4561bb5648455ba0b198df55ecfd52"
+      "fingerprint": "23988e293d66b5fd6b95d61b9bde7c189b4561bb5648455ba0b198df55ecfd52",
+      "stale": false
     },
     {
       "kernelID": 147615375,
@@ -4198,10 +4164,10 @@
       "published": "2026-11-26T13:43:04.997Z",
       "evidence": {
         "kind": "public",
-        "rank": 410,
-        "teams": 7262,
+        "rank": 521,
+        "teams": 7289,
         "score": "0.726",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4233,10 +4199,10 @@
       "published": "2026-11-26T13:43:49.437Z",
       "evidence": {
         "kind": "public",
-        "rank": 410,
-        "teams": 7262,
+        "rank": 521,
+        "teams": 7289,
         "score": "0.726",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4268,10 +4234,10 @@
       "published": "2026-11-26T14:44:53.823Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4303,10 +4269,10 @@
       "published": "2026-11-26T14:45:00.133Z",
       "evidence": {
         "kind": "public",
-        "rank": 508,
-        "teams": 7262,
+        "rank": 616,
+        "teams": 7289,
         "score": "0.725",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4338,10 +4304,10 @@
       "published": "2026-11-26T17:34:39.103Z",
       "evidence": {
         "kind": "public",
-        "rank": 192,
-        "teams": 6127,
+        "rank": 293,
+        "teams": 6155,
         "score": "0.509",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4384,10 +4350,10 @@
       "published": "2026-11-26T18:13:03.247Z",
       "evidence": {
         "kind": "public",
-        "rank": 215,
-        "teams": 7262,
+        "rank": 330,
+        "teams": 7289,
         "score": "0.728",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4543,10 +4509,10 @@
       "published": "2026-11-26T18:32:50.393Z",
       "evidence": {
         "kind": "public",
-        "rank": 306,
-        "teams": 7262,
+        "rank": 433,
+        "teams": 7289,
         "score": "0.727",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4737,10 +4703,10 @@
       "published": "2026-11-26T19:28:10.337Z",
       "evidence": {
         "kind": "public",
-        "rank": 410,
-        "teams": 7262,
+        "rank": 521,
+        "teams": 7289,
         "score": "0.726",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4760,7 +4726,42 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "cab239060b91d4f21b6670f859144bc759ac3fa82721e4373d0423c1f25273bf"
+      "fingerprint": "cab239060b91d4f21b6670f859144bc759ac3fa82721e4373d0423c1f25273bf",
+      "stale": false
+    },
+    {
+      "kernelID": 147676674,
+      "id": "k-374534616",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl fork mt0728 rampm12",
+      "author": "Mugundhan Y",
+      "published": "2026-11-26T19:36:51.233Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 433,
+        "teams": 7289,
+        "score": "0.727",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/mugundhany/ntl-fork-mt0728-rampm12?scriptVersionId=374534616"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl fork mt0728 rampm12",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "2bf80f46ef87f15cf39a6aaf762ceedb58e72dfe6e481a5f87f1a30547d4aa43"
     },
     {
       "kernelID": 147754426,
@@ -4771,10 +4772,10 @@
       "published": "2026-11-27T04:39:45.817Z",
       "evidence": {
         "kind": "public",
-        "rank": 215,
-        "teams": 7262,
-        "score": "0.728",
-        "checked": "2026-11-27T17:41:50Z"
+        "rank": 82,
+        "teams": 7289,
+        "score": "0.73",
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4794,7 +4795,8 @@
         "Notebook"
       ],
       "awaitingExplanation": true,
-      "fingerprint": "bc75439f0e7c9325a8a2c5761dcbfabea999d6d9c21a4de58ad0f86bfaac7df3"
+      "fingerprint": "bc75439f0e7c9325a8a2c5761dcbfabea999d6d9c21a4de58ad0f86bfaac7df3",
+      "stale": false
     },
     {
       "kernelID": 147759019,
@@ -4805,10 +4807,10 @@
       "published": "2026-11-27T05:07:30.543Z",
       "evidence": {
         "kind": "public",
-        "rank": 147,
-        "teams": 6127,
+        "rank": 164,
+        "teams": 6155,
         "score": "0.51",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -4965,7 +4967,76 @@
             ]
           }
         }
-      ]
+      ],
+      "stale": false
+    },
+    {
+      "kernelID": 147818111,
+      "id": "k-374789435",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl-729-exact-fork",
+      "author": "point_goat",
+      "published": "2026-11-27T10:34:38.707Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 330,
+        "teams": 7289,
+        "score": "0.728",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/pointgoat/ntl-729-exact-fork?scriptVersionId=374789435"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-729-exact-fork",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "799ac8ba6f4f3149c0092836cfc7e6fef753a3b2b815b2eaac1ec899cdf43bb2"
+    },
+    {
+      "kernelID": 147833308,
+      "id": "k-374818966",
+      "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0728 ramp mirror repro",
+      "author": "feiyu26",
+      "published": "2026-11-27T12:02:13.010Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 180,
+        "teams": 7289,
+        "score": "0.729",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/feiyu26/ntl-0728-ramp-mirror-repro?scriptVersionId=374818966"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "NTL 0728 ramp mirror repro",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "1291c9ba8abc162e36bbaa34bd4d25e838bb1029ecf09021dfdb789570e797bf"
     },
     {
       "kernelID": 147857877,
@@ -4976,10 +5047,10 @@
       "published": "2026-11-27T14:24:51.240Z",
       "evidence": {
         "kind": "public",
-        "rank": 73,
-        "teams": 3821,
+        "rank": 278,
+        "teams": 3838,
         "score": "33.28959",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5008,7 +5079,748 @@
         },
         "reason": "该笔记本包含可复用的具体方法：化学加载器的可追踪重构（特征缓存、乘积与线性残差、用测量移除特征并给出电路布局）、对DQI门重写的位并行扫描与容错概率评估、权重再拟合，以及用官方验证器复现校验。多个步骤可让读者追溯建模、验证与优化决策，超出单纯结果声明。",
         "status": "selected"
-      }
+      },
+      "stale": false
+    },
+    {
+      "kernelID": 147822475,
+      "id": "k-374867374",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl-k7-alpha45-fullk5",
+      "author": "Chenghao Ge",
+      "published": "2026-11-27T14:25:12.280Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 433,
+        "teams": 7289,
+        "score": "0.727",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/chenghaoge2026/ntl-k7-alpha45-fullk5?scriptVersionId=374867374"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-k7-alpha45-fullk5",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "5c0d9e80604d93d85f966534daa373d9f1a95e9d2808c2005be881b2cd16f557"
+    },
+    {
+      "kernelID": 147858639,
+      "id": "k-374868648",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl-k8-alpha50-fullk5",
+      "author": "Chenghao Ge",
+      "published": "2026-11-27T14:28:28.493Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 433,
+        "teams": 7289,
+        "score": "0.727",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/chenghaoge2026/ntl-k8-alpha50-fullk5?scriptVersionId=374868648"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "ntl-k8-alpha50-fullk5",
+      "summary": "本版本已通过公开榜成绩核验。",
+      "takeaway": "打开固定版本，对照输入、特征和提交代码。",
+      "steps": [],
+      "tags": [
+        "Notebook"
+      ],
+      "awaitingExplanation": true,
+      "fingerprint": "5c0d9e80604d93d85f966534daa373d9f1a95e9d2808c2005be881b2cd16f557"
+    },
+    {
+      "kernelID": 147860236,
+      "id": "k-374871764",
+      "competitionID": "name-that-llm",
+      "originalTitle": "ntl-k9-729-lineup",
+      "author": "Chenghao Ge",
+      "published": "2026-11-27T14:36:44.790Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 521,
+        "teams": 7289,
+        "score": "0.726",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/chenghaoge2026/ntl-k9-729-lineup?scriptVersionId=374871764"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "从生成文本识别语言模型：区分似然覆盖率与混合权重",
+      "summary": "任务是根据一段 40–250 词的生成文本，从 18 个语言模型中识别出生成它的模型，评价指标是各模型召回率的平均值。基础集成先给出预测，但额外的似然评分受剩余推理时间限制，覆盖上限并不等于实际处理比例。笔记本沿用 V52 流水线，分别考察提高覆盖上限和调整似然混合权重，而不是把同时发生的改动归因于其中一个参数。在覆盖上限固定为 0.40 的对照中，调整混合权重改变了报告分数；在权重固定为 0.25 的对照中，只提高覆盖上限没有改变报告分数。",
+      "takeaway": "把覆盖上限、实际处理比例和混合权重分开看：时间预算可能让更高的上限不起作用，而固定上限的单变量对照才能检验权重变化。",
+      "steps": [
+        {
+          "title": "用时间预算和覆盖上限共同约束似然评分",
+          "titleEN": "Bound Likelihood Scoring by Both Time and Coverage",
+          "body": "这一步的输入是测试文本、测试集大小 `N` 和剩余推理时间。似然阶段最多读取 `min(passages that fit in the time left, max_cover × N)` 条文本。作者把上限从 30% 放宽到 40%；但按文中所述的实测开销，剩余时间只够处理约 22% 的测试文本。",
+          "bodyEN": "This step takes the test passages, the test-set size `N`, and the remaining inference time. The likelihood stage reads at most `min(passages that fit in the time left, max_cover × N)` passages. The author raised the cap from 30% to 40%, but at the measured costs described in the notebook, only about 22% of the test passages fit in the remaining time.",
+          "reference": "Cell 1",
+          "why": "放宽上限是为了在时间允许时让似然阶段处理更多文本；如果先触及时间限制，提高上限就不会增加实际处理量。",
+          "whyEN": "A higher cap lets the likelihood stage process more passages when time permits. If time runs out first, raising the cap does not increase the number processed.",
+          "limit": "约 22% 是所述实测开销下的结果，不是固定覆盖率。复现时不能把 40% 的上限当成实际处理比例。",
+          "limitEN": "About 22% reflects the reported measured costs, not a fixed coverage rate. Do not treat the 40% cap as the fraction actually processed.",
+          "source": 0
+        },
+        {
+          "title": "固定覆盖上限，只改变混合权重",
+          "titleEN": "Hold the Coverage Cap Fixed and Change Only the Blend Weight",
+          "body": "作者以 V52 为基础，将覆盖上限固定为 0.40，并在两次运行中均不启用 Sibling Odds。一次运行使用 `alpha=0.25`，另一次使用 `alpha=0.35`。这组对照报告的平衡准确率分别为 0.724 和 0.728。",
+          "bodyEN": "The author used V52 as the base, fixed the coverage cap at 0.40, and left Sibling Odds off in both runs. One run used `alpha=0.25`, and the other used `alpha=0.35`. The reported balanced accuracy scores were 0.724 and 0.728, respectively.",
+          "reference": "Cell 1",
+          "why": "另一套配置同时改变了基础流水线、覆盖上限和混合权重，还启用了 Sibling Odds，无法用来单独判断混合权重的作用。固定其余设置后，才能直接比较这两个权重。",
+          "whyEN": "Another configuration changed the base pipeline, coverage cap, and blend weight and also enabled Sibling Odds, so it could not isolate the effect of the blend weight. Holding the other settings fixed makes the two weights directly comparable.",
+          "limit": "原文没有为这一对运行报告重复试验或不确定性估计，也没有证明 0.35 是最优权重。",
+          "limitEN": "The source reports no repeated trials or uncertainty estimate for this pair, and it does not establish that 0.35 is optimal.",
+          "source": 0
+        },
+        {
+          "title": "在原流水线的同一处调用中应用最终设置",
+          "titleEN": "Apply the Final Settings in the Same Pipeline Call",
+          "body": "最终版本以 V52 的 0.724 配置为输入，保留 37 个单元的原有顺序。作者在同一处调用中传入 `--hybrid-alpha 0.45 --max-cover 0.40`，替换原先的 `--hybrid-alpha 0.25` 和 `--max-cover` 默认值 0.30。六个阅读器及其权重、融合流程、Sinkhorn 平衡、同族残差、三条排版否决规则和扩大适用范围后的保护规则均保持不变。",
+          "bodyEN": "The final version starts from the V52 configuration that scored 0.724 and preserves the original order of all 37 cells. In the same call, the author passes `--hybrid-alpha 0.45 --max-cover 0.40`, replacing `--hybrid-alpha 0.25` and the `--max-cover` default of 0.30. The six readers and their weights, the blending procedure, Sinkhorn balancing, the sibling residual, the three typographic vetoes, and the widened guard are unchanged.",
+          "reference": "Cell 1",
+          "why": "作者保留整套推理和后处理流程，只调整这一处调用中的两个参数，明确最终版本与基线的差异。",
+          "whyEN": "Keeping inference and postprocessing intact and changing only two arguments in one call makes the differences from the baseline explicit.",
+          "limit": "最终配置与原始配置同时相差两个参数，不能仅凭这两个端点的分数拆分各自贡献。",
+          "limitEN": "The final configuration and original baseline differ in two parameters, so their endpoint scores alone cannot separate the contribution of each.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "V52 集成",
+        "限时似然评分",
+        "混合权重调节",
+        "单变量对照"
+      ],
+      "fingerprint": "799ac8ba6f4f3149c0092836cfc7e6fef753a3b2b815b2eaac1ec899cdf43bb2",
+      "llmReview": {
+        "lastAttempt": "2026-11-28T02:19:11Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该来源包含可复用的具体方法：通过控制单一变量的对照实验（coverage、alpha、Sibling Odds）来归因分数变化，并详细描述了final pass决策流程（sibling residual、Sibling Odds、guarded Fable return、排版veto规则），读者可追踪建模、验证与推理决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "Identifying Language Models from Generated Text: Separating Likelihood Coverage from Blend Weight",
+      "summaryEN": "The task is to identify which of 18 language models generated a 40–250-word passage, using mean recall across models as the metric. The base ensemble makes an initial prediction, but additional likelihood scoring is limited by the remaining inference time, so the coverage cap is not the fraction actually processed. The notebook reuses the V52 pipeline and examines the coverage cap and likelihood blend weight separately rather than attributing a joint change to either parameter. At a fixed coverage cap of 0.40, changing the blend weight changed the reported score; at a fixed weight of 0.25, raising only the cap did not.",
+      "takeawayEN": "Distinguish the coverage cap, the fraction actually processed, and the blend weight: a time budget can make a higher cap irrelevant, while a one-variable comparison at a fixed cap can test the effect of changing the weight.",
+      "exercise": {
+        "zh": "在同一带标签的验证划分上做两组对照。先固定 `--hybrid-alpha 0.25`，比较 `--max-cover 0.30` 与 `--max-cover 0.40`，记录实际评分的文本数、耗时和平衡准确率。再固定覆盖上限为 0.40，尽量复用同一批文本的似然评分，比较 `alpha` 为 0.25、0.35 和 0.45 时的平衡准确率及各模型召回率。将这些验证结果与笔记本报告的运行结果分开记录。",
+        "en": "Run two comparisons on the same labeled validation split. First fix `--hybrid-alpha 0.25`, compare `--max-cover 0.30` with `--max-cover 0.40`, and record the actual number of scored passages, elapsed time, and balanced accuracy. Then fix the cap at 0.40, reuse likelihood scores for the same passages where possible, and compare balanced accuracy and per-model recall at `alpha` values of 0.25, 0.35, and 0.45. Record these validation results separately from the runs reported in the notebook."
+      },
+      "findings": [
+        {
+          "claim": "仅把覆盖上限从 0.30 提到 0.40，报告的平衡准确率仍为 0.724。",
+          "claimEN": "Raising only the coverage cap from 0.30 to 0.40 left the reported balanced accuracy at 0.724.",
+          "setup": "两次运行均使用 V52，`alpha` 固定为 0.25，且均未启用 Sibling Odds。",
+          "setupEN": "Both runs used V52 with `alpha` fixed at 0.25 and Sibling Odds disabled.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "原文没有为这组对照报告重复运行；结果不代表时间更充裕时，提高覆盖上限也无效。",
+          "caveatEN": "No repeat runs were reported for this comparison. The result does not show that raising the cap would be ineffective with more inference time.",
+          "chart": {
+            "kind": "line",
+            "unit": "Balanced Accuracy",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "覆盖上限 0.30",
+                "en": "Coverage cap 0.30"
+              },
+              {
+                "zh": "覆盖上限 0.40",
+                "en": "Coverage cap 0.40"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "在覆盖上限为 0.40 时，将 `alpha` 从 0.25 调到 0.35，报告的平衡准确率从 0.724 升至 0.728。",
+          "claimEN": "At a coverage cap of 0.40, changing `alpha` from 0.25 to 0.35 raised the reported balanced accuracy from 0.724 to 0.728.",
+          "setup": "两次运行使用相同的 V52 基础配置和覆盖上限，均未启用 Sibling Odds；唯一改动是 `alpha`。",
+          "setupEN": "Both runs used the same V52 base and coverage cap, with Sibling Odds disabled. Only `alpha` changed.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "原文没有为这组对照报告重复运行或标准误。",
+          "caveatEN": "No repeat runs or standard errors were reported for this comparison.",
+          "chart": {
+            "kind": "line",
+            "unit": "Balanced Accuracy",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "混合权重 0.25",
+                "en": "Blend weight 0.25"
+              },
+              {
+                "zh": "混合权重 0.35",
+                "en": "Blend weight 0.35"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.728",
+                    "value": 0.728
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "最终配置报告的平衡准确率为 0.729，原 V52 配置为 0.724。",
+          "claimEN": "The final configuration reported a balanced accuracy of 0.729, compared with 0.724 for the original V52 configuration.",
+          "setup": "将 `--hybrid-alpha` 从 0.25 改为 0.45，同时将 `--max-cover` 从默认的 0.30 改为 0.40；其余流水线保持不变。",
+          "setupEN": "The run changed `--hybrid-alpha` from 0.25 to 0.45 and `--max-cover` from its default of 0.30 to 0.40, leaving the rest of the pipeline unchanged.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "这是两项参数同时改变的端点对照，不能将全部差异归给任一参数。",
+          "caveatEN": "This endpoint comparison changes two parameters at once and cannot attribute the full difference to either parameter.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Balanced Accuracy",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "原 V52 配置",
+                "en": "Original V52 configuration"
+              },
+              {
+                "zh": "最终双参数配置",
+                "en": "Final two-parameter configuration"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.729",
+                    "value": 0.729
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kernelID": 147878465,
+      "id": "k-374906973",
+      "competitionID": "name-that-llm",
+      "originalTitle": "NTL 0729 Reproduction",
+      "author": "Sal",
+      "published": "2026-11-27T16:18:25.867Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 330,
+        "teams": 7289,
+        "score": "0.728",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/sakaisakai/ntl-0729-reproduction?scriptVersionId=374906973"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/name-that-llm/leaderboard"
+        }
+      ],
+      "title": "识别文本生成模型：区分似然阶段的覆盖上限与混合权重",
+      "summary": "任务是从一段 40–250 词的生成文本中识别写下它的 18 个模型之一，评价指标是各模型召回率的平均值，即平衡准确率。笔记本在基础集成之后加入似然打分，但剩余运行时间限制了能重读的段落数。覆盖上限决定最多重读多少段落，混合权重则决定似然结果在混合中占多大比重，改动两者不一定产生同样的效果。作者在 V52 上先固定混合权重比较覆盖上限，再固定覆盖上限比较混合权重，从而区分这两个参数在所报告运行中的作用。",
+      "takeaway": "配置的覆盖上限不等于实际覆盖率。先记录时间预算下到底重读了多少段落，再用单变量对照区分重读量和混合权重的影响。",
+      "steps": [
+        {
+          "title": "安装并试跑似然打分阶段",
+          "titleEN": "Install and Smoke-Test the Likelihood Stage",
+          "body": "V52 的似然阶段使用 `run_pipeline.py`、`segio.py`、`features.py`、`v1_token_features.py` 和 `v1_stage.py`，分别放在 5 个单元中。该阶段从 `ntl-prefixb-full-115` 读取已拟合的预测头，而不是使用 `ll_model.json`。安装时核对 `ntl-segrun` 二进制文件的哈希，并链接 6 个 Flash 分段和 19 个 GLM-5.3 分段。提交运行会对 3 段测试文本做分词，并进行一次单分段 GPU 冒烟测试。",
+          "bodyEN": "V52 puts the likelihood stage's `run_pipeline.py`, `segio.py`, `features.py`, `v1_token_features.py`, and `v1_stage.py` in 5 separate cells. The stage reads its fitted head from `ntl-prefixb-full-115` rather than using `ll_model.json`. Installation verifies the hash of the `ntl-segrun` binary and links 6 Flash segments and 19 GLM-5.3 segments. The commit run tokenizes 3 test passages and performs a one-segment GPU smoke test.",
+          "reference": "Cell 23",
+          "why": "先验证二进制文件、模型分段和分词路径，让阶段故障在短时间内暴露，而不是等完整打分运行数小时后才发现。",
+          "whyEN": "Checking the binary, model segments, and tokenization path up front exposes stage failures quickly rather than hours into a full scoring run.",
+          "limit": "不要沿用参考阶段的 `ll_model.json`。冒烟测试只验证阶段能否启动，原文没有对照验证安装检查本身能否提高平衡准确率。",
+          "limitEN": "Do not reuse the reference stage's `ll_model.json`. The smoke test checks that the stage can start; the source reports no comparison showing that these installation checks improve balanced accuracy.",
+          "source": 0
+        },
+        {
+          "title": "用剩余时间和覆盖上限共同限制重读量",
+          "titleEN": "Limit Rereading by Both Remaining Time and the Coverage Cap",
+          "body": "似然阶段根据测试集大小 N 和剩余时间估计可重读的段落数。实际重读数取两个值中的较小者：剩余时间内能处理的段落数，以及 `max_cover × N`。作者比较了最多重读 30% 和 40% 的设置；按原文引用的实测成本，剩余时间只够处理约 22% 的测试集。",
+          "bodyEN": "The likelihood stage uses the test-set size N and the remaining time to determine how many passages to reread. It takes the smaller of two quantities: the number of passages that fit in the remaining time and `max_cover × N`. The author compared caps of 30% and 40%; at the measured costs cited in the source, the remaining time was enough for only about 22% of the test set.",
+          "reference": "Cell 1",
+          "why": "这条规则让重读阶段遵守时间预算，也解释了为什么上调覆盖上限不一定会让更多段落得到似然打分。",
+          "whyEN": "The rule keeps rereading within the time budget and explains why a higher coverage cap does not necessarily send more passages to likelihood scoring.",
+          "limit": "约 22% 是按所引用的实测成本估算的，不是固定覆盖率。复现时不要把配置的覆盖上限当成实际覆盖率。",
+          "limitEN": "About 22% is an estimate based on the cited measurements, not a fixed coverage rate. In reproduction, do not mistake the configured cap for realized coverage.",
+          "source": 0
+        },
+        {
+          "title": "在同一调用中设置最终混合参数",
+          "titleEN": "Set the Final Blend Arguments in the Same Call",
+          "body": "以 V52 为输入，基线调用显式传入 `--hybrid-alpha 0.25`，并使用 `--max-cover` 的默认值 `0.30`。最终版本在同一次调用中改为 `--hybrid-alpha 0.45 --max-cover 0.40`。其余 37 个单元的顺序不变，6 个读取器及其权重、Sinkhorn 平衡、同族残差、3 条排版否决规则和扩展后的保护规则也保持不变。",
+          "bodyEN": "Starting from V52, the baseline call explicitly passes `--hybrid-alpha 0.25` and uses the `--max-cover` default of `0.30`. The final version changes that same call to `--hybrid-alpha 0.45 --max-cover 0.40`. The order of the 37 cells is unchanged, as are the 6 readers and their weights, Sinkhorn balancing, the sibling residual, the 3 typographic vetoes, and the widened guard.",
+          "reference": "Cell 1",
+          "why": "保留原有集成与后处理，只在似然阶段的调用处调整混合占比和覆盖上限，便于把最终版本与原始 V52 配置直接对照。",
+          "whyEN": "Keeping the ensemble and post-processing intact while changing only the blend share and coverage cap in the likelihood-stage call makes the final version directly comparable with the original V52 configuration.",
+          "limit": "最终调用相对基线同时改了两个参数；这组对照说明联合改动的结果，不能单凭它归因某一个参数的收益。",
+          "limitEN": "The final call changes two arguments relative to the baseline. This comparison shows the result of the joint change, but on its own it cannot attribute the gain to either argument.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "模型集成",
+        "似然重打分",
+        "时间预算路由",
+        "单变量对照"
+      ],
+      "fingerprint": "799ac8ba6f4f3149c0092836cfc7e6fef753a3b2b815b2eaac1ec899cdf43bb2",
+      "llmReview": {
+        "lastAttempt": "2026-11-28T02:19:11Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本详述了多阶段建模与推理方法：预拟合SVC/TF-IDF投票、嵌入聚类重建提示组、GLM前缀似然头、Sibling Odds家族内校正、带守卫的Fable回退以及排版硬否决规则，并展示单变量对照实验来验证混合权重与覆盖率的决策，方法可追溯、可复用。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "Identifying Text Generators: Separating Likelihood Coverage from Blend Weight",
+      "summaryEN": "The task is to identify which of 18 models wrote a 40–250-word passage, using balanced accuracy, the mean recall across models. The notebook adds likelihood scoring after the base ensemble, but the remaining runtime limits how many passages it can reread. The coverage cap controls how many passages can be reread at most, while the blend weight controls how much influence the likelihood result has in the blend; changing the two need not have the same effect. On V52, the author first compared coverage caps at a fixed blend weight, then compared blend weights at a fixed cap to separate their effects in the reported runs.",
+      "takeawayEN": "The configured coverage cap is not realized coverage. Record how many passages are actually reread within the time budget, then use one-variable comparisons to separate the effect of rereading more passages from the effect of weighting their scores differently.",
+      "exercise": {
+        "zh": "用带标签的留出集固定基础集成输出、硬件和时间预算。先将 `--hybrid-alpha` 固定为 `0.25`，分别用 `--max-cover 0.30` 和 `--max-cover 0.40` 运行，记录实际重读段落数、耗时和平衡准确率。再固定覆盖上限 `0.40` 和同一批已打分段落，只比较 `--hybrid-alpha 0.25` 与 `--hybrid-alpha 0.35`，检查分类结果是否变化。",
+        "en": "On a labeled holdout set, fix the base ensemble outputs, hardware, and time budget. First hold `--hybrid-alpha` at `0.25` and run with `--max-cover 0.30` and `--max-cover 0.40`, recording the actual number of passages reread, elapsed time, and balanced accuracy. Then keep the cap at `0.40` and reuse the same scored passages while comparing only `--hybrid-alpha 0.25` with `--hybrid-alpha 0.35`; check whether the predictions change."
+      },
+      "findings": [
+        {
+          "claim": "单独把覆盖上限从 `0.30` 提高到 `0.40`，报告的平衡准确率仍为 `0.724`。",
+          "claimEN": "Raising the coverage cap alone from `0.30` to `0.40` left reported balanced accuracy at `0.724`.",
+          "setup": "比较 V52 原始配置与仅提高覆盖上限的 V52 配置；两组的 `--hybrid-alpha` 都为 `0.25`，表中 Sibling Odds 均标为未启用。",
+          "setupEN": "The comparison uses the original V52 configuration and the same configuration with only the coverage cap raised. Both use `--hybrid-alpha 0.25`, and both rows mark Sibling Odds as off.",
+          "reference": "Cell 1",
+          "source": 0,
+          "chart": {
+            "kind": "line",
+            "unit": "Balanced Accuracy Score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "覆盖上限 0.30",
+                "en": "Cap 0.30"
+              },
+              {
+                "zh": "覆盖上限 0.40",
+                "en": "Cap 0.40"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "覆盖上限固定为 `0.40` 时，将混合权重从 `0.25` 提高到 `0.35`，报告的平衡准确率从 `0.724` 升至 `0.728`。",
+          "claimEN": "With the coverage cap fixed at `0.40`, raising the blend weight from `0.25` to `0.35` increased reported balanced accuracy from `0.724` to `0.728`.",
+          "setup": "比较表中最后两次运行；两组均使用 V52，覆盖上限均为 `0.40`，Sibling Odds 均标为未启用，唯一改动是混合权重。",
+          "setupEN": "The comparison uses the last two runs in the table. Both use V52 with a coverage cap of `0.40` and are marked as not using Sibling Odds; only the blend weight changes.",
+          "reference": "Cell 1",
+          "source": 0,
+          "chart": {
+            "kind": "line",
+            "unit": "Balanced Accuracy Score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "混合权重 0.25",
+                "en": "Blend weight 0.25"
+              },
+              {
+                "zh": "混合权重 0.35",
+                "en": "Blend weight 0.35"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.728",
+                    "value": 0.728
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "同时修改混合权重和覆盖上限后，最终版本的平衡准确率为 `0.729`，原始 V52 配置为 `0.724`。",
+          "claimEN": "Changing the blend weight and coverage cap together yielded balanced accuracy of `0.729` in the final version, versus `0.724` for the original V52 configuration.",
+          "setup": "基线使用 `--hybrid-alpha 0.25` 和默认覆盖上限 `0.30`，最终版使用 `--hybrid-alpha 0.45 --max-cover 0.40`；其余单元、读取器及后处理不变。",
+          "setupEN": "The baseline uses `--hybrid-alpha 0.25` and the default coverage cap of `0.30`, while the final version uses `--hybrid-alpha 0.45 --max-cover 0.40`. The remaining cells, readers, and post-processing are unchanged.",
+          "reference": "Cell 1",
+          "source": 0,
+          "caveat": "这组端点对照同时改变了两个参数，不能单独归因。",
+          "caveatEN": "This endpoint comparison changes both arguments, so it cannot isolate either argument's contribution.",
+          "chart": {
+            "kind": "bar",
+            "unit": "Balanced Accuracy Score",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "原始 V52",
+                "en": "Original V52"
+              },
+              {
+                "zh": "两项参数同时调整",
+                "en": "Both arguments changed"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "平衡准确率",
+                  "en": "Balanced accuracy"
+                },
+                "values": [
+                  {
+                    "text": "0.724",
+                    "value": 0.724
+                  },
+                  {
+                    "text": "0.729",
+                    "value": 0.729
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kernelID": 147884849,
+      "id": "k-374919156",
+      "competitionID": "enveda-CASMI26-molecule-id-mass-spectra",
+      "originalTitle": "casmi26 v35 kmax1",
+      "author": "Junlaii",
+      "published": "2026-11-27T16:52:00.980Z",
+      "evidence": {
+        "kind": "public",
+        "rank": 125,
+        "teams": 6155,
+        "score": "0.511",
+        "checked": "2026-11-28T02:19:11Z"
+      },
+      "sources": [
+        {
+          "title": "已核验的 Notebook · v1",
+          "url": "https://www.kaggle.com/code/junlaii/casmi26-v35-kmax1?scriptVersionId=374919156"
+        },
+        {
+          "title": "公开排行榜",
+          "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/leaderboard"
+        }
+      ],
+      "title": "从串联质谱到分子结构：多路召回与首位保护重排",
+      "summary": "这项任务根据复杂提取物的串联质谱（MS/MS）推断小分子的二维结构，并为每个待识别分子生成候选排序。正确结构可能没有直接谱库命中，也可能已经被召回，却排在相似结构之后。作者先用谱库、质量偏移类似物和结构库扩大召回，再融合两套神经评分，并用非对称排序融合减少对首位候选的扰动。后续阶段加入断键证据、结构先验和连接层去重；下文实验结果沿用笔记本报告的 `MRR@25` 口径。",
+      "takeaway": "把召回和重排分开检查：先确认正确的连接层结构是否进入候选池，再判断新增证据能否改善名次。首位保护也要单独评估，因为同一种重排信号可能改善列表中段，却误换原本正确的首位。",
+      "steps": [
+        {
+          "title": "用多条通道构建候选池",
+          "titleEN": "Build the Candidate Pool Through Multiple Retrieval Channels",
+          "body": "以查询 MS/MS 谱图为输入，`frozen_0465` 在 `2.54M` 条谱图上执行直接谱库熵搜索。它同时通过质量偏移类似物传播候选，并从 `COCONUT`、`PubChem`、`ChEBI` 和 `LIPID MAPS` 的 `712k+` 个结构中补充候选。最后融合 `GLACIER` 和 `ICEBERG` 两个引擎，形成供后续重排的基础候选序。",
+          "bodyEN": "Starting from the query MS/MS spectra, `frozen_0465` runs direct spectral entropy search over `2.54M` library spectra. It also propagates candidates through mass-shifted analogs and draws additional candidates from `712k+` structures in `COCONUT`, `PubChem`, `ChEBI`, and `LIPID MAPS`. It then fuses the `GLACIER` and `ICEBERG` engines to produce the base candidate order for reranking.",
+          "reference": "Cell 1",
+          "why": "直接谱库匹配可以提供强证据；在没有直接命中时，类似物传播和结构库提供其他召回路径。",
+          "whyEN": "A direct library match can provide strong evidence, while analog propagation and structure databases offer other retrieval paths when no direct match exists.",
+          "limit": "原文只报告整套召回流程的分数，没有验证各通道各自的收益。",
+          "limitEN": "The source reports a score for the complete retrieval pipeline but does not isolate the contribution of each channel.",
+          "source": 0
+        },
+        {
+          "title": "按分子标准化并融合两套神经评分",
+          "titleEN": "Standardize and Blend Two Neural Scores per Molecule",
+          "body": "`neural_scores.py` 对每个分子的已有候选和 `20` 个列表外候选进行评分。它配对公开 `v1` 模型与 `v80` 模型，后者有 `casmi26-self-trained-scorer-seeds` 作为回退来源。两路分数分别按分子做 z-score 标准化，再以 `0.5 * z(public_v1) + 0.5 * z(v80)` 合成神经分数。",
+          "bodyEN": "`neural_scores.py` scores the existing candidates and `20` outside candidates for each molecule. It pairs the public `v1` model with `v80`, with `casmi26-self-trained-scorer-seeds` listed as a fallback for the latter. Each score stream is z-standardized per molecule, then combined as `0.5 * z(public_v1) + 0.5 * z(v80)`.",
+          "reference": "Cell 1",
+          "why": "按分子标准化后，两路模型可以在同一尺度上等权参与候选排序。",
+          "whyEN": "Per-molecule standardization puts the two models on a common scale so that they contribute equally to candidate ranking.",
+          "limit": "原文没有在相同条件下单独对比 `v1`、`v80` 和等权集成。这里的 `0.5` 是模型分数融合权重，不是下一步的排名融合权重。",
+          "limitEN": "The source does not compare `v1`, `v80`, and the equal-weight ensemble in isolation under matched conditions. Here, `0.5` is a model-score blending weight, not a rank-fusion weight.",
+          "source": 0
+        },
+        {
+          "title": "对首位和其余名次使用不同的融合权重",
+          "titleEN": "Use Different Fusion Weights for Rank 1 and the Rest",
+          "body": "以基础排名和神经排名为输入，`consensus.py` 用 `1/(3 + b_i) + w/(3 + n_i)` 计算倒数排名融合分数。首位的神经权重保持为 `w_top = 0.25`。对第 `2` 至 `25` 名，`V2` 使用 `w_mid = 0.50`，而 `CUSTOM` 将其提高到 `0.75`。",
+          "bodyEN": "`consensus.py` takes the base and neural ranks and computes the reciprocal rank fusion score `1/(3 + b_i) + w/(3 + n_i)`. The neural weight at rank 1 stays at `w_top = 0.25`. For ranks `2` through `25`, `V2` uses `w_mid = 0.50`, while `CUSTOM` raises it to `0.75`.",
+          "reference": "Cell 1",
+          "why": "作者希望降低神经排序推翻高置信谱库首位的风险，同时给列表其余位置更大的重排空间。",
+          "whyEN": "The author aims to reduce the risk of neural scores overturning a high-confidence spectral-library leader while giving them more influence farther down the list.",
+          "limit": "降低首位权重不等于硬锁首位。原文报告了变体分数，但没有报告真实质谱上首位交换的得失计数。",
+          "limitEN": "A lower weight at rank 1 is not a hard lock. The source reports variant scores but does not count helpful and harmful rank-1 swaps on real spectra.",
+          "source": 0
+        },
+        {
+          "title": "转移断键检查的首位提升，并去除重复结构",
+          "titleEN": "Transfer Bond-Cleavage Promotions and Remove Duplicate Structures",
+          "body": "作者在 `V2`（`w_mid = 0.50`）排序上运行物理断键检查，只将检查产生的首位变更（`P[0] != V[0]`）转移到 `CUSTOM`（`w_mid = 0.75`）。合并时保护共识首位（`NP_PROMO_MARGIN = None`），并把被替换的旧首位固定在第 `2` 名（`PIN_OLD_LEADER = True`）。第 `2` 至 `25` 名叠加 PubChem 文档先验（`POP_W = 0.10`）、谱库奖励（仅在 `library_max >= 0.87` 时使用 `SPEC_W = 0.05`）和天然产物先验（`NP_W = 0.02`，补充 `149,983` 个 `LOTUS` 结构）。最后按互变异构规范化后的 `InChIKey-14` 去重，用四路神经评分的列表外候选和 `15 ppm` 质量匹配的 `LOTUS` 候选回填空位。",
+          "bodyEN": "The author runs the physical bond-cleavage check on the `V2` order (`w_mid = 0.50`) and transfers only the resulting rank-1 changes (`P[0] != V[0]`) to `CUSTOM` (`w_mid = 0.75`). The merge protects consensus leaders (`NP_PROMO_MARGIN = None`) and pins a displaced leader at rank `2` (`PIN_OLD_LEADER = True`). Ranks `2` through `25` receive a PubChem documentation prior (`POP_W = 0.10`), a spectral-library bonus (`SPEC_W = 0.05` only when `library_max >= 0.87`), and a natural-product prior (`NP_W = 0.02`, augmented with `149,983` `LOTUS` structures). Finally, the pipeline deduplicates by tautomer-canonicalized `InChIKey-14` and fills freed slots with outside candidates scored by four neural models and `LOTUS` candidates matched within `15 ppm`.",
+          "reference": "Cell 18",
+          "why": "作者只转移断键检查产生的首位提升，而不照搬整份排序；去重则避免让评分口径下等价的结构占用多个候选槽位。",
+          "whyEN": "The author transfers rank-1 promotions from the physical check without adopting its entire ranking. Deduplication prevents structures treated as equivalent by the metric from occupying multiple slots.",
+          "limit": "断键检查的输入是 `V2`，提升的接收方才是 `CUSTOM`。本段没有分别验证文档先验、谱库奖励、天然产物先验和回填的收益。",
+          "limitEN": "The physical check takes `V2` as input; `CUSTOM` only receives the promotions. This section does not isolate the gains from the documentation prior, library bonus, natural-product prior, or backfilling.",
+          "source": 0
+        },
+        {
+          "title": "用观测到的加合物模式重排第 2 至 25 名",
+          "titleEN": "Rerank Positions 2–25 Using Observed Adduct Patterns",
+          "body": "`APRIOR` 使用 `60,000` 个 `enveda-180` 结构训练四个 LightGBM 分类器，回退模型为 `HistGradientBoostingClassifier`，对应 `[M+H]+`、`[M-H]-`、`[M+CH2O2-H]-` 和 `[M+Na]+`。每个结构用 `1,057` 个 RDKit 特征表示：`1,024` 位、半径为 `2` 的 Morgan 计数指纹，`22` 个酸碱 SMARTS 计数和 `11` 个理化描述符。对候选计算查询分子所记录加合物模式的伯努利对数似然 `ll`，再按 `-1.5 * ln(rank) + 0.5 * ll` 重排第 `2` 至 `25` 名。`APRIOR_KEEP1 = True` 锁定首位；该阶段由 `ENABLE_APRIOR = True` 启用，在 `V28_PARITY_ROLLBACK = True` 时禁用。",
+          "bodyEN": "`APRIOR` trains four LightGBM classifiers on `60,000` `enveda-180` structures, with `HistGradientBoostingClassifier` as a fallback, for `[M+H]+`, `[M-H]-`, `[M+CH2O2-H]-`, and `[M+Na]+`. Each structure is represented by `1,057` RDKit features: a `1,024`-bit radius-`2` Morgan count fingerprint, `22` acid/base SMARTS counts, and `11` physicochemical descriptors. For each candidate, the prior computes the Bernoulli log-likelihood `ll` of the adduct pattern recorded for the query and reranks positions `2` through `25` by `-1.5 * ln(rank) + 0.5 * ll`. `APRIOR_KEEP1 = True` locks rank 1; the stage is enabled by `ENABLE_APRIOR = True` and disabled when `V28_PARITY_ROLLBACK = True`.",
+          "reference": "Cell 31",
+          "why": "作者利用训练集与测试集来自同一 `timsTOF` 采集活动这一前提，把结构官能团与加合物形成倾向的关系作为额外排序证据。",
+          "whyEN": "The author relies on the training and test data coming from the same `timsTOF` acquisition campaign, using the relationship between structural functional groups and adduct formation as extra ranking evidence.",
+          "limit": "原文引用了其他笔记本的结果，但没有给出本笔记本固定其余阶段、只开关 `APRIOR` 的对照。",
+          "limitEN": "The source cites results from other notebooks but does not report an on/off comparison for `APRIOR` in this notebook with all other stages held fixed.",
+          "source": 0
+        }
+      ],
+      "tags": [
+        "Flash Entropy Search",
+        "Neural Score Ensemble",
+        "Reciprocal Rank Fusion",
+        "MetFrag-lite",
+        "LightGBM"
+      ],
+      "fingerprint": "9ba6d5b4785a0660495d86f8d178ed922730b711a8dd993ca72be02debcc2e91",
+      "llmReview": {
+        "lastAttempt": "2026-11-28T02:19:11Z",
+        "screenedBy": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-flash"
+        },
+        "reason": "该笔记本提供了可复用的化学结构预测方法：双神经评分器集成（z分数混合）、非对称RRF共识融合并在第1名保护机制下的重排序、基于化学键断裂的可解释性重打分、加合物模式先验训练，以及天然产物相似度分类器；还包含可追踪的验证与调参逻辑，读者可据此复现建模与推断决策。",
+        "status": "published",
+        "writtenBy": {
+          "provider": "openai",
+          "model": "gpt-6.2-sol"
+        }
+      },
+      "titleEN": "From Tandem Mass Spectra to Molecular Structures: Multi-Channel Retrieval and Rank-1 Protection",
+      "summaryEN": "The task is to infer the two-dimensional structures of small molecules in complex extracts from tandem mass spectra (MS/MS) and produce a ranked candidate list for each query molecule. The correct structure may lack a direct library match, or it may be retrieved but ranked behind structurally similar candidates. The author first broadens retrieval using spectral libraries, mass-shifted analogs, and structure databases, then blends two neural scores and uses asymmetric rank fusion to limit disruption at rank 1. Later stages add bond-cleavage evidence, structural priors, and connectivity-level deduplication; the results below use `MRR@25` as reported in the notebook.",
+      "takeawayEN": "Evaluate retrieval and reranking separately: first check whether the correct connectivity entered the candidate pool, then ask whether added evidence improves its rank. Evaluate rank-1 protection separately too, because the same reranking signal can improve lower positions while displacing a correct leader.",
+      "exercise": {
+        "zh": "在同一组带标签的折外谱图上缓存候选池、基础排名和神经排名。固定 `w_top = 0.25`，分别用 `w_mid = 0.50` 和 `0.75` 重排，不运行后续阶段。比较 `MRR@25`，并以 `InChIKey-14` 为匹配口径，分别统计正确结构升到首位和从首位掉落的次数；另行记录正确结构从未进入缓存候选池的查询，避免把召回失败归因于重排。",
+        "en": "Cache the candidate pools, base ranks, and neural ranks for the same set of labeled out-of-fold spectra. Fix `w_top = 0.25`, rerank separately with `w_mid = 0.50` and `0.75`, and skip all later stages. Compare `MRR@25` and use `InChIKey-14` matching to count how often the correct structure moves into or out of rank 1. Track queries whose correct structure never entered the cached pool separately so retrieval failures are not mistaken for reranking errors."
+      },
+      "findings": [
+        {
+          "claim": "首位权重不变时，提高第 `2` 至 `25` 名融合权重的 `CUSTOM` 得到 `0.472`，而 `V2` 得到 `0.468`。在 `V2` 上加物理断键重评分也得到 `0.472`。",
+          "claimEN": "With the rank-1 weight unchanged, `CUSTOM` scored `0.472` with a higher fusion weight for ranks `2` through `25`, versus `0.468` for `V2`. Applying physical bond-cleavage rescoring to `V2` also scored `0.472`.",
+          "setup": "`V2` 与 `CUSTOM` 使用相同的倒数排名融合公式，且 `w_top` 均为 `0.25`；`w_mid` 分别为 `0.50` 和 `0.75`。物理重评分变体以 `V2` 候选序为输入，并非叠加在 `CUSTOM` 上。",
+          "setupEN": "`V2` and `CUSTOM` use the same reciprocal rank fusion formula and share `w_top = 0.25`; their `w_mid` values are `0.50` and `0.75`, respectively. The physical rescoring variant starts from the `V2` candidate order, not `CUSTOM`.",
+          "reference": "Cell 1",
+          "source": 0,
+          "chart": {
+            "kind": "bar",
+            "unit": "MRR@25",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "V2",
+                "en": "V2"
+              },
+              {
+                "zh": "CUSTOM",
+                "en": "CUSTOM"
+              },
+              {
+                "zh": "V2 + 物理重评分",
+                "en": "V2 + physical rescoring"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "MRR@25",
+                  "en": "MRR@25"
+                },
+                "values": [
+                  {
+                    "text": "0.468",
+                    "value": 0.468
+                  },
+                  {
+                    "text": "0.472",
+                    "value": 0.472
+                  },
+                  {
+                    "text": "0.472",
+                    "value": 0.472
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "claim": "在模拟中，阈值为 `0.20` 的首位保护得到 `0.6740`，高于无条件混合的 `0.6717`；有益与有害首位交换的净差分别为 `+51` 和 `+29`。固定 `k` 的倒数排名融合得到 `0.5608`，低于主排序基线的 `0.6594`。",
+          "claimEN": "In simulation, protecting rank 1 at a threshold of `0.20` scored `0.6740`, ahead of `0.6717` for unconditional blending; the net counts of helpful minus harmful rank-1 swaps were `+51` and `+29`, respectively. Fixed-`k` reciprocal rank fusion scored `0.5608`, below the primary-ranking baseline of `0.6594`.",
+          "setup": "同一组异方差模拟查询使用 `sec_signal = 0.55` 和 `sec_weight = 0.30`，比较主排序基线、固定 `k = 3` 的倒数排名融合、无条件混合和带首位保护的混合。",
+          "setupEN": "On the same set of heteroskedastic simulated queries with `sec_signal = 0.55` and `sec_weight = 0.30`, the author compared the primary ranking, fixed-`k` reciprocal rank fusion with `k = 3`, unconditional blending, and blending with rank-1 protection.",
+          "reference": "Cell 45",
+          "source": 0,
+          "caveat": "实验包含 `4,000` 条模拟查询，不是带标签的真实 `timsTOF` 验证集；阈值仍需在真实折外谱图上校准。",
+          "caveatEN": "The experiment uses `4,000` simulated queries, not a labeled real `timsTOF` validation set. The threshold still needs calibration on real out-of-fold spectra.",
+          "chart": {
+            "kind": "bar",
+            "unit": "MRR@25",
+            "better": "higher",
+            "labels": [
+              {
+                "zh": "主排序基线",
+                "en": "Primary baseline"
+              },
+              {
+                "zh": "固定 k 的倒数排名融合",
+                "en": "Fixed-k reciprocal rank fusion"
+              },
+              {
+                "zh": "无条件混合",
+                "en": "Unconditional blending"
+              },
+              {
+                "zh": "带首位保护的混合",
+                "en": "Blending with rank-1 protection"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "zh": "模拟 MRR@25",
+                  "en": "Simulated MRR@25"
+                },
+                "values": [
+                  {
+                    "text": "0.6594",
+                    "value": 0.6594
+                  },
+                  {
+                    "text": "0.5608",
+                    "value": 0.5608
+                  },
+                  {
+                    "text": "0.6717",
+                    "value": 0.6717
+                  },
+                  {
+                    "text": "0.6740",
+                    "value": 0.674
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "kernelID": 10864074,
@@ -5020,9 +5832,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11163,
+        "teams": 11121,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5053,9 +5865,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1357,
+        "teams": 1363,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5076,7 +5888,7 @@
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 11098601,
       "originalTitle": "Digit recognizer easy compare"
     },
@@ -5125,9 +5937,9 @@
       "evidence": {
         "kind": "public",
         "rank": 5,
-        "teams": 74,
+        "teams": 75,
         "score": "0.98035",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5162,7 +5974,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5193,9 +6005,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1362,
+        "teams": 1363,
         "score": "1",
-        "checked": "2026-11-26T17:56:28Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5216,7 +6028,7 @@
       "steps": [],
       "fingerprint": "7425b1d48908f9794771b87e3ec865a128c8a1d7d372c7057a5139db256d12a0",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 11722614,
       "originalTitle": "Score 1.00 in Digit-Recognizer "
     },
@@ -5265,9 +6077,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5298,9 +6110,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 1362,
+        "teams": 1363,
         "score": "1",
-        "checked": "2026-11-26T17:56:28Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5321,7 +6133,7 @@
       "steps": [],
       "fingerprint": "d461ce662c1353325eb762997cad07a8837fe72e6e54d5d6af56b6fa89e20022",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 15162783,
       "originalTitle": "Digit recognizer-v3.0"
     },
@@ -5335,9 +6147,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5391,7 +6203,7 @@
       "steps": [],
       "fingerprint": "0c582b5e78c5c4bca6f825e42575fdb24bbfc05d99774a47ba419a490d2b736f",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 15180914,
       "originalTitle": "Be in Top 10 submissions"
     },
@@ -5407,7 +6219,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5440,9 +6252,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5496,7 +6308,7 @@
       "steps": [],
       "fingerprint": "bbea7ff390bfbeb83906fa97d9a3e6e7b21519a70fcdd111138c5f82e80ec79f",
       "awaitingExplanation": true,
-      "stale": false,
+      "stale": true,
       "kernelID": 17658123,
       "originalTitle": "Extensive_EDA_plus_top2%"
     },
@@ -5510,9 +6322,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5545,9 +6357,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5633,9 +6445,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5666,9 +6478,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11163,
+        "teams": 11121,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5703,9 +6515,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11163,
+        "teams": 11121,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5789,9 +6601,9 @@
       "evidence": {
         "kind": "public",
         "rank": 1,
-        "teams": 11077,
+        "teams": 11121,
         "score": "1",
-        "checked": "2026-11-27T02:31:23Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5812,7 +6624,7 @@
       "steps": [],
       "fingerprint": "ae0ace7ca26543c71822718f42952191deab8626de508f97c6fd8f0b00f631dc",
       "awaitingExplanation": true,
-      "stale": true,
+      "stale": false,
       "kernelID": 21526318,
       "originalTitle": "Titanic - Machine Learning from Disaster"
     },
@@ -5826,9 +6638,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -5863,7 +6675,7 @@
         "rank": 1,
         "teams": 679,
         "score": "1",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -6035,9 +6847,9 @@
       "evidence": {
         "kind": "public",
         "rank": 61,
-        "teams": 4720,
+        "teams": 4702,
         "score": "0.00044",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -6362,7 +7174,7 @@
         "rank": 3,
         "teams": 3947,
         "score": "0.96714",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -6612,7 +7424,7 @@
         "rank": 2,
         "teams": 3947,
         "score": "0.97041",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -6882,7 +7694,7 @@
         "rank": 1,
         "teams": 3947,
         "score": "0.97759",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -7206,7 +8018,7 @@
         "rank": 2,
         "teams": 3575,
         "score": "0.94588",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -7559,7 +8371,7 @@
         "rank": 3,
         "teams": 3575,
         "score": "0.94584",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -7602,7 +8414,7 @@
         "rank": 1,
         "teams": 3575,
         "score": "0.94602",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -7934,7 +8746,7 @@
         "rank": 3,
         "teams": 10148,
         "score": "5580.3",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8017,7 +8829,7 @@
         "rank": 2,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8054,7 +8866,7 @@
         "rank": 1,
         "teams": 6299,
         "score": "0.960",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8327,7 +9139,7 @@
         "rank": 3,
         "teams": 6299,
         "score": "0.959",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8581,7 +9393,7 @@
         "rank": 1,
         "teams": 10148,
         "score": "5890.3",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8651,7 +9463,7 @@
         "rank": 2,
         "teams": 10148,
         "score": "5823.4",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8688,7 +9500,7 @@
         "rank": 1,
         "teams": 3734,
         "score": "0.96318",
-        "checked": "2026-11-27T17:41:50Z"
+        "checked": "2026-11-28T02:19:11Z"
       },
       "sources": [
         {
@@ -8742,7 +9554,10 @@
         "zh": "同一行先写“满意”，再写“不满意”，只改变这一个前缀，记录两种条件下后续字段的对数似然。对差值很小的行，调换字段顺序再测一次。单独记录模型得分和加入融合后的变化，可以看出它贡献的是独立强度还是互补性。",
         "en": "Score the same row twice, changing only the candidate label prefix. Record the log likelihood of the remaining features under both labels. For near ties, change the feature order and rerun. Report standalone performance separately from the gain when adding it to a blend."
       },
-      "stale": false
+      "stale": false,
+      "llmReview": {
+        "lastDeepen": "2026-11-28T02:19:11Z"
+      }
     },
     {
       "id": "w-12604",
